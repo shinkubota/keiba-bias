@@ -290,6 +290,25 @@ def eval_condition(cond, horse, recent):
 
     return None
 
+def baba_style_pref(surface, baba):
+    """馬場状態に応じた有利脚質を返す。(脚質set, 説明) or (None, None)。
+    baba: 良/稍/重/不良。ダートと芝で傾向が逆になる点が重要。
+    """
+    wet = baba in ("稍", "稍重", "重", "不良")
+    if surface == "ダ":
+        if not wet:
+            # 良ダートは時計がかかり前残り（先行有利）
+            return ({"逃げ", "先行"}, "良ダートは前残り")
+        else:
+            # 締まった湿ダートは差しが届きやすい
+            return ({"差し", "追込"}, f"{baba}ダートは差し届く")
+    else:  # 芝
+        if wet:
+            # 芝の道悪は内・前有利になりやすい
+            return ({"逃げ", "先行"}, f"{baba}芝は前/内有利")
+        else:
+            return (None, None)  # 良芝はニュートラル（コース固有バイアスに委ねる）
+
 def build_race_context(race, horses_db):
     """レース内の相対指標を事前計算（能力バイアス用）。"""
     field = []
@@ -318,12 +337,17 @@ def build_race_context(race, horses_db):
         "this_class": class_rank(race.get("race_name")),
     }
 
+def attach_baba(rc, surface, baba):
+    pref, why = baba_style_pref(surface, baba)
+    rc["baba_pref"] = pref; rc["baba_why"] = why; rc["baba"] = baba
+    return rc
+
 def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
                    light_weight_threshold=None, rc=None):
     reasons = []
     score = 0
     weights = {"gate":2, "sire":3, "broodmare":2, "prev":3, "weight":1,
-               "agari":3, "stable":2, "class":2, "pace_fit":2}
+               "agari":3, "stable":2, "class":2, "pace_fit":2, "baba":2}
 
     # 斤量: レース内で軽量級(下位25%相当の閾値以下)なら恵まれ評価+1
     if light_weight_threshold is not None:
@@ -402,9 +426,17 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
             elif rc["pace_lean"] == "差し有利" and my_style in ("差し", "追込"):
                 reasons.append(f"展開向き(先行多→{my_style})"); score += weights["pace_fit"]
 
+        # ⑤ 馬場状態適性: 天候・馬場で有利な脚質に合致するか
+        pref, why = rc.get("baba_pref"), rc.get("baba_why")
+        if pref and my_style and my_style in pref:
+            reasons.append(f"馬場適性({why}→{my_style})"); score += weights["baba"]
+
     return score, reasons
 
-def analyze_race(race, horses_db):
+def analyze_race(race, horses_db, baba=None):
+    # baba優先順位: 明示引数 > 出馬表の実データ(race['baba']) > 良
+    if baba is None:
+        baba = race.get("baba") or "良"
     key = course_key(race["track"], race["surface"], race["distance"], race.get("variant"))
     if not key:
         return {"warn": f"未登録コース: {race['track']}{race['surface']}{race['distance']}m"}
@@ -422,6 +454,7 @@ def analyze_race(race, horses_db):
     lw_thr = (min(kgs) + 0.5) if kgs else None
 
     rc = build_race_context(race, horses_db)
+    rc = attach_baba(rc, race["surface"], baba)
 
     ranked = []
     for h in race["horses"]:
@@ -442,9 +475,20 @@ def analyze_race(race, horses_db):
         except ValueError:
             pass
 
+    # 道悪前提のheadlineに馬場状態の注記を付ける
+    headline = course.get("headline","")
+    wet_words = ("湿", "道悪", "荒れ", "雨")
+    is_wet = baba in ("稍","稍重","重","不良")
+    note = ""
+    if any(w in headline for w in wet_words) and not is_wet:
+        note = f"（※本日は{baba}馬場想定。『湿ると〜』は不適用、{race['surface']}{baba}の傾向で補正済み）"
+
     return {
         "course_key": key,
-        "headline": course.get("headline",""),
+        "headline": headline + note,
+        "baba": baba,
+        "baba_pref": rc.get("baba_pref"),
+        "baba_why": rc.get("baba_why"),
         "rules": course.get("rules", []),
         "sire_favored": course.get("sire_favored", []),
         "horses": ranked, "gates_assigned": gates,

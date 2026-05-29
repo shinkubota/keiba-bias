@@ -22,6 +22,7 @@ def main():
     ap.add_argument("--track", default=None)
     ap.add_argument("--top", type=int, default=3)
     ap.add_argument("--temp", type=float, default=2.5)
+    ap.add_argument("--baba", default=None, help="馬場状態 良/稍/重/不良（未指定なら出馬表の実データ→無ければ良）")
     args = ap.parse_args()
 
     data = json.loads((ROOT/"data"/f"shutuba_{args.date}.json").read_text(encoding="utf-8"))
@@ -31,7 +32,7 @@ def main():
     for race in data:
         if args.track and race["track"] != args.track: continue
         if len(race["horses"]) < 2: continue
-        a = analyze.analyze_race(race, horses_db)
+        a = analyze.analyze_race(race, horses_db, baba=args.baba)
         if a.get("warn"):
             out.append(f"## {race['track']}{race['race_no']:>2}R {race['surface']}{race['distance']}m {race['race_name']}\n  {a['warn']}\n")
             continue

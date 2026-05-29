@@ -17,14 +17,14 @@ WD = ["月","火","水","木","金","土","日"]
 def shares(scores):
     t = sum(scores); return [s/t if t else 0 for s in scores]
 
-def collect(date_str, tracks, top):
+def collect(date_str, tracks, top, baba=None):
     data = json.loads((ROOT/"data"/f"shutuba_{date_str}.json").read_text(encoding="utf-8"))
     db = az.load_horses(date_str)
     races = []
     for race in data:
         if tracks and race["track"] not in tracks: continue
         if len(race["horses"]) < 2: continue
-        a = az.analyze_race(race, db)
+        a = az.analyze_race(race, db, baba=baba)
         if a.get("warn"):
             races.append({"r": race, "warn": a["warn"]}); continue
         ranked = a["horses"]
@@ -146,9 +146,10 @@ def rebuild_index():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("date"); ap.add_argument("--track", default="東京,京都"); ap.add_argument("--top", type=int, default=4)
+    ap.add_argument("--baba", default=None, help="馬場状態 良/稍/重/不良（未指定なら出馬表の実データ→無ければ良）")
     args = ap.parse_args()
     tracks = set(args.track.split(",")) if args.track else set()
-    races = collect(args.date, tracks, args.top)
+    races = collect(args.date, tracks, args.top, baba=args.baba)
 
     md = to_markdown(args.date, races)
     (ROOT/"data"/f"table_{args.date}.md").write_text(md, encoding="utf-8")

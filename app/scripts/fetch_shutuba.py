@@ -103,6 +103,9 @@ def parse_shutuba(race_id):
         "distance": distance,
         "variant": "外" if is_outer else ("内" if is_inner else None),
         "course_text": course_text,
+        "weather": weather,
+        "baba": baba,
+        "cushion": cushion,
         "horses": horses,
     }
 
