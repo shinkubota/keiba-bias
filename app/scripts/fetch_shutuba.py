@@ -68,6 +68,9 @@ def parse_shutuba(race_id):
         if not name: continue
         href = name.get("href","")
         horse_id = re.search(r"/horse/(\d+)", href)
+        # 末尾の空テンプレ行対策: 馬番が空の行はゴースト→除外
+        if not (umaban and umaban.get_text(strip=True)):
+            continue
 
         # 斤量: Bareiセルの次のtd(class="Txt_C")に "52.0" のように入る
         jockey_weight = ""
