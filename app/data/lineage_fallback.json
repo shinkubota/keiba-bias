@@ -1,0 +1,1446 @@
+{
+ "_meta": {
+  "source": "netkeiba 5代血統表からの父系祖先判定(自動)",
+  "note": "書籍lineage.jsonに無い種牡馬の大系統補完。型は無し。"
+ },
+ "A.P. Indy": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Action This Day": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Alhaarth": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "American Pharoah": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Arrogate": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Audible": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Authentic": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Awesome of Course": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヴァイスリージェント系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Bellamy Road": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Bernardini": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Cairo Prince": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Camelot": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Cape Cross": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Catcher In The Rye": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Champs Elysees": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Circular Quay": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Complexity": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Constitution": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Cuvee": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Dandy Man": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Danehill Dancer": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Dansili": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Dawn Approach": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Distorted Humor": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Dubawi": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Dylan Thomas": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Dynaformer": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Elusive Quality": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Fastnet Rock": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Frankel": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Freud": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Fusaichi Pegasus": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Galileo": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Ghostzapper": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヴァイスリージェント系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Giant's Causeway": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Global Campaign": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Going Commando": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Hansen": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Hard Spun": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Henrythenavigator": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングマンボ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Intikhab": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Into Mischief": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Jump Start": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Kingmambo": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Kitten's Joy": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Lemon Drop Kid": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングマンボ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Liam's Map": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Lope de Vega": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Malibu Moon": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Marju": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Medaglia d'Oro": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Medicean": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Mineshaft": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Motivator": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Mr. Greeley": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "No Nay Never": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヘニーヒューズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Northern Afleet": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Numerous": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Oasis Dream": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Omaha Beach": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Oscar": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Pioneerof the Nile": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Pivotal": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヌレイエフ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Practical Joke": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Pulpit": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Quality Road": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Rip Van Winkle": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Sadler's Wells": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Saxon Warrior": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Scat Daddy": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヘニーヒューズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Sea The StarsSea the Stars": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Sea of Secrets": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Seeking the Gold": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Shackleford": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Shamardal": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Sightseeing": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Singspiel": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Sinndar": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Siyouni": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヌレイエフ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Sky Mesa": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Smart Strike": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Smarty Jones": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Smoke Glacken": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Spirit One": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "St Mark's Basilica": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヌレイエフ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Storm Cat": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームバード系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Street Cry": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Swiss Spirit": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Tapit": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Temple City": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Teofilo": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Tiz the Law": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "To Honor and Serve": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Tom's d'Etat": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Touch Gold": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヴァイスリージェント系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Unbridled's Song": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Union Rags": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Unusual Heat": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヌレイエフ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Van Nistelrooy": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Vespone": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "リファール系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "War Front": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Wilburn": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Zensational": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Zoffany": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アイルハヴアナザー": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アグネスタキオン": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アグネスデジタル": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アドマイヤジャパン": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アドマイヤマックス": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アドマイヤマーズ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アフリート": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アメリカンペイトリオット": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アルカセット": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングマンボ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アルデバラン": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "アレスバローズ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "インカンテーション": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "インディチャンプ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ウォーエンブレム": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "エイシンアポロン": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "エイシンフラッシュ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングマンボ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "エスケンデレヤ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "エスポワールシチー": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "オウケンブルースリ": {
+  "daikei": "ナスルラ系",
+  "shokei": "グレイソヴリン系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "オンファイア": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "オーヴァルエース": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヘニーヒューズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "カジノドライヴ": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "カリフォルニアクローム": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "カレンブラックヒル": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ガルボ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "キセキ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングカメハメハ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "キングヘイロー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "リファール系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "キンシャサノキセキ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "クリエイター": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "クリソベリル": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "クロフネ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヴァイスリージェント系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "グァンチャーレ": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "グラスワンダー": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "グランデラ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "グレーターロンドン": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "コパノリッキー": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "コマンズ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "コロナドズクエスト": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ゴールドアクター": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ゴールドドリーム": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ゴールドヘイロー": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "サウスヴィグラス": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "サトノクラウン": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "サムライハート": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "サンダースノー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ザファクター": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "シスキン": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "シャンハイボビー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ジャイアントレッカー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ジャングルポケット": {
+  "daikei": "ナスルラ系",
+  "shokei": "グレイソヴリン系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "スウェプトオーヴァーボード": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "スズカコーズウェイ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "スズカマンボ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ストラヴィンスキー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヌレイエフ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ストリートセンス": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ストーミングホーム": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ストーミーシー": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "スペシャルウィーク": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "セイウンコウセイ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ゼンノロブロイ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "タニノギムレット": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "タニノフランケル": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "タリスマニック": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "タワーオブロンドン": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "タートルボウル": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ダノンシャンティ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ダノンスマッシュ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ロードカナロア系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ダノンバラード": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ダノンプレミアム": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ダンカーク": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ダンスインザダーク": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ディスクリートキャット": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ディープスカイ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ディープブリランテ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ディーマジェスティ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "デクラレーションオブウォー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "デュランダル": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "トビーズコーナー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "トワイニング": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "トーセンホマレボシ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ナダル": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ニューイヤーズデイ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ネロ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヘニーヒューズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "バゴ": {
+  "daikei": "ナスルラ系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "バトルプラン": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ビーチパトロール": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングマンボ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ファスリエフ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヌレイエフ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ファルブラヴ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フィレンツェファイア": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フェノーメノ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フォーウィールドライブ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フォーティナイナー": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フォーティナイナーズサン": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フジキセキ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フリオーソ": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "フレンチデピュティ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヴァイスリージェント系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ブライアンズタイム": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ブリックスアンドモルタル": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "プリサイスエンド": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ヘンリーバローズ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ベンバトル": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ベーカバド": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ホワイトマズル": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "リファール系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ポエティックフレア": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "マイネルラヴ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "マインドユアビスケッツ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヴァイスリージェント系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "マクフィ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "マツリダゴッホ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "マテラスカイ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "マーベラスサンデー": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ミスターメロディ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヘニーヒューズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ミスチヴィアスアレックス": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ミッキーグローリー": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "メイショウサムソン": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "モズアスコット": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ヤングマンパワー": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ヨハネスブルグ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ヘニーヒューズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ラニ": {
+  "daikei": "ナスルラ系",
+  "shokei": "エーピーインディ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ラブリーデイ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングカメハメハ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ラムタラ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "リオンリオン": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングカメハメハ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "リンカーン": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ルヴァンスレーヴ": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "レインボーライン": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "レッドファルクス": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ロゴタイプ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ロジャーバローズ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ロジユニヴァース": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ロックオブジブラルタル": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ローレルゲレイロ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "リファール系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ワンアンドオンリー": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ワークフォース": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングマンボ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ワールドプレミア": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ヴァンゴッホ": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ファピアノ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ヴァーミリアン": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "エルコンドルパサー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ヴィクトワールピサ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ }
+}

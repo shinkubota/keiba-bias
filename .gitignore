@@ -1,0 +1,14 @@
+# 巨大な書籍スクショ（各4.7G）はコミットしない
+courses/
+blood/
+
+# netkeibaレスポンスのキャッシュ（再取得可能）
+app/cache/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc

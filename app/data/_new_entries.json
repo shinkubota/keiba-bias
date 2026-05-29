@@ -1,0 +1,3371 @@
+{
+  "ナスルラ": {
+    "daikei": "ナスルラ系",
+    "shokei": "ナスルラ系",
+    "type": null,
+    "src": "p111"
+  },
+  "グレイソヴリン": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "src": "p113"
+  },
+  "フォルティノ": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "src": "p113"
+  },
+  "カロ": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "src": "p113"
+  },
+  "コジーン": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "芝中距離"
+    },
+    "src": "p114"
+  },
+  "アドマイヤコジーン": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "スプリントGI馬を輩出(アストンマーチャン等)"
+    },
+    "src": "p114"
+  },
+  "インディアンチャーリー": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "米国型",
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短",
+      "note": "上がりの速さ、ダート・芝短距離の快速"
+    },
+    "src": "p115"
+  },
+  "アンクルモー": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "米国型",
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短",
+      "note": "2歳から走れる快速、日本ダートはスタミナ不足になりがち"
+    },
+    "src": "p115"
+  },
+  "ナイキスト": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "米国型",
+    "src": "p116"
+  },
+  "ゼダーン": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "src": "p116"
+  },
+  "カラムーン": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "src": "p116"
+  },
+  "ケンマール": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "src": "p117"
+  },
+  "ケンドール": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "src": "p117"
+  },
+  "ケンダルジャン": {
+    "daikei": "ナスルラ系",
+    "shokei": "グレイソヴリン系",
+    "type": "欧州型",
+    "alias": [
+      "Kendargent"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "産駒カンタービレ・プールヴィル"
+    },
+    "src": "p117"
+  },
+  "トニービン_book_confirm": {
+    "_note": "既存と一致(更新不要)"
+  },
+  "プリンスリーギフト": {
+    "daikei": "ナスルラ系",
+    "shokei": "プリンスリーギフト系",
+    "type": "欧州型",
+    "src": "p120"
+  },
+  "テスコボーイ": {
+    "daikei": "ナスルラ系",
+    "shokei": "プリンスリーギフト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "8Fマイラー、スピード"
+    },
+    "src": "p121"
+  },
+  "トウショウボーイ": {
+    "daikei": "ナスルラ系",
+    "shokei": "プリンスリーギフト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "スピード馬「天馬」1600-2500m"
+    },
+    "src": "p121"
+  },
+  "サクラユタカオー": {
+    "daikei": "ナスルラ系",
+    "shokei": "プリンスリーギフト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "1800-2000mスピード"
+    },
+    "src": "p122"
+  },
+  "サクラバクシンオー": {
+    "daikei": "ナスルラ系",
+    "shokei": "プリンスリーギフト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "1400m以下圧倒的なスプリンター。キタサンブラックの母父"
+    },
+    "src": "p122",
+    "_override": "既存type null→欧州型"
+  },
+  "ビッグアーサー": {
+    "daikei": "ナスルラ系",
+    "shokei": "プリンスリーギフト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "芝1200m高松宮、タフ馬場可"
+    },
+    "src": "p123",
+    "_override": "既存type null→欧州型"
+  },
+  "ボールドルーラー": {
+    "daikei": "ナスルラ系",
+    "shokei": "ボールドルーラー系",
+    "type": "米国型",
+    "alias": [
+      "Bold Ruler"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート"
+    },
+    "src": "p125"
+  },
+  "エーピーインディ": {
+    "daikei": "ナスルラ系",
+    "shokei": "エーピーインディ系",
+    "type": "米国型",
+    "alias": [
+      "A.P. Indy",
+      "A.P.Indy",
+      "AP Indy"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート持続力勝負に強い"
+    },
+    "src": "p125"
+  },
+  "フライトライン": {
+    "daikei": "ナスルラ系",
+    "shokei": "エーピーインディ系",
+    "type": "米国型",
+    "alias": [
+      "Flightline"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "無敗GI4勝、1200-2000m"
+    },
+    "src": "p126"
+  },
+  "バーナーディニ": {
+    "daikei": "ナスルラ系",
+    "shokei": "エーピーインディ系",
+    "type": "米国型",
+    "alias": [
+      "Bernardini"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "母父として優秀"
+    },
+    "src": "p128"
+  },
+  "セクレタリアト": {
+    "daikei": "ナスルラ系",
+    "shokei": "ボールドルーラー系",
+    "type": null,
+    "alias": [
+      "Secretariat"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "母父として日本でもスピード持続を伝える"
+    },
+    "src": "p128"
+  },
+  "シニスターミニスター": {
+    "daikei": "ナスルラ系",
+    "shokei": "エーピーインディ系",
+    "type": "米国型",
+    "alias": [
+      "Sinister Minister"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "古馬の中距離ダート。芝0%/ダ100%"
+    },
+    "src": "p127",
+    "_override": "既存verify解消、エーピーインディ系確定"
+  },
+  "レッドゴッド": {
+    "daikei": "ナスルラ系",
+    "shokei": "レッドゴッド系",
+    "type": "米国型",
+    "alias": [
+      "Red God"
+    ],
+    "src": "p130"
+  },
+  "ブラッシンググルーム": {
+    "daikei": "ナスルラ系",
+    "shokei": "ブラッシンググルーム系",
+    "type": "欧州型",
+    "alias": [
+      "Blushing Groom"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "タフな競馬・スタミナ、母父として優秀"
+    },
+    "src": "p130"
+  },
+  "レインボークエスト": {
+    "daikei": "ナスルラ系",
+    "shokei": "ブラッシンググルーム系",
+    "type": "欧州型",
+    "alias": [
+      "Rainbow Quest"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "凱旋門賞、産駒サクラローレル"
+    },
+    "src": "p131"
+  },
+  "ラーイ": {
+    "daikei": "ナスルラ系",
+    "shokei": "ブラッシンググルーム系",
+    "type": "米国型",
+    "alias": [
+      "Rahy"
+    ],
+    "src": "p131"
+  },
+  "ノヴェール": {
+    "daikei": "ナスルラ系",
+    "shokei": "ブラッシンググルーム系",
+    "type": "欧州型",
+    "alias": [
+      "Noverre"
+    ],
+    "src": "p132"
+  },
+  "ルアーヴル": {
+    "daikei": "ナスルラ系",
+    "shokei": "ブラッシンググルーム系",
+    "type": "欧州型",
+    "alias": [
+      "Le Havre"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "タメで直線伸びる。セリフォスの母父"
+    },
+    "src": "p132"
+  },
+  "バゴ": {
+    "daikei": "ナスルラ系",
+    "shokei": "ブラッシンググルーム系",
+    "type": "欧州型",
+    "alias": [
+      "Bago"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "凱旋門賞、クロノジェネシスの父。芝64%/ダ36%"
+    },
+    "src": "p133"
+  },
+  "ネヴァーベンド": {
+    "daikei": "ナスルラ系",
+    "shokei": "ネヴァーベンド系",
+    "type": "欧州型",
+    "alias": [
+      "Never Bend"
+    ],
+    "src": "p135"
+  },
+  "ミルリーフ": {
+    "daikei": "ナスルラ系",
+    "shokei": "ミルリーフ系",
+    "type": "欧州型",
+    "alias": [
+      "Mill Reef"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "母系に入って影響"
+    },
+    "src": "p135"
+  },
+  "シャーリーハイツ": {
+    "daikei": "ナスルラ系",
+    "shokei": "ミルリーフ系",
+    "type": "欧州型",
+    "alias": [
+      "Shirley Heights"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "タメを利かせ直線で伸びる"
+    },
+    "src": "p136"
+  },
+  "リヴァーマン": {
+    "daikei": "ナスルラ系",
+    "shokei": "リヴァーマン系",
+    "type": "欧州型",
+    "alias": [
+      "Riverman"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "母父としてウオッカ・テイエムオーシャン"
+    },
+    "src": "p136"
+  },
+  "パラダイスクリーク": {
+    "daikei": "ナスルラ系",
+    "shokei": "リヴァーマン系",
+    "type": "欧州型",
+    "alias": [
+      "Paradise Creek"
+    ],
+    "src": "p137"
+  },
+  "ブレイヴェストローマン": {
+    "daikei": "ナスルラ系",
+    "shokei": "ブレイヴェストローマン系",
+    "type": "米国型",
+    "alias": [
+      "Bravest Roman"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート、馬力。母父キョウエイマーチ"
+    },
+    "src": "p137"
+  },
+  "ネイティヴダンサー": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "ネイティヴダンサー系",
+    "type": "欧州型",
+    "alias": [
+      "Native Dancer"
+    ],
+    "src": "p139"
+  },
+  "シーバード": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "ネイティヴダンサー系",
+    "type": "欧州型",
+    "alias": [
+      "Sea Bird"
+    ],
+    "src": "p141"
+  },
+  "エタン": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "ネイティヴダンサー系",
+    "type": "欧州型",
+    "alias": [
+      "Atan"
+    ],
+    "src": "p141"
+  },
+  "シャーペンアップ": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "シャーペンアップ系",
+    "type": "欧州型",
+    "alias": [
+      "Sharpen Up"
+    ],
+    "src": "p141"
+  },
+  "ダンシングキャップ": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "ネイティヴダンサー系",
+    "type": null,
+    "alias": [
+      "Dancing Cap"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "短マ",
+      "note": "ダート・重馬場、オグリキャップの父"
+    },
+    "src": "p142"
+  },
+  "レイズアネイティヴ": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "レイズアネイティヴ系",
+    "type": "米国型",
+    "alias": [
+      "Raise a Native"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "短",
+      "note": "スピード、ミスタープロスペクターの父"
+    },
+    "src": "p145"
+  },
+  "マジェスティックプリンス": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "レイズアネイティヴ系",
+    "type": "米国型",
+    "alias": [
+      "Majestic Prince"
+    ],
+    "src": "p145"
+  },
+  "アファームド": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "レイズアネイティヴ系",
+    "type": "米国型",
+    "alias": [
+      "Affirmed"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "中",
+      "note": "母系で活躍(メイショウドトウ等)"
+    },
+    "src": "p146"
+  },
+  "アリダー": {
+    "daikei": "ネイティヴダンサー系",
+    "shokei": "レイズアネイティヴ系",
+    "type": "米国型",
+    "alias": [
+      "Alydar"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "中",
+      "note": "母父として活躍"
+    },
+    "src": "p147"
+  },
+  "ミスタープロスペクター": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ミスタープロスペクター系",
+    "type": null,
+    "alias": [
+      "Mr. Prospector",
+      "Mr.Prospector"
+    ],
+    "src": "p149"
+  },
+  "キングマンボ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングマンボ系",
+    "type": "欧州型",
+    "alias": [
+      "Kingmambo"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "マイル~中距離、母父として活躍"
+    },
+    "src": "p151"
+  },
+  "キングカメハメハ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングカメハメハ系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "多彩な適性、ダート馬も出す。芝49%/ダ51%"
+    },
+    "src": "p152",
+    "_override": "既存type null→欧州型"
+  },
+  "ルーラーシップ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングカメハメハ系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "芝中距離以上が本質、GIで2・3着多い。芝66%/ダ34%"
+    },
+    "src": "p153"
+  },
+  "ロードカナロア": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ロードカナロア系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "狙いは1400m以下、特に1200m重賞。芝63%/ダ37%"
+    },
+    "src": "p153"
+  },
+  "ホッコータルマエ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングカメハメハ系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダートGI10勝、牝馬ダ1400m以下で穴。芝4%/ダ96%"
+    },
+    "src": "p154",
+    "_override": "既存type 日本型→書籍は欧州型(矛盾、書籍採用)"
+  },
+  "ドゥラメンテ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングカメハメハ系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "芝2000-2400m根幹距離。芝59%/ダ41%"
+    },
+    "src": "p155"
+  },
+  "リオンディーズ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングカメハメハ系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "短距離やダートもこなす。芝44%/ダ56%"
+    },
+    "src": "p155",
+    "_override": "既存type null→欧州型"
+  },
+  "エルコンドルパサー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "エルコンドルパサー系",
+    "type": "欧州型",
+    "alias": [
+      "El Condor Pasa"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中長",
+      "note": "欧州型のスタミナ"
+    },
+    "src": "p155",
+    "_override": "既存shokei キングマンボ系→エルコンドルパサー系、type→欧州型"
+  },
+  "アルカセット": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングマンボ系",
+    "type": "欧州型",
+    "alias": [
+      "Alkaased"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "ジャパンCレコード勝ち"
+    },
+    "src": "p156"
+  },
+  "キングズベスト": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングズベスト系",
+    "type": "欧州型",
+    "alias": [
+      "King's Best"
+    ],
+    "src": "p156"
+  },
+  "エイシンフラッシュ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングズベスト系",
+    "type": "欧州型",
+    "alias": [
+      "Eishin Flash"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "日本ダービー・天皇賞秋。芝72%/ダ28%"
+    },
+    "src": "p157"
+  },
+  "ワークフォース": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングズベスト系",
+    "type": "欧州型",
+    "alias": [
+      "Workforce"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "英ダービー・凱旋門賞"
+    },
+    "src": "p157"
+  },
+  "ビーチパトロール": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "キングマンボ系",
+    "type": "米国型",
+    "alias": [
+      "Beach Patrol"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "米芝路線GI"
+    },
+    "src": "p157"
+  },
+  "フォーティナイナー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "Forty Niner"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート勝ち負け8割、母父として活躍"
+    },
+    "src": "p159"
+  },
+  "エンドスウィープ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "End Sweep"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "短",
+      "note": "2歳戦強い、ダート短距離"
+    },
+    "src": "p160"
+  },
+  "サウスヴィグラス": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "South Vigorous"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "短",
+      "note": "ダート短距離スプリンター。芝9%/ダ91%"
+    },
+    "src": "p161"
+  },
+  "スウェプトオーヴァーボード": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "Swept Overboard"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短",
+      "note": "短距離、産駒オメガパフューム・レッドファルクス"
+    },
+    "src": "p161"
+  },
+  "レッドファルクス": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "Red Falx"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "スプリンターズS連覇、芝短距離"
+    },
+    "src": "p162"
+  },
+  "プリサイスエンド": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "Precise End"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "短",
+      "note": "産駒カフジテイク(根岸S)"
+    },
+    "src": "p162"
+  },
+  "アドマイヤムーン": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "パワーでねじ伏せる末脚、芝1500-2400m。芝70%/ダ30%"
+    },
+    "src": "p163",
+    "_override": "既存type null→欧州型"
+  },
+  "ファインニードル": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "スプリントGI(スプリンターズS・高松宮)"
+    },
+    "src": "p163",
+    "_override": "既存type null→欧州型"
+  },
+  "トワイニング": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "Twining"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "産駒ノンコノユメ(フェブラリーS)"
+    },
+    "src": "p163"
+  },
+  "ディストーテッドヒューマー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "Distorted Humor"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "産駒アロゲート・モーニン"
+    },
+    "src": "p164"
+  },
+  "アイルハヴアナザー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "I'll Have Another"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート1800m向き、馬力・スタミナ。芝30%/ダ70%"
+    },
+    "src": "p165"
+  },
+  "コロナドズクエスト": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "フォーティナイナー系",
+    "type": "米国型",
+    "alias": [
+      "Coronado's Quest"
+    ],
+    "src": "p165"
+  },
+  "ファピアノ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Fappiano"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "ダートマイル"
+    },
+    "src": "p167"
+  },
+  "アンブライドルド": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Unbridled"
+    ],
+    "src": "p167"
+  },
+  "アンブライドルズソング": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Unbridled's Song"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "中",
+      "note": "母父としてコントレイル・スワーヴリチャード等"
+    },
+    "src": "p167"
+  },
+  "ダンカーク": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Dunkirk"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "時計の出るダート向き。芝15%/ダ85%"
+    },
+    "src": "p168"
+  },
+  "アロゲート": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Arrogate"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "BCクラシック・ドバイWC"
+    },
+    "src": "p168"
+  },
+  "エンパイアメーカー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Empire Maker"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "日本産駒はダート8割"
+    },
+    "src": "p169"
+  },
+  "バトルプラン": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Battle Plan"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート、産駒ライオンボス(アイビスSD)"
+    },
+    "src": "p169"
+  },
+  "アメリカンファラオ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "American Pharoah"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "米3冠+BCクラシック。日本では砂で実績"
+    },
+    "src": "p170"
+  },
+  "ガンランナー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ファピアノ系",
+    "type": "米国型",
+    "alias": [
+      "Gun Runner"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "中",
+      "note": "時計の出る馬場。芝短距離向きの馬も"
+    },
+    "src": "p170"
+  },
+  "ゴーンウェスト": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ゴーンウェスト系",
+    "type": "米国型",
+    "alias": [
+      "Gone West"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "一流マイラー、スピード勝負強い"
+    },
+    "src": "p171"
+  },
+  "ザフォニック": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ゴーンウェスト系",
+    "type": "欧州型",
+    "alias": [
+      "Zafonic"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "英2000G、芝マイラー"
+    },
+    "src": "p172"
+  },
+  "スパイツタウン": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ゴーンウェスト系",
+    "type": "米国型",
+    "alias": [
+      "Speightstown"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短",
+      "note": "BCスプリント、産駒モズスーパーフレア・マテラスカイ"
+    },
+    "src": "p172"
+  },
+  "シーキングザゴールド": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "シーキングザゴールド系",
+    "type": "米国型",
+    "alias": [
+      "Seeking the Gold"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "短距離~中距離、ダート"
+    },
+    "src": "p173"
+  },
+  "ドバウィ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "シーキングザゴールド系",
+    "type": "欧州型",
+    "alias": [
+      "Dubawi"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "多数GI、英愛リーディング"
+    },
+    "src": "p174"
+  },
+  "マクフィ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "シーキングザゴールド系",
+    "type": "欧州型",
+    "alias": [
+      "Makfi"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "芝1200mで加速勝負、ダ1400mで穴。芝19%/ダ81%"
+    },
+    "src": "p174"
+  },
+  "マキャヴェリアン": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "マキャヴェリアン系",
+    "type": "欧州型",
+    "alias": [
+      "Machiavellian"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "母系に入って底力・瞬発力、サンデーと親和性高い"
+    },
+    "src": "p175"
+  },
+  "ストリートクライ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "マキャヴェリアン系",
+    "type": "米国型",
+    "alias": [
+      "Street Cry"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "ダート馬・芝短距離多い、配合次第で芝中距離"
+    },
+    "src": "p176"
+  },
+  "スマートストライク": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "スマートストライク系",
+    "type": "米国型",
+    "alias": [
+      "Smart Strike"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "中",
+      "note": "トップスピード強化。母父スターズオンアース・ストロングリターン"
+    },
+    "src": "p177"
+  },
+  "カーリン": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "スマートストライク系",
+    "type": "米国型",
+    "alias": [
+      "Curlin"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "BCクラシック・ドバイWC、米年度代表馬"
+    },
+    "src": "p178"
+  },
+  "ミスワキ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ミスワキ系",
+    "type": "欧州型",
+    "alias": [
+      "Miswaki"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "欧米中長距離、母父バックパサー"
+    },
+    "src": "p179"
+  },
+  "ウッドマン": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ウッドマン系",
+    "type": "米国型",
+    "alias": [
+      "Woodman"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "スピード血統、母父ヒシアケボノ等"
+    },
+    "src": "p180"
+  },
+  "ヘクタープロテクター": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ウッドマン系",
+    "type": "欧州型",
+    "alias": [
+      "Hector Protector"
+    ],
+    "src": "p180"
+  },
+  "ティンバーカントリー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ウッドマン系",
+    "type": "米国型",
+    "alias": [
+      "Timber Country"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "産駒アドマイヤドン(朝日杯FS・フェブラリーS)"
+    },
+    "src": "p181"
+  },
+  "アフリート": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "アフリート系",
+    "type": "米国型",
+    "alias": [
+      "Afleet"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ノーザンアフリートの父、ダート"
+    },
+    "src": "p181"
+  },
+  "ガルチ": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ガルチ系",
+    "type": "米国型",
+    "alias": [
+      "Gulch"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "米GI13勝マイラー、産駒サンダーガルチ"
+    },
+    "src": "p181"
+  },
+  "ジェイドロバリー": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "ジェイドロバリー系",
+    "type": "欧州型",
+    "alias": [
+      "Jade Robbery"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "マイル前後の軽いダート、2歳戦から"
+    },
+    "src": "p182"
+  },
+  "スキャン": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "スキャン系",
+    "type": "米国型",
+    "alias": [
+      "Scan"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "東京ダート好走"
+    },
+    "src": "p182"
+  },
+  "アグネスデジタル": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "クラフティプロスペクター系",
+    "type": "米国型",
+    "alias": [
+      "Agnes Digital"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "二刀流オールラウンダー、芝GI4勝+ダートGI1勝"
+    },
+    "src": "p183"
+  },
+  "ウォーエンブレム": {
+    "daikei": "ミスタープロスペクター系",
+    "shokei": "その他",
+    "type": "米国型",
+    "alias": [
+      "War Emblem"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ケンタッキーダービー、少数血統"
+    },
+    "src": "p183"
+  },
+  "ターントゥ": {
+    "daikei": "ターントゥ系",
+    "shokei": "ターントゥ系",
+    "type": null,
+    "alias": [
+      "Turn-to",
+      "Turn-To"
+    ],
+    "src": "p185"
+  },
+  "ヘイロー": {
+    "daikei": "ターントゥ系",
+    "shokei": "ヘイロー系",
+    "type": "米国型",
+    "alias": [
+      "Halo"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "ゴール前の伸び。サンデーサイレンスの父"
+    },
+    "src": "p187"
+  },
+  "デヴィルズバッグ": {
+    "daikei": "ターントゥ系",
+    "shokei": "ヘイロー系",
+    "type": "米国型",
+    "alias": [
+      "Devil's Bag"
+    ],
+    "src": "p187"
+  },
+  "タイキシャトル": {
+    "daikei": "ターントゥ系",
+    "shokei": "ヘイロー系",
+    "type": "米国型",
+    "alias": [
+      "Taiki Shuttle"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "世界水準のマイラー、米国型スピード持続"
+    },
+    "src": "p188"
+  },
+  "ロージズインメイ": {
+    "daikei": "ターントゥ系",
+    "shokei": "ヘイロー系",
+    "type": "米国型",
+    "alias": [
+      "Roses in May"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート向き、パワー・スタミナ。芝14%/ダ86%"
+    },
+    "src": "p189"
+  },
+  "サザンヘイロー": {
+    "daikei": "ターントゥ系",
+    "shokei": "ヘイロー系",
+    "type": "米国型",
+    "alias": [
+      "Southern Halo"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "中",
+      "note": "アルゼンチンリーディング"
+    },
+    "src": "p189"
+  },
+  "モアザンレディ": {
+    "daikei": "ターントゥ系",
+    "shokei": "ヘイロー系",
+    "type": "米国型",
+    "alias": [
+      "More Than Ready"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "スプリント力、産駒カフェファラオ(フェブラリーS)"
+    },
+    "src": "p189"
+  },
+  "ロベルト": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Roberto"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "馬力とスタミナ"
+    },
+    "src": "p191"
+  },
+  "シンボリクリスエス": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "スピード持続型、産駒エピファネイア・レイデオロ。芝50%/ダ50%"
+    },
+    "src": "p191",
+    "_override": "既存type null→欧州型"
+  },
+  "エピファネイア": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "芝根幹距離・距離延長◎。産駒デアリングタクト・エフフォーリア。芝84%/ダ16%"
+    },
+    "src": "p192"
+  },
+  "シルヴァーホーク": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Silver Hawk"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "GIマイラー、グラスワンダーの父"
+    },
+    "src": "p192"
+  },
+  "グラスワンダー": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Grass Wonder"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "有馬2回・宝塚。スクリーンヒーローの父"
+    },
+    "src": "p193"
+  },
+  "スクリーンヒーロー": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中長",
+      "note": "芝中長距離で上がりかかるレース得意、下級条件ダートも。芝70%/ダ30%"
+    },
+    "src": "p193",
+    "_override": "既存type null→欧州型"
+  },
+  "モーリス": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "マイルGI5勝、直線短いレース好む産駒多い。芝70%/ダ30%"
+    },
+    "src": "p194"
+  },
+  "リアルシャダイ": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Real Sadai",
+      "Real Shadai"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "長",
+      "note": "芝3000m以上、ステイヤー輩出(ライスシャワー等)"
+    },
+    "src": "p194"
+  },
+  "ブライアンズタイム": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Brian's Time"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ダート一流ながらダービー馬輩出(ナリタブライアン・ウオッカ系)"
+    },
+    "src": "p195"
+  },
+  "マヤノトップガン": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Mayano Top Gun"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "菊花賞・有馬記念"
+    },
+    "src": "p195"
+  },
+  "フリオーソ": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Furioso"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "NAR地方ダート適性高い、帝王賞2回。芝0%/ダ100%"
+    },
+    "src": "p196"
+  },
+  "ダイナフォーマー": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Dynaformer"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "産駒バーバロ"
+    },
+    "src": "p197"
+  },
+  "レッドランサム": {
+    "daikei": "ターントゥ系",
+    "shokei": "ロベルト系",
+    "type": "欧州型",
+    "alias": [
+      "Red Ransom"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "スピード"
+    },
+    "src": "p197"
+  },
+  "サーゲイロード": {
+    "daikei": "ターントゥ系",
+    "shokei": "サーゲイロード系",
+    "type": "米国型",
+    "alias": [
+      "Sir Gaylord"
+    ],
+    "src": "p198"
+  },
+  "サーアイヴァー": {
+    "daikei": "ターントゥ系",
+    "shokei": "サーアイヴァー系",
+    "type": "欧州型",
+    "alias": [
+      "Sir Ivor"
+    ],
+    "src": "p199"
+  },
+  "サートリストラム": {
+    "daikei": "ターントゥ系",
+    "shokei": "サーアイヴァー系",
+    "type": "欧州型",
+    "alias": [
+      "Sir Tristram"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "オセアニアで大成功"
+    },
+    "src": "p199"
+  },
+  "ザビール": {
+    "daikei": "ターントゥ系",
+    "shokei": "サーアイヴァー系",
+    "type": "欧州型",
+    "alias": [
+      "Zabeel"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "豪リーディング、産駒オクタゴナル"
+    },
+    "src": "p199"
+  },
+  "ロンロ": {
+    "daikei": "ターントゥ系",
+    "shokei": "サーアイヴァー系",
+    "type": "欧州型",
+    "alias": [
+      "Lonhro"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "豪GI10勝"
+    },
+    "src": "p199"
+  },
+  "スティールハート": {
+    "daikei": "ターントゥ系",
+    "shokei": "ハビタット系",
+    "type": "欧州型",
+    "alias": [
+      "Steel Heart"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "短距離マイラー"
+    },
+    "src": "p200"
+  },
+  "ニホンピロウイナー": {
+    "daikei": "ターントゥ系",
+    "shokei": "ハビタット系",
+    "type": "欧州型",
+    "alias": [
+      "Nihon Pillow Winner"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "史上最強マイラー、1200-2000m"
+    },
+    "src": "p200"
+  },
+  "ハビタット": {
+    "daikei": "ターントゥ系",
+    "shokei": "ハビタット系",
+    "type": "欧州型",
+    "alias": [
+      "Habitat"
+    ],
+    "src": "p201"
+  },
+  "ヤマニンゼファー": {
+    "daikei": "ターントゥ系",
+    "shokei": "ハビタット系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "安田記念2回"
+    },
+    "src": "p201"
+  },
+  "ディープインパクト": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "ディープ系。芝中長距離・直線スピード、距離延長で出来上がる。芝87%/ダ13%"
+    },
+    "src": "p207"
+  },
+  "ダノンバラード": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "上がりのかかる芝・ダート適性。AJCC"
+    },
+    "src": "p209"
+  },
+  "キズナ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ディープ系。牡馬中距離~芝2200m+、牝馬ダート前後。崩れにくい。芝60%/ダ40%"
+    },
+    "src": "p210"
+  },
+  "ミッキーアイル": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "短マ",
+      "note": "ディープ系。芝短距離得意、早い時期に体力。芝49%/ダ51%"
+    },
+    "src": "p210"
+  },
+  "エイシンヒカリ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "alias": [
+      "A Shin Hikari"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "ディープ系。重い馬場で注目。香港C・イスパーン賞。芝72%/ダ28%"
+    },
+    "src": "p211"
+  },
+  "サトノアラジン": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "ディープ系。牝馬芝マイル前後、牡馬ダート中距離。安田記念。芝36%/ダ64%"
+    },
+    "src": "p211"
+  },
+  "リアルスティール": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "ディープ系。上がりかかる芝中距離、ダート適性高い馬も(フォーエバーヤング)"
+    },
+    "src": "p212"
+  },
+  "グレーターロンドン": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "alias": [
+      "Greater London"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "ディープ系。芝1600-1800m、直線スピード"
+    },
+    "src": "p212"
+  },
+  "サトノダイヤモンド": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "ディープ系。菊花賞・有馬。母系パワー、牝馬短距離向き"
+    },
+    "src": "p213"
+  },
+  "シルバーステート": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "ディープ系。上がりかかる先行有利の芝得意。芝78%/ダ22%"
+    },
+    "src": "p213"
+  },
+  "ディーマジェスティ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "alias": [
+      "Dee Majesty"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "ディープ系。上がりかかる芝得意。皐月賞"
+    },
+    "src": "p214"
+  },
+  "コントレイル": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ディープインパクト系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "ディープ系。無敗3冠。芝根幹距離、米国色繁殖との配合でダート向きも"
+    },
+    "src": "p214"
+  },
+  "ハーツクライ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ハーツクライ系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。東京芝2400mで高パフォーマンス、得意条件で繰り返し好走"
+    },
+    "src": "p215"
+  },
+  "ジャスタウェイ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ハーツクライ系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "Pサンデー。古馬1400m前後、3歳秋以降。天皇賞秋・安田記念・ドバイDF。芝58%/ダ42%"
+    },
+    "src": "p216",
+    "_override": "既存type null→日本型"
+  },
+  "ステイゴールド": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ステイゴールド系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。中長距離パワー、得意条件で巻き返し。産駒オルフェ・ゴルシ"
+    },
+    "src": "p217"
+  },
+  "オルフェーヴル": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ステイゴールド系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。芝1800m以上で速い上がり要求のレース得意。三冠。芝57%/ダ43%"
+    },
+    "src": "p219",
+    "_override": "既存type null→日本型"
+  },
+  "ゴールドシップ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ステイゴールド系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。上がりかかる中長距離、芝2400m以上。芝81%/ダ19%"
+    },
+    "src": "p219",
+    "_override": "既存type null→日本型"
+  },
+  "ダイワメジャー": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ダイワメジャー系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "Pサンデー。先行抜け出すパワー・スピード持続、2歳戦/平場短距離堅実。芝67%/ダ33%"
+    },
+    "src": "p220"
+  },
+  "カレンブラックヒル": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ダイワメジャー系",
+    "type": "日本型",
+    "alias": [
+      "Curren Black Hill"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "Pサンデー。母父米国型なら牡馬ダ短、母父欧州型なら牝馬芝短。芝20%/ダ80%"
+    },
+    "src": "p221"
+  },
+  "フジキセキ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "フジキセキ系",
+    "type": "日本型",
+    "alias": [
+      "Fuji Kiseki"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "Pサンデー。スプリント・ダート適性、スピード持続。孫の代でダート(カネヒキリ)。芝54%/ダ46%"
+    },
+    "src": "p222"
+  },
+  "キンシャサノキセキ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "フジキセキ系",
+    "type": "日本型",
+    "alias": [
+      "Kinshasa no Kiseki"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "短",
+      "note": "Pサンデー。高松宮2回、脚をタメる短距離。芝21%/ダ79%"
+    },
+    "src": "p223"
+  },
+  "イスラボニータ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "フジキセキ系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "Pサンデー。芝中距離、母父米国型でダート。皐月賞。芝56%/ダ44%"
+    },
+    "src": "p223",
+    "_override": "既存daikei ノーザンダンサー系/shokei ヌレイエフ系は誤り→書籍はサンデーサイレンス系/フジキセキ系(父フジキセキ)"
+  },
+  "アグネスタキオン": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "アグネスタキオン系",
+    "type": "日本型",
+    "alias": [
+      "Agnes Tachyon"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "Pサンデー。皐月賞。ダート中長距離・重い芝、スピード持続。芝63%/ダ37%"
+    },
+    "src": "p224"
+  },
+  "ディープスカイ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "アグネスタキオン系",
+    "type": "日本型",
+    "alias": [
+      "Deep Sky"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "ダービー・NHKマイルC。産駒キョウエイギア(JDD)"
+    },
+    "src": "p225"
+  },
+  "ゴールドアリュール": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ゴールドアリュール系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "Dサンデー。東京ダート1600m得意、ダート中長距離。芝13%/ダ87%"
+    },
+    "src": "p226"
+  },
+  "エスポワールシチー": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ゴールドアリュール系",
+    "type": "日本型",
+    "alias": [
+      "Espoir City"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "Dサンデー。ダート中距離、NAR向き。芝4%/ダ96%"
+    },
+    "src": "p227"
+  },
+  "コパノリッキー": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ゴールドアリュール系",
+    "type": "日本型",
+    "alias": [
+      "Kopano Rickey"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "Dサンデー。ダートGI多数。母父ティンバーカントリー"
+    },
+    "src": "p227"
+  },
+  "ネオユニヴァース": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ネオユニヴァース系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中",
+      "note": "Dサンデー。パワー豊富、牡馬ダート・洋芝・道悪。皐月賞・ダービー"
+    },
+    "src": "p229",
+    "_override": "既存type null→日本型"
+  },
+  "ヴィクトワールピサ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ネオユニヴァース系",
+    "type": "日本型",
+    "alias": [
+      "Victoire Pisa"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "Tサンデー。牡馬芝中距離、牝馬マイラー。皐月賞・有馬・ドバイWC。芝88%/ダ12%"
+    },
+    "src": "p230"
+  },
+  "マーベラスサンデー": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "その他",
+    "type": "日本型",
+    "alias": [
+      "Marvelous Sunday"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Lサンデー。宝塚記念"
+    },
+    "src": "p231"
+  },
+  "ダンスインザダーク": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ダンスインザダーク系",
+    "type": "日本型",
+    "alias": [
+      "Dance in the Dark"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "長",
+      "note": "Tサンデー。菊花賞、ステイヤー、1800m以下も"
+    },
+    "src": "p231"
+  },
+  "バブルガムフェロー": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "その他",
+    "type": "日本型",
+    "alias": [
+      "Bubble Gum Fellow"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "Dサンデー。天皇賞秋・朝日杯3歳S"
+    },
+    "src": "p232"
+  },
+  "スペシャルウィーク": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "スペシャルウィーク系",
+    "type": "日本型",
+    "alias": [
+      "Special Week"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。ダービー・天皇賞春秋・JC。牝馬芝GI出しやすい(母父として)"
+    },
+    "src": "p232"
+  },
+  "メイショウオウドウ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "その他",
+    "type": "日本型",
+    "alias": [
+      "Meisho Owdo"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "Lサンデー。大阪杯"
+    },
+    "src": "p234"
+  },
+  "アドマイヤベガ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "その他",
+    "type": "日本型",
+    "alias": [
+      "Admire Vega"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "Tサンデー。日本ダービー。母父として桜花賞馬"
+    },
+    "src": "p234"
+  },
+  "マンハッタンカフェ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "マンハッタンカフェ系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。非根幹距離1400/1800/2200得意、菊花賞・有馬・天皇賞春。芝64%/ダ36%"
+    },
+    "src": "p235",
+    "_override": "既存shokei SS系→マンハッタンカフェ系、type null→日本型"
+  },
+  "ジョーカプチーノ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "マンハッタンカフェ系",
+    "type": "日本型",
+    "alias": [
+      "Jo Cappuccino"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "Lサンデー。NHKマイルC"
+    },
+    "src": "p235",
+    "_override": "既存shokei SS系→マンハッタンカフェ系、type null→日本型"
+  },
+  "デュランダル": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "その他",
+    "type": "日本型",
+    "alias": [
+      "Durandal"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "Pサンデー。スプリンターズS・マイルCS2回、芝短距離"
+    },
+    "src": "p236"
+  },
+  "ゼンノロブロイ": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "その他",
+    "type": "日本型",
+    "alias": [
+      "Zenno Rob Roy"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。天皇賞秋・JC・有馬、芝中長距離の持続力勝負。芝55%/ダ45%"
+    },
+    "src": "p236"
+  },
+  "ブラックタイド": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ブラックタイド系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Lサンデー。タフな馬場、非根幹距離1800m/2200m。ディープの全兄。芝56%/ダ44%"
+    },
+    "src": "p238",
+    "_override": "既存type null→日本型"
+  },
+  "キタサンブラック": {
+    "daikei": "サンデーサイレンス系",
+    "shokei": "ブラックタイド系",
+    "type": "日本型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "Tサンデー。中長距離GI7勝、産駒イクイノックス。芝75%/ダ25%"
+    },
+    "src": "p239"
+  },
+  "ノーザンダンサー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ノーザンダンサー系",
+    "type": null,
+    "alias": [
+      "Northern Dancer"
+    ],
+    "src": "p241"
+  },
+  "ニジンスキー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Nijinsky"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "英クラシック3冠"
+    },
+    "src": "p243"
+  },
+  "ロイヤルアカデミー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Royal Academy",
+      "ロイヤルアカデミーII",
+      "ロイヤルアカデミー2"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "マイラー、安田記念"
+    },
+    "src": "p243"
+  },
+  "ラムタラ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Lammtarra"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "英ダービー・凱旋門賞"
+    },
+    "src": "p243"
+  },
+  "マルゼンスキー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Maruzensky"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "持込馬、無敗"
+    },
+    "src": "p243"
+  },
+  "カーリアン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Caerleon"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "マイラー、母父として活躍"
+    },
+    "src": "p245"
+  },
+  "フサイチコンコルド": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Fusaichi Concorde"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "日本ダービー"
+    },
+    "src": "p245"
+  },
+  "ジェネラス": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Generous"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "英ダービー"
+    },
+    "src": "p246"
+  },
+  "マリエンバード": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ニジンスキー系",
+    "type": "欧州型",
+    "alias": [
+      "Marienbard"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "凱旋門賞"
+    },
+    "src": "p246"
+  },
+  "ヴァイスリージェント": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヴァイスリージェント系",
+    "type": "米国型",
+    "alias": [
+      "Vice Regent"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "パワー兼備スピード"
+    },
+    "src": "p249"
+  },
+  "デピュティミニスター": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヴァイスリージェント系",
+    "type": "米国型",
+    "alias": [
+      "Deputy Minister"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "2歳戦、上がりの速さ。フレンチデピュティの父"
+    },
+    "src": "p249"
+  },
+  "デヒア": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヴァイスリージェント系",
+    "type": "米国型",
+    "alias": [
+      "Dehere"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "2歳チャンピオン"
+    },
+    "src": "p250"
+  },
+  "マインドユアビスケッツ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヴァイスリージェント系",
+    "type": "米国型",
+    "alias": [
+      "Mind Your Biscuits"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "ダート中距離、産駒デルマソトガケ。芝32%/ダ68%"
+    },
+    "src": "p250"
+  },
+  "フレンチデピュティ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヴァイスリージェント系",
+    "type": "米国型",
+    "alias": [
+      "French Deputy"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "クロフネの父、配合次第で多様。芝37%/ダ63%"
+    },
+    "src": "p251"
+  },
+  "クロフネ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヴァイスリージェント系",
+    "type": "米国型",
+    "alias": [
+      "Kurofune"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "NHKマイル・JCダート、ダート圧巻。母父としても活躍"
+    },
+    "src": "p251"
+  },
+  "ノボジャック": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヴァイスリージェント系",
+    "type": "米国型",
+    "alias": [
+      "Nobo Jack"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "短",
+      "note": "JBCスプリント、ダート短距離"
+    },
+    "src": "p252"
+  },
+  "リファール": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "リファール系",
+    "type": "欧州型",
+    "alias": [
+      "Lyphard"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "一流マイラー、脚をタメて末脚"
+    },
+    "src": "p253"
+  },
+  "ダンシングブレーヴ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "リファール系",
+    "type": "欧州型",
+    "alias": [
+      "Dancing Brave"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "凱旋門賞・キングジョージ。母父スイープトウショウ・メイショウサムソン"
+    },
+    "src": "p255"
+  },
+  "ホワイトマズル": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "リファール系",
+    "type": "欧州型",
+    "alias": [
+      "White Muzzle"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中長",
+      "note": "長距離・ダートもこなす、短距離追い込みも"
+    },
+    "src": "p255"
+  },
+  "キングヘイロー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "リファール系",
+    "type": "欧州型",
+    "alias": [
+      "King Halo"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "母グッバイヘイロー"
+    },
+    "src": "p255"
+  },
+  "ノーザンテースト": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ノーザンテースト系",
+    "type": "欧州型",
+    "alias": [
+      "Northern Taste"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "1980年代以降の日本競馬を変えた大種牡馬、前向きな気性"
+    },
+    "src": "p257"
+  },
+  "アンバーシャダイ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ノーザンテースト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "有馬記念。メジロライアンの父"
+    },
+    "src": "p258"
+  },
+  "メジロライアン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ノーザンテースト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "宝塚記念"
+    },
+    "src": "p258"
+  },
+  "ダイナガリバー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ノーザンテースト系",
+    "type": "欧州型",
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "日本ダービー"
+    },
+    "src": "p258"
+  },
+  "ヌレイエフ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Nureyev"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "母父として優秀、ゴールドアリュール・キングマンボ・バゴの母父"
+    },
+    "src": "p262"
+  },
+  "シアトリカル": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Theatrical"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "BCターフ、芝中長距離"
+    },
+    "src": "p263"
+  },
+  "パントレセレブル": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Peintre Celebre"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "凱旋門賞"
+    },
+    "src": "p263"
+  },
+  "ポーラーファルコン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Polar Falcon"
+    ],
+    "src": "p263"
+  },
+  "ピヴォタル": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Pivotal"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "英スプリントC、スプリンター"
+    },
+    "src": "p263"
+  },
+  "シューニ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Siyouni"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "仏2冠、母父として優秀"
+    },
+    "src": "p264"
+  },
+  "スピニングワールド": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Spinning World"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "マイラー、仏米GI"
+    },
+    "src": "p264"
+  },
+  "ストラヴィンスキー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "欧州型",
+    "alias": [
+      "Stravinsky"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "英スプリントGI連勝"
+    },
+    "src": "p265"
+  },
+  "ファスリエフ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ヌレイエフ系",
+    "type": "米国型",
+    "alias": [
+      "Fasliyev"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "2歳GI連勝、欧州最優秀2歳"
+    },
+    "src": "p265"
+  },
+  "ダンチヒ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "米国型",
+    "alias": [
+      "Danzig"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "短マ",
+      "note": "スプリンター由来、力強さとスタミナも備える万能"
+    },
+    "src": "p268"
+  },
+  "グリーンデザート": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Green Desert"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "グリーンデザート系。短距離向き、欧州芝中距離"
+    },
+    "src": "p268"
+  },
+  "ケープクロス": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Cape Cross"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "中軽マイラー、母父としてダービー馬"
+    },
+    "src": "p268"
+  },
+  "ゴールデンホーン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Golden Horn"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "英ダービー・凱旋門賞、2000m以上"
+    },
+    "src": "p269"
+  },
+  "シーザスターズ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Sea The Stars"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "マイル~2400mGI6勝"
+    },
+    "src": "p269"
+  },
+  "インヴィンシブルスピリット": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Invincible Spirit"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "キングマンの父"
+    },
+    "src": "p270"
+  },
+  "キングマン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Kingman"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "マイルGI4連勝、産駒シュネルマイスター。マイル以上、短距離も"
+    },
+    "src": "p270"
+  },
+  "デインヒル": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Danehill"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "重い芝・パワー・スタミナ、加速力。母父として多数GI"
+    },
+    "src": "p271"
+  },
+  "リダウツチョイス": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Redoute's Choice"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "豪GI4勝、後継スニッツェル"
+    },
+    "src": "p271"
+  },
+  "スニッツェル": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Snitzel"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短",
+      "note": "豪GI、芝スプリント・馬力"
+    },
+    "src": "p272"
+  },
+  "ダンシリ": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Dansili"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ中",
+      "note": "ハービンジャーの父"
+    },
+    "src": "p272"
+  },
+  "ハービンジャー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Harbinger"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中長",
+      "note": "パワー、芝中長距離。母父として活躍。芝86%/ダ14%"
+    },
+    "src": "p273"
+  },
+  "ファストネットロック": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Fastnet Rock"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "豪GIスプリンター、マイル以下主戦場"
+    },
+    "src": "p273"
+  },
+  "ロックオブジブラルタル": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Rock of Gibraltar"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "7戦連続GIマイラー、パワーと前向きさ"
+    },
+    "src": "p273"
+  },
+  "チーフズクラウン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "米国型",
+    "alias": [
+      "Chief's Crown"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "中",
+      "note": "母父としてアグネスデジタル・ディープスカイ"
+    },
+    "src": "p274"
+  },
+  "チーフベアハート": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "米国型",
+    "alias": [
+      "Chief Bearhart"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "中長",
+      "note": "京都芝スピード持続、ダート二刀流"
+    },
+    "src": "p274"
+  },
+  "ウォーフロント": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "米国型",
+    "alias": [
+      "War Front"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "芝スプリント能力トップクラス"
+    },
+    "src": "p275"
+  },
+  "ザファクター": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "米国型",
+    "alias": [
+      "The Factor"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ"
+      ],
+      "distance": "短",
+      "note": "短距離。芝24%/ダ76%"
+    },
+    "src": "p275"
+  },
+  "デクラレーションオブウォー": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Declaration of War"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ中",
+      "note": "母父米国型だとダート、タフな芝に強い"
+    },
+    "src": "p275"
+  },
+  "アメリカンペイトリオット": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "米国型",
+    "alias": [
+      "American Patriot"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "芝1800m。芝39%/ダ61%"
+    },
+    "src": "p276"
+  },
+  "ハードスパン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "米国型",
+    "alias": [
+      "Hard Spun"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "スピード、2歳戦"
+    },
+    "src": "p276"
+  },
+  "オーペン": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ダンチヒ系",
+    "type": "欧州型",
+    "alias": [
+      "Orpen"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝"
+      ],
+      "distance": "マ",
+      "note": "BCマイル、母父サトノダイヤモンド"
+    },
+    "src": "p277"
+  },
+  "ストームバード": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ストームバード系",
+    "type": "米国型",
+    "alias": [
+      "Storm Bird"
+    ],
+    "aptitude": {
+      "surface": [
+        "芝",
+        "ダ"
+      ],
+      "distance": "マ",
+      "note": "2歳戦、短距離ダート適性"
+    },
+    "src": "p279"
+  },
+  "ストームキャット": {
+    "daikei": "ノーザンダンサー系",
+    "shokei": "ストームキャット系",
+    "type": "米国型",
+    "alias": [
+      "Storm Cat"
+    ],
+    "aptitude": {
+      "surface": [
+        "ダ",
+        "芝"
+      ],
+      "distance": "短マ",
+      "note": "スピード、2歳戦に強い、北米主流。世界的繁殖牝馬と配合"
+    },
+    "src": "p279"
+  }
+}
