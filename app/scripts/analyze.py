@@ -290,6 +290,31 @@ def eval_condition(cond, horse, recent):
 
     return None
 
+def ability_score(recent):
+    """過去実績ベースの能力スコア(0-100)。市場非依存・前日算出可。
+    各前走の『着順位置率 × クラス係数』を直近重みで加重平均し、複勝安定で微補正。
+    - 着順位置率: (頭数-着順+1)/頭数 … 1着=1.0、最下位≈0
+    - クラス係数: 上位クラスでの好走を高く評価
+    """
+    if not recent:
+        return None
+    rweights = [1.0, 0.7, 0.5, 0.35, 0.25]
+    num = den = 0.0
+    for r, w in zip(recent[:5], rweights):
+        fin = _to_int(r.get("finish")); fs = _to_int(r.get("field_size"))
+        if not fin or not fs or fs < 2:
+            continue
+        pos = (fs - fin + 1) / fs                 # 0..1
+        c = class_rank(r.get("race_name")) / 9.0  # 0.11..1.0
+        run = pos * (0.55 + 0.45 * c)             # クラス上位の好走を加点
+        num += w * run; den += w
+    if den == 0:
+        return None
+    base = num / den                              # 0..1
+    pr = place_rate(recent) or 0
+    score = base * 100 * (0.9 + 0.2 * pr)         # 複勝安定で±10%
+    return round(min(score, 100.0), 1)
+
 def baba_style_pref(surface, baba):
     """馬場状態に応じた有利脚質を返す。(脚質set, 説明) or (None, None)。
     baba: 良/稍/重/不良。ダートと芝で傾向が逆になる点が重要。
@@ -456,24 +481,32 @@ def analyze_race(race, horses_db, baba=None):
     rc = build_race_context(race, horses_db)
     rc = attach_baba(rc, race["surface"], baba)
 
+    DEFAULT_ABILITY = 28.0   # 新馬・実績僅少馬のデフォ(低め)
+    BIAS_K = 0.03            # バイアス1点あたり最終評価を+3%補正
+
     ranked = []
     for h in race["horses"]:
         hd = horses_db.get(h["horse_id"], {})
-        s, rs = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc)
-        ranked.append({"score": s, "horse": h, "reasons": rs, "pedigree": hd.get("pedigree", {})})
+        recent = hd.get("recent", [])
+        bias, rs = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc)
+        abil = ability_score(recent)
+        abil_eff = abil if abil is not None else DEFAULT_ABILITY
+        final = round(abil_eff * (1 + BIAS_K * bias), 1)
+        ranked.append({
+            "score": final,            # 最終評価(=能力×バイアス補正)。表示・ソートの主指標
+            "ability": abil,           # 能力スコア(None=実績なし)
+            "ability_eff": round(abil_eff, 1),
+            "bias": bias,              # バイアス適合点
+            "horse": h, "reasons": rs, "pedigree": hd.get("pedigree", {}),
+        })
     ranked.sort(key=lambda x: -x["score"])
 
-    # バイアス上位3頭のうち「人気薄(=市場に見落とされている)」を妙味候補に
-    bias_top = [r for r in ranked[:3] if r["score"] > 0]
-    for r in ranked:
-        r["value_pick"] = False
-    for r in bias_top:
-        pop = r["horse"].get("popularity")
-        try:
-            if pop and int(pop) >= 6:     # バイアス上位かつ6番人気以下＝妙味
-                r["value_pick"] = True
-        except ValueError:
-            pass
+    # 穴候補: 能力中位以下だがバイアス補正で上位に食い込んだ馬
+    if ranked:
+        abil_sorted = sorted((r["ability_eff"] for r in ranked), reverse=True)
+        median = abil_sorted[len(abil_sorted)//2]
+        for i, r in enumerate(ranked):
+            r["value_pick"] = (i < 3 and r["bias"] >= 6 and r["ability_eff"] <= median)
 
     # 道悪前提のheadlineに馬場状態の注記を付ける
     headline = course.get("headline","")

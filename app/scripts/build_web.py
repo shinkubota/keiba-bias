@@ -38,6 +38,8 @@ def collect(date_str, tracks, top, baba=None):
                 "sexage": h.get("sex_age",""), "jockey": h.get("jockey",""),
                 "kg": h.get("jockey_weight",""), "pct": round(s*100),
                 "score": x["score"], "reasons": x["reasons"],
+                "ability": x.get("ability"), "bias": x.get("bias"),
+                "value": x.get("value_pick", False),
             })
         # 確信度: 本命scoreと2位scoreの差で判定
         conf, conf_label = _confidence(ranked)
@@ -48,14 +50,15 @@ def collect(date_str, tracks, top, baba=None):
     return races
 
 def _confidence(ranked):
-    """本命と2番手のscore差から ★1〜3 を判定。"""
+    """本命(最終評価)と2番手の差＋能力の高さから ★1〜3 を判定。
+    最終評価レンジは概ね20-90(能力×バイアス補正)。"""
     scored = [x["score"] for x in ranked if x["score"] > 0]
     if not scored: return (0, "印なし")
     top = scored[0]
     second = scored[1] if len(scored) > 1 else 0
     gap = top - second
-    if top >= 10 and gap >= 4:   return (3, "★★★ 軸向き")
-    if top >= 6 and gap >= 2:    return (2, "★★ 有力")
+    if top >= 55 and gap >= 8:   return (3, "★★★ 軸向き")
+    if top >= 40 and gap >= 4:   return (2, "★★ 有力")
     return (1, "★ 混戦")
 
 def _is_feature(race):
@@ -91,7 +94,7 @@ def to_markdown(date_str, races):
     L.append("")
     L.append(f"**開催**: {'・'.join(tracks)}　**馬場**: {' / '.join(babas) if babas else '—'}")
     L.append("")
-    L.append("> **印**: ◎本命 ○対抗 ▲単穴 △連下　／　**%**=レース内バイアス適合スコアの占有率（勝率予測ではない）　／　**確信度**: ★★★軸向き ★★有力 ★混戦")
+    L.append("> **印**: ◎本命 ○対抗 ▲単穴 △連下　／　**能力**=過去実績スコア(0-100)　**bias**=バイアス適合点　**評価**=能力×バイアス補正（この順で本命決定）　／　💎=能力中位だがバイアスで浮上した穴候補")
     L.append("")
 
     # 注目レースのピックアップ目次
@@ -99,13 +102,14 @@ def to_markdown(date_str, races):
     if feats:
         L.append("## 🎯 注目レース")
         L.append("")
-        L.append("| レース | 確信度 | ◎本命 | % |")
-        L.append("|--|--|--|--|")
+        L.append("| レース | 確信度 | ◎本命(馬番 馬名) | 能力 | 評価 |")
+        L.append("|--|--|--|--:|--:|")
         for it in feats:
             r = it["r"]; row = it["rows"][0] if it["rows"] else None
             if not row: continue
             honmei = f"{row['umaban']} {row['name']}"
-            L.append(f"| {r['track']}{r['race_no']}R {r['race_name']} | {it['conf_label']} | {honmei} | {row['pct']}% |")
+            abil = row.get("ability"); abil_s = f"{abil:.0f}" if abil is not None else "—"
+            L.append(f"| {r['track']}{r['race_no']}R {r['race_name']} | {it['conf_label']} | {honmei} | {abil_s} | {row['score']} |")
         L.append("")
 
     L.append("## 📋 全レース")
@@ -120,12 +124,15 @@ def to_markdown(date_str, races):
         L.append(f"### {star}{title}（{len(r['horses'])}頭）{('・'+_baba_badge(item)) if _baba_badge(item) else ''}")
         L.append(f"**{item['conf_label']}**　狙い: {_short_headline(item['headline'])}")
         L.append("")
-        L.append("| 印 | 馬番 | 馬名 | 性齢 | 騎手 | 斤量 | % | pt | 根拠 |")
-        L.append("|:--:|:--:|--|:--:|--|:--:|--:|--:|--|")
+        L.append("| 印 | 馬番 | 馬名 | 性齢 | 騎手 | 斤量 | 能力 | bias | 評価 | 根拠 |")
+        L.append("|:--:|:--:|--|:--:|--|:--:|--:|--:|--:|--|")
         for row in item["rows"]:
             mark = marks[row["rank"]-1] if row["rank"]<=len(marks) else str(row["rank"])
+            if row.get("value"): mark += "💎"
             reasons = " ／ ".join(row["reasons"][:4])
-            L.append(f"| {mark} | **{row['umaban']}** | {row['name']} | {row['sexage']} | {row['jockey']} | {row['kg']} | **{row['pct']}%** | {row['score']} | {reasons} |")
+            abil = row.get("ability")
+            abil_s = f"{abil:.0f}" if abil is not None else "—"
+            L.append(f"| {mark} | **{row['umaban']}** | {row['name']} | {row['sexage']} | {row['jockey']} | {row['kg']} | {abil_s} | {row['bias']} | **{row['score']}** | {reasons} |")
         L.append("")
     L.append("---")
     L.append("_馬券は自己責任で。本表は分析の共有であり購入を推奨するものではありません。_")
