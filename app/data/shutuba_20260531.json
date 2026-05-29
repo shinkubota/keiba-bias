@@ -7,33 +7,11 @@
     "surface": "ダ",
     "distance": 1600,
     "variant": null,
-    "course_text": "ダ1600m (左)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アーティラリー",
-        "horse_id": "2023105452",
-        "sex_age": "牝3",
-        "jockey": "ゴンサルベ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エフハリスト",
-        "horse_id": "2023105800",
-        "sex_age": "牝3",
-        "jockey": "横山和"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エリカビアリッツ",
-        "horse_id": "2023102608",
-        "sex_age": "牝3",
-        "jockey": "レーン"
-      }
-    ]
+    "course_text": "09:40発走 / ダ1600m (左)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021202",
@@ -43,33 +21,11 @@
     "surface": "ダ",
     "distance": 1400,
     "variant": null,
-    "course_text": "ダ1400m (左)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "キリミツ",
-        "horse_id": "2023100307",
-        "sex_age": "牡3",
-        "jockey": "石橋脩"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ジュピターテソーロ",
-        "horse_id": "2023105398",
-        "sex_age": "牡3",
-        "jockey": "菅原明"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ショウナンタヅナ",
-        "horse_id": "2023100531",
-        "sex_age": "牡3",
-        "jockey": "津村"
-      }
-    ]
+    "course_text": "10:10発走 / ダ1400m (左)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021203",
@@ -79,33 +35,11 @@
     "surface": "ダ",
     "distance": 1600,
     "variant": null,
-    "course_text": "ダ1600m (左)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アドマイヤウルトラ",
-        "horse_id": "2023106836",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヴァンデスペランス",
-        "horse_id": "2023107331",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エッチェレンテ",
-        "horse_id": "2023106914",
-        "sex_age": "牡3",
-        "jockey": "三浦"
-      }
-    ]
+    "course_text": "10:40発走 / ダ1600m (左)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021204",
@@ -115,33 +49,11 @@
     "surface": "芝",
     "distance": 1600,
     "variant": null,
-    "course_text": "芝1600m (左 C)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アラムベイ",
-        "horse_id": "2023101151",
-        "sex_age": "牡3",
-        "jockey": "荻野極"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ウインアプローチ",
-        "horse_id": "2023105876",
-        "sex_age": "牡3",
-        "jockey": "松岡"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ウッケン",
-        "horse_id": "2023102527",
-        "sex_age": "牝3",
-        "jockey": "上里"
-      }
-    ]
+    "course_text": "11:10発走 / 芝1600m (左 C)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021205",
@@ -151,33 +63,11 @@
     "surface": "ダ",
     "distance": 1400,
     "variant": null,
-    "course_text": "ダ1400m (左)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヴェネチアンキング",
-        "horse_id": "2023103320",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エコロバロン",
-        "horse_id": "2023104992",
-        "sex_age": "牡3",
-        "jockey": "菊沢"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エコロボルト",
-        "horse_id": "2023110063",
-        "sex_age": "セ3",
-        "jockey": ""
-      }
-    ]
+    "course_text": "12:10発走 / ダ1400m (左)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021206",
@@ -187,33 +77,11 @@
     "surface": "芝",
     "distance": 1800,
     "variant": null,
-    "course_text": "芝1800m (左 C)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゴガツノアマノガワ",
-        "horse_id": "2022100922",
-        "sex_age": "牡4",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "コスモグラニット",
-        "horse_id": "2022106800",
-        "sex_age": "牡4",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゴーゴータカシ",
-        "horse_id": "2022102135",
-        "sex_age": "セ4",
-        "jockey": "石神道"
-      }
-    ]
+    "course_text": "12:40発走 / 芝1800m (左 C)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021207",
@@ -223,33 +91,11 @@
     "surface": "ダ",
     "distance": 1400,
     "variant": null,
-    "course_text": "ダ1400m (左)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アイアンソリッド",
-        "horse_id": "2022100588",
-        "sex_age": "牝4",
-        "jockey": "上里"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アイファーシャドー",
-        "horse_id": "2022104259",
-        "sex_age": "牡4",
-        "jockey": "松岡"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アルプスオジョー",
-        "horse_id": "2021100540",
-        "sex_age": "牝5",
-        "jockey": "横山琉"
-      }
-    ]
+    "course_text": "13:10発走 / ダ1400m (左)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021208",
@@ -260,128 +106,10 @@
     "distance": 2400,
     "variant": null,
     "course_text": "13:45発走 / 芝2400m (左 C)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アスクデッドヒート",
-        "horse_id": "2022105839",
-        "sex_age": "牡4",
-        "jockey": "古川奈"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アバンデル",
-        "horse_id": "2021105499",
-        "sex_age": "牡5",
-        "jockey": "佐々木"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アロンズロッド",
-        "horse_id": "2022104635",
-        "sex_age": "牡4",
-        "jockey": "ルメール"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "オールマイデイズ",
-        "horse_id": "2020103718",
-        "sex_age": "牡6",
-        "jockey": "荻野極"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "サトノパトリオット",
-        "horse_id": "2022104907",
-        "sex_age": "セ4",
-        "jockey": "川田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ジオセントリック",
-        "horse_id": "2021105755",
-        "sex_age": "牡5",
-        "jockey": "レーン"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ショウナンガチ",
-        "horse_id": "2021105434",
-        "sex_age": "牡5",
-        "jockey": "ゴンサルベ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "スピンザブラッド",
-        "horse_id": "2021105244",
-        "sex_age": "牡5",
-        "jockey": "舟山"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ダノンカゼルタ",
-        "horse_id": "2022104719",
-        "sex_age": "セ4",
-        "jockey": "西村淳"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ティムール",
-        "horse_id": "2020103048",
-        "sex_age": "牡6",
-        "jockey": "三浦"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ノラリクラリ",
-        "horse_id": "2022105633",
-        "sex_age": "牡4",
-        "jockey": "松山"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "バンフィエルド",
-        "horse_id": "2019104531",
-        "sex_age": "牡7",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ビップチェイス",
-        "horse_id": "2021105763",
-        "sex_age": "牡5",
-        "jockey": "杉原"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "プリズマジコ",
-        "horse_id": "2021106077",
-        "sex_age": "牡5",
-        "jockey": "横山琉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ホウオウレイヴン",
-        "horse_id": "2022105322",
-        "sex_age": "セ4",
-        "jockey": "坂井"
-      }
-    ]
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021209",
@@ -392,232 +120,10 @@
     "distance": 1600,
     "variant": null,
     "course_text": "14:20発走 / ダ1600m (左)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アデランテ",
-        "horse_id": "2021103525",
-        "sex_age": "セ5",
-        "jockey": "佐々木"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アルゴナヴィス",
-        "horse_id": "2021105750",
-        "sex_age": "牡5",
-        "jockey": "津村"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヴァンドーム",
-        "horse_id": "2021100170",
-        "sex_age": "牡5",
-        "jockey": "大野"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "オリーブグリーン",
-        "horse_id": "2022105694",
-        "sex_age": "牡4",
-        "jockey": "西村淳"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "オレデイイノカ",
-        "horse_id": "2018101243",
-        "sex_age": "牡8",
-        "jockey": "松岡"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ガンウルフ",
-        "horse_id": "2020110120",
-        "sex_age": "牡6",
-        "jockey": "丹内"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "クァンタムウェーブ",
-        "horse_id": "2022106395",
-        "sex_age": "牡4",
-        "jockey": "西村淳"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "コブラ",
-        "horse_id": "2019102654",
-        "sex_age": "牡7",
-        "jockey": "横山典"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "コーカサスゴールド",
-        "horse_id": "2021102676",
-        "sex_age": "牡5",
-        "jockey": "幸"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゴールデンオスカー",
-        "horse_id": "2021101235",
-        "sex_age": "牡5",
-        "jockey": "松若"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゴールドアローン",
-        "horse_id": "2021106874",
-        "sex_age": "牝5",
-        "jockey": "菊沢"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "サムシャイン",
-        "horse_id": "2022105823",
-        "sex_age": "牡4",
-        "jockey": "横山和"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ジョディーズマロン",
-        "horse_id": "2018101989",
-        "sex_age": "牡8",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "セギレエルビエント",
-        "horse_id": "2022105832",
-        "sex_age": "牝4",
-        "jockey": "荻野極"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ダノンスウィッチ",
-        "horse_id": "2021105598",
-        "sex_age": "牡5",
-        "jockey": "浜中"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ピエマンソン",
-        "horse_id": "2022100204",
-        "sex_age": "牡4",
-        "jockey": "戸崎圭"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヒロノラメール",
-        "horse_id": "2021104131",
-        "sex_age": "牡5",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ファリーザ",
-        "horse_id": "2022105564",
-        "sex_age": "牝4",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヘルモーズ",
-        "horse_id": "2021105431",
-        "sex_age": "牡5",
-        "jockey": "北村友"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ホルトバージ",
-        "horse_id": "2021102905",
-        "sex_age": "牡5",
-        "jockey": "菅原明"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ミカッテヨンデイイ",
-        "horse_id": "2020103049",
-        "sex_age": "牝6",
-        "jockey": "小林脩"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "メイショウカシワデ",
-        "horse_id": "2021103154",
-        "sex_age": "牡5",
-        "jockey": "原"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "メイショウシナノ",
-        "horse_id": "2020106635",
-        "sex_age": "牡6",
-        "jockey": "田口"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "メイショウハチロー",
-        "horse_id": "2022103264",
-        "sex_age": "牡4",
-        "jockey": "川田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "モズマーヴェリック",
-        "horse_id": "2021100225",
-        "sex_age": "牡5",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ユキノロイヤル",
-        "horse_id": "2021104326",
-        "sex_age": "牡5",
-        "jockey": "石橋脩"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "レッドラパルマ",
-        "horse_id": "2019101168",
-        "sex_age": "セ7",
-        "jockey": "ゴンサルベ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ロードヴォイジャー",
-        "horse_id": "2022101821",
-        "sex_age": "牡4",
-        "jockey": "西村淳"
-      }
-    ]
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021210",
@@ -628,192 +134,10 @@
     "distance": 1800,
     "variant": null,
     "course_text": "14:55発走 / 芝1800m (左 C)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ガジュノリ",
-        "horse_id": "2021101724",
-        "sex_age": "牝5",
-        "jockey": "丹内"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "キュクヌス",
-        "horse_id": "2021110088",
-        "sex_age": "牝5",
-        "jockey": "荻野極"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "キングメーカー",
-        "horse_id": "2022102744",
-        "sex_age": "牡4",
-        "jockey": "横山武"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "クリニクラウン",
-        "horse_id": "2020100934",
-        "sex_age": "牝6",
-        "jockey": "大野"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゲンパチムサシ",
-        "horse_id": "2018102832",
-        "sex_age": "牡8",
-        "jockey": "丸山"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "コルレオニス",
-        "horse_id": "2021105704",
-        "sex_age": "牡5",
-        "jockey": "ディー"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ジャサルディア",
-        "horse_id": "2022105070",
-        "sex_age": "牝4",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "スパークリシャール",
-        "horse_id": "2021105609",
-        "sex_age": "セ5",
-        "jockey": "横山和"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ソルトブリーズ",
-        "horse_id": "2021101639",
-        "sex_age": "牡5",
-        "jockey": "横山琉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ダンツファイター",
-        "horse_id": "2022102982",
-        "sex_age": "牡4",
-        "jockey": "佐々木"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "テウメッサ",
-        "horse_id": "2021105757",
-        "sex_age": "牝5",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "テンミラクルスター",
-        "horse_id": "2022101134",
-        "sex_age": "牝4",
-        "jockey": "武豊"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "テーオーダグラス",
-        "horse_id": "2021102246",
-        "sex_age": "牡5",
-        "jockey": "ゴンサルベ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ドットクルー",
-        "horse_id": "2020101486",
-        "sex_age": "牡6",
-        "jockey": "戸崎圭"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ハギノアルデバラン",
-        "horse_id": "2020100976",
-        "sex_age": "牡6",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "マイネルフルムーン",
-        "horse_id": "2022106760",
-        "sex_age": "牡4",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "マルチャン",
-        "horse_id": "2020103066",
-        "sex_age": "牡6",
-        "jockey": "丸田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ミカッテヨンデイイ",
-        "horse_id": "2020103049",
-        "sex_age": "牝6",
-        "jockey": "小林脩"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ミスタージーティー",
-        "horse_id": "2021105856",
-        "sex_age": "牡5",
-        "jockey": "坂井"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "レイニング",
-        "horse_id": "2022104750",
-        "sex_age": "牡4",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "レディーミコノス",
-        "horse_id": "2022105475",
-        "sex_age": "牝4",
-        "jockey": "松山"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ロジマンボ",
-        "horse_id": "2019105559",
-        "sex_age": "牡7",
-        "jockey": "松岡"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ワイドアラジン",
-        "horse_id": "2020104550",
-        "sex_age": "牡6",
-        "jockey": "泉谷"
-      }
-    ]
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202605021211",
@@ -824,166 +148,207 @@
     "distance": 2400,
     "variant": null,
     "course_text": "15:40発走 / 芝2400m (左 C)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
     "horses": [
       {
-        "waku": "",
-        "umaban": "",
-        "name": "アウダーシア",
-        "horse_id": "2023107321",
-        "sex_age": "牡3",
-        "jockey": "レーン"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アスクエジンバラ",
-        "horse_id": "2023106400",
-        "sex_age": "牡3",
-        "jockey": "岩田康"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アルトラムス",
-        "horse_id": "2023103480",
-        "sex_age": "牡3",
-        "jockey": "横山武"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エムズビギン",
-        "horse_id": "2023107127",
-        "sex_age": "牡3",
-        "jockey": "ゴンサルベ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "カフジエメンタール",
-        "horse_id": "2023103899",
-        "sex_age": "牡3",
-        "jockey": "幸"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "グリーンエナジー",
-        "horse_id": "2023105456",
-        "sex_age": "牡3",
-        "jockey": "戸崎圭"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ケントン",
-        "horse_id": "2023103824",
-        "sex_age": "牡3",
-        "jockey": "丹内"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "コンジェスタス",
-        "horse_id": "2023106963",
-        "sex_age": "牡3",
-        "jockey": "西村淳"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゴーイントゥスカイ",
-        "horse_id": "2023105378",
-        "sex_age": "牡3",
-        "jockey": "武豊"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ジャスティンビスタ",
-        "horse_id": "2023102807",
-        "sex_age": "牡3",
-        "jockey": "坂井"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ショウナンガルフ",
-        "horse_id": "2023105332",
-        "sex_age": "牡3",
-        "jockey": "浜中"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "バステール",
-        "horse_id": "2023107247",
-        "sex_age": "牡3",
-        "jockey": "川田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "パントルナイーフ",
-        "horse_id": "2023107377",
-        "sex_age": "牡3",
-        "jockey": "ルメール"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "フォルテアンジェロ",
-        "horse_id": "2023107345",
-        "sex_age": "牡3",
-        "jockey": "荻野極"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ベレシート",
-        "horse_id": "2023106983",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "マテンロウゲイル",
-        "horse_id": "2023100946",
-        "sex_age": "牡3",
-        "jockey": "横山和"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "メイショウハチコウ",
-        "horse_id": "2023102039",
-        "sex_age": "牡3",
-        "jockey": "ディー"
-      },
-      {
-        "waku": "",
-        "umaban": "",
+        "waku": "1",
+        "umaban": "1",
         "name": "ライヒスアドラー",
         "horse_id": "2023103687",
         "sex_age": "牡3",
-        "jockey": "佐々木"
+        "jockey": "佐々木",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
       },
       {
-        "waku": "",
-        "umaban": "",
+        "waku": "1",
+        "umaban": "2",
+        "name": "マテンロウゲイル",
+        "horse_id": "2023100946",
+        "sex_age": "牡3",
+        "jockey": "横山和",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "2",
+        "umaban": "3",
+        "name": "ケントン",
+        "horse_id": "2023103824",
+        "sex_age": "牡3",
+        "jockey": "丹内",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "2",
+        "umaban": "4",
+        "name": "アルトラムス",
+        "horse_id": "2023103480",
+        "sex_age": "牡3",
+        "jockey": "横山武",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "3",
+        "umaban": "5",
+        "name": "バステール",
+        "horse_id": "2023107247",
+        "sex_age": "牡3",
+        "jockey": "川田",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "3",
+        "umaban": "6",
+        "name": "コンジェスタス",
+        "horse_id": "2023106963",
+        "sex_age": "牡3",
+        "jockey": "西村淳",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "4",
+        "umaban": "7",
+        "name": "メイショウハチコウ",
+        "horse_id": "2023102039",
+        "sex_age": "牡3",
+        "jockey": "ディー",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "4",
+        "umaban": "8",
+        "name": "ショウナンガルフ",
+        "horse_id": "2023105332",
+        "sex_age": "牡3",
+        "jockey": "浜中",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "5",
+        "umaban": "9",
+        "name": "アウダーシア",
+        "horse_id": "2023107321",
+        "sex_age": "牡3",
+        "jockey": "レーン",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "5",
+        "umaban": "10",
+        "name": "ジャスティンビスタ",
+        "horse_id": "2023102807",
+        "sex_age": "牡3",
+        "jockey": "坂井",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "6",
+        "umaban": "11",
         "name": "リアライズシリウス",
         "horse_id": "2023103604",
         "sex_age": "牡3",
-        "jockey": "津村"
+        "jockey": "津村",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
       },
       {
-        "waku": "",
-        "umaban": "",
+        "waku": "6",
+        "umaban": "12",
+        "name": "アスクエジンバラ",
+        "horse_id": "2023106400",
+        "sex_age": "牡3",
+        "jockey": "岩田康",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "7",
+        "umaban": "13",
+        "name": "パントルナイーフ",
+        "horse_id": "2023107377",
+        "sex_age": "牡3",
+        "jockey": "ルメール",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "7",
+        "umaban": "14",
+        "name": "ゴーイントゥスカイ",
+        "horse_id": "2023105378",
+        "sex_age": "牡3",
+        "jockey": "武豊",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "7",
+        "umaban": "15",
+        "name": "フォルテアンジェロ",
+        "horse_id": "2023107345",
+        "sex_age": "牡3",
+        "jockey": "荻野極",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "8",
+        "umaban": "16",
+        "name": "グリーンエナジー",
+        "horse_id": "2023105456",
+        "sex_age": "牡3",
+        "jockey": "戸崎圭",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "8",
+        "umaban": "17",
         "name": "ロブチェン",
         "horse_id": "2023107089",
         "sex_age": "牡3",
-        "jockey": "松山"
+        "jockey": "松山",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "8",
+        "umaban": "18",
+        "name": "エムズビギン",
+        "horse_id": "2023107127",
+        "sex_age": "牡3",
+        "jockey": "ゴンサルベ",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
       }
     ]
   },
@@ -996,134 +361,163 @@
     "distance": 2500,
     "variant": null,
     "course_text": "17:00発走 / 芝2500m (左 C)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
     "horses": [
       {
-        "waku": "",
-        "umaban": "",
-        "name": "アスクセクシーモア",
-        "horse_id": "2022105202",
-        "sex_age": "牡4",
-        "jockey": "北村友"
-      },
-      {
-        "waku": "",
-        "umaban": "",
+        "waku": "1",
+        "umaban": "1",
         "name": "アマキヒ",
         "horse_id": "2022104615",
         "sex_age": "牡4",
-        "jockey": "武豊"
+        "jockey": "武豊",
+        "jockey_weight": "56.0",
+        "odds": "",
+        "popularity": ""
       },
       {
-        "waku": "",
-        "umaban": "",
-        "name": "ウィクトルウェルス",
-        "horse_id": "2022104655",
-        "sex_age": "牡4",
-        "jockey": "ルメール"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヴェルミセル",
-        "horse_id": "2020103945",
-        "sex_age": "牝6",
-        "jockey": "ゴンサルベ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ギャンブルルーム",
-        "horse_id": "2021105559",
-        "sex_age": "牡5",
-        "jockey": "幸"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "キングスコール",
-        "horse_id": "2022104207",
-        "sex_age": "牡4",
-        "jockey": "坂井"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "キングズパレス",
-        "horse_id": "2019104828",
-        "sex_age": "牡7",
-        "jockey": "松岡"
-      },
-      {
-        "waku": "",
-        "umaban": "",
+        "waku": "2",
+        "umaban": "2",
         "name": "ショウナンバシット",
         "horse_id": "2020103333",
         "sex_age": "牡6",
-        "jockey": "浜中"
+        "jockey": "浜中",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
       },
       {
-        "waku": "",
-        "umaban": "",
-        "name": "ダノンシーマ",
-        "horse_id": "2022104645",
-        "sex_age": "牡4",
-        "jockey": "川田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ハーツコンチェルト",
-        "horse_id": "2020105681",
-        "sex_age": "牡6",
-        "jockey": "横山武"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ファイアンクランツ",
-        "horse_id": "2022104720",
-        "sex_age": "牡4",
-        "jockey": "レーン"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ベトルス",
-        "horse_id": "2021104976",
-        "sex_age": "セ5",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
+        "waku": "3",
+        "umaban": "3",
         "name": "ボーンディスウェイ",
         "horse_id": "2019104658",
         "sex_age": "牡7",
-        "jockey": "松山"
+        "jockey": "松山",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
       },
       {
-        "waku": "",
-        "umaban": "",
-        "name": "マイネルケレリウス",
-        "horse_id": "2020105781",
-        "sex_age": "牡6",
-        "jockey": "丹内"
+        "waku": "3",
+        "umaban": "4",
+        "name": "ファイアンクランツ",
+        "horse_id": "2022104720",
+        "sex_age": "牡4",
+        "jockey": "レーン",
+        "jockey_weight": "56.0",
+        "odds": "",
+        "popularity": ""
       },
       {
-        "waku": "",
-        "umaban": "",
+        "waku": "4",
+        "umaban": "5",
+        "name": "ギャンブルルーム",
+        "horse_id": "2021105559",
+        "sex_age": "牡5",
+        "jockey": "幸",
+        "jockey_weight": "55.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "4",
+        "umaban": "6",
+        "name": "ウィクトルウェルス",
+        "horse_id": "2022104655",
+        "sex_age": "牡4",
+        "jockey": "ルメール",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "5",
+        "umaban": "7",
+        "name": "アスクセクシーモア",
+        "horse_id": "2022105202",
+        "sex_age": "牡4",
+        "jockey": "北村友",
+        "jockey_weight": "55.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "5",
+        "umaban": "8",
         "name": "ミラージュナイト",
         "horse_id": "2022105109",
         "sex_age": "牡4",
-        "jockey": "西村淳"
+        "jockey": "西村淳",
+        "jockey_weight": "56.0",
+        "odds": "",
+        "popularity": ""
       },
       {
-        "waku": "",
-        "umaban": "",
-        "name": "レヴォントゥレット",
-        "horse_id": "2021103717",
-        "sex_age": "牡5",
-        "jockey": ""
+        "waku": "6",
+        "umaban": "9",
+        "name": "ハーツコンチェルト",
+        "horse_id": "2020105681",
+        "sex_age": "牡6",
+        "jockey": "横山武",
+        "jockey_weight": "54.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "6",
+        "umaban": "10",
+        "name": "マイネルケレリウス",
+        "horse_id": "2020105781",
+        "sex_age": "牡6",
+        "jockey": "丹内",
+        "jockey_weight": "55.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "7",
+        "umaban": "11",
+        "name": "ダノンシーマ",
+        "horse_id": "2022104645",
+        "sex_age": "牡4",
+        "jockey": "川田",
+        "jockey_weight": "57.5",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "7",
+        "umaban": "12",
+        "name": "キングズパレス",
+        "horse_id": "2019104828",
+        "sex_age": "牡7",
+        "jockey": "松岡",
+        "jockey_weight": "57.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "8",
+        "umaban": "13",
+        "name": "ヴェルミセル",
+        "horse_id": "2020103945",
+        "sex_age": "牝6",
+        "jockey": "ゴンサルベ",
+        "jockey_weight": "54.0",
+        "odds": "",
+        "popularity": ""
+      },
+      {
+        "waku": "8",
+        "umaban": "14",
+        "name": "キングスコール",
+        "horse_id": "2022104207",
+        "sex_age": "牡4",
+        "jockey": "坂井",
+        "jockey_weight": "55.0",
+        "odds": "",
+        "popularity": ""
       }
     ]
   },
@@ -1135,33 +529,11 @@
     "surface": "ダ",
     "distance": 1800,
     "variant": null,
-    "course_text": "ダ1800m (右)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ウンナターシャ",
-        "horse_id": "2023103329",
-        "sex_age": "牝3",
-        "jockey": "鮫島駿"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エレノアサンライズ",
-        "horse_id": "2023106552",
-        "sex_age": "牝3",
-        "jockey": "川端"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "カフジミモレット",
-        "horse_id": "2023103890",
-        "sex_age": "牝3",
-        "jockey": ""
-      }
-    ]
+    "course_text": "09:55発走 / ダ1800m (右)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031202",
@@ -1171,33 +543,11 @@
     "surface": "ダ",
     "distance": 1200,
     "variant": null,
-    "course_text": "ダ1200m (右)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アイビーミャーオ",
-        "horse_id": "2023101755",
-        "sex_age": "牝3",
-        "jockey": "角田和"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アドフランマム",
-        "horse_id": "2023105187",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "カーリキュー",
-        "horse_id": "2023101115",
-        "sex_age": "牝3",
-        "jockey": "斎藤"
-      }
-    ]
+    "course_text": "10:25発走 / ダ1200m (右)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031203",
@@ -1207,33 +557,11 @@
     "surface": "ダ",
     "distance": 1900,
     "variant": null,
-    "course_text": "ダ1900m (右)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アスクウルトラモア",
-        "horse_id": "2023105237",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "イコミキマル",
-        "horse_id": "2023101187",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヴェインズマン",
-        "horse_id": "2023103083",
-        "sex_age": "牡3",
-        "jockey": ""
-      }
-    ]
+    "course_text": "10:55発走 / ダ1900m (右)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031204",
@@ -1243,33 +571,11 @@
     "surface": "ダ",
     "distance": 3170,
     "variant": null,
-    "course_text": "ダ3170m (右)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アトラクティーボ",
-        "horse_id": "2019100641",
-        "sex_age": "牡7",
-        "jockey": "坂口"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アルマーザアミール",
-        "horse_id": "2021105455",
-        "sex_age": "牡5",
-        "jockey": "小牧加"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エンデュミオン",
-        "horse_id": "2017106153",
-        "sex_age": "牡9",
-        "jockey": "鷲頭"
-      }
-    ]
+    "course_text": "11:25発走 / ダ3170m (右)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031205",
@@ -1279,33 +585,11 @@
     "surface": "芝",
     "distance": 1600,
     "variant": null,
-    "course_text": "芝1600m (右 D)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アイルトン",
-        "horse_id": "2023102920",
-        "sex_age": "牡3",
-        "jockey": "酒井"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アドバンスモダン",
-        "horse_id": "2023110089",
-        "sex_age": "セ3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ウインドオルフェ",
-        "horse_id": "2023100482",
-        "sex_age": "牝3",
-        "jockey": ""
-      }
-    ]
+    "course_text": "12:25発走 / 芝1600m (右 D)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031206",
@@ -1315,33 +599,11 @@
     "surface": "ダ",
     "distance": 1400,
     "variant": null,
-    "course_text": "ダ1400m (右)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アパレイユ",
-        "horse_id": "2023106321",
-        "sex_age": "牝3",
-        "jockey": "鮫島駿"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "グランディマージュ",
-        "horse_id": "2023101716",
-        "sex_age": "牡3",
-        "jockey": "田口"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゲレーロアスール",
-        "horse_id": "2023105423",
-        "sex_age": "牡3",
-        "jockey": ""
-      }
-    ]
+    "course_text": "12:55発走 / ダ1400m (右)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031207",
@@ -1351,33 +613,11 @@
     "surface": "芝",
     "distance": 2400,
     "variant": "外",
-    "course_text": "芝2400m (右 外 D)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ウインリュクス",
-        "horse_id": "2020105189",
-        "sex_age": "牝6",
-        "jockey": "和田陽"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エンスエーニョ",
-        "horse_id": "2022104936",
-        "sex_age": "牝4",
-        "jockey": "吉村"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "クラッチプレイヤー",
-        "horse_id": "2021105418",
-        "sex_age": "牡5",
-        "jockey": "池添"
-      }
-    ]
+    "course_text": "13:25発走 / 芝2400m (右 外 D)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031208",
@@ -1387,33 +627,11 @@
     "surface": "芝",
     "distance": 2000,
     "variant": null,
-    "course_text": "芝2000m (右 D)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "イトカワサクラ",
-        "horse_id": "2020100446",
-        "sex_age": "牝6",
-        "jockey": "吉村"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヴォワラクテ",
-        "horse_id": "2022106667",
-        "sex_age": "牝4",
-        "jockey": "角田和"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エコテーラー",
-        "horse_id": "2021101116",
-        "sex_age": "牝5",
-        "jockey": "太宰"
-      }
-    ]
+    "course_text": "14:00発走 / 芝2000m (右 D)",
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031209",
@@ -1424,136 +642,10 @@
     "distance": 1800,
     "variant": null,
     "course_text": "14:35発走 / ダ1800m (右)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アリエスキング",
-        "horse_id": "2021101468",
-        "sex_age": "牡5",
-        "jockey": "田口"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エンマ",
-        "horse_id": "2022102956",
-        "sex_age": "牡4",
-        "jockey": "高倉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "クロノスバレット",
-        "horse_id": "2022110123",
-        "sex_age": "牡4",
-        "jockey": "鮫島駿"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゴヴェルナーレリコ",
-        "horse_id": "2021105085",
-        "sex_age": "牝5",
-        "jockey": "長浜"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ゴッドエスパーダ",
-        "horse_id": "2022106186",
-        "sex_age": "牡4",
-        "jockey": "角田和"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ジョータルマエ",
-        "horse_id": "2020100771",
-        "sex_age": "セ6",
-        "jockey": "鮫島良"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ソウルアンドジャズ",
-        "horse_id": "2021106694",
-        "sex_age": "セ5",
-        "jockey": "川須"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ドゥラエテルノ",
-        "horse_id": "2022102722",
-        "sex_age": "牡4",
-        "jockey": "浜中"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ニホンピロデヴィン",
-        "horse_id": "2022104214",
-        "sex_age": "牡4",
-        "jockey": "高杉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヒデノレインボー",
-        "horse_id": "2019102705",
-        "sex_age": "牡7",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヒロノゴウカイ",
-        "horse_id": "2019106700",
-        "sex_age": "牡7",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "プラニスフェリオ",
-        "horse_id": "2020100640",
-        "sex_age": "牡6",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ブルックリンダンス",
-        "horse_id": "2022105791",
-        "sex_age": "牡4",
-        "jockey": "亀田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "モモンウールー",
-        "horse_id": "2021105984",
-        "sex_age": "牝5",
-        "jockey": "小沢"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "リアルスター",
-        "horse_id": "2022103290",
-        "sex_age": "牡4",
-        "jockey": "秋山稔"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ワイドクリーガー",
-        "horse_id": "2022105611",
-        "sex_age": "牡4",
-        "jockey": "団野"
-      }
-    ]
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031210",
@@ -1564,168 +656,10 @@
     "distance": 1400,
     "variant": "外",
     "course_text": "15:15発走 / 芝1400m (右 外 D)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アサカラキング",
-        "horse_id": "2020105154",
-        "sex_age": "牡6",
-        "jockey": "斎藤"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アスクワンタイム",
-        "horse_id": "2021102315",
-        "sex_age": "牡5",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "アルテヴェローチェ",
-        "horse_id": "2022104751",
-        "sex_age": "牡4",
-        "jockey": "田山"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エコロブルーム",
-        "horse_id": "2021105565",
-        "sex_age": "牡5",
-        "jockey": "丹内"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "カルチャーデイ",
-        "horse_id": "2021104556",
-        "sex_age": "牝5",
-        "jockey": "酒井"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "グレイイングリーン",
-        "horse_id": "2018105454",
-        "sex_age": "牡8",
-        "jockey": "吉村"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ジャスティンスカイ",
-        "horse_id": "2019105512",
-        "sex_age": "牡7",
-        "jockey": "池添"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "シュタールヴィント",
-        "horse_id": "2020103061",
-        "sex_age": "牡6",
-        "jockey": "西塚"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "シンフォーエバー",
-        "horse_id": "2022110114",
-        "sex_age": "牡4",
-        "jockey": "松若"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "スリールミニョン",
-        "horse_id": "2022105755",
-        "sex_age": "牝4",
-        "jockey": "永島"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ソウテン",
-        "horse_id": "2019105459",
-        "sex_age": "牡7",
-        "jockey": "Ｍデムーロ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "タガノエルピーダ",
-        "horse_id": "2021106550",
-        "sex_age": "牝5",
-        "jockey": "団野"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ダンツエラン",
-        "horse_id": "2022103304",
-        "sex_age": "牝4",
-        "jockey": "太宰"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ビーアストニッシド",
-        "horse_id": "2019101348",
-        "sex_age": "牡7",
-        "jockey": "西村太"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "フリームファクシ",
-        "horse_id": "2020103661",
-        "sex_age": "牡6",
-        "jockey": "佐々木"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ムイ",
-        "horse_id": "2022102408",
-        "sex_age": "牝4",
-        "jockey": "川須"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "メイショウシンタケ",
-        "horse_id": "2018106318",
-        "sex_age": "牡8",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヤブサメ",
-        "horse_id": "2021103116",
-        "sex_age": "牡5",
-        "jockey": "高杉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヨシノイースター",
-        "horse_id": "2018106055",
-        "sex_age": "牡8",
-        "jockey": "田辺"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "レイベリング",
-        "horse_id": "2020110155",
-        "sex_age": "牡6",
-        "jockey": "国分恭"
-      }
-    ]
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031211",
@@ -1736,96 +670,10 @@
     "distance": 1800,
     "variant": "外",
     "course_text": "16:05発走 / 芝1800m (右 外 D)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "オルフセン",
-        "horse_id": "2023105642",
-        "sex_age": "牡3",
-        "jockey": "斎藤"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "カフジエメンタール",
-        "horse_id": "2023103899",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ケントン",
-        "horse_id": "2023103824",
-        "sex_age": "牡3",
-        "jockey": "木幡巧"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "シーミハットク",
-        "horse_id": "2023103532",
-        "sex_age": "牡3",
-        "jockey": "高杉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ダイチノナポリ",
-        "horse_id": "2023109106",
-        "sex_age": "牝3",
-        "jockey": "高倉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "テーオーアルアイン",
-        "horse_id": "2023105241",
-        "sex_age": "牡3",
-        "jockey": "団野"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "バークシャーシチー",
-        "horse_id": "2023100967",
-        "sex_age": "牡3",
-        "jockey": "藤懸"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "バースデイフライト",
-        "horse_id": "2023102906",
-        "sex_age": "牝3",
-        "jockey": "田口"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ブライトフレア",
-        "horse_id": "2023103388",
-        "sex_age": "牡3",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ムスクレスト",
-        "horse_id": "2023104402",
-        "sex_age": "牡3",
-        "jockey": "鮫島駿"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ロサルゴサ",
-        "horse_id": "2023105971",
-        "sex_age": "牡3",
-        "jockey": "池添"
-      }
-    ]
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   },
   {
     "race_id": "202608031212",
@@ -1836,175 +684,9 @@
     "distance": 1400,
     "variant": "外",
     "course_text": "16:40発走 / 芝1400m (右 外 D)",
-    "horses": [
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エスペシャリー",
-        "horse_id": "2022103707",
-        "sex_age": "牝4",
-        "jockey": "小崎"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "エマヌエーレ",
-        "horse_id": "2020103280",
-        "sex_age": "牡6",
-        "jockey": "鮫島駿"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ガンマジーティーピ",
-        "horse_id": "2022106123",
-        "sex_age": "牡4",
-        "jockey": "松若"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "キタサンダムール",
-        "horse_id": "2020102310",
-        "sex_age": "牝6",
-        "jockey": "田山"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "コブラ",
-        "horse_id": "2019102654",
-        "sex_age": "牡7",
-        "jockey": "横山典"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "サヴォンリンナ",
-        "horse_id": "2022105696",
-        "sex_age": "牝4",
-        "jockey": "亀田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "サクセスアイ",
-        "horse_id": "2020105354",
-        "sex_age": "牝6",
-        "jockey": "池添"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "スマートワイス",
-        "horse_id": "2021105618",
-        "sex_age": "牡5",
-        "jockey": "高杉"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ディアドコス",
-        "horse_id": "2020105409",
-        "sex_age": "牡6",
-        "jockey": "吉村"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "テーオーダヴィンチ",
-        "horse_id": "2018104633",
-        "sex_age": "牡8",
-        "jockey": "菱田"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "トラペジスト",
-        "horse_id": "2021104928",
-        "sex_age": "牡5",
-        "jockey": "国分優"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ノクナレア",
-        "horse_id": "2022105550",
-        "sex_age": "牝4",
-        "jockey": "吉田隼"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ビップジーニー",
-        "horse_id": "2021105812",
-        "sex_age": "牡5",
-        "jockey": "田口"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ブリックワーク",
-        "horse_id": "2021101382",
-        "sex_age": "牝5",
-        "jockey": "秋山稔"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ブリュットミレジメ",
-        "horse_id": "2019102106",
-        "sex_age": "牡7",
-        "jockey": ""
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ブルクトーア",
-        "horse_id": "2022104694",
-        "sex_age": "牡4",
-        "jockey": "斎藤"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ミカッテヨンデイイ",
-        "horse_id": "2020103049",
-        "sex_age": "牝6",
-        "jockey": "小林脩"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "メイショウセイロウ",
-        "horse_id": "2022103194",
-        "sex_age": "牡4",
-        "jockey": "団野"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ヨウシタンレイ",
-        "horse_id": "2020103969",
-        "sex_age": "牝6",
-        "jockey": "Ｍデムーロ"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ルミノメテオール",
-        "horse_id": "2020104332",
-        "sex_age": "牝6",
-        "jockey": "酒井"
-      },
-      {
-        "waku": "",
-        "umaban": "",
-        "name": "ワイドアラジン",
-        "horse_id": "2020104550",
-        "sex_age": "牡6",
-        "jockey": "泉谷"
-      }
-    ]
+    "weather": null,
+    "baba": null,
+    "cushion": null,
+    "horses": []
   }
 ]

@@ -145,8 +145,9 @@ def main():
     # netkeibaは未来日付や枠順前に3頭プレースホルダーを返すことがあるため、
     # レース毎に「頭数が多い／枠番が埋まっている」方を採用してマージする。
     def quality(race):
-        gates = sum(1 for h in race["horses"] if h.get("umaban"))
-        return (len(race["horses"]), gates)
+        # 枠番が埋まった有効頭数を主基準に（ゴースト混入の多い側を優先しない）
+        valid = sum(1 for h in race["horses"] if h.get("umaban") and h.get("horse_id"))
+        return (valid, len(race["horses"]))
     if outpath.exists():
         try:
             prev = json.loads(outpath.read_text(encoding="utf-8"))
