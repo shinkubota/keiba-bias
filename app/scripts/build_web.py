@@ -39,29 +39,96 @@ def collect(date_str, tracks, top, baba=None):
                 "kg": h.get("jockey_weight",""), "pct": round(s*100),
                 "score": x["score"], "reasons": x["reasons"],
             })
-        races.append({"r": race, "headline": a["headline"], "rows": rows})
+        # 確信度: 本命scoreと2位scoreの差で判定
+        conf, conf_label = _confidence(ranked)
+        races.append({"r": race, "headline": a["headline"], "rows": rows,
+                      "baba": a.get("baba"), "weather": race.get("weather"),
+                      "conf": conf, "conf_label": conf_label,
+                      "is_feature": _is_feature(race)})
     return races
 
+def _confidence(ranked):
+    """本命と2番手のscore差から ★1〜3 を判定。"""
+    scored = [x["score"] for x in ranked if x["score"] > 0]
+    if not scored: return (0, "印なし")
+    top = scored[0]
+    second = scored[1] if len(scored) > 1 else 0
+    gap = top - second
+    if top >= 10 and gap >= 4:   return (3, "★★★ 軸向き")
+    if top >= 6 and gap >= 2:    return (2, "★★ 有力")
+    return (1, "★ 混戦")
+
+def _is_feature(race):
+    """重賞・特別(オープン)など注目レースか。"""
+    nm = race.get("race_name","")
+    if any(g in nm for g in ("G1","G2","G3","GⅠ","GⅡ","GⅢ")): return True
+    if race["race_no"] in (10,11,12) and ("S" in nm or "特別" in nm or "賞" in nm): return True
+    return False
+
 # ── Markdown表（チャット確認用） ──────────────────────────
+WEATHER_EMOJI = {"晴":"☀️","曇":"☁️","小雨":"🌦","雨":"🌧","雪":"❄️"}
+
+def _short_headline(headline):
+    """馬場注記の( … )を落として本文だけ短く。"""
+    return headline.split("（")[0].split("(")[0].strip()
+
+def _baba_badge(item):
+    w = item.get("weather"); b = item.get("baba")
+    we = WEATHER_EMOJI.get(w, "") if w else ""
+    parts = []
+    if w: parts.append(f"{we}{w}")
+    if b: parts.append(f"馬場{b}")
+    return " ".join(parts)
+
 def to_markdown(date_str, races):
     d = datetime.date(int(date_str[:4]),int(date_str[4:6]),int(date_str[6:8]))
-    L = [f"# {d.month}/{d.day}({WD[d.weekday()]}) 推奨（表形式）", ""]
+    valid = [it for it in races if "warn" not in it]
+    # 開催概要
+    babas = sorted({_baba_badge(it) for it in valid if _baba_badge(it)})
+    tracks = sorted({it["r"]["track"] for it in races})
+    L = []
+    L.append(f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) トラックバイアス推奨")
+    L.append("")
+    L.append(f"**開催**: {'・'.join(tracks)}　**馬場**: {' / '.join(babas) if babas else '—'}")
+    L.append("")
+    L.append("> **印**: ◎本命 ○対抗 ▲単穴 △連下　／　**%**=レース内バイアス適合スコアの占有率（勝率予測ではない）　／　**確信度**: ★★★軸向き ★★有力 ★混戦")
+    L.append("")
+
+    # 注目レースのピックアップ目次
+    feats = [it for it in valid if it.get("is_feature")]
+    if feats:
+        L.append("## 🎯 注目レース")
+        L.append("")
+        L.append("| レース | 確信度 | ◎本命 | % |")
+        L.append("|--|--|--|--|")
+        for it in feats:
+            r = it["r"]; row = it["rows"][0] if it["rows"] else None
+            if not row: continue
+            honmei = f"{row['umaban']} {row['name']}"
+            L.append(f"| {r['track']}{r['race_no']}R {r['race_name']} | {it['conf_label']} | {honmei} | {row['pct']}% |")
+        L.append("")
+
+    L.append("## 📋 全レース")
+    L.append("")
+    marks = ["◎","○","▲","△"]
     for item in races:
         r = item["r"]
         title = f"{r['track']}{r['race_no']}R {r['surface']}{r['distance']}m {r['race_name']}"
         if "warn" in item:
-            L.append(f"### {title}\n_対象外（{item['warn']}）_\n"); continue
-        L.append(f"### {title}（{len(r['horses'])}頭）")
-        L.append(f"狙い: {item['headline']}")
+            L.append(f"### {title}"); L.append(f"_対象外（{item['warn']}）_"); L.append(""); continue
+        star = "⭐ " if item.get("is_feature") else ""
+        L.append(f"### {star}{title}（{len(r['horses'])}頭）{('・'+_baba_badge(item)) if _baba_badge(item) else ''}")
+        L.append(f"**{item['conf_label']}**　狙い: {_short_headline(item['headline'])}")
         L.append("")
-        L.append("| 印 | 馬番 | 馬名 | 性齢 | 騎手 | 斤量 | % | score | 根拠 |")
-        L.append("|--|--|--|--|--|--|--|--|--|")
-        marks = ["◎","○","▲","△"]
+        L.append("| 印 | 馬番 | 馬名 | 性齢 | 騎手 | 斤量 | % | pt | 根拠 |")
+        L.append("|:--:|:--:|--|:--:|--|:--:|--:|--:|--|")
         for row in item["rows"]:
             mark = marks[row["rank"]-1] if row["rank"]<=len(marks) else str(row["rank"])
-            reasons = "／".join(row["reasons"][:4])
-            L.append(f"| {mark} | {row['umaban']} | {row['name']} | {row['sexage']} | {row['jockey']} | {row['kg']} | {row['pct']}% | {row['score']} | {reasons} |")
+            reasons = " ／ ".join(row["reasons"][:4])
+            L.append(f"| {mark} | **{row['umaban']}** | {row['name']} | {row['sexage']} | {row['jockey']} | {row['kg']} | **{row['pct']}%** | {row['score']} | {reasons} |")
         L.append("")
+    L.append("---")
+    L.append("_馬券は自己責任で。本表は分析の共有であり購入を推奨するものではありません。_")
     return "\n".join(L)
 
 # ── HTML（GitHub Pages用） ──────────────────────────────
