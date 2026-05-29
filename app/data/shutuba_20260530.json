@@ -8,6 +8,9 @@
     "distance": 1400,
     "variant": null,
     "course_text": "09:50発走 / ダ1400m (左)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -207,6 +210,9 @@
     "distance": 2400,
     "variant": null,
     "course_text": "10:20発走 / 芝2400m (左 C)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -406,6 +412,9 @@
     "distance": 1400,
     "variant": null,
     "course_text": "10:50発走 / 芝1400m (左 C)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -627,6 +636,9 @@
     "distance": 3000,
     "variant": null,
     "course_text": "11:20発走 / 障3000m (芝 ダート)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -782,6 +794,9 @@
     "distance": 2000,
     "variant": null,
     "course_text": "12:10発走 / 芝2000m (左 C)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -981,6 +996,9 @@
     "distance": 1600,
     "variant": null,
     "course_text": "12:40発走 / ダ1600m (左)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -1136,6 +1154,9 @@
     "distance": 1400,
     "variant": null,
     "course_text": "13:10発走 / 芝1400m (左 C)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -1302,6 +1323,9 @@
     "distance": 1600,
     "variant": null,
     "course_text": "13:40発走 / ダ1600m (左)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -1501,6 +1525,9 @@
     "distance": 1400,
     "variant": null,
     "course_text": "14:15発走 / ダ1400m (左)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -1700,6 +1727,9 @@
     "distance": 1600,
     "variant": null,
     "course_text": "14:50発走 / 芝1600m (左 C)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -1844,6 +1874,9 @@
     "distance": 1600,
     "variant": null,
     "course_text": "15:30発走 / ダ1600m (左)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -2043,6 +2076,9 @@
     "distance": 2100,
     "variant": null,
     "course_text": "16:10発走 / ダ2100m (左)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -2242,6 +2278,9 @@
     "distance": 1400,
     "variant": null,
     "course_text": "10:05発走 / ダ1400m (右)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -2441,6 +2480,9 @@
     "distance": 1800,
     "variant": null,
     "course_text": "10:35発走 / ダ1800m (右)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -2640,6 +2682,9 @@
     "distance": 1400,
     "variant": null,
     "course_text": "11:05発走 / 芝1400m (右 D)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -2861,6 +2906,9 @@
     "distance": 2400,
     "variant": "外",
     "course_text": "11:35発走 / 芝2400m (右 外 D)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -3082,6 +3130,9 @@
     "distance": 1800,
     "variant": "外",
     "course_text": "12:25発走 / 芝1800m (右 外 D)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -3303,6 +3354,9 @@
     "distance": 1800,
     "variant": null,
     "course_text": "12:55発走 / ダ1800m (右)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -3458,6 +3512,9 @@
     "distance": 1600,
     "variant": "外",
     "course_text": "13:25発走 / 芝1600m (右 外 D)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -3646,6 +3703,9 @@
     "distance": 1400,
     "variant": "外",
     "course_text": "13:55発走 / 芝1400m (右 外 D)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -3801,6 +3861,9 @@
     "distance": 1800,
     "variant": null,
     "course_text": "14:30発走 / ダ1800m (右)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -3923,6 +3986,9 @@
     "distance": 1800,
     "variant": null,
     "course_text": "15:05発走 / ダ1800m (右)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -4122,6 +4188,9 @@
     "distance": 1200,
     "variant": null,
     "course_text": "15:45発走 / 芝1200m (右 D)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",
@@ -4321,6 +4390,9 @@
     "distance": 1200,
     "variant": null,
     "course_text": "16:30発走 / ダ1200m (右)\n/ 天候:晴 / 馬場:良",
+    "weather": "晴",
+    "baba": "良",
+    "cushion": null,
     "horses": [
       {
         "waku": "1",

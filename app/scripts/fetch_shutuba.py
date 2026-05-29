@@ -42,6 +42,15 @@ def parse_shutuba(race_id):
     is_outer = "外" in course_text  # 京都/新潟など外回り
     is_inner = "内" in course_text and not is_outer
 
+    # 天候・馬場・クッション値（当日のみ表示。発走前はNoneのことが多い）
+    page_text = soup.get_text(" ", strip=True)
+    mw = re.search(r"天候\s*[:：]?\s*(晴|曇|小雨|雨|雪)", page_text)
+    mb = re.search(r"馬場\s*[:：]?\s*(良|稍重|稍|重|不良)", page_text)
+    mc = re.search(r"クッション値\s*[:：]?\s*(\d+\.?\d*)", page_text)
+    weather = mw.group(1) if mw else None
+    baba = mb.group(1) if mb else None
+    cushion = mc.group(1) if mc else None
+
     jo = JO_CODE.get(race_id[4:6], "")
     rn = int(race_id[10:12])
 
