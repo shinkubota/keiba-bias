@@ -378,12 +378,17 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     weights = {"gate":3, "sire":3, "broodmare":2, "prev":3, "weight":0,
                "agari":2, "stable":5, "class":1, "pace_fit":0, "baba":4}
 
-    # 斤量: レース内で軽量級(下位25%相当の閾値以下)なら恵まれ評価+1
+    # 斤量: 性別基準(牡58/牝56)より明確に軽い場合のみ「軽斤量」と評価
+    # かつレース内に有意な斤量差があるときだけ（全頭同斤量なら無意味）
     if light_weight_threshold is not None:
         try:
             kg = float(horse.get("jockey_weight") or 0)
-            if kg and kg <= light_weight_threshold:
-                reasons.append(f"軽斤量({kg}kg)"); score += weights["weight"]
+            sex = (horse.get("sex_age") or "")[:1]
+            base = 56.0 if sex in ("牝",) else 58.0   # セ・牡は58.0基準
+            # 基準より1kg以上軽い、かつレース内最小斤量+0.5kg以内
+            if kg and (base - kg >= 1.0) and kg <= light_weight_threshold:
+                reasons.append(f"軽斤量({kg}kg・基準{base:.0f}kg)")
+                score += weights["weight"]
         except ValueError:
             pass
 
@@ -472,7 +477,7 @@ def analyze_race(race, horses_db, baba=None):
     course = COURSES[key]
     total = len(race["horses"])
     gates = any(h["umaban"] for h in race["horses"])
-    # 斤量の軽量閾値: レース内の最小斤量+0.5kg以内を「軽量級」とする
+    # 斤量の軽量閾値: レース内最小+0.5kg以内 かつ レース内に有意な斤量差(>=1.5kg)があるときのみ有効
     kgs = []
     for h in race["horses"]:
         try:
@@ -480,7 +485,10 @@ def analyze_race(race, horses_db, baba=None):
             if v: kgs.append(v)
         except ValueError:
             pass
-    lw_thr = (min(kgs) + 0.5) if kgs else None
+    if kgs and (max(kgs) - min(kgs)) >= 1.5:
+        lw_thr = min(kgs) + 0.5
+    else:
+        lw_thr = None       # 全頭ほぼ同斤量のレースは軽斤量判定をオフ
 
     rc = build_race_context(race, horses_db)
     rc = attach_baba(rc, race["surface"], baba)
