@@ -371,8 +371,11 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
                    light_weight_threshold=None, rc=None):
     reasons = []
     score = 0
-    weights = {"gate":2, "sire":3, "broodmare":2, "prev":3, "weight":1,
-               "agari":3, "stable":2, "class":2, "pace_fit":2, "baba":2}
+    # 配点 v0.6: 5/30 18レースの実績で再較正
+    # 全体3着内率を1.0として、複勝安定(×2.19)/馬場適性(×1.53)/同距離(×1.44)/上がり最速(×1.44)/
+    # 前走先行(×1.49) を強化。軽斤量(×0.76)/展開(×0.74)/外枠(×0.95) は弱体化または削除。
+    weights = {"gate":2, "sire":3, "broodmare":2, "prev":3, "weight":0,
+               "agari":4, "stable":5, "class":1, "pace_fit":0, "baba":3}
 
     # 斤量: レース内で軽量級(下位25%相当の閾値以下)なら恵まれ評価+1
     if light_weight_threshold is not None:
@@ -482,7 +485,7 @@ def analyze_race(race, horses_db, baba=None):
     rc = attach_baba(rc, race["surface"], baba)
 
     DEFAULT_ABILITY = 28.0   # 新馬・実績僅少馬のデフォ(低め)
-    BIAS_K = 0.03            # バイアス1点あたり最終評価を+3%補正
+    BIAS_K = 0.02            # 5/30実績: 能力単独17% < 現行22%。微差なのでバイアスの影響を抑制（0.03→0.02）
 
     ranked = []
     for h in race["horses"]:
