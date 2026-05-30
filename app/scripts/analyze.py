@@ -149,6 +149,20 @@ def is_closer(passing):
     if len(parts) < 2: return False
     return parts[0] >= 6
 
+# 中央場(JRA)10場
+JRA_VENUES = {"札幌","函館","福島","新潟","東京","中山","中京","京都","阪神","小倉"}
+
+def is_local_track(race_row):
+    """前走が地方競馬(NAR)なら True。
+    netkeibaの中央レースは venue=東京等 / 地方は venue="" でkaisaiに場名が入る。
+    """
+    venue = (race_row.get("venue") or "").strip()
+    kaisai = (race_row.get("kaisai") or "").strip()
+    if venue in JRA_VENUES:                    # 中央の場名がvenueに入っていればJRA
+        return False
+    # kaisaiに中央場名が無く文字列がある＝地方場
+    return bool(kaisai) and not any(v in kaisai for v in JRA_VENUES)
+
 # ── ルール分解器 ─────────────────────────────────────────────
 VENUE_NAMES = ["札幌","函館","福島","新潟","東京","中山","中京","京都","阪神","小倉"]
 VENUE_RE = re.compile("|".join(VENUE_NAMES))
@@ -233,21 +247,28 @@ def eval_condition(cond, horse, recent):
 
     if ct == "rot_same":
         if not r0: return None
-        _, rd = parse_recent_dist(r0.get("distance_text"))
+        rs, rd = parse_recent_dist(r0.get("distance_text"))
+        this_surface = cond.get("_this_surface")
+        # 芝↔ダート切替なら「同距離」と評価しない（別物のため）
+        if this_surface and rs and rs != this_surface: return None
         if rd and abs(rd - cond.get("_this_dist",0)) <= 50:
-            return f"同距離ローテ({r0['distance_text']}→同)"
+            return f"同距離同面ローテ({r0['distance_text']}→同)"
         return None
     if ct == "rot_shorter":
         if not r0: return None
-        _, rd = parse_recent_dist(r0.get("distance_text"))
+        rs, rd = parse_recent_dist(r0.get("distance_text"))
+        this_surface = cond.get("_this_surface")
+        if this_surface and rs and rs != this_surface: return None
         if rd and rd > cond.get("_this_dist",0) + 100:
-            return f"距離短縮({rd}→{cond.get('_this_dist')})"
+            return f"距離短縮({rs}{rd}→{cond.get('_this_dist')})"
         return None
     if ct == "rot_longer":
         if not r0: return None
-        _, rd = parse_recent_dist(r0.get("distance_text"))
+        rs, rd = parse_recent_dist(r0.get("distance_text"))
+        this_surface = cond.get("_this_surface")
+        if this_surface and rs and rs != this_surface: return None
         if rd and rd < cond.get("_this_dist",0) - 100:
-            return f"距離延長({rd}→{cond.get('_this_dist')})"
+            return f"距離延長({rs}{rd}→{cond.get('_this_dist')})"
         return None
 
     if ct == "prev_finish_range":
@@ -305,8 +326,12 @@ def ability_score(recent):
         if not fin or not fs or fs < 2:
             continue
         pos = (fs - fin + 1) / fs                 # 0..1
-        c = class_rank(r.get("race_name")) / 9.0  # 0.11..1.0
-        run = pos * (0.55 + 0.45 * c)             # クラス上位の好走を加点
+        c_raw = class_rank(r.get("race_name"))
+        # 地方競馬は中央換算で2段階クラスダウンとして扱う(中央通用度の低さを反映)
+        if is_local_track(r):
+            c_raw = max(1, c_raw - 2)
+        c = c_raw / 9.0
+        run = pos * (0.55 + 0.45 * c)
         num += w * run; den += w
     if den == 0:
         return None
@@ -368,7 +393,7 @@ def attach_baba(rc, surface, baba):
     return rc
 
 def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
-                   light_weight_threshold=None, rc=None):
+                   light_weight_threshold=None, rc=None, this_surface=None):
     reasons = []
     score = 0
     # 配点 v0.7: 5/30 全24R(23有効)の実績で再較正
@@ -430,6 +455,7 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     for c in uniq_conds:
         if c["type"].startswith("rot_"):
             c["_this_dist"] = this_distance
+            c["_this_surface"] = this_surface
         msg = eval_condition(c, horse, recent)
         if msg and msg not in reasons:        # 念のため理由の重複も排除
             reasons.append(msg); score += weights["prev"]
@@ -446,15 +472,25 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
         if pr is not None and pr >= 0.6:
             reasons.append(f"複勝安定({pr*100:.0f}%)"); score += weights["stable"]
 
-        # ③ 相手強度: 今走より上のクラスを経験している格上挑戦馬を加点
-        my_max_class = max([class_rank(r.get("race_name")) for r in recent[:5]], default=None)
+        # ③ 相手強度: 中央の上位クラスで「5着以内」の好走経験のみカウント
+        # （単なる出走経験では大敗組も含まれて精度が落ちる）
+        my_max_class = None
+        for r in recent[:5]:
+            if is_local_track(r):                # 地方競馬は除外
+                continue
+            try: fin = int(r.get("finish") or 0)
+            except: continue
+            if fin <= 0 or fin > 5:              # 6着以下＝大敗は経験としてカウントしない
+                continue
+            c = class_rank(r.get("race_name"))
+            if my_max_class is None or c > my_max_class: my_max_class = c
         this_class = rc.get("this_class")
         if my_max_class and this_class and my_max_class > this_class:
-            reasons.append("上位クラス経験(通用実績)"); score += weights["class"]
+            reasons.append(f"上位クラス通用(5着以内)"); score += weights["class"]
 
-        # ④ 展開脚質適性: そのレースの想定ペースに合う脚質を加点
+        # ④ 展開脚質適性: 配点0の間は理由欄にも出さない(ノイズ排除)
         my_style = horse_pace_style(recent)
-        if my_style:
+        if my_style and weights.get("pace_fit", 0) > 0:
             if rc["pace_lean"] == "先行有利" and my_style in ("逃げ", "先行"):
                 reasons.append(f"展開向き(先行少→{my_style})"); score += weights["pace_fit"]
             elif rc["pace_lean"] == "差し有利" and my_style in ("差し", "追込"):
@@ -502,7 +538,15 @@ def analyze_race(race, horses_db, baba=None):
     for h in race["horses"]:
         hd = horses_db.get(h["horse_id"], {})
         recent = hd.get("recent", [])
-        bias, rs = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc)
+        bias, rs = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc,
+                                   this_surface=race["surface"])
+        # 前走が地方競馬の場合は能力スコアを抑制(中央水準に届かないことが多い)
+        if recent and is_local_track(recent[0]):
+            try:
+                fin = int(recent[0].get("finish") or "9")
+            except: fin = 9
+            tag = f"前走地方({recent[0].get('kaisai','')}{fin}着)・割引"
+            rs.append(tag)
         abil = ability_score(recent)
         abil_eff = abil if abil is not None else DEFAULT_ABILITY
         final = round(abil_eff * (1 + BIAS_K * bias), 1)
