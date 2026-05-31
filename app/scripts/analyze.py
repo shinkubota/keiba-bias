@@ -477,7 +477,8 @@ def calimero_bonus(horse, race, horse_data, total_horses):
     return score, notes
 
 def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
-                   light_weight_threshold=None, rc=None, this_surface=None):
+                   light_weight_threshold=None, rc=None, this_surface=None,
+                   race=None):
     reasons = []
     score = 0
     # 配点 v0.7: 5/30 全24R(23有効)の実績で再較正
@@ -485,7 +486,8 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     # 中因子: 内枠×1.26, 外枠×1.24, 前走先行×1.23, 上がり最速×1.23, 上位クラス×1.09
     # 弱因子(削除): 軽斤量×0.69, 展開向き×0.88
     weights = {"gate":3, "sire":3, "broodmare":2, "prev":3, "weight":0,
-               "agari":2, "stable":5, "class":1, "pace_fit":0, "baba":4}
+               "agari":2, "stable":5, "class":1, "pace_fit":0, "baba":4,
+               "cal":1}   # ★Calimero穴予想知見の係数。0で無効、1で標準。
 
     # 斤量: 性別基準(牡58/牝56)より明確に軽い場合のみ「軽斤量」と評価
     # かつレース内に有意な斤量差があるときだけ（全頭同斤量なら無意味）
@@ -590,7 +592,16 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
         if pref and my_style and my_style in pref:
             reasons.append(f"馬場適性({why}→{my_style})"); score += weights["baba"]
 
-    return score, reasons
+    # ⑥ Calimero穴予想知見(他要素と同列の正式要素)
+    cal_pts = 0
+    if race is not None and weights.get("cal", 0) != 0:
+        cb_raw, cb_notes = calimero_bonus(horse, race, horse_data, total_horses)
+        cal_pts = cb_raw * weights["cal"]
+        if cb_notes:
+            reasons.extend([f"[Cal]{n}" for n in cb_notes])
+        score += cal_pts
+
+    return score, reasons, cal_pts
 
 def analyze_race(race, horses_db, baba=None):
     # baba優先順位: 明示引数 > 出馬表の実データ(race['baba']) > 良
@@ -627,14 +638,8 @@ def analyze_race(race, horses_db, baba=None):
     for h in race["horses"]:
         hd = horses_db.get(h["horse_id"], {})
         recent = hd.get("recent", [])
-        bias, rs = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc,
-                                   this_surface=race["surface"])
-        # Calimero補正(穴予想実績由来の追加加点・想定オッズなし版)
-        cb, cb_notes = calimero_bonus(h, race, hd, total)
-        if cb_notes:
-            rs.extend([f"[Cal]{n}" for n in cb_notes])
-        bias_pre_cal = bias
-        bias += cb
+        bias, rs, cb = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc,
+                                       this_surface=race["surface"], race=race)
         # 前走が地方競馬の場合は能力スコアを抑制(中央水準に届かないことが多い)
         if recent and is_local_track(recent[0]):
             try:
