@@ -29,17 +29,21 @@ def main():
 
     n = win = plc = top3in = 0
     big_hits = []          # 7人気以下の本命的中
-    hits = []
+    hits = []              # 本命1着レース
+    place_hits = []        # 推奨上位5頭のうち2-3着に絡んだ馬
     pop_dist = [0]*20
+    MARKS = ["◎","○","▲","△","✕"]
     for race in shutuba:
         r = results.get(race["race_id"], {})
         if not r.get("horses"): continue
         a = az.analyze_race(race, db)
         if a.get("warn"): continue
         top3um = {h["umaban"] for h in r["horses"][:3]}
-        winner = r["horses"][0]["umaban"]
+        # 順位→馬データ参照
+        finish_by_um = {h["umaban"]: h["finish"] for h in r["horses"]}
         res_by_um = {h["umaban"]: h for h in r["horses"]}
-        picks = a["horses"][:3]
+        winner = r["horses"][0]["umaban"]
+        picks = a["horses"][:5]   # 5頭まで参照
         if not picks: continue
         n += 1
         try: top1_um = int(picks[0]["horse"]["umaban"])
@@ -51,16 +55,25 @@ def main():
         if top1_um == winner:
             win += 1
             hits.append((race["track"], race["race_no"], race["race_name"],
-                          picks[0]["horse"]["name"], pop, odds))
+                         picks[0]["horse"]["name"], pop, odds))
             if pop and pop >= 7:
                 big_hits.append((race["track"], race["race_no"], race["race_name"],
                                  picks[0]["horse"]["name"], pop, odds))
+        # 複勝圏絡み(2-3着)で推奨に入っていた馬を収集
         in_t3 = False
-        for p in picks:
+        for idx, p in enumerate(picks[:3]):
             try:
-                if int(p["horse"]["umaban"]) in top3um:
-                    top3in += 1; in_t3 = True
-            except: pass
+                u = int(p["horse"]["umaban"])
+            except: continue
+            if u in top3um:
+                top3in += 1; in_t3 = True
+                fin = finish_by_um.get(u)
+                # 1着は hits に既出。2-3着のみ別途記録
+                if fin in (2, 3):
+                    pr = res_by_um.get(u, {})
+                    place_hits.append((race["track"], race["race_no"], race["race_name"],
+                                       MARKS[idx], p["horse"]["name"], fin,
+                                       pr.get("popularity"), pr.get("odds")))
         if in_t3: plc += 1
 
     if n == 0:
@@ -76,10 +89,15 @@ def main():
              "| 人気 | 本数 |", "|---:|---:|"]
     for i in range(1, 16):
         if pop_dist[i]: block.append(f"| {i} | {pop_dist[i]} |")
-    block += ["", f"### 本命的中 {len(hits)}本",
+    block += ["", f"### 本命的中 ◎=1着 {len(hits)}本",
               "| レース | 馬 | 人気 | 単 |", "|---|---|---:|---:|"]
     for x in hits:
         block.append(f"| {x[0]}{x[1]}R {x[2]} | {x[3]} | {x[4]} | {x[5]} |")
+    if place_hits:
+        block += ["", f"### 複勝圏絡み(2-3着) {len(place_hits)}件 ※印付き馬のみ",
+                  "| レース | 印 | 馬 | 着 | 人気 | 単 |", "|---|:--:|---|--:|--:|--:|"]
+        for x in place_hits:
+            block.append(f"| {x[0]}{x[1]}R {x[2]} | {x[3]} | {x[4]} | {x[5]} | {x[6]} | {x[7]} |")
     if big_hits:
         block += ["", "### 大穴本命的中(7人気以下)"]
         for x in big_hits:
