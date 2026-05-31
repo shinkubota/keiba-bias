@@ -1,0 +1,6883 @@
+{
+ "202605021106": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605021107": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605021109": {
+  "race_name": "富嶽賞",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605021110": {
+  "race_name": "葉山特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605021111": {
+  "race_name": "アハルテケS",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608031107": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608031108": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608031109": {
+  "race_name": "鳳雛S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608031111": {
+  "race_name": "葵S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608031112": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605021007": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202605021008": {
+  "race_name": "三峰山特別",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202605021009": {
+  "race_name": "国分寺特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202605021011": {
+  "race_name": "オークス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608031010": {
+  "race_name": "高瀬川S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608031011": {
+  "race_name": "都大路S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608031012": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202604010807": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202604010808": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202604010811": {
+  "race_name": "韋駄天S",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202605020908": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202605020911": {
+  "race_name": "欅S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202608030908": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608030909": {
+  "race_name": "メルボルンT",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608030910": {
+  "race_name": "シドニーT",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608030911": {
+  "race_name": "平安S",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202608030912": {
+  "race_name": "オーストラリアT",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202604010709": {
+  "race_name": "はやぶさ賞",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202604010710": {
+  "race_name": "尖閣湾特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202604010711": {
+  "race_name": "大日岳特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202605020606": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020607": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1300,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020608": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020610": {
+  "race_name": "メトロポリタンS",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020611": {
+  "race_name": "NHKマイルC",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030609": {
+  "race_name": "烏丸S",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030610": {
+  "race_name": "橘S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030611": {
+  "race_name": "平城京S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202604010409": {
+  "race_name": "荒川峡特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202604010411": {
+  "race_name": "谷川岳S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202604010412": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020506": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020507": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020508": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020509": {
+  "race_name": "分倍河原S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020511": {
+  "race_name": "エプソムC",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020512": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030509": {
+  "race_name": "久御山特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030511": {
+  "race_name": "京都新聞杯",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202604010308": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202604010311": {
+  "race_name": "駿風S",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020407": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202605020408": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020409": {
+  "race_name": "府中S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020412": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1300,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202608030408": {
+  "race_name": "御池特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608030411": {
+  "race_name": "天皇賞(春)",
+  "surface": "芝",
+  "distance": 3200,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202604010206": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202604010207": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202604010210": {
+  "race_name": "邁進特別",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202605020307": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202605020308": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020310": {
+  "race_name": "スイートピーS",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020311": {
+  "race_name": "京王杯SC",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020312": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202608030307": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030309": {
+  "race_name": "矢車賞",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030312": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202604010107": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202604010110": {
+  "race_name": "胎内川特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202604010111": {
+  "race_name": "三条S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202605020206": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020207": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202605020208": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020209": {
+  "race_name": "湘南S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020211": {
+  "race_name": "フローラS",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020212": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202608030207": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030208": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030211": {
+  "race_name": "マイラーズC",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608030212": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202603010606": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202603010609": {
+  "race_name": "飯盛山特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202603010611": {
+  "race_name": "モルガナイトS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202603010612": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020107": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202605020108": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605020110": {
+  "race_name": "鎌倉S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202605020111": {
+  "race_name": "青葉賞",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030108": {
+  "race_name": "あやめ賞",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608030110": {
+  "race_name": "観月橋S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202608030111": {
+  "race_name": "天王山S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202608030112": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202603010511": {
+  "race_name": "福島中央テレビ杯",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202603010512": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030706": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030707": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030708": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030709": {
+  "race_name": "袖ケ浦特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030710": {
+  "race_name": "下総S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030711": {
+  "race_name": "中山グランドJ",
+  "surface": "障",
+  "distance": 4260,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020706": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020708": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020709": {
+  "race_name": "吹田特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020710": {
+  "race_name": "丹波特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020711": {
+  "race_name": "アンタレスS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202609020712": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202603010310": {
+  "race_name": "桑折特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202603010312": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030406": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202606030407": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202606030408": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202606030409": {
+  "race_name": "安房特別",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202606030410": {
+  "race_name": "アリエスS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202606030411": {
+  "race_name": "美浦S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202606030412": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202609020406": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202609020407": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202609020409": {
+  "race_name": "バイオレットS",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202609020410": {
+  "race_name": "心斎橋S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020411": {
+  "race_name": "大阪杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606030206": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202606030207": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202606030208": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202606030209": {
+  "race_name": "ミモザ賞",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020207": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020208": {
+  "race_name": "四国新聞杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020209": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020210": {
+  "race_name": "御堂筋S",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609020211": {
+  "race_name": "六甲S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010606": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010607": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010608": {
+  "race_name": "大寒桜賞",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010609": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010610": {
+  "race_name": "伊勢S",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010611": {
+  "race_name": "高松宮記念",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010612": {
+  "race_name": "鈴鹿特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020707": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020710": {
+  "race_name": "韓国馬事会杯",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020711": {
+  "race_name": "フラワーC",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010908": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010910": {
+  "race_name": "淀屋橋S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010912": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010309": {
+  "race_name": "岡崎特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202607010311": {
+  "race_name": "ファルコンS",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020406": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202606020407": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020408": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202606020409": {
+  "race_name": "湾岸S",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020410": {
+  "race_name": "総武S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202606020411": {
+  "race_name": "弥生賞ディープインパクト記念",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020412": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010607": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010608": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010610": {
+  "race_name": "岸和田S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010611": {
+  "race_name": "大阪城S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010612": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020208": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202606020209": {
+  "race_name": "富里特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020210": {
+  "race_name": "アクアマリンS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020211": {
+  "race_name": "中山記念",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020212": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010404": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010406": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010408": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010409": {
+  "race_name": "山陽特別",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010411": {
+  "race_name": "チューリップ賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010412": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011208": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202610011209": {
+  "race_name": "唐戸特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011210": {
+  "race_name": "西日本新聞杯",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011211": {
+  "race_name": "関門橋S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020106": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020108": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606020111": {
+  "race_name": "オーシャンS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010307": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202609010308": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202609010309": {
+  "race_name": "松籟S",
+  "surface": "芝",
+  "distance": 3000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202609010311": {
+  "race_name": "仁川S",
+  "surface": "ダ",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202609010312": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202610011108": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202610011110": {
+  "race_name": "早鞆特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202610011111": {
+  "race_name": "別府特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202610011112": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202605010806": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010807": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010808": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010809": {
+  "race_name": "ヒヤシンスS",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010810": {
+  "race_name": "ジャパンC2025ベストレース受賞記念",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010811": {
+  "race_name": "フェブラリーS",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010812": {
+  "race_name": "大島特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010206": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010207": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010210": {
+  "race_name": "戎橋S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011007": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011008": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011009": {
+  "race_name": "高千穂特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011010": {
+  "race_name": "和布刈特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610011011": {
+  "race_name": "小倉大賞典",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010707": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010708": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010709": {
+  "race_name": "フリージア賞",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010710": {
+  "race_name": "金蹄S",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010711": {
+  "race_name": "ダイヤモンドS",
+  "surface": "芝",
+  "distance": 3400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010107": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010109": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010110": {
+  "race_name": "鳴門S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010111": {
+  "race_name": "阪急杯",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202609010112": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010907": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010909": {
+  "race_name": "あざみ賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010910": {
+  "race_name": "皿倉山特別",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010912": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010608": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010609": {
+  "race_name": "雲雀S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010610": {
+  "race_name": "バレンタインS",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010611": {
+  "race_name": "共同通信杯",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608020607": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608020608": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608020609": {
+  "race_name": "春日特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608020610": {
+  "race_name": "北山S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608020611": {
+  "race_name": "京都記念",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608020612": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202610010809": {
+  "race_name": "太宰府特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202610010810": {
+  "race_name": "大濠特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202605010507": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010508": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010509": {
+  "race_name": "箱根特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010510": {
+  "race_name": "銀蹄S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010511": {
+  "race_name": "クイーンC",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010512": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608020507": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202608020509": {
+  "race_name": "こぶし賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608020511": {
+  "race_name": "洛陽S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010706": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202610010707": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202610010710": {
+  "race_name": "伊万里特別",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202610010712": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "雨"
+ },
+ "202605010102": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010107": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010108": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010109": {
+  "race_name": "白嶺S",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010110": {
+  "race_name": "クロッカスS",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010111": {
+  "race_name": "白富士S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202605010112": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608020109": {
+  "race_name": "長浜特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608020111": {
+  "race_name": "舞鶴S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608020112": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010303": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010310": {
+  "race_name": "平尾台特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010311": {
+  "race_name": "巌流島S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010908": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010909": {
+  "race_name": "若竹賞",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010910": {
+  "race_name": "江戸川S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010911": {
+  "race_name": "AJCC",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010907": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010910": {
+  "race_name": "山城S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010911": {
+  "race_name": "プロキオンS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010912": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010208": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010210": {
+  "race_name": "響灘特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010211": {
+  "race_name": "壇之浦S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010807": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010809": {
+  "race_name": "東雲賞",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010810": {
+  "race_name": "初霞賞",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202606010812": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608010804": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010808": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010811": {
+  "race_name": "睦月S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010812": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010107": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010109": {
+  "race_name": "萌黄賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202610010111": {
+  "race_name": "小倉牝馬S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010706": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010707": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010708": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010710": {
+  "race_name": "ジャニュアリーS",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010711": {
+  "race_name": "京成杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010704": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010707": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010708": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010709": {
+  "race_name": "小倉山特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010711": {
+  "race_name": "日経新春杯",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010712": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010606": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010607": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010610": {
+  "race_name": "アレキサンドライトS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010611": {
+  "race_name": "カーバンクルS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010612": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010606": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010608": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010611": {
+  "race_name": "羅生門S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010612": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010508": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010509": {
+  "race_name": "成田特別",
+  "surface": "ダ",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010511": {
+  "race_name": "ニューイヤーS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010506": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010507": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010508": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010510": {
+  "race_name": "雅S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010511": {
+  "race_name": "シンザン記念",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010404": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010408": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010409": {
+  "race_name": "初咲賞",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202606010410": {
+  "race_name": "ポルックスS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202606010412": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010406": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202608010407": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608010410": {
+  "race_name": "新春S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202608010411": {
+  "race_name": "淀短距離S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050807": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050808": {
+  "race_name": "ハッピーエンドC",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050809": {
+  "race_name": "グッドラックHC",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050810": {
+  "race_name": "フェアウェルS",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050811": {
+  "race_name": "有馬記念",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050812": {
+  "race_name": "ファイナルS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050807": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050808": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050810": {
+  "race_name": "サンクフルS",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050811": {
+  "race_name": "ギャラクシーS",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050812": {
+  "race_name": "カウントダウンS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050708": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202506050709": {
+  "race_name": "ベストウィッシュC",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050710": {
+  "race_name": "中山大障害",
+  "surface": "障",
+  "distance": 4100,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050711": {
+  "race_name": "ホープフルS",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050712": {
+  "race_name": "グレイトフルS",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509050707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050709": {
+  "race_name": "万両賞",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050710": {
+  "race_name": "摩耶S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202509050711": {
+  "race_name": "阪神C",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050603": {
+  "race_name": "2歳未勝利",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506050608": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506050609": {
+  "race_name": "チバテレ杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506050610": {
+  "race_name": "北総S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506050611": {
+  "race_name": "ディセンバーS",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506050612": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202509050607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202509050609": {
+  "race_name": "御影S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202509050610": {
+  "race_name": "ベテルギウスS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202509050611": {
+  "race_name": "朝日杯FS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "重",
+  "weather": "小雨"
+ },
+ "202507050606": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202507050607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202507050610": {
+  "race_name": "名古屋日刊スポーツ杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202507050611": {
+  "race_name": "コールドムーンS",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202506050508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050509": {
+  "race_name": "ひいらぎ賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050510": {
+  "race_name": "香取特別",
+  "surface": "ダ",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050511": {
+  "race_name": "ターコイズS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050512": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509050507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050511": {
+  "race_name": "タンザナイトS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050502": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202507050508": {
+  "race_name": "ヤングJSFR中京第1戦",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202507050510": {
+  "race_name": "ヤングJSFR中京第2戦",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202507050511": {
+  "race_name": "尾頭橋S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202506050309": {
+  "race_name": "黒松賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050310": {
+  "race_name": "アクアラインS",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050311": {
+  "race_name": "常総S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050312": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509050307": {
+  "race_name": "2歳未勝利",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050308": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050311": {
+  "race_name": "リゲルS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050308": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202507050310": {
+  "race_name": "鳴海特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202507050311": {
+  "race_name": "中日新聞杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050312": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050308": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509050309": {
+  "race_name": "エリカ賞",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050312": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050306": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202507050307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506050210": {
+  "race_name": "市川S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050211": {
+  "race_name": "ラピスラズリS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050212": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050209": {
+  "race_name": "豊中特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050210": {
+  "race_name": "元町S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050211": {
+  "race_name": "りんくうS",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050212": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050202": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050206": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050209": {
+  "race_name": "犬山特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050210": {
+  "race_name": "志摩特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050211": {
+  "race_name": "チャンピオンズC",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050110": {
+  "race_name": "鹿島特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050111": {
+  "race_name": "ステイヤーズS",
+  "surface": "芝",
+  "distance": 3600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506050112": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050108": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050110": {
+  "race_name": "妙見山S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050111": {
+  "race_name": "鳴尾記念",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509050112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050103": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050106": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050109": {
+  "race_name": "こうやまき賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050110": {
+  "race_name": "中京日経賞",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507050111": {
+  "race_name": "飛騨S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050807": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050808": {
+  "race_name": "ベゴニア賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050809": {
+  "race_name": "オリエンタル賞",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050810": {
+  "race_name": "アプローズ賞",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050811": {
+  "race_name": "ウェルカムS",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050812": {
+  "race_name": "ジャパンC",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040804": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040809": {
+  "race_name": "白菊賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040810": {
+  "race_name": "花園S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040811": {
+  "race_name": "オータムリーフS",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040812": {
+  "race_name": "京阪杯",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050706": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505050708": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505050712": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040708": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040709": {
+  "race_name": "栂尾特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040710": {
+  "race_name": "東山S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040711": {
+  "race_name": "京都2歳S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040712": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050608": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050609": {
+  "race_name": "南武特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050610": {
+  "race_name": "晩秋S",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050611": {
+  "race_name": "東スポ杯2歳S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050612": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030603": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030608": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503030609": {
+  "race_name": "磐梯山特別",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503030610": {
+  "race_name": "五色沼特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503030611": {
+  "race_name": "奥羽S",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503030612": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505050508": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505050509": {
+  "race_name": "赤松賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505050510": {
+  "race_name": "秋色S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050511": {
+  "race_name": "霜月S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050512": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508040606": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040608": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040609": {
+  "race_name": "花見小路特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040610": {
+  "race_name": "レジェンドトレーナーC",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040611": {
+  "race_name": "マイルCS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040612": {
+  "race_name": "醍醐S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040509": {
+  "race_name": "秋明菊賞",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040510": {
+  "race_name": "比叡S",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040511": {
+  "race_name": "シトリンS",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040512": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030502": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030506": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030509": {
+  "race_name": "高湯温泉特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030511": {
+  "race_name": "福島記念",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050408": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050411": {
+  "race_name": "オーロC",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040407": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040408": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040409": {
+  "race_name": "黄菊賞",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040411": {
+  "race_name": "エリザベス女王杯",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040412": {
+  "race_name": "ドンカスターC",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030402": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030409": {
+  "race_name": "福島2歳S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030410": {
+  "race_name": "三陸特別",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030411": {
+  "race_name": "福島民友C",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050309": {
+  "race_name": "三浦特別",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050311": {
+  "race_name": "武蔵野S",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050312": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040309": {
+  "race_name": "深草特別",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040310": {
+  "race_name": "アンドロメダS",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508040311": {
+  "race_name": "デイリー杯2歳S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030302": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030306": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030310": {
+  "race_name": "西郷特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503030311": {
+  "race_name": "フルーツラインC",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505050208": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1300,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202505050210": {
+  "race_name": "イクイノックスM",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202505050211": {
+  "race_name": "アルゼンチン共和国杯",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505050212": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508040206": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202508040207": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202508040208": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202508040209": {
+  "race_name": "木津川特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202508040210": {
+  "race_name": "貴船S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": null,
+  "weather": "小雨"
+ },
+ "202508040211": {
+  "race_name": "みやこS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": null,
+  "weather": "小雨"
+ },
+ "202503030207": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503030208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503030209": {
+  "race_name": "二本松特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202503030210": {
+  "race_name": "河北新報杯",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202503030211": {
+  "race_name": "みちのくS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202503030212": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202505041108": {
+  "race_name": "百日草特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505041109": {
+  "race_name": "国立特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505041110": {
+  "race_name": "秋嶺S",
+  "surface": "ダ",
+  "distance": 1300,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202505041111": {
+  "race_name": "天皇賞(秋)",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508031106": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202508031107": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508031108": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202508031110": {
+  "race_name": "古都S",
+  "surface": "芝",
+  "distance": 3000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508031111": {
+  "race_name": "まほろばS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508031112": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505041003": {
+  "race_name": "2歳未勝利",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202505041008": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202505041009": {
+  "race_name": "本栖湖特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505041010": {
+  "race_name": "紅葉S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505041011": {
+  "race_name": "ペルセウスS",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202505041012": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508031008": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202508031009": {
+  "race_name": "北野特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508031011": {
+  "race_name": "ファンタジーS",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508031012": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505040907": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": null,
+  "weather": "曇"
+ },
+ "202505040908": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202505040909": {
+  "race_name": "三鷹特別",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": null,
+  "weather": "曇"
+ },
+ "202505040910": {
+  "race_name": "山中湖特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202505040911": {
+  "race_name": "神無月S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": null,
+  "weather": "小雨"
+ },
+ "202508030906": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202508030907": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202508030908": {
+  "race_name": "壬生特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202508030909": {
+  "race_name": "萩S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202508030910": {
+  "race_name": "カノープスS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202508030911": {
+  "race_name": "菊花賞",
+  "surface": "芝",
+  "distance": 3000,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202504040404": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202504040406": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202504040407": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202504040409": {
+  "race_name": "柏崎特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202504040410": {
+  "race_name": "村上特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202504040411": {
+  "race_name": "ルミエールAD",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202504040412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202505040809": {
+  "race_name": "精進湖特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202505040810": {
+  "race_name": "河口湖S",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202505040811": {
+  "race_name": "アルテミスS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202505040812": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202508030807": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030808": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030809": {
+  "race_name": "北國新聞杯",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030810": {
+  "race_name": "長岡京S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030811": {
+  "race_name": "カシオペアS",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030812": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "雨"
+ },
+ "202504040304": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504040305": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504040306": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504040307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504040309": {
+  "race_name": "稲光特別",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202504040310": {
+  "race_name": "菅名岳特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202504040311": {
+  "race_name": "魚沼S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202504040312": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040508": {
+  "race_name": "プラタナス賞",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040510": {
+  "race_name": "昇仙峡S",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040511": {
+  "race_name": "オクトーバーS",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1300,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508030504": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508030507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030509": {
+  "race_name": "蹴上特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030510": {
+  "race_name": "堀川特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030511": {
+  "race_name": "スワンS",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508030512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505040407": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040409": {
+  "race_name": "鷹巣山特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040410": {
+  "race_name": "テレビ静岡賞",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040411": {
+  "race_name": "アイルランドT",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030407": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202508030409": {
+  "race_name": "円山特別",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202508030410": {
+  "race_name": "三年坂S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030411": {
+  "race_name": "太秦S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "雨"
+ },
+ "202505040308": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202505040310": {
+  "race_name": "東村山特別",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "稍",
+  "weather": "雨"
+ },
+ "202505040311": {
+  "race_name": "サウジアラビアRC",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202508030307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030308": {
+  "race_name": "紫菊賞",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030309": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030311": {
+  "race_name": "御陵S",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505040207": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505040208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040209": {
+  "race_name": "tvk賞",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040211": {
+  "race_name": "毎日王冠",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040212": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030206": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "小雨"
+ },
+ "202508030207": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202508030209": {
+  "race_name": "大原S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202508030210": {
+  "race_name": "藤森S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202508030211": {
+  "race_name": "京都大賞典",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202505040106": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040109": {
+  "race_name": "八ケ岳特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040110": {
+  "race_name": "白秋S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202505040111": {
+  "race_name": "グリーンチャンネルC",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505040112": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508030104": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202508030106": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": null,
+  "weather": "曇"
+ },
+ "202508030108": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202508030109": {
+  "race_name": "りんどう賞",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "小雨"
+ },
+ "202508030110": {
+  "race_name": "大山崎S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": null,
+  "weather": "小雨"
+ },
+ "202508030111": {
+  "race_name": "オパールS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506040902": {
+  "race_name": "2歳未勝利",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040907": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040909": {
+  "race_name": "サフラン賞",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040910": {
+  "race_name": "茨城新聞杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040911": {
+  "race_name": "スプリンターズS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040912": {
+  "race_name": "外房S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040906": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040907": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040908": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040909": {
+  "race_name": "兵庫特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040911": {
+  "race_name": "ポートアイランドS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040912": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040806": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040808": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040809": {
+  "race_name": "芙蓉S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040810": {
+  "race_name": "勝浦特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040811": {
+  "race_name": "秋風S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040806": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040807": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040809": {
+  "race_name": "ヤマボウシ賞",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040810": {
+  "race_name": "道頓堀S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040811": {
+  "race_name": "シリウスS",
+  "surface": "ダ",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040701": {
+  "race_name": "2歳未勝利",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040706": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040708": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040709": {
+  "race_name": "木更津特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040710": {
+  "race_name": "内房S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040711": {
+  "race_name": "オールカマー",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040712": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040708": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040709": {
+  "race_name": "北摂特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040710": {
+  "race_name": "ムーンライトHC",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040711": {
+  "race_name": "神戸新聞杯",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040712": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040606": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2400,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506040607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040608": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506040611": {
+  "race_name": "イサ殿下御来場記念",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "小雨"
+ },
+ "202506040612": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202509040606": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040608": {
+  "race_name": "野路菊S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040609": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040610": {
+  "race_name": "夕月特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040611": {
+  "race_name": "大阪スポーツ杯",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040612": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040509": {
+  "race_name": "鋸山特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040510": {
+  "race_name": "Mディープインパクト",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040511": {
+  "race_name": "セントライト記念",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040509": {
+  "race_name": "新涼特別",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040510": {
+  "race_name": "Mモーリス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040511": {
+  "race_name": "JRAアニバーサリーS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040409": {
+  "race_name": "御宿特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040410": {
+  "race_name": "レインボーS",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040411": {
+  "race_name": "ラジオ日本賞",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202506040412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040407": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040408": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040409": {
+  "race_name": "能勢特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040410": {
+  "race_name": "仲秋S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040411": {
+  "race_name": "ローズS",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040310": {
+  "race_name": "汐留特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202506040311": {
+  "race_name": "初風S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202506040312": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202509040308": {
+  "race_name": "生田特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040309": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040310": {
+  "race_name": "鳥取特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509040311": {
+  "race_name": "チャレンジC",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202506040208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040211": {
+  "race_name": "紫苑S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040207": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040208": {
+  "race_name": "武田尾特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040209": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040210": {
+  "race_name": "オークランドTRT",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040211": {
+  "race_name": "セントウルS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040212": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020606": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202501020608": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501020609": {
+  "race_name": "旭川特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501020610": {
+  "race_name": "HTB賞",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501020611": {
+  "race_name": "丹頂S",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202506040108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202506040109": {
+  "race_name": "古作特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040110": {
+  "race_name": "白井特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040111": {
+  "race_name": "京成杯AH",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202506040112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202509040107": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040109": {
+  "race_name": "出石特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202509040110": {
+  "race_name": "西宮S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509040111": {
+  "race_name": "エニフS",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501020507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1500,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501020509": {
+  "race_name": "富良野特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501020510": {
+  "race_name": "札幌スポニチ賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501020511": {
+  "race_name": "札幌2歳S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202504030408": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030411": {
+  "race_name": "新潟記念",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030412": {
+  "race_name": "雷光特別",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040408": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040410": {
+  "race_name": "白川郷S",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020407": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202501020409": {
+  "race_name": "北辰特別",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202501020410": {
+  "race_name": "HBC賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202501020411": {
+  "race_name": "日高S",
+  "surface": "芝",
+  "distance": 1500,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202501020412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202504030308": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030309": {
+  "race_name": "新発田城特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030310": {
+  "race_name": "赤倉特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030311": {
+  "race_name": "日本海S",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030312": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040308": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040310": {
+  "race_name": "桑名特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040311": {
+  "race_name": "名古屋城S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020307": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202501020310": {
+  "race_name": "千歳特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202501020311": {
+  "race_name": "札幌日刊スポーツ杯",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202501020312": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202504030208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030209": {
+  "race_name": "長岡S",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030210": {
+  "race_name": "朱鷺S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030212": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040209": {
+  "race_name": "賢島特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040211": {
+  "race_name": "長篠S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040212": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020209": {
+  "race_name": "ルスツ特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020210": {
+  "race_name": "WASJ第3戦",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020211": {
+  "race_name": "キーンランドC",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020212": {
+  "race_name": "WASJ第4戦",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030107": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030109": {
+  "race_name": "岩室温泉特別",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030110": {
+  "race_name": "飯豊特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030111": {
+  "race_name": "BSN賞",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504030112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040110": {
+  "race_name": "有松特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040111": {
+  "race_name": "伊賀S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507040112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020106": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501020107": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1500,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501020108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 2400,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501020110": {
+  "race_name": "WASJ第1戦",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020111": {
+  "race_name": "WASJ第2戦",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501020112": {
+  "race_name": "ニセコ特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202504020706": {
+  "race_name": "中郷特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020707": {
+  "race_name": "上越S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020708": {
+  "race_name": "瀬波温泉特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020711": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030706": {
+  "race_name": "知多特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030708": {
+  "race_name": "長久手特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030709": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030710": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030712": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010708": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010710": {
+  "race_name": "知床特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010711": {
+  "race_name": "大雪HC",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020606": {
+  "race_name": "佐渡S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202504020607": {
+  "race_name": "レパードS",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": null,
+  "weather": "雨"
+ },
+ "202504020608": {
+  "race_name": "驀進特別",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202504020610": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": null,
+  "weather": "雨"
+ },
+ "202504020611": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202504020612": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202507030606": {
+  "race_name": "浜名湖特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202507030607": {
+  "race_name": "CBC賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202507030608": {
+  "race_name": "揖斐川特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202507030610": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501010607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501010608": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202501010609": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501010610": {
+  "race_name": "摩周湖特別",
+  "surface": "芝",
+  "distance": 1500,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501010611": {
+  "race_name": "UHB賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501010612": {
+  "race_name": "Fビレッジ特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202504020506": {
+  "race_name": "三面川特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020507": {
+  "race_name": "関越S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020509": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020510": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030506": {
+  "race_name": "中京スポニチ賞",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030508": {
+  "race_name": "香嵐渓特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030509": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030510": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202501010508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202501010509": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501010510": {
+  "race_name": "藻岩山特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501010512": {
+  "race_name": "厚岸特別",
+  "surface": "芝",
+  "distance": 1500,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020407": {
+  "race_name": "アイビスSD",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020408": {
+  "race_name": "燕特別",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020410": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030408": {
+  "race_name": "納屋橋特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030410": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030411": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010408": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010409": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010410": {
+  "race_name": "苫小牧特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010411": {
+  "race_name": "クイーンS",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020206": {
+  "race_name": "豊栄特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020207": {
+  "race_name": "関屋記念",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020209": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030206": {
+  "race_name": "木曽川特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030207": {
+  "race_name": "東海S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030208": {
+  "race_name": "御在所特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030210": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030212": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010207": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": null,
+  "weather": "晴"
+ },
+ "202501010208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501010209": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1500,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202501010210": {
+  "race_name": "ポプラS",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202501010211": {
+  "race_name": "札幌日経賞",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202504020106": {
+  "race_name": "麒麟山特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020107": {
+  "race_name": "新潟日報賞",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020108": {
+  "race_name": "閃光特別",
+  "surface": "芝",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202504020110": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030106": {
+  "race_name": "四日市特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030108": {
+  "race_name": "遠州灘特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202507030112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202501010108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202501010109": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202501010111": {
+  "race_name": "TVh賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202503020710": {
+  "race_name": "米沢特別",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020711": {
+  "race_name": "阿武隈S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020712": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020709": {
+  "race_name": "ひまわり賞",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020710": {
+  "race_name": "熊本城特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202510020711": {
+  "race_name": "テレQ杯",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202510020712": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202502011107": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502011108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502011109": {
+  "race_name": "湯浜特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502011110": {
+  "race_name": "かもめ島特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502011111": {
+  "race_name": "マリーンS",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502011112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503020508": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503020510": {
+  "race_name": "会津S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503020511": {
+  "race_name": "安達太良S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503020512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202510020508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020509": {
+  "race_name": "英彦山特別",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020510": {
+  "race_name": "八女特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020511": {
+  "race_name": "釜山S",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010909": {
+  "race_name": "北斗特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010910": {
+  "race_name": "HTB杯",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010911": {
+  "race_name": "五稜郭S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010912": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020410": {
+  "race_name": "白河特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020411": {
+  "race_name": "ジュライS",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020407": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020408": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020409": {
+  "race_name": "小郡特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020411": {
+  "race_name": "北九州記念",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010807": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "稍",
+  "weather": "曇"
+ },
+ "202502010808": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010809": {
+  "race_name": "立待岬特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010810": {
+  "race_name": "横津岳特別",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010811": {
+  "race_name": "大沼S",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010812": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202503020306": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202503020309": {
+  "race_name": "伊達特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202503020311": {
+  "race_name": "TUF杯",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020312": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020309": {
+  "race_name": "ロイヤルバンコクSC賞",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020310": {
+  "race_name": "TAインディア賞",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020311": {
+  "race_name": "マレーシアC",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020312": {
+  "race_name": "フィリピンT",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010707": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010709": {
+  "race_name": "恵山特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010710": {
+  "race_name": "竜飛崎特別",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202502010711": {
+  "race_name": "TVh杯",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010712": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202503020207": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1150,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020211": {
+  "race_name": "ラジオNIKKEI賞",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020209": {
+  "race_name": "青島特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020211": {
+  "race_name": "佐世保S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010609": {
+  "race_name": "臥牛山特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010611": {
+  "race_name": "函館記念",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010612": {
+  "race_name": "湯の川温泉特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020109": {
+  "race_name": "松島特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020111": {
+  "race_name": "バーデンバーデンC",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202503020112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020110": {
+  "race_name": "柳川特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202510020112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202502010510": {
+  "race_name": "洞爺湖特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010511": {
+  "race_name": "青函S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202505030607": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030608": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030609": {
+  "race_name": "甲州街道特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030610": {
+  "race_name": "多摩川S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030611": {
+  "race_name": "府中牝馬S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030612": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030608": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030610": {
+  "race_name": "姫路S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030611": {
+  "race_name": "しらさぎS",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030612": {
+  "race_name": "3歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010407": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202502010408": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202502010411": {
+  "race_name": "UHB杯",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "小雨"
+ },
+ "202502010412": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1700,
+  "baba": "重",
+  "weather": "曇"
+ },
+ "202505030508": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030509": {
+  "race_name": "町田特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030510": {
+  "race_name": "相模湖特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030511": {
+  "race_name": "スレイプニルS",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030512": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030507": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030509": {
+  "race_name": "舞子特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030510": {
+  "race_name": "ストークS",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202509030511": {
+  "race_name": "天保山S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010309": {
+  "race_name": "下北半島特別",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202502010310": {
+  "race_name": "駒ケ岳特別",
+  "surface": "芝",
+  "distance": 2600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202502010311": {
+  "race_name": "STV杯",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505030308": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202505030309": {
+  "race_name": "日野特別",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202505030310": {
+  "race_name": "夏至S",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202505030311": {
+  "race_name": "ジューンS",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202509030310": {
+  "race_name": "安芸特別",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202509030311": {
+  "race_name": "三宮S",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202509030312": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "重",
+  "weather": "雨"
+ },
+ "202502010107": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010109": {
+  "race_name": "奥尻特別",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010110": {
+  "race_name": "松前特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202502010111": {
+  "race_name": "函館スプリントS",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505030207": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030209": {
+  "race_name": "香港ジョッキークラブT",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030210": {
+  "race_name": "八王子特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030211": {
+  "race_name": "安田記念",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030208": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030210": {
+  "race_name": "洲本特別",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "小雨"
+ },
+ "202509030211": {
+  "race_name": "水無月S",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030212": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505030108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030109": {
+  "race_name": "稲城特別",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030110": {
+  "race_name": "由比ケ浜特別",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505030111": {
+  "race_name": "麦秋S",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505030112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030107": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030108": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030109": {
+  "race_name": "城崎特別",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030110": {
+  "race_name": "加古川特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030111": {
+  "race_name": "垂水S",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202509030112": {
+  "race_name": "3歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202505021205": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "重",
+  "weather": "晴"
+ },
+ "202505021206": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202505021208": {
+  "race_name": "青嵐賞",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202505021209": {
+  "race_name": "薫風S",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": "稍",
+  "weather": "晴"
+ },
+ "202505021210": {
+  "race_name": "むらさき賞",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505021211": {
+  "race_name": "日本ダービー",
+  "surface": "芝",
+  "distance": 2400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505021212": {
+  "race_name": "目黒記念",
+  "surface": "芝",
+  "distance": 2500,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508021206": {
+  "race_name": "3歳1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508021207": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508021208": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508021209": {
+  "race_name": "與杼特別",
+  "surface": "ダ",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508021210": {
+  "race_name": "安土城S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508021211": {
+  "race_name": "白百合S",
+  "surface": "芝",
+  "distance": 1800,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202508021212": {
+  "race_name": "渡月橋S",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "晴"
+ },
+ "202505021107": {
+  "race_name": "3歳1勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "稍",
+  "weather": "小雨"
+ },
+ "202505021108": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": null,
+  "weather": "小雨"
+ },
+ "202505021110": {
+  "race_name": "葉山特別",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "重",
+  "weather": "小雨"
+ },
+ "202505021111": {
+  "race_name": "アハルテケS",
+  "surface": "ダ",
+  "distance": 1600,
+  "baba": null,
+  "weather": "小雨"
+ },
+ "202505021112": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "ダ",
+  "distance": 2100,
+  "baba": null,
+  "weather": "小雨"
+ },
+ "202508021106": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "ダ",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508021107": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 2000,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508021108": {
+  "race_name": "4歳以上1勝クラス",
+  "surface": "芝",
+  "distance": 1600,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508021110": {
+  "race_name": "桃山S",
+  "surface": "ダ",
+  "distance": 1900,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508021111": {
+  "race_name": "葵S",
+  "surface": "芝",
+  "distance": 1200,
+  "baba": "良",
+  "weather": "曇"
+ },
+ "202508021112": {
+  "race_name": "4歳以上2勝クラス",
+  "surface": "芝",
+  "distance": 1400,
+  "baba": "良",
+  "weather": "曇"
+ }
+}
