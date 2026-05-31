@@ -50,8 +50,16 @@ def main():
             h = r["horse"]
             reasons = "; ".join(r["reasons"][:4])
             kg = h.get("jockey_weight") or "?"
-            lines.append(f"  {shown+1}. [{h['umaban']:>2}] {h['name']}（{h.get('sex_age','')} {h.get('jockey','')} {kg}kg）  {r['pct']*100:4.1f}%  (score {r['score']})  — {reasons}")
+            mark = "★" if r.get("cal_pick") else " "
+            lines.append(f"  {mark}{shown+1}. [{h['umaban']:>2}] {h['name']}（{h.get('sex_age','')} {h.get('jockey','')} {kg}kg）  {r['pct']*100:4.1f}%  (score {r['score']}, cal {r.get('cal_bonus',0):+d})  — {reasons}")
             shown += 1
+        # TOP外で★が立っている馬も穴候補として追記
+        extras = [r for r in ranked[args.top:8] if r.get("cal_pick")]
+        for r in extras[:3]:
+            h = r["horse"]
+            reasons = "; ".join(r["reasons"][:4])
+            kg = h.get("jockey_weight") or "?"
+            lines.append(f"  ★穴 [{h['umaban']:>2}] {h['name']}（{h.get('sex_age','')} {h.get('jockey','')} {kg}kg）  (score {r['score']}, cal {r.get('cal_bonus',0):+d})  — {reasons}")
         if shown == 0:
             lines.append("  バイアス該当馬なし")
         out.append("\n".join(lines)+"\n")

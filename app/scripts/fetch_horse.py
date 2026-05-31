@@ -80,10 +80,21 @@ def parse_recent_races(horse_id, n=5):
             atama = tds[6].get_text(strip=True)
             uma   = tds[8].get_text(strip=True)
             chaku = tds[11].get_text(strip=True)
+            jky   = tds[12].get_text(strip=True) if len(tds) > 12 else ""
             dist  = tds[14].get_text(strip=True)  # 例: 芝1200
             baba  = tds[16].get_text(strip=True) if len(tds) > 16 else ""
         except Exception:
             continue
+        # クラス推定: G1/G2/G3/OP/3勝/2勝/1勝/未勝利/新馬
+        cls = None
+        for tag, key in [("(G1)","G1"),("(G2)","G2"),("(G3)","G3"),
+                          ("(L)","L"),("(OP)","OP")]:
+            if tag in rname: cls = key; break
+        if cls is None:
+            for kw, key in [("新馬","新馬"),("未勝利","未勝利"),
+                             ("3勝クラス","3勝"),("2勝クラス","2勝"),("1勝クラス","1勝"),
+                             ("オープン","OP"),("障害","障害")]:
+                if kw in rname: cls = key; break
         # 上がり3F + 通過順: 通過は "1-1" "5-3-3" "10-10-9-8" のような形式
         agari = None
         passing = None
@@ -100,6 +111,7 @@ def parse_recent_races(horse_id, n=5):
             "date": date, "venue": venue, "kaisai": kaisai, "race_name": rname,
             "field_size": atama, "umaban": uma, "finish": chaku,
             "distance_text": dist, "track_cond": baba, "agari3f": agari, "passing": passing,
+            "jockey": jky, "race_class": cls,
         })
     return races
 

@@ -15,6 +15,32 @@ def _load(name):
 LINEAGE = _load("lineage.json")            # 書籍由来(優先)
 LINEAGE_FB = _load("lineage_fallback.json")  # 血統表fallback
 
+def _load_jockey_stats():
+    p = ROOT/"data"/"jockey_stats.json"
+    if not p.exists(): return {}, {}
+    d = json.loads(p.read_text(encoding="utf-8"))
+    return d.get("name_to_id",{}), d.get("stats",{})
+JKY_NAME2ID, JKY_STATS = _load_jockey_stats()
+
+def jockey_bonus(jockey_name):
+    """騎手の通算複勝率からボーナス点。配点は能力スコアより低く設定(max+2)。
+    returns (bonus, reason_str or None)
+    """
+    if not jockey_name: return (0, None)
+    raw = re.sub(r"^[▲▽☆◇△★]", "", jockey_name)
+    jid = JKY_NAME2ID.get(jockey_name) or JKY_NAME2ID.get(raw)
+    if not jid: return (0, None)
+    s = (JKY_STATS.get(jid) or {}).get("career") or {}
+    pr = s.get("place_rate"); rd = s.get("rides") or 0
+    if pr is None or rd < 200: return (0, None)
+    if pr >= 0.30 and rd >= 500:
+        return (2, f"トップ騎手({raw}複勝{pr*100:.0f}%)")
+    if pr >= 0.22:
+        return (1, f"上位騎手({raw}複勝{pr*100:.0f}%)")
+    if pr < 0.10:
+        return (-1, f"低勝率騎手({raw}複勝{pr*100:.0f}%)")
+    return (0, None)
+
 def lineage_of(sire_name):
     """種牡馬名→{daikei,shokei,type,src}。書籍優先、無ければfallback。"""
     k = clean_sire(sire_name)
@@ -392,6 +418,64 @@ def attach_baba(rc, surface, baba):
     rc["baba_pref"] = pref; rc["baba_why"] = why; rc["baba"] = baba
     return rc
 
+def calimero_bonus(horse, race, horse_data, total_horses):
+    """カリメロ@穴馬オタクの過去1年予想実績(notes/calimero_analysis.md)から
+    複勝率・単回収率の強いシグナルを採点。0〜十数点の範囲で加点/減点。
+
+    根拠は notes/calimero_integration_plan.md を参照。
+    想定オッズ依存のS1/S2は仕様により除外。S3〜S10のみ採用。
+    """
+    score = 0; notes = []
+    try: umaban = int(horse.get("umaban") or 0)
+    except: umaban = 0
+    waku = horse.get("waku") or ""
+    jockey = horse.get("jockey") or ""
+    surface = race.get("surface")
+    track = race.get("track")
+    race_no = race.get("race_no")
+
+    # S3: ダート(◎ROI396% vs 芝260%)
+    if surface == "ダ":
+        score += 1; notes.append("ダート")
+
+    # S4: 距離変化 — 直近1走比較
+    recent = (horse_data or {}).get("recent", [])
+    if recent and race.get("distance"):
+        prev_surface, prev_dist = parse_recent_dist(recent[0].get("distance_text") or "")
+        cur = race.get("distance")
+        if prev_dist and cur:
+            diff = cur - prev_dist
+            if -400 <= diff <= -100:
+                score += 2; notes.append(f"距離短縮({prev_dist}→{cur})")
+            elif 100 <= diff <= 400:
+                score += 2; notes.append(f"距離延長({prev_dist}→{cur})")
+
+    # S5: 減量騎手 (☆▲△◇★ いずれかが頭に付く)
+    if jockey and jockey[0] in "☆▲△◇★":
+        score += 2; notes.append(f"減量騎手({jockey[0]})")
+
+    # S6: 少頭数 (≤10頭)
+    if total_horses and total_horses <= 10:
+        score += 1; notes.append("少頭数")
+
+    # S8/S9: 場・R番号 (小サンプル注意。半年毎に見直し前提)
+    boost_track = {"小倉": 1, "福島": 1, "札幌": -1}
+    if track in boost_track:
+        score += boost_track[track]
+        notes.append(f"場補正({track})")
+    if race_no in (6, 9, 12):
+        score += 1; notes.append(f"{race_no}R(好成績帯)")
+    elif race_no == 11:
+        score -= 1; notes.append("11R(穴薄)")
+
+    # S10: 端枠(1枠/大外)
+    if waku == "1":
+        score += 1; notes.append("1枠")
+    elif total_horses and umaban == total_horses:
+        score += 1; notes.append("大外枠")
+
+    return score, notes
+
 def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
                    light_weight_threshold=None, rc=None, this_surface=None):
     reasons = []
@@ -428,6 +512,11 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
             reasons.append(f"外枠({horse['umaban']})有利"); score += weights["gate"]
         elif "1枠" in gen and horse["umaban"] in ("1","2"):
             reasons.append("1枠有利"); score += weights["gate"]
+
+    # 騎手バイアス: 通算複勝率トップ層に重み(配点はweightsで調整)
+    jb, jr = jockey_bonus(horse.get("jockey"))
+    if jr:
+        reasons.append(jr); score += jb * weights.get("jockey", 1)
 
     # 血統
     favored = course.get("sire_favored", [])
@@ -540,6 +629,12 @@ def analyze_race(race, horses_db, baba=None):
         recent = hd.get("recent", [])
         bias, rs = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc,
                                    this_surface=race["surface"])
+        # Calimero補正(穴予想実績由来の追加加点・想定オッズなし版)
+        cb, cb_notes = calimero_bonus(h, race, hd, total)
+        if cb_notes:
+            rs.extend([f"[Cal]{n}" for n in cb_notes])
+        bias_pre_cal = bias
+        bias += cb
         # 前走が地方競馬の場合は能力スコアを抑制(中央水準に届かないことが多い)
         if recent and is_local_track(recent[0]):
             try:
@@ -554,7 +649,8 @@ def analyze_race(race, horses_db, baba=None):
             "score": final,            # 最終評価(=能力×バイアス補正)。表示・ソートの主指標
             "ability": abil,           # 能力スコア(None=実績なし)
             "ability_eff": round(abil_eff, 1),
-            "bias": bias,              # バイアス適合点
+            "bias": bias,              # バイアス適合点(Cal補正込み)
+            "cal_bonus": cb,           # Cal補正のみの値
             "horse": h, "reasons": rs, "pedigree": hd.get("pedigree", {}),
         })
     ranked.sort(key=lambda x: -x["score"])
@@ -565,6 +661,11 @@ def analyze_race(race, horses_db, baba=None):
         median = abil_sorted[len(abil_sorted)//2]
         for i, r in enumerate(ranked):
             r["value_pick"] = (i < 3 and r["bias"] >= 6 and r["ability_eff"] <= median)
+            # Cal穴候補: Cal補正≥4 かつ 能力中位以下 かつ TOP8以内
+            r["cal_pick"] = (
+                i < 8 and r.get("cal_bonus", 0) >= 4
+                and r["ability_eff"] <= median
+            )
 
     # 道悪前提のheadlineに馬場状態の注記を付ける
     headline = course.get("headline","")

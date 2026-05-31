@@ -1,0 +1,2232 @@
+{
+  "_meta": {
+    "date": "20260531",
+    "source": "netkeiba直近5年累計"
+  },
+  "name_to_id": {
+    "松岡": "01085",
+    "ゴンサルベ": "05675",
+    "舟山": "01221",
+    "菅原明": "01179",
+    "レーン": "05585",
+    "佐藤": "01207",
+    "丹内": "01091",
+    "横山琉": "01192",
+    "横山和": "01140",
+    "野中": "01158",
+    "菊沢": "01161",
+    "原": "01184",
+    "小林美": "01206",
+    "戸崎圭": "05386",
+    "北村宏": "01043",
+    "柴田大": "01009",
+    "佐々木": "01197",
+    "遠藤": "01218",
+    "石橋脩": "01077",
+    "ルメール": "05339",
+    "吉田豊": "00733",
+    "津村": "01092",
+    "木幡巧": "01162",
+    "横山武": "01170",
+    "大久保": "01194",
+    "江田照": "00689",
+    "岩田康": "05203",
+    "三浦": "01122",
+    "上里": "01217",
+    "杉原": "01135",
+    "ディー": "05674",
+    "石川": "01150",
+    "石神道": "01209",
+    "横山典": "00660",
+    "小林脩": "01183",
+    "長浜": "01214",
+    "丸山": "01127",
+    "石田": "01203",
+    "松山": "01126",
+    "川田": "01088",
+    "谷原": "01219",
+    "荻野極": "01160",
+    "嶋田": "01134",
+    "古川奈": "01190",
+    "西村淳": "01171",
+    "北村友": "01102",
+    "浜中": "01115",
+    "大野": "01096",
+    "武豊": "00666",
+    "坂井": "01163",
+    "幸": "00732",
+    "松若": "01154",
+    "田山": "01220",
+    "川端": "01195",
+    "角田和": "01186",
+    "国分恭": "01124",
+    "斎藤": "01178",
+    "菱田": "01144",
+    "鮫島駿": "01157",
+    "今村": "01193",
+    "川須": "01128",
+    "荻野琢": "01112",
+    "柴田裕": "01212",
+    "河原田": "01204",
+    "田口": "01208",
+    "森田": "01222",
+    "高杉": "01213",
+    "高倉": "01130",
+    "鮫島良": "01099",
+    "長岡": "01142",
+    "城戸": "01147",
+    "国分優": "01125",
+    "藤懸": "01138",
+    "小沢": "01185",
+    "団野": "01180",
+    "酒井": "01034",
+    "小崎": "01152",
+    "Ｍデムーロ": "05212",
+    "中井": "01141",
+    "秋山稔": "01181",
+    "中村": "01101",
+    "小牧加": "01196",
+    "井上": "01151",
+    "草野": "01113",
+    "坂口": "01211",
+    "上野": "01087",
+    "五十嵐": "01069",
+    "難波": "01066",
+    "水沼": "01201",
+    "鷲頭": "01202",
+    "亀田": "01176",
+    "和田陽": "01223",
+    "吉村": "01216",
+    "永島": "01187",
+    "池添": "01032",
+    "西塚": "01200",
+    "加藤": "01156",
+    "川又": "01166",
+    "西村太": "01131",
+    "田辺": "01075",
+    "吉田隼": "01095"
+  },
+  "stats": {
+    "00660": {
+      "jockey_id": "00660",
+      "career": {
+        "year": "累計",
+        "rides": 21922,
+        "win": 3009,
+        "win2": 2568,
+        "win3": 2265,
+        "win_rate": 0.13699999999999998,
+        "place_rate": 0.358
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 125,
+        "win": 13,
+        "win2": 11,
+        "win3": 8,
+        "win_rate": 0.10400000000000001,
+        "place_rate": 0.256
+      }
+    },
+    "00666": {
+      "jockey_id": "00666",
+      "career": {
+        "year": "累計",
+        "rides": 25715,
+        "win": 4657,
+        "win2": 3545,
+        "win3": 2875,
+        "win_rate": 0.18100000000000002,
+        "place_rate": 0.431
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 249,
+        "win": 32,
+        "win2": 27,
+        "win3": 41,
+        "win_rate": 0.129,
+        "place_rate": 0.402
+      }
+    },
+    "00689": {
+      "jockey_id": "00689",
+      "career": {
+        "year": "累計",
+        "rides": 18961,
+        "win": 977,
+        "win2": 1055,
+        "win3": 1126,
+        "win_rate": 0.052000000000000005,
+        "place_rate": 0.16699999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 149,
+        "win": 2,
+        "win2": 9,
+        "win3": 2,
+        "win_rate": 0.013000000000000001,
+        "place_rate": 0.087
+      }
+    },
+    "00732": {
+      "jockey_id": "00732",
+      "career": {
+        "year": "累計",
+        "rides": 25219,
+        "win": 1760,
+        "win2": 1951,
+        "win3": 2076,
+        "win_rate": 0.07,
+        "place_rate": 0.22899999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 281,
+        "win": 18,
+        "win2": 25,
+        "win3": 17,
+        "win_rate": 0.064,
+        "place_rate": 0.214
+      }
+    },
+    "00733": {
+      "jockey_id": "00733",
+      "career": {
+        "year": "累計",
+        "rides": 18757,
+        "win": 1346,
+        "win2": 1401,
+        "win3": 1415,
+        "win_rate": 0.07200000000000001,
+        "place_rate": 0.222
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 154,
+        "win": 3,
+        "win2": 7,
+        "win3": 9,
+        "win_rate": 0.019,
+        "place_rate": 0.12300000000000001
+      }
+    },
+    "01009": {
+      "jockey_id": "01009",
+      "career": {
+        "year": "累計",
+        "rides": 12865,
+        "win": 554,
+        "win2": 695,
+        "win3": 804,
+        "win_rate": 0.043,
+        "place_rate": 0.16
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 161,
+        "win": 3,
+        "win2": 4,
+        "win3": 5,
+        "win_rate": 0.019,
+        "place_rate": 0.075
+      }
+    },
+    "01032": {
+      "jockey_id": "01032",
+      "career": {
+        "year": "累計",
+        "rides": 15604,
+        "win": 1450,
+        "win2": 1386,
+        "win3": 1315,
+        "win_rate": 0.09300000000000001,
+        "place_rate": 0.266
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 191,
+        "win": 14,
+        "win2": 13,
+        "win3": 15,
+        "win_rate": 0.073,
+        "place_rate": 0.22
+      }
+    },
+    "01034": {
+      "jockey_id": "01034",
+      "career": {
+        "year": "累計",
+        "rides": 10882,
+        "win": 468,
+        "win2": 539,
+        "win3": 621,
+        "win_rate": 0.043,
+        "place_rate": 0.15
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 241,
+        "win": 13,
+        "win2": 9,
+        "win3": 10,
+        "win_rate": 0.054000000000000006,
+        "place_rate": 0.133
+      }
+    },
+    "01043": {
+      "jockey_id": "01043",
+      "career": {
+        "year": "累計",
+        "rides": 17290,
+        "win": 1481,
+        "win2": 1460,
+        "win3": 1421,
+        "win_rate": 0.086,
+        "place_rate": 0.252
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 53,
+        "win": 2,
+        "win2": 3,
+        "win3": 1,
+        "win_rate": 0.038,
+        "place_rate": 0.113
+      }
+    },
+    "01066": {
+      "jockey_id": "01066",
+      "career": {
+        "year": "累計",
+        "rides": 2520,
+        "win": 138,
+        "win2": 139,
+        "win3": 185,
+        "win_rate": 0.055,
+        "place_rate": 0.183
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 40,
+        "win": 4,
+        "win2": 4,
+        "win3": 3,
+        "win_rate": 0.1,
+        "place_rate": 0.275
+      }
+    },
+    "01069": {
+      "jockey_id": "01069",
+      "career": {
+        "year": "累計",
+        "rides": 2964,
+        "win": 220,
+        "win2": 200,
+        "win3": 215,
+        "win_rate": 0.07400000000000001,
+        "place_rate": 0.214
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 39,
+        "win": 3,
+        "win2": 5,
+        "win3": 4,
+        "win_rate": 0.077,
+        "place_rate": 0.308
+      }
+    },
+    "01075": {
+      "jockey_id": "01075",
+      "career": {
+        "year": "累計",
+        "rides": 14101,
+        "win": 1232,
+        "win2": 1213,
+        "win3": 1224,
+        "win_rate": 0.087,
+        "place_rate": 0.26
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 185,
+        "win": 14,
+        "win2": 16,
+        "win3": 14,
+        "win_rate": 0.076,
+        "place_rate": 0.23800000000000002
+      }
+    },
+    "01077": {
+      "jockey_id": "01077",
+      "career": {
+        "year": "累計",
+        "rides": 13513,
+        "win": 877,
+        "win2": 929,
+        "win3": 994,
+        "win_rate": 0.065,
+        "place_rate": 0.207
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 157,
+        "win": 4,
+        "win2": 7,
+        "win3": 7,
+        "win_rate": 0.025,
+        "place_rate": 0.115
+      }
+    },
+    "01085": {
+      "jockey_id": "01085",
+      "career": {
+        "year": "累計",
+        "rides": 13425,
+        "win": 910,
+        "win2": 940,
+        "win3": 1029,
+        "win_rate": 0.068,
+        "place_rate": 0.214
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 170,
+        "win": 5,
+        "win2": 6,
+        "win3": 10,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.124
+      }
+    },
+    "01087": {
+      "jockey_id": "01087",
+      "career": {
+        "year": "累計",
+        "rides": 2391,
+        "win": 105,
+        "win2": 120,
+        "win3": 144,
+        "win_rate": 0.044000000000000004,
+        "place_rate": 0.154
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 50,
+        "win": 7,
+        "win2": 3,
+        "win3": 5,
+        "win_rate": 0.14,
+        "place_rate": 0.3
+      }
+    },
+    "01088": {
+      "jockey_id": "01088",
+      "career": {
+        "year": "累計",
+        "rides": 13289,
+        "win": 2267,
+        "win2": 1735,
+        "win3": 1412,
+        "win_rate": 0.171,
+        "place_rate": 0.40700000000000003
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 192,
+        "win": 44,
+        "win2": 39,
+        "win3": 20,
+        "win_rate": 0.22899999999999998,
+        "place_rate": 0.536
+      }
+    },
+    "01091": {
+      "jockey_id": "01091",
+      "career": {
+        "year": "累計",
+        "rides": 13009,
+        "win": 674,
+        "win2": 891,
+        "win3": 949,
+        "win_rate": 0.052000000000000005,
+        "place_rate": 0.193
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 392,
+        "win": 36,
+        "win2": 40,
+        "win3": 31,
+        "win_rate": 0.092,
+        "place_rate": 0.273
+      }
+    },
+    "01092": {
+      "jockey_id": "01092",
+      "career": {
+        "year": "累計",
+        "rides": 12515,
+        "win": 756,
+        "win2": 898,
+        "win3": 940,
+        "win_rate": 0.06,
+        "place_rate": 0.207
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 273,
+        "win": 27,
+        "win2": 25,
+        "win3": 26,
+        "win_rate": 0.099,
+        "place_rate": 0.28600000000000003
+      }
+    },
+    "01095": {
+      "jockey_id": "01095",
+      "career": {
+        "year": "累計",
+        "rides": 14299,
+        "win": 1215,
+        "win2": 1158,
+        "win3": 1080,
+        "win_rate": 0.085,
+        "place_rate": 0.24100000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 123,
+        "win": 14,
+        "win2": 10,
+        "win3": 13,
+        "win_rate": 0.114,
+        "place_rate": 0.301
+      }
+    },
+    "01096": {
+      "jockey_id": "01096",
+      "career": {
+        "year": "累計",
+        "rides": 13935,
+        "win": 757,
+        "win2": 896,
+        "win3": 1023,
+        "win_rate": 0.054000000000000006,
+        "place_rate": 0.192
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 216,
+        "win": 5,
+        "win2": 19,
+        "win3": 15,
+        "win_rate": 0.023,
+        "place_rate": 0.18100000000000002
+      }
+    },
+    "01099": {
+      "jockey_id": "01099",
+      "career": {
+        "year": "累計",
+        "rides": 6443,
+        "win": 315,
+        "win2": 363,
+        "win3": 370,
+        "win_rate": 0.049,
+        "place_rate": 0.163
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 47,
+        "win": 2,
+        "win2": 5,
+        "win3": 6,
+        "win_rate": 0.043,
+        "place_rate": 0.27699999999999997
+      }
+    },
+    "01101": {
+      "jockey_id": "01101",
+      "career": {
+        "year": "累計",
+        "rides": 3163,
+        "win": 154,
+        "win2": 215,
+        "win3": 200,
+        "win_rate": 0.049,
+        "place_rate": 0.18
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 29,
+        "win": 3,
+        "win2": 4,
+        "win3": 0,
+        "win_rate": 0.10300000000000001,
+        "place_rate": 0.24100000000000002
+      }
+    },
+    "01102": {
+      "jockey_id": "01102",
+      "career": {
+        "year": "累計",
+        "rides": 11545,
+        "win": 1013,
+        "win2": 993,
+        "win3": 970,
+        "win_rate": 0.08800000000000001,
+        "place_rate": 0.258
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 266,
+        "win": 21,
+        "win2": 33,
+        "win3": 21,
+        "win_rate": 0.079,
+        "place_rate": 0.282
+      }
+    },
+    "01112": {
+      "jockey_id": "01112",
+      "career": {
+        "year": "累計",
+        "rides": 3907,
+        "win": 150,
+        "win2": 169,
+        "win3": 194,
+        "win_rate": 0.038,
+        "place_rate": 0.131
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 71,
+        "win": 0,
+        "win2": 2,
+        "win3": 5,
+        "win_rate": 0.0,
+        "place_rate": 0.099
+      }
+    },
+    "01113": {
+      "jockey_id": "01113",
+      "career": {
+        "year": "累計",
+        "rides": 1818,
+        "win": 77,
+        "win2": 104,
+        "win3": 84,
+        "win_rate": 0.042,
+        "place_rate": 0.146
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 43,
+        "win": 2,
+        "win2": 4,
+        "win3": 6,
+        "win_rate": 0.047,
+        "place_rate": 0.27899999999999997
+      }
+    },
+    "01115": {
+      "jockey_id": "01115",
+      "career": {
+        "year": "累計",
+        "rides": 11737,
+        "win": 1255,
+        "win2": 1209,
+        "win3": 1096,
+        "win_rate": 0.107,
+        "place_rate": 0.303
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 176,
+        "win": 14,
+        "win2": 15,
+        "win3": 12,
+        "win_rate": 0.08,
+        "place_rate": 0.233
+      }
+    },
+    "01122": {
+      "jockey_id": "01122",
+      "career": {
+        "year": "累計",
+        "rides": 12873,
+        "win": 1155,
+        "win2": 1276,
+        "win3": 1141,
+        "win_rate": 0.09,
+        "place_rate": 0.27699999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 233,
+        "win": 23,
+        "win2": 18,
+        "win3": 23,
+        "win_rate": 0.099,
+        "place_rate": 0.275
+      }
+    },
+    "01124": {
+      "jockey_id": "01124",
+      "career": {
+        "year": "累計",
+        "rides": 8529,
+        "win": 336,
+        "win2": 405,
+        "win3": 553,
+        "win_rate": 0.039,
+        "place_rate": 0.152
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 142,
+        "win": 4,
+        "win2": 7,
+        "win3": 10,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.14800000000000002
+      }
+    },
+    "01125": {
+      "jockey_id": "01125",
+      "career": {
+        "year": "累計",
+        "rides": 7645,
+        "win": 256,
+        "win2": 311,
+        "win3": 378,
+        "win_rate": 0.033,
+        "place_rate": 0.124
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 180,
+        "win": 6,
+        "win2": 3,
+        "win3": 4,
+        "win_rate": 0.033,
+        "place_rate": 0.07200000000000001
+      }
+    },
+    "01126": {
+      "jockey_id": "01126",
+      "career": {
+        "year": "累計",
+        "rides": 14010,
+        "win": 1419,
+        "win2": 1293,
+        "win3": 1140,
+        "win_rate": 0.10099999999999999,
+        "place_rate": 0.275
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 353,
+        "win": 53,
+        "win2": 43,
+        "win3": 36,
+        "win_rate": 0.15,
+        "place_rate": 0.374
+      }
+    },
+    "01127": {
+      "jockey_id": "01127",
+      "career": {
+        "year": "累計",
+        "rides": 10268,
+        "win": 701,
+        "win2": 744,
+        "win3": 803,
+        "win_rate": 0.068,
+        "place_rate": 0.21899999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 185,
+        "win": 15,
+        "win2": 14,
+        "win3": 19,
+        "win_rate": 0.081,
+        "place_rate": 0.259
+      }
+    },
+    "01128": {
+      "jockey_id": "01128",
+      "career": {
+        "year": "累計",
+        "rides": 7283,
+        "win": 417,
+        "win2": 411,
+        "win3": 452,
+        "win_rate": 0.057,
+        "place_rate": 0.17600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 28,
+        "win": 1,
+        "win2": 0,
+        "win3": 0,
+        "win_rate": 0.036000000000000004,
+        "place_rate": 0.036000000000000004
+      }
+    },
+    "01130": {
+      "jockey_id": "01130",
+      "career": {
+        "year": "累計",
+        "rides": 6450,
+        "win": 263,
+        "win2": 278,
+        "win3": 294,
+        "win_rate": 0.040999999999999995,
+        "place_rate": 0.129
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 102,
+        "win": 3,
+        "win2": 3,
+        "win3": 5,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.10800000000000001
+      }
+    },
+    "01131": {
+      "jockey_id": "01131",
+      "career": {
+        "year": "累計",
+        "rides": 1962,
+        "win": 66,
+        "win2": 73,
+        "win3": 83,
+        "win_rate": 0.034,
+        "place_rate": 0.113
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 13,
+        "win": 0,
+        "win2": 0,
+        "win3": 1,
+        "win_rate": 0.0,
+        "place_rate": 0.077
+      }
+    },
+    "01134": {
+      "jockey_id": "01134",
+      "career": {
+        "year": "累計",
+        "rides": 3466,
+        "win": 114,
+        "win2": 139,
+        "win3": 179,
+        "win_rate": 0.033,
+        "place_rate": 0.125
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 84,
+        "win": 6,
+        "win2": 1,
+        "win3": 3,
+        "win_rate": 0.071,
+        "place_rate": 0.11900000000000001
+      }
+    },
+    "01135": {
+      "jockey_id": "01135",
+      "career": {
+        "year": "累計",
+        "rides": 5106,
+        "win": 197,
+        "win2": 207,
+        "win3": 233,
+        "win_rate": 0.039,
+        "place_rate": 0.125
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 160,
+        "win": 9,
+        "win2": 5,
+        "win3": 9,
+        "win_rate": 0.055999999999999994,
+        "place_rate": 0.14400000000000002
+      }
+    },
+    "01138": {
+      "jockey_id": "01138",
+      "career": {
+        "year": "累計",
+        "rides": 4509,
+        "win": 164,
+        "win2": 186,
+        "win3": 226,
+        "win_rate": 0.036000000000000004,
+        "place_rate": 0.128
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 187,
+        "win": 8,
+        "win2": 9,
+        "win3": 8,
+        "win_rate": 0.043,
+        "place_rate": 0.134
+      }
+    },
+    "01140": {
+      "jockey_id": "01140",
+      "career": {
+        "year": "累計",
+        "rides": 6802,
+        "win": 524,
+        "win2": 449,
+        "win3": 469,
+        "win_rate": 0.077,
+        "place_rate": 0.212
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 240,
+        "win": 30,
+        "win2": 13,
+        "win3": 20,
+        "win_rate": 0.125,
+        "place_rate": 0.262
+      }
+    },
+    "01141": {
+      "jockey_id": "01141",
+      "career": {
+        "year": "累計",
+        "rides": 4129,
+        "win": 174,
+        "win2": 203,
+        "win3": 231,
+        "win_rate": 0.042,
+        "place_rate": 0.147
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 104,
+        "win": 3,
+        "win2": 5,
+        "win3": 3,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.106
+      }
+    },
+    "01142": {
+      "jockey_id": "01142",
+      "career": {
+        "year": "累計",
+        "rides": 3190,
+        "win": 113,
+        "win2": 121,
+        "win3": 140,
+        "win_rate": 0.035,
+        "place_rate": 0.11699999999999999
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 104,
+        "win": 1,
+        "win2": 5,
+        "win3": 7,
+        "win_rate": 0.01,
+        "place_rate": 0.125
+      }
+    },
+    "01144": {
+      "jockey_id": "01144",
+      "career": {
+        "year": "累計",
+        "rides": 8197,
+        "win": 532,
+        "win2": 541,
+        "win3": 548,
+        "win_rate": 0.065,
+        "place_rate": 0.198
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 250,
+        "win": 13,
+        "win2": 22,
+        "win3": 23,
+        "win_rate": 0.052000000000000005,
+        "place_rate": 0.23199999999999998
+      }
+    },
+    "01147": {
+      "jockey_id": "01147",
+      "career": {
+        "year": "累計",
+        "rides": 3090,
+        "win": 92,
+        "win2": 135,
+        "win3": 125,
+        "win_rate": 0.03,
+        "place_rate": 0.114
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 59,
+        "win": 0,
+        "win2": 0,
+        "win3": 2,
+        "win_rate": 0.0,
+        "place_rate": 0.034
+      }
+    },
+    "01150": {
+      "jockey_id": "01150",
+      "career": {
+        "year": "累計",
+        "rides": 6344,
+        "win": 349,
+        "win2": 371,
+        "win3": 396,
+        "win_rate": 0.055,
+        "place_rate": 0.17600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 175,
+        "win": 10,
+        "win2": 13,
+        "win3": 13,
+        "win_rate": 0.057,
+        "place_rate": 0.20600000000000002
+      }
+    },
+    "01151": {
+      "jockey_id": "01151",
+      "career": {
+        "year": "累計",
+        "rides": 2420,
+        "win": 71,
+        "win2": 63,
+        "win3": 109,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.1
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 29,
+        "win": 3,
+        "win2": 3,
+        "win3": 4,
+        "win_rate": 0.10300000000000001,
+        "place_rate": 0.345
+      }
+    },
+    "01152": {
+      "jockey_id": "01152",
+      "career": {
+        "year": "累計",
+        "rides": 3673,
+        "win": 168,
+        "win2": 185,
+        "win3": 223,
+        "win_rate": 0.046,
+        "place_rate": 0.157
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 169,
+        "win": 11,
+        "win2": 6,
+        "win3": 18,
+        "win_rate": 0.065,
+        "place_rate": 0.207
+      }
+    },
+    "01154": {
+      "jockey_id": "01154",
+      "career": {
+        "year": "累計",
+        "rides": 8006,
+        "win": 520,
+        "win2": 528,
+        "win3": 535,
+        "win_rate": 0.065,
+        "place_rate": 0.198
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 288,
+        "win": 20,
+        "win2": 20,
+        "win3": 24,
+        "win_rate": 0.069,
+        "place_rate": 0.222
+      }
+    },
+    "01156": {
+      "jockey_id": "01156",
+      "career": {
+        "year": "累計",
+        "rides": 2964,
+        "win": 124,
+        "win2": 129,
+        "win3": 147,
+        "win_rate": 0.042,
+        "place_rate": 0.135
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 53,
+        "win": 2,
+        "win2": 3,
+        "win3": 3,
+        "win_rate": 0.038,
+        "place_rate": 0.151
+      }
+    },
+    "01157": {
+      "jockey_id": "01157",
+      "career": {
+        "year": "累計",
+        "rides": 8038,
+        "win": 628,
+        "win2": 673,
+        "win3": 671,
+        "win_rate": 0.078,
+        "place_rate": 0.245
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 305,
+        "win": 31,
+        "win2": 22,
+        "win3": 23,
+        "win_rate": 0.102,
+        "place_rate": 0.249
+      }
+    },
+    "01158": {
+      "jockey_id": "01158",
+      "career": {
+        "year": "累計",
+        "rides": 4704,
+        "win": 115,
+        "win2": 162,
+        "win3": 203,
+        "win_rate": 0.024,
+        "place_rate": 0.102
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 109,
+        "win": 2,
+        "win2": 4,
+        "win3": 0,
+        "win_rate": 0.018000000000000002,
+        "place_rate": 0.055
+      }
+    },
+    "01160": {
+      "jockey_id": "01160",
+      "career": {
+        "year": "累計",
+        "rides": 4915,
+        "win": 319,
+        "win2": 303,
+        "win3": 318,
+        "win_rate": 0.065,
+        "place_rate": 0.191
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 279,
+        "win": 31,
+        "win2": 36,
+        "win3": 24,
+        "win_rate": 0.111,
+        "place_rate": 0.326
+      }
+    },
+    "01161": {
+      "jockey_id": "01161",
+      "career": {
+        "year": "累計",
+        "rides": 5323,
+        "win": 199,
+        "win2": 223,
+        "win3": 321,
+        "win_rate": 0.037000000000000005,
+        "place_rate": 0.14
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 319,
+        "win": 19,
+        "win2": 16,
+        "win3": 14,
+        "win_rate": 0.06,
+        "place_rate": 0.154
+      }
+    },
+    "01162": {
+      "jockey_id": "01162",
+      "career": {
+        "year": "累計",
+        "rides": 6370,
+        "win": 274,
+        "win2": 336,
+        "win3": 369,
+        "win_rate": 0.043,
+        "place_rate": 0.154
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 275,
+        "win": 10,
+        "win2": 17,
+        "win3": 9,
+        "win_rate": 0.036000000000000004,
+        "place_rate": 0.131
+      }
+    },
+    "01163": {
+      "jockey_id": "01163",
+      "career": {
+        "year": "累計",
+        "rides": 5993,
+        "win": 659,
+        "win2": 580,
+        "win3": 540,
+        "win_rate": 0.11,
+        "place_rate": 0.297
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 215,
+        "win": 33,
+        "win2": 31,
+        "win3": 26,
+        "win_rate": 0.153,
+        "place_rate": 0.419
+      }
+    },
+    "01166": {
+      "jockey_id": "01166",
+      "career": {
+        "year": "累計",
+        "rides": 2636,
+        "win": 126,
+        "win2": 137,
+        "win3": 161,
+        "win_rate": 0.048,
+        "place_rate": 0.161
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 86,
+        "win": 1,
+        "win2": 6,
+        "win3": 3,
+        "win_rate": 0.012,
+        "place_rate": 0.11599999999999999
+      }
+    },
+    "01170": {
+      "jockey_id": "01170",
+      "career": {
+        "year": "累計",
+        "rides": 6685,
+        "win": 813,
+        "win2": 676,
+        "win3": 649,
+        "win_rate": 0.122,
+        "place_rate": 0.32
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 310,
+        "win": 48,
+        "win2": 34,
+        "win3": 34,
+        "win_rate": 0.155,
+        "place_rate": 0.374
+      }
+    },
+    "01171": {
+      "jockey_id": "01171",
+      "career": {
+        "year": "累計",
+        "rides": 5479,
+        "win": 492,
+        "win2": 508,
+        "win3": 500,
+        "win_rate": 0.09,
+        "place_rate": 0.27399999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 299,
+        "win": 45,
+        "win2": 33,
+        "win3": 37,
+        "win_rate": 0.151,
+        "place_rate": 0.385
+      }
+    },
+    "01176": {
+      "jockey_id": "01176",
+      "career": {
+        "year": "累計",
+        "rides": 3018,
+        "win": 152,
+        "win2": 159,
+        "win3": 158,
+        "win_rate": 0.05,
+        "place_rate": 0.155
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 136,
+        "win": 5,
+        "win2": 3,
+        "win3": 3,
+        "win_rate": 0.037000000000000005,
+        "place_rate": 0.081
+      }
+    },
+    "01178": {
+      "jockey_id": "01178",
+      "career": {
+        "year": "累計",
+        "rides": 4306,
+        "win": 271,
+        "win2": 271,
+        "win3": 266,
+        "win_rate": 0.063,
+        "place_rate": 0.188
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 274,
+        "win": 27,
+        "win2": 12,
+        "win3": 16,
+        "win_rate": 0.099,
+        "place_rate": 0.201
+      }
+    },
+    "01179": {
+      "jockey_id": "01179",
+      "career": {
+        "year": "累計",
+        "rides": 5273,
+        "win": 410,
+        "win2": 431,
+        "win3": 457,
+        "win_rate": 0.078,
+        "place_rate": 0.24600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 165,
+        "win": 9,
+        "win2": 12,
+        "win3": 21,
+        "win_rate": 0.055,
+        "place_rate": 0.255
+      }
+    },
+    "01180": {
+      "jockey_id": "01180",
+      "career": {
+        "year": "累計",
+        "rides": 5026,
+        "win": 372,
+        "win2": 444,
+        "win3": 405,
+        "win_rate": 0.07400000000000001,
+        "place_rate": 0.243
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 319,
+        "win": 20,
+        "win2": 31,
+        "win3": 29,
+        "win_rate": 0.063,
+        "place_rate": 0.251
+      }
+    },
+    "01181": {
+      "jockey_id": "01181",
+      "career": {
+        "year": "累計",
+        "rides": 2666,
+        "win": 111,
+        "win2": 126,
+        "win3": 141,
+        "win_rate": 0.042,
+        "place_rate": 0.142
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 143,
+        "win": 4,
+        "win2": 6,
+        "win3": 9,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.133
+      }
+    },
+    "01183": {
+      "jockey_id": "01183",
+      "career": {
+        "year": "累計",
+        "rides": 1790,
+        "win": 46,
+        "win2": 56,
+        "win3": 65,
+        "win_rate": 0.026000000000000002,
+        "place_rate": 0.09300000000000001
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 87,
+        "win": 0,
+        "win2": 1,
+        "win3": 1,
+        "win_rate": 0.0,
+        "place_rate": 0.023
+      }
+    },
+    "01184": {
+      "jockey_id": "01184",
+      "career": {
+        "year": "累計",
+        "rides": 3630,
+        "win": 119,
+        "win2": 159,
+        "win3": 184,
+        "win_rate": 0.033,
+        "place_rate": 0.127
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 293,
+        "win": 14,
+        "win2": 19,
+        "win3": 11,
+        "win_rate": 0.048,
+        "place_rate": 0.15
+      }
+    },
+    "01185": {
+      "jockey_id": "01185",
+      "career": {
+        "year": "累計",
+        "rides": 3048,
+        "win": 135,
+        "win2": 147,
+        "win3": 164,
+        "win_rate": 0.044000000000000004,
+        "place_rate": 0.146
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 208,
+        "win": 9,
+        "win2": 11,
+        "win3": 7,
+        "win_rate": 0.043,
+        "place_rate": 0.13
+      }
+    },
+    "01186": {
+      "jockey_id": "01186",
+      "career": {
+        "year": "累計",
+        "rides": 2549,
+        "win": 133,
+        "win2": 167,
+        "win3": 176,
+        "win_rate": 0.052000000000000005,
+        "place_rate": 0.187
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 177,
+        "win": 8,
+        "win2": 10,
+        "win3": 12,
+        "win_rate": 0.045,
+        "place_rate": 0.16899999999999998
+      }
+    },
+    "01187": {
+      "jockey_id": "01187",
+      "career": {
+        "year": "累計",
+        "rides": 2605,
+        "win": 132,
+        "win2": 115,
+        "win3": 127,
+        "win_rate": 0.051,
+        "place_rate": 0.14400000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 127,
+        "win": 3,
+        "win2": 4,
+        "win3": 5,
+        "win_rate": 0.024,
+        "place_rate": 0.094
+      }
+    },
+    "01190": {
+      "jockey_id": "01190",
+      "career": {
+        "year": "累計",
+        "rides": 1265,
+        "win": 69,
+        "win2": 81,
+        "win3": 50,
+        "win_rate": 0.055,
+        "place_rate": 0.158
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 117,
+        "win": 4,
+        "win2": 4,
+        "win3": 3,
+        "win_rate": 0.034,
+        "place_rate": 0.094
+      }
+    },
+    "01192": {
+      "jockey_id": "01192",
+      "career": {
+        "year": "累計",
+        "rides": 2318,
+        "win": 123,
+        "win2": 100,
+        "win3": 123,
+        "win_rate": 0.053,
+        "place_rate": 0.149
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 229,
+        "win": 15,
+        "win2": 9,
+        "win3": 14,
+        "win_rate": 0.066,
+        "place_rate": 0.166
+      }
+    },
+    "01193": {
+      "jockey_id": "01193",
+      "career": {
+        "year": "累計",
+        "rides": 1750,
+        "win": 110,
+        "win2": 109,
+        "win3": 109,
+        "win_rate": 0.063,
+        "place_rate": 0.187
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 123,
+        "win": 6,
+        "win2": 4,
+        "win3": 8,
+        "win_rate": 0.049,
+        "place_rate": 0.146
+      }
+    },
+    "01194": {
+      "jockey_id": "01194",
+      "career": {
+        "year": "累計",
+        "rides": 389,
+        "win": 5,
+        "win2": 8,
+        "win3": 8,
+        "win_rate": 0.013000000000000001,
+        "place_rate": 0.054000000000000006
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 80,
+        "win": 1,
+        "win2": 2,
+        "win3": 0,
+        "win_rate": 0.012,
+        "place_rate": 0.038
+      }
+    },
+    "01195": {
+      "jockey_id": "01195",
+      "career": {
+        "year": "累計",
+        "rides": 929,
+        "win": 20,
+        "win2": 32,
+        "win3": 32,
+        "win_rate": 0.022000000000000002,
+        "place_rate": 0.09
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 110,
+        "win": 1,
+        "win2": 5,
+        "win3": 1,
+        "win_rate": 0.009000000000000001,
+        "place_rate": 0.064
+      }
+    },
+    "01196": {
+      "jockey_id": "01196",
+      "career": {
+        "year": "累計",
+        "rides": 414,
+        "win": 54,
+        "win2": 57,
+        "win3": 51,
+        "win_rate": 0.13,
+        "place_rate": 0.391
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 39,
+        "win": 3,
+        "win2": 4,
+        "win3": 2,
+        "win_rate": 0.077,
+        "place_rate": 0.231
+      }
+    },
+    "01197": {
+      "jockey_id": "01197",
+      "career": {
+        "year": "累計",
+        "rides": 3052,
+        "win": 255,
+        "win2": 230,
+        "win3": 251,
+        "win_rate": 0.084,
+        "place_rate": 0.24100000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 349,
+        "win": 20,
+        "win2": 33,
+        "win3": 20,
+        "win_rate": 0.057,
+        "place_rate": 0.209
+      }
+    },
+    "01200": {
+      "jockey_id": "01200",
+      "career": {
+        "year": "累計",
+        "rides": 1725,
+        "win": 111,
+        "win2": 101,
+        "win3": 93,
+        "win_rate": 0.064,
+        "place_rate": 0.177
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 205,
+        "win": 18,
+        "win2": 10,
+        "win3": 18,
+        "win_rate": 0.08800000000000001,
+        "place_rate": 0.22399999999999998
+      }
+    },
+    "01201": {
+      "jockey_id": "01201",
+      "career": {
+        "year": "累計",
+        "rides": 825,
+        "win": 17,
+        "win2": 14,
+        "win3": 24,
+        "win_rate": 0.021,
+        "place_rate": 0.067
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 94,
+        "win": 1,
+        "win2": 4,
+        "win3": 1,
+        "win_rate": 0.011000000000000001,
+        "place_rate": 0.064
+      }
+    },
+    "01202": {
+      "jockey_id": "01202",
+      "career": {
+        "year": "累計",
+        "rides": 1010,
+        "win": 32,
+        "win2": 55,
+        "win3": 51,
+        "win_rate": 0.032,
+        "place_rate": 0.13699999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 84,
+        "win": 1,
+        "win2": 3,
+        "win3": 5,
+        "win_rate": 0.012,
+        "place_rate": 0.107
+      }
+    },
+    "01203": {
+      "jockey_id": "01203",
+      "career": {
+        "year": "累計",
+        "rides": 904,
+        "win": 26,
+        "win2": 22,
+        "win3": 37,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.094
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 181,
+        "win": 5,
+        "win2": 3,
+        "win3": 16,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.133
+      }
+    },
+    "01204": {
+      "jockey_id": "01204",
+      "career": {
+        "year": "累計",
+        "rides": 1133,
+        "win": 26,
+        "win2": 35,
+        "win3": 43,
+        "win_rate": 0.023,
+        "place_rate": 0.092
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 153,
+        "win": 2,
+        "win2": 3,
+        "win3": 6,
+        "win_rate": 0.013000000000000001,
+        "place_rate": 0.07200000000000001
+      }
+    },
+    "01206": {
+      "jockey_id": "01206",
+      "career": {
+        "year": "累計",
+        "rides": 1173,
+        "win": 84,
+        "win2": 73,
+        "win3": 77,
+        "win_rate": 0.07200000000000001,
+        "place_rate": 0.19899999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 162,
+        "win": 18,
+        "win2": 8,
+        "win3": 10,
+        "win_rate": 0.111,
+        "place_rate": 0.222
+      }
+    },
+    "01207": {
+      "jockey_id": "01207",
+      "career": {
+        "year": "累計",
+        "rides": 745,
+        "win": 12,
+        "win2": 14,
+        "win3": 20,
+        "win_rate": 0.016,
+        "place_rate": 0.062
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 139,
+        "win": 4,
+        "win2": 5,
+        "win3": 2,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.079
+      }
+    },
+    "01208": {
+      "jockey_id": "01208",
+      "career": {
+        "year": "累計",
+        "rides": 2456,
+        "win": 126,
+        "win2": 159,
+        "win3": 172,
+        "win_rate": 0.051,
+        "place_rate": 0.18600000000000003
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 297,
+        "win": 15,
+        "win2": 13,
+        "win3": 29,
+        "win_rate": 0.051,
+        "place_rate": 0.192
+      }
+    },
+    "01209": {
+      "jockey_id": "01209",
+      "career": {
+        "year": "累計",
+        "rides": 884,
+        "win": 26,
+        "win2": 36,
+        "win3": 51,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.128
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 182,
+        "win": 4,
+        "win2": 12,
+        "win3": 14,
+        "win_rate": 0.022000000000000002,
+        "place_rate": 0.165
+      }
+    },
+    "01211": {
+      "jockey_id": "01211",
+      "career": {
+        "year": "累計",
+        "rides": 122,
+        "win": 8,
+        "win2": 11,
+        "win3": 10,
+        "win_rate": 0.066,
+        "place_rate": 0.23800000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 32,
+        "win": 1,
+        "win2": 5,
+        "win3": 2,
+        "win_rate": 0.031,
+        "place_rate": 0.25
+      }
+    },
+    "01212": {
+      "jockey_id": "01212",
+      "career": {
+        "year": "累計",
+        "rides": 842,
+        "win": 34,
+        "win2": 33,
+        "win3": 34,
+        "win_rate": 0.04,
+        "place_rate": 0.12
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 151,
+        "win": 5,
+        "win2": 3,
+        "win3": 5,
+        "win_rate": 0.033,
+        "place_rate": 0.086
+      }
+    },
+    "01213": {
+      "jockey_id": "01213",
+      "career": {
+        "year": "累計",
+        "rides": 1612,
+        "win": 148,
+        "win2": 125,
+        "win3": 135,
+        "win_rate": 0.092,
+        "place_rate": 0.253
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 317,
+        "win": 26,
+        "win2": 30,
+        "win3": 22,
+        "win_rate": 0.08199999999999999,
+        "place_rate": 0.24600000000000002
+      }
+    },
+    "01214": {
+      "jockey_id": "01214",
+      "career": {
+        "year": "累計",
+        "rides": 1227,
+        "win": 49,
+        "win2": 70,
+        "win3": 57,
+        "win_rate": 0.04,
+        "place_rate": 0.14300000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 286,
+        "win": 8,
+        "win2": 15,
+        "win3": 9,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.11199999999999999
+      }
+    },
+    "01216": {
+      "jockey_id": "01216",
+      "career": {
+        "year": "累計",
+        "rides": 1837,
+        "win": 121,
+        "win2": 122,
+        "win3": 138,
+        "win_rate": 0.066,
+        "place_rate": 0.207
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 380,
+        "win": 22,
+        "win2": 27,
+        "win3": 34,
+        "win_rate": 0.057999999999999996,
+        "place_rate": 0.218
+      }
+    },
+    "01217": {
+      "jockey_id": "01217",
+      "career": {
+        "year": "累計",
+        "rides": 395,
+        "win": 15,
+        "win2": 11,
+        "win3": 16,
+        "win_rate": 0.038,
+        "place_rate": 0.106
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 171,
+        "win": 5,
+        "win2": 5,
+        "win3": 10,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.11699999999999999
+      }
+    },
+    "01218": {
+      "jockey_id": "01218",
+      "career": {
+        "year": "累計",
+        "rides": 484,
+        "win": 6,
+        "win2": 8,
+        "win3": 14,
+        "win_rate": 0.012,
+        "place_rate": 0.057999999999999996
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 174,
+        "win": 1,
+        "win2": 4,
+        "win3": 6,
+        "win_rate": 0.006,
+        "place_rate": 0.063
+      }
+    },
+    "01219": {
+      "jockey_id": "01219",
+      "career": {
+        "year": "累計",
+        "rides": 106,
+        "win": 0,
+        "win2": 3,
+        "win3": 0,
+        "win_rate": 0.0,
+        "place_rate": 0.027999999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 40,
+        "win": 0,
+        "win2": 0,
+        "win3": 0,
+        "win_rate": 0.0,
+        "place_rate": 0.0
+      }
+    },
+    "01220": {
+      "jockey_id": "01220",
+      "career": {
+        "year": "累計",
+        "rides": 658,
+        "win": 35,
+        "win2": 33,
+        "win3": 41,
+        "win_rate": 0.053,
+        "place_rate": 0.166
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 313,
+        "win": 19,
+        "win2": 23,
+        "win3": 22,
+        "win_rate": 0.061,
+        "place_rate": 0.204
+      }
+    },
+    "01221": {
+      "jockey_id": "01221",
+      "career": {
+        "year": "累計",
+        "rides": 587,
+        "win": 48,
+        "win2": 42,
+        "win3": 49,
+        "win_rate": 0.08199999999999999,
+        "place_rate": 0.237
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 248,
+        "win": 29,
+        "win2": 22,
+        "win3": 26,
+        "win_rate": 0.11699999999999999,
+        "place_rate": 0.31
+      }
+    },
+    "01222": {
+      "jockey_id": "01222",
+      "career": {
+        "year": "累計",
+        "rides": 379,
+        "win": 10,
+        "win2": 11,
+        "win3": 21,
+        "win_rate": 0.026000000000000002,
+        "place_rate": 0.111
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 149,
+        "win": 4,
+        "win2": 4,
+        "win3": 5,
+        "win_rate": 0.027000000000000003,
+        "place_rate": 0.087
+      }
+    },
+    "01223": {
+      "jockey_id": "01223",
+      "career": {
+        "year": "累計",
+        "rides": 497,
+        "win": 16,
+        "win2": 14,
+        "win3": 27,
+        "win_rate": 0.032,
+        "place_rate": 0.115
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 168,
+        "win": 5,
+        "win2": 5,
+        "win3": 9,
+        "win_rate": 0.03,
+        "place_rate": 0.113
+      }
+    },
+    "05203": {
+      "jockey_id": "05203",
+      "career": {
+        "year": "累計",
+        "rides": 16307,
+        "win": 1861,
+        "win2": 1790,
+        "win3": 1726,
+        "win_rate": 0.114,
+        "place_rate": 0.33
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 258,
+        "win": 11,
+        "win2": 16,
+        "win3": 25,
+        "win_rate": 0.043,
+        "place_rate": 0.20199999999999999
+      }
+    },
+    "05212": {
+      "jockey_id": "05212",
+      "career": {
+        "year": "累計",
+        "rides": 8621,
+        "win": 1332,
+        "win2": 1082,
+        "win3": 944,
+        "win_rate": 0.155,
+        "place_rate": 0.39
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 36,
+        "win": 1,
+        "win2": 0,
+        "win3": 4,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.139
+      }
+    },
+    "05339": {
+      "jockey_id": "05339",
+      "career": {
+        "year": "累計",
+        "rides": 9752,
+        "win": 2193,
+        "win2": 1568,
+        "win3": 1147,
+        "win_rate": 0.225,
+        "place_rate": 0.503
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 271,
+        "win": 79,
+        "win2": 48,
+        "win3": 39,
+        "win_rate": 0.292,
+        "place_rate": 0.613
+      }
+    },
+    "05386": {
+      "jockey_id": "05386",
+      "career": {
+        "year": "累計",
+        "rides": 11812,
+        "win": 1736,
+        "win2": 1482,
+        "win3": 1228,
+        "win_rate": 0.147,
+        "place_rate": 0.376
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 258,
+        "win": 34,
+        "win2": 44,
+        "win3": 38,
+        "win_rate": 0.132,
+        "place_rate": 0.45
+      }
+    },
+    "05585": {
+      "jockey_id": "05585",
+      "career": {
+        "year": "累計",
+        "rides": 873,
+        "win": 199,
+        "win2": 131,
+        "win3": 111,
+        "win_rate": 0.228,
+        "place_rate": 0.505
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 79,
+        "win": 13,
+        "win2": 18,
+        "win3": 12,
+        "win_rate": 0.165,
+        "place_rate": 0.544
+      }
+    },
+    "05674": {
+      "jockey_id": "05674",
+      "career": {
+        "year": "累計",
+        "rides": 266,
+        "win": 16,
+        "win2": 25,
+        "win3": 17,
+        "win_rate": 0.06,
+        "place_rate": 0.218
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 136,
+        "win": 11,
+        "win2": 15,
+        "win3": 7,
+        "win_rate": 0.081,
+        "place_rate": 0.243
+      }
+    },
+    "05675": {
+      "jockey_id": "05675",
+      "career": {
+        "year": "累計",
+        "rides": 66,
+        "win": 9,
+        "win2": 8,
+        "win3": 9,
+        "win_rate": 0.136,
+        "place_rate": 0.39399999999999996
+      },
+      "recent_year": {
+        "year": "2026",
+        "rides": 57,
+        "win": 8,
+        "win2": 6,
+        "win3": 9,
+        "win_rate": 0.14,
+        "place_rate": 0.40399999999999997
+      }
+    }
+  }
+}
