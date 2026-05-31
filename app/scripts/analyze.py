@@ -6,17 +6,24 @@ Usage: python3 analyze.py YYYYMMDD
 import sys, json, pathlib, argparse, re
 
 ROOT = pathlib.Path(__file__).parent.parent
-COURSES = json.loads((ROOT/"data"/"courses.json").read_text(encoding="utf-8"))
+# memory/(優先) → data/(後方互換) の順で知識ベースを探す
+def _memory_path(name):
+    for sub in ("memory", ""):
+        p = ROOT/"data"/sub/name if sub else ROOT/"data"/name
+        if p.exists(): return p
+    return ROOT/"data"/"memory"/name   # 存在しない場合の規定パス
+
+COURSES = json.loads(_memory_path("courses.json").read_text(encoding="utf-8"))
 
 def _load(name):
-    p = ROOT/"data"/name
+    p = _memory_path(name)
     if not p.exists(): return {}
     return {k:v for k,v in json.loads(p.read_text(encoding="utf-8")).items() if not k.startswith("_")}
 LINEAGE = _load("lineage.json")            # 書籍由来(優先)
 LINEAGE_FB = _load("lineage_fallback.json")  # 血統表fallback
 
 def _load_jockey_stats():
-    p = ROOT/"data"/"jockey_stats.json"
+    p = _memory_path("jockey_stats.json")
     if not p.exists(): return {}, {}
     d = json.loads(p.read_text(encoding="utf-8"))
     return d.get("name_to_id",{}), d.get("stats",{})

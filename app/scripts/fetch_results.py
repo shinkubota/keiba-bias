@@ -19,6 +19,10 @@ def fetch(url, key, ttl=86400):
     return r.text
 
 def parse_result(race_id):
+    """netkeibaの結果テーブルは固定列:
+    [0]着順 [1]枠 [2]馬番 [3]馬名 [4]性齢 [5]斤量 [6]騎手 [7]タイム [8]着差
+    [9]人気 [10]単勝オッズ [11]後3F [12]通過順 [13]厩舎 [14]馬体重(増減)
+    """
     html = fetch(f"https://race.netkeiba.com/race/result.html?race_id={race_id}",
                  f"result_{race_id}.html")
     soup = BeautifulSoup(html, "lxml")
@@ -27,23 +31,20 @@ def parse_result(race_id):
     rows = []
     for tr in tbl.select("tr"):
         tds = tr.find_all("td")
-        if len(tds) < 8: continue
+        if len(tds) < 11: continue        # 人気・オッズ列まで届かない行は除外
         try:
-            finish = tds[0].get_text(strip=True)  # 着順
-            waku   = tds[1].get_text(strip=True)
+            finish = tds[0].get_text(strip=True)
             umaban = tds[2].get_text(strip=True)
             name_a = tds[3].find("a")
             name = name_a.get_text(strip=True) if name_a else tds[3].get_text(strip=True)
-            popular = None; odds = None
-            for td in tds:
-                t = td.get_text(strip=True)
-                if re.fullmatch(r"\d+", t) and len(t) <= 2 and popular is None and t != umaban and t != finish:
-                    popular = t
-                if re.fullmatch(r"\d+\.\d", t) and odds is None:
-                    odds = t
+            popular = tds[9].get_text(strip=True)
+            odds    = tds[10].get_text(strip=True)
             if not (finish.isdigit() and umaban.isdigit()): continue
+            pop_int  = int(popular) if popular.isdigit() else None
+            try: odds_f = float(odds)
+            except: odds_f = None
             rows.append({"finish": int(finish), "umaban": int(umaban),
-                         "name": name, "popularity": popular, "odds": odds})
+                         "name": name, "popularity": pop_int, "odds": odds_f})
         except Exception:
             continue
     rows.sort(key=lambda r: r["finish"])

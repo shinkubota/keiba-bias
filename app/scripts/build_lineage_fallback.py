@@ -7,8 +7,9 @@ import json, re, pathlib, glob
 from bs4 import BeautifulSoup
 
 ROOT = pathlib.Path(__file__).parent.parent
-tree = json.loads((ROOT/"data"/"lineage_tree.json").read_text(encoding="utf-8"))["大系統"]
-book = {k:v for k,v in json.loads((ROOT/"data"/"lineage.json").read_text(encoding="utf-8")).items() if not k.startswith("_")}
+MEMORY = ROOT/"data"/"memory"
+tree = json.loads((MEMORY/"lineage_tree.json").read_text(encoding="utf-8"))["大系統"]
+book = {k:v for k,v in json.loads((MEMORY/"lineage.json").read_text(encoding="utf-8")).items() if not k.startswith("_")}
 
 # 祖先名 → (大系統, 小系統) のマーカー表を tree から構築
 FOUNDER = {}      # name -> daikei
@@ -116,7 +117,7 @@ def main():
 
     out = {"_meta":{"source":"netkeiba 5代血統表からの父系祖先判定(自動)","note":"書籍lineage.jsonに無い種牡馬の大系統補完。型は無し。"}}
     out.update(dict(sorted(fallback.items())))
-    (ROOT/"data"/"lineage_fallback.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    (MEMORY/"lineage_fallback.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"fallback補完: {len(fallback)}種牡馬")
 
 if __name__ == "__main__":

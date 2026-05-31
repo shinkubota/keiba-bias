@@ -93,7 +93,8 @@ def main():
             r = out["stats"][jid]
             c = r.get("career") or {}
             print(f"  {i}/{len(jky_ids)}: id={jid} 累計騎乗={c.get('rides')} 複勝率={c.get('place_rate')}", file=sys.stderr)
-    p = DATA/f"jockey_stats.json"
+    (DATA/"memory").mkdir(exist_ok=True)
+    p = DATA/"memory"/"jockey_stats.json"
     p.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"saved: {p}", file=sys.stderr)
 
