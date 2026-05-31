@@ -474,6 +474,28 @@ def calimero_bonus(horse, race, horse_data, total_horses):
     elif total_horses and umaban == total_horses:
         score += 1; notes.append("大外枠")
 
+    # S11(新): 継続騎乗 — 当日騎手 == 直近1走の騎手
+    # 表記揺れ対策: 出馬表「佐々木」/結果「佐々木大」のように略称↔フル名なので前方一致
+    if recent and jockey:
+        prev_jky = (recent[0].get("jockey") or "").strip()
+        bare_now = re.sub(r"^[☆▲△◇★▽]", "", jockey)
+        bare_prev = re.sub(r"^[☆▲△◇★▽]", "", prev_jky)
+        if bare_now and bare_prev and len(bare_now) >= 2:
+            short, long = (bare_now, bare_prev) if len(bare_now) <= len(bare_prev) else (bare_prev, bare_now)
+            if long.startswith(short):
+                score += 1; notes.append("継続騎乗")
+
+    # S12(新): 昇級 — 前走クラス < 今走クラス
+    # Cal分析: 昇級含む◎ 複勝18.4%/単回収429%
+    if recent:
+        prev_class_label = (recent[0].get("race_class") or "")
+        # race_classは "1勝"/"2勝"/"未勝利"/"OP"/"G3" 等
+        cls_rank_map = {"新馬":1,"未勝利":1,"1勝":2,"2勝":3,"3勝":4,"OP":5,"L":6,"G3":7,"G2":8,"G1":9,"障害":2}
+        prev_cls = cls_rank_map.get(prev_class_label, 0)
+        this_cls = class_rank(race.get("race_name") or "")
+        if prev_cls and this_cls and this_cls > prev_cls:
+            score += 1; notes.append(f"昇級({prev_class_label}→今走)")
+
     return score, notes
 
 def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
