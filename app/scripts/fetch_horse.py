@@ -85,14 +85,20 @@ def parse_recent_races(horse_id, n=5):
             baba  = tds[16].get_text(strip=True) if len(tds) > 16 else ""
         except Exception:
             continue
-        # クラス推定: G1/G2/G3/OP/3勝/2勝/1勝/未勝利/新馬
+        # クラス推定: netkeibaは(GI)(GII)(GIII)とローマ数字。アラビア数字併存に両対応。
         cls = None
-        for tag, key in [("(G1)","G1"),("(G2)","G2"),("(G3)","G3"),
-                          ("(L)","L"),("(OP)","OP")]:
+        for tag, key in [
+            ("(GI)","G1"),("(GⅠ)","G1"),("(G1)","G1"),
+            ("(GII)","G2"),("(GⅡ)","G2"),("(G2)","G2"),
+            ("(GIII)","G3"),("(GⅢ)","G3"),("(G3)","G3"),
+            ("(L)","L"),("(OP)","OP"),("(オープン)","OP"),
+            ("(JpnI)","G1"),("(JpnII)","G2"),("(JpnIII)","G3"),    # 地方統一G
+        ]:
             if tag in rname: cls = key; break
         if cls is None:
             for kw, key in [("新馬","新馬"),("未勝利","未勝利"),
                              ("3勝クラス","3勝"),("2勝クラス","2勝"),("1勝クラス","1勝"),
+                             ("1600万","3勝"),("1000万","2勝"),("500万","1勝"),    # 旧クラス表記
                              ("オープン","OP"),("障害","障害")]:
                 if kw in rname: cls = key; break
         # 上がり3F + 通過順: 通過は "1-1" "5-3-3" "10-10-9-8" のような形式

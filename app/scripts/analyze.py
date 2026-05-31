@@ -418,7 +418,7 @@ def attach_baba(rc, surface, baba):
     rc["baba_pref"] = pref; rc["baba_why"] = why; rc["baba"] = baba
     return rc
 
-def calimero_bonus(horse, race, horse_data, total_horses):
+def calimero_bonus(horse, race, horse_data, total_horses, odds_for_race=None):
     """カリメロ@穴馬オタクの過去1年予想実績(notes/calimero_analysis.md)から
     複勝率・単回収率の強いシグナルを採点。0〜十数点の範囲で加点/減点。
 
@@ -489,18 +489,33 @@ def calimero_bonus(horse, race, horse_data, total_horses):
     # Cal分析: 昇級含む◎ 複勝18.4%/単回収429%
     if recent:
         prev_class_label = (recent[0].get("race_class") or "")
-        # race_classは "1勝"/"2勝"/"未勝利"/"OP"/"G3" 等
         cls_rank_map = {"新馬":1,"未勝利":1,"1勝":2,"2勝":3,"3勝":4,"OP":5,"L":6,"G3":7,"G2":8,"G1":9,"障害":2}
         prev_cls = cls_rank_map.get(prev_class_label, 0)
         this_cls = class_rank(race.get("race_name") or "")
         if prev_cls and this_cls and this_cls > prev_cls:
             score += 1; notes.append(f"昇級({prev_class_label}→今走)")
 
+    # S1/S2(復活): 想定オッズ依存シグナル
+    # 当日の朝オッズが取れる前提。前日運用では odds_for_race=None で発火しない
+    if odds_for_race:
+        umaban = None
+        try: umaban = int(horse.get("umaban") or 0)
+        except: umaban = 0
+        rec = odds_for_race.get(str(umaban)) or odds_for_race.get(umaban)
+        if rec and rec.get("pop"):
+            pop = rec["pop"]
+            # S1: 4-6番人気帯(中穴ゾーン)
+            if 4 <= pop <= 6:
+                score += 3; notes.append(f"4-6番人気帯({pop}人気)")
+            # S1補助: 10-12人気は減点(複勝11%/n=172)
+            elif 10 <= pop <= 12:
+                score -= 1; notes.append(f"10-12人気(穴薄{pop})")
+
     return score, notes
 
 def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
                    light_weight_threshold=None, rc=None, this_surface=None,
-                   race=None):
+                   race=None, odds_for_race=None):
     reasons = []
     score = 0
     # 配点 v0.7: 5/30 全24R(23有効)の実績で再較正
@@ -617,7 +632,7 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     # ⑥ Calimero穴予想知見(他要素と同列の正式要素)
     cal_pts = 0
     if race is not None and weights.get("cal", 0) != 0:
-        cb_raw, cb_notes = calimero_bonus(horse, race, horse_data, total_horses)
+        cb_raw, cb_notes = calimero_bonus(horse, race, horse_data, total_horses, odds_for_race)
         cal_pts = cb_raw * weights["cal"]
         if cb_notes:
             reasons.extend([f"[Cal]{n}" for n in cb_notes])
@@ -625,7 +640,26 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
 
     return score, reasons, cal_pts
 
-def analyze_race(race, horses_db, baba=None):
+_ODDS_CACHE = {}
+def _odds_for_date(date_str):
+    if date_str in _ODDS_CACHE: return _ODDS_CACHE[date_str]
+    p = ROOT/"data"/f"odds_{date_str}.json"
+    d = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    _ODDS_CACHE[date_str] = d
+    return d
+
+def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None):
+    # date_strが渡されたらodds_*.jsonからこのレースのオッズを自動ロード
+    if odds_for_race is None and date_str:
+        odds_for_race = _odds_for_date(date_str).get(race["race_id"])
+    # date_str未指定でもrace_idの上位4桁=年からYYYYMMDD候補を作るのは難しいので
+    # 呼び出し側が指定したoddsを優先。未指定時は分布から日付推定
+    if odds_for_race is None:
+        # race_id先頭4桁=年、ただし開催日は別途必要。データ存在する全odds_*.jsonを舐めて該当race_idを探す
+        for p in (ROOT/"data").glob("odds_*.json"):
+            d = _odds_for_date(p.stem.replace("odds_",""))
+            if race["race_id"] in d:
+                odds_for_race = d[race["race_id"]]; break
     # baba優先順位: 明示引数 > 出馬表の実データ(race['baba']) > 良
     if baba is None:
         baba = race.get("baba") or "良"
@@ -661,7 +695,8 @@ def analyze_race(race, horses_db, baba=None):
         hd = horses_db.get(h["horse_id"], {})
         recent = hd.get("recent", [])
         bias, rs, cb = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc,
-                                       this_surface=race["surface"], race=race)
+                                       this_surface=race["surface"], race=race,
+                                       odds_for_race=odds_for_race)
         # 前走が地方競馬の場合は能力スコアを抑制(中央水準に届かないことが多い)
         if recent and is_local_track(recent[0]):
             try:
@@ -716,10 +751,11 @@ def analyze_race(race, horses_db, baba=None):
 def fmt(date_str):
     data = json.loads((ROOT/"data"/f"shutuba_{date_str}.json").read_text(encoding="utf-8"))
     horses_db = load_horses(date_str)
+    odds = _odds_for_date(date_str)
     lines = [f"# トラックバイアス分析 {date_str}", ""]
     for race in data:
         if len(race["horses"]) < 2: continue
-        a = analyze_race(race, horses_db)
+        a = analyze_race(race, horses_db, odds_for_race=odds.get(race["race_id"]))
         lines.append(f"## {race['track']}{race['race_no']:>2}R {race['surface']}{race['distance']}m  {race['race_name']}  ({len(race['horses'])}頭)")
         if a.get("warn"):
             lines.append(f"⚠ {a['warn']}"); lines.append(""); continue
