@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.kubota.bias.review-sun</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/kubota/Desktop/bias/app/scripts/weekly_runner.sh</string>
+    <string>review_today</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>0</integer>   <!-- 日曜 -->
+    <key>Hour</key><integer>19</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <key>WorkingDirectory</key><string>/Users/kubota/Desktop/bias/app</string>
+  <key>StandardOutPath</key><string>/Users/kubota/Desktop/bias/app/logs/launchd_review-sun.log</string>
+  <key>StandardErrorPath</key><string>/Users/kubota/Desktop/bias/app/logs/launchd_review-sun.err</string>
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>
