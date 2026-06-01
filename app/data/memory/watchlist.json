@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "description": "注目馬リスト。平日にここへ手動登録すると、週末の出馬表に該当馬が出たとき自動で詳細評価レポートが出る",
+    "schema": {
+      "name": "馬名(漢字＋カナ)",
+      "horse_id": "netkeiba horse_id (10桁・任意)",
+      "reason": "登録理由(自由文)",
+      "watch_until": "監視期限 YYYY-MM-DD (任意)",
+      "added": "登録日 YYYY-MM-DD"
+    }
+  },
+  "horses": [
+    {
+      "name": "コンジェスタス",
+      "horse_id": "",
+      "reason": "土日通算で本命連勝の能力スコア70馬。次走の評価指標として継続観察",
+      "watch_until": "2026-08-31",
+      "added": "2026-06-01"
+    },
+    {
+      "name": "テーオーマルコーニ",
+      "horse_id": "",
+      "reason": "5/30桃山S 5人気6倍◎的中。中穴の代表例",
+      "watch_until": "",
+      "added": "2026-06-01"
+    }
+  ]
+}

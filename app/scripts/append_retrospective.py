@@ -65,6 +65,7 @@ def main():
     miss_races = []        # 推奨3頭全滅レース(取りこぼし詳細)
     miss_by = {"血統":{}, "クラス":{}, "間隔":{}, "脚質":{}, "場":{}, "馬場":{}, "天候":{}}
     total_by = {k:{} for k in miss_by}
+    dark_horse_hits = []   # 8人気以下が3着内に飛び込み、推奨で何位だったか
     pop_dist = [0]*20
     MARKS = ["◎","○","▲","△","✕"]
     for race in shutuba:
@@ -72,6 +73,11 @@ def main():
         if not r.get("horses"): continue
         a = az.analyze_race(race, db)
         if a.get("warn"): continue
+        # 推奨ランク辞書(全頭)
+        rank_by_um = {}
+        for idx, h in enumerate(a["horses"], start=1):
+            try: rank_by_um[int(h["horse"]["umaban"])] = idx
+            except: pass
         top3um = {h["umaban"] for h in r["horses"][:3]}
         # 順位→馬データ参照
         finish_by_um = {h["umaban"]: h["finish"] for h in r["horses"]}
@@ -137,6 +143,20 @@ def main():
                 "baba": keys["馬場"], "weather": keys["天候"],
             })
 
+        # 大穴3着内ヒットの集計（推奨ランクで「警戒馬セクションの有効性」を検証）
+        for h_res in r["horses"][:3]:
+            ph = h_res.get("popularity")
+            if ph and ph >= 8:
+                try: u_int = int(h_res["umaban"])
+                except: u_int = None
+                rk = rank_by_um.get(u_int) if u_int else None
+                dark_horse_hits.append({
+                    "track": race["track"], "race_no": race["race_no"],
+                    "race_name": race["race_name"],
+                    "finish": h_res["finish"], "name": h_res["name"],
+                    "pop": ph, "odds": h_res.get("odds"), "rank": rk,
+                })
+
     if n == 0:
         print("no valid races"); return
 
@@ -163,6 +183,33 @@ def main():
         block += ["", "### 大穴本命的中(7人気以下)"]
         for x in big_hits:
             block.append(f"- {x[0]}{x[1]}R {x[2]}: {x[3]} ({x[4]}人気・単{x[5]}倍)")
+
+    # 大穴3着内ヒットの推奨ランク分布
+    if dark_horse_hits:
+        block += ["", f"### 🐎 大穴3着内ヒット {len(dark_horse_hits)}件 (8人気以下→3着内)",
+                  "推奨ランク別の分布で「警戒馬セクション(6-12位)」の有効性を検証",
+                  "", "| レース | 着 | 馬 | 人気・単 | 推奨ランク |",
+                  "|---|--:|---|---|--:|"]
+        bucket = {"印内(1-5位)":0, "警戒馬(6-12位)":0, "圏外(13位以下)":0, "不明":0}
+        for x in dark_horse_hits:
+            rk = x["rank"]
+            if rk is None: bk = "不明"
+            elif rk <= 5: bk = "印内(1-5位)"
+            elif rk <= 12: bk = "警戒馬(6-12位)"
+            else: bk = "圏外(13位以下)"
+            bucket[bk] += 1
+            rk_s = f"{rk}位" if rk else "?"
+            block.append(f"| {x['track']}{x['race_no']}R {x['race_name']} | {x['finish']} | {x['name']} | {x['pop']}人気・{x['odds']}倍 | {rk_s} |")
+        block += ["", "**推奨ランク分布**:"]
+        for k, v in bucket.items():
+            block.append(f"- {k}: {v}件")
+        total = sum(bucket.values())
+        if total > 0:
+            watch_ratio = bucket["警戒馬(6-12位)"] / total
+            if watch_ratio >= 0.5:
+                block.append(f"> ✅ 警戒馬ゾーン(6-12位)が大穴ヒットの{watch_ratio*100:.0f}%を占める — 「人気軸◎＋警戒馬ワイド」戦略が有効")
+            elif bucket["圏外(13位以下)"] > bucket["警戒馬(6-12位)"]:
+                block.append(f"> ⚠ 大穴の{bucket['圏外(13位以下)']/total*100:.0f}%が推奨13位以下＝バイアス検出から漏れている。閾値見直し検討")
 
     # 取りこぼし分析
     if miss_races:

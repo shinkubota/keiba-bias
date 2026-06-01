@@ -16,9 +16,9 @@ az = importlib.util.module_from_spec(spec); spec.loader.exec_module(az)
 WD = ["月","火","水","木","金","土","日"]
 MARKS = ["◎","○","▲","△","✕"]
 
-def pick(race, db):
+def pick(race, db, odds_for_race=None):
     a = az.analyze_race(race, db)
-    if a.get("warn"): return None, a
+    if a.get("warn"): return None, [], a
     rows = a["horses"]                                       # 既にscore順
     by_bias = sorted(rows, key=lambda r: -r.get("bias",0))
     by_ability = sorted(rows, key=lambda r: -(r.get("ability_eff") or 0))
@@ -55,7 +55,25 @@ def pick(race, db):
     if len(picks) < 4 and len(rows) >= 4 and rows[3]["score"] > 0:
         add(rows[3], "△", "総合4位")
 
-    return picks[:5], a
+    # 警戒馬: 推奨6-12位の中で「警戒すべき馬」を抽出
+    # 根拠: 土日46Rの大穴3着内ヒットは推奨6-12位に集中(13位以下0)
+    # 条件: 推奨6-12位 ＋ bias>=5 (バイアス適合) ＋ オッズ>=10 もしくは未取得
+    watch = []
+    for idx, r in enumerate(rows[5:12], start=6):
+        if r.get("bias", 0) < 5: continue
+        um = r["horse"].get("umaban")
+        odds_pop = None
+        if odds_for_race and um:
+            o = odds_for_race.get(str(um)) or odds_for_race.get(int(um) if um.isdigit() else um)
+            if o: odds_pop = (o.get("pop"), o.get("win"))
+        # オッズが取れていれば10倍以上だけ、取れていなければ通す
+        if odds_pop:
+            pop, win = odds_pop
+            if win and win < 10: continue
+        watch.append({"rank": idx, "row": r, "odds_pop": odds_pop})
+        if len(watch) >= 3: break
+
+    return picks[:5], watch, a
 
 def fmt_row(p):
     h = p["row"]["horse"]
@@ -73,13 +91,19 @@ def main():
     data = json.loads((ROOT/"data"/f"shutuba_{args.date}.json").read_text(encoding="utf-8"))
     db = az.load_horses(args.date)
 
+    # オッズ辞書
+    odds_path = ROOT/"data"/f"odds_{args.date}.json"
+    odds_all = json.loads(odds_path.read_text(encoding="utf-8")) if odds_path.exists() else {}
+
     L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（3-5頭・幅広版）", ""]
-    L.append("> ◎総合1位 ○2位 ▲3位 △バイアス特化or総合4位 ✕能力中位の伏兵(土曜鳳雛Sタイプ)")
+    L.append("> ◎総合1位 ○2位 ▲3位 △バイアス特化or総合4位 ✕能力中位の伏兵(鳳雛Sタイプ)")
+    L.append("> ⚠ **警戒馬** = 推奨6-12位の中でバイアス適合する人気薄。本命人気馬を脅かす3着候補(ワイド要員)")
     L.append("")
     for race in data:
         if race["track"] not in tracks: continue
         if len(race["horses"]) < 2: continue
-        picks, a = pick(race, db)
+        odds_for_race = odds_all.get(race["race_id"])
+        picks, watch, a = pick(race, db, odds_for_race)
         title = f"{race['track']}{race['race_no']}R {race['surface']}{race['distance']}m {race['race_name']}"
         if not picks:
             L.append(f"### {title}")
@@ -90,6 +114,17 @@ def main():
         L.append("| 印 | 馬番 | 馬名 | 性齢 | 騎手 | 斤量 | 能力 | bias | 評価 | 根拠 |")
         L.append("|:--:|:--:|--|:--:|--|:--:|--:|--:|--:|--|")
         for p in picks: L.append(fmt_row(p))
+        if watch:
+            L.append("")
+            L.append("**⚠ 警戒馬(3着候補・ワイド要員)**")
+            for w in watch:
+                h = w["row"]["horse"]
+                op = w.get("odds_pop")
+                odds_str = f"・{op[0]}人気{op[1]}倍" if op else ""
+                bias = w["row"].get("bias",0)
+                abil = w["row"].get("ability"); abil_s = f"{abil:.0f}" if abil is not None else "—"
+                top_reasons = " ／ ".join(w["row"]["reasons"][:3])
+                L.append(f"- 推奨{w['rank']}位 {h['umaban']}番 {h['name']}（能力{abil_s}・bias{bias}{odds_str}） {top_reasons}")
         L.append("")
     out = "\n".join(L)
     (ROOT/"data"/f"recommend_wide_{args.date}.md").write_text(out, encoding="utf-8")
