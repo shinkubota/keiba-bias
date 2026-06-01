@@ -4,7 +4,7 @@
 - 対抗○: 現行2位
 - 単穴▲: 現行3位
 - 連下△: 現行4位 OR バイアス単独上位（能力◎と被らない場合に追加）
-- 押え✕: バイアス上位で能力中位以下の伏兵（土曜の鳳雛Sタイプを拾う）
+- 押え✕: 能力中位だがバイアス特化＝穴の一発候補
 """
 import json, argparse, pathlib, importlib.util, datetime, html
 
@@ -96,7 +96,7 @@ def main():
     odds_all = json.loads(odds_path.read_text(encoding="utf-8")) if odds_path.exists() else {}
 
     L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（3-5頭・幅広版）", ""]
-    L.append("> ◎総合1位 ○2位 ▲3位 △バイアス特化or総合4位 ✕能力中位の伏兵(鳳雛Sタイプ)")
+    L.append("> ◎総合1位 ○2位 ▲3位 △バイアス特化or総合4位 ✕押え（能力中位だがバイアス特化＝穴の一発候補）")
     L.append("> ⚠ **警戒馬** = 推奨6-12位の中でバイアス適合する人気薄。本命人気馬を脅かす3着候補(ワイド要員)")
     L.append("")
     for race in data:
