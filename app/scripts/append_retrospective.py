@@ -334,6 +334,70 @@ def main():
                 block += rows
                 block.append("")
         block.append("> ⚠ = 取りこぼし率30%以上かつ2件以上(改善優先候補)")
+    # ── 📌 サマリ（5行）を末尾に自動追加 ─────────────
+    summary_lines = ["", "### 📌 サマリ"]
+    s1 = f"- **成績**: 単勝{win/n*100:.0f}% / 複勝{plc/n*100:.0f}% / 上位3頭内{top3in/(n*3)*100:.0f}%（{n}R）"
+    summary_lines.append(s1)
+    # 本命1着の人気帯
+    avg_pop = None
+    pops = [p for p in pop_dist if False]   # 後置でpop_distから平均
+    flat_pops = []
+    for i, c in enumerate(pop_dist):
+        flat_pops.extend([i]*c)
+    if flat_pops:
+        avg_pop = sum(flat_pops)/len(flat_pops)
+    pop1 = pop_dist[1]
+    s2_parts = []
+    s2_parts.append(f"◎本命1人気{pop1}本/{n}R")
+    if avg_pop:
+        s2_parts.append(f"平均{avg_pop:.1f}人気")
+    if big_hits:
+        s2_parts.append(f"中穴◎{len(big_hits)}本")
+    summary_lines.append(f"- **本命傾向**: " + " / ".join(s2_parts))
+    # 効いた因子トップ3
+    factor_lift = {}
+    # 振り返り用に再集計
+    for race in shutuba:
+        r = results.get(race["race_id"], {})
+        if not r.get("horses"): continue
+        a = az.analyze_race(race, db)
+        if a.get("warn"): continue
+        top3 = {h["umaban"] for h in r["horses"][:3]}
+        for hh in a["horses"]:
+            try: in3 = int(hh["horse"]["umaban"]) in top3
+            except: continue
+            for rr in hh.get("reasons", []):
+                key = rr.split("(")[0].split("=")[0].split("該当")[0].split("→")[0].strip()
+                d = factor_lift.setdefault(key, [0,0])
+                d[1] += 1
+                if in3: d[0] += 1
+    valid = [(k, v[0]/v[1]) for k, v in factor_lift.items() if v[1] >= 10]
+    valid.sort(key=lambda x:-x[1])
+    top_factors = " / ".join(f"{k}({rate*100:.0f}%)" for k, rate in valid[:3])
+    if top_factors:
+        summary_lines.append(f"- **効いた因子TOP3(3着内率)**: {top_factors}")
+    # 大穴ヒット
+    if dark_horse_hits:
+        in_watch = sum(1 for x in dark_horse_hits if x["rank"] and 6 <= x["rank"] <= 12)
+        summary_lines.append(f"- **大穴(8人気以下)3着内**: {len(dark_horse_hits)}件中 警戒馬ゾーン捕捉 {in_watch}件 ({in_watch/len(dark_horse_hits)*100:.0f}%)")
+    # 改善ポイント1つ
+    miss_axis_worst = None
+    for ax, vals in total_by.items():
+        for k, t in vals.items():
+            if t < 2: continue
+            mc = miss_by[ax].get(k, 0)
+            if mc < 2: continue
+            rate = mc/t
+            if rate < 0.3: continue
+            if not miss_axis_worst or rate > miss_axis_worst[2]:
+                miss_axis_worst = (ax, k, rate, mc, t)
+    if miss_axis_worst:
+        ax, k, rate, mc, t = miss_axis_worst
+        summary_lines.append(f"- **要改善**: {ax}「{k}」取りこぼし{mc}/{t}({rate*100:.0f}%) — 次週コラムで深堀予定")
+    else:
+        summary_lines.append("- **要改善**: 顕著な悪因子なし — 配点維持で継続")
+    block += summary_lines
+
     # マーカーは既存テキスト側に必ず1つ残す
     marker = "<!-- 次週はここに追記 -->"
     block_str = "\n".join(block).strip() + "\n"
