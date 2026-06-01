@@ -10,6 +10,8 @@ PLISTS=(
   com.kubota.bias.review-sat.plist
   com.kubota.bias.review-sun.plist
   com.kubota.bias.weekly-recap.plist
+  com.kubota.bias.column-tue.plist
+  com.kubota.bias.column-wed.plist
   com.kubota.bias.special-entries.plist
   com.kubota.bias.data-refresh.plist
 )

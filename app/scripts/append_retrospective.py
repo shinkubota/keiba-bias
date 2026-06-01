@@ -58,6 +58,11 @@ def main():
     results = {r["race_id"]: r for r in json.loads(res_p.read_text(encoding="utf-8"))}
     db = az.load_horses(date_str)
 
+    # 5マーク使うのでrecommend_sundayと同じロジックを呼ぶ
+    import importlib
+    rs_spec = importlib.util.spec_from_file_location("rs", ROOT/"scripts"/"recommend_sunday.py")
+    rs = importlib.util.module_from_spec(rs_spec); rs_spec.loader.exec_module(rs)
+
     n = win = plc = top3in = 0
     big_hits = []          # 7人気以下の本命的中
     hits = []              # 本命1着レース
@@ -67,6 +72,7 @@ def main():
     total_by = {k:{} for k in miss_by}
     dark_horse_hits = []   # 8人気以下が3着内に飛び込み、推奨で何位だったか
     pop_dist = [0]*20
+    cross_picks = []       # ✕押え馬の結果集計
     MARKS = ["◎","○","▲","△","✕"]
     for race in shutuba:
         r = results.get(race["race_id"], {})
@@ -142,6 +148,25 @@ def main():
                 "sire": sire_k, "cls": keys["クラス"], "intvl": intvl_k, "style": style_k,
                 "baba": keys["馬場"], "weather": keys["天候"],
             })
+
+        # ✕押え馬の追跡: recommend_sundayの5頭印を呼んで✕馬の結果を記録
+        try:
+            picks5, _watch, _a2 = rs.pick(race, db)
+            cross = next((p for p in picks5 if p["mark"] == "✕"), None) if picks5 else None
+        except Exception:
+            cross = None
+        if cross:
+            try: um_c = int(cross["row"]["horse"]["umaban"])
+            except: um_c = None
+            cres = res_by_um.get(um_c) if um_c else None
+            if cres:
+                cross_picks.append({
+                    "track": race["track"], "race_no": race["race_no"], "race_name": race["race_name"],
+                    "umaban": um_c, "name": cross["row"]["horse"]["name"],
+                    "pop": cres.get("popularity"), "odds": cres.get("odds"),
+                    "finish": cres["finish"], "bias": cross["row"].get("bias", 0),
+                    "reasons": cross["row"].get("reasons", [])[:4],
+                })
 
         # 大穴3着内ヒットの集計（推奨ランク＋発火した因子も記録 — 「なぜ拾えたか」分析用）
         for h_res in r["horses"][:3]:
@@ -240,6 +265,36 @@ def main():
                 block.append(f"| {k} | {v} | {samples} |")
             block.append("")
             block.append("> 💡 この因子群が「人気薄を拾う鍵」になっている。配点強化候補。")
+
+    # ✕押え馬の結果総括
+    if cross_picks:
+        cross_hit = [c for c in cross_picks if c["finish"] <= 3]
+        cross_close = [c for c in cross_picks if 4 <= c["finish"] <= 6]
+        block += ["", f"### ✕押え馬の結果 {len(cross_picks)}件中 {len(cross_hit)}件3着内",
+                  "「6-12位の警戒馬群から✕として1頭だけ選んだ馬」がどう走ったか／**なぜその1頭を選べたか**を検証",
+                  ""]
+        if cross_hit:
+            block.append("**✓ 3着内ヒット**")
+            block.append("| レース | 馬 | 人気・単 | 着 | bias | 選定理由(発火因子) |")
+            block.append("|---|---|---|--:|--:|---|")
+            for c in cross_hit:
+                rs_txt = " ／ ".join(c["reasons"])
+                block.append(f"| {c['track']}{c['race_no']}R {c['race_name']} | {c['name']} | {c['pop']}人気・{c['odds']}倍 | {c['finish']} | {c['bias']} | {rs_txt} |")
+            block.append("")
+        if cross_close:
+            block.append(f"**△ 4-6着で惜しかった**: {len(cross_close)}件 ({', '.join(c['name']+'('+str(c['finish'])+'着)' for c in cross_close)})")
+            block.append("")
+        # ✕選定の根拠分析: bias点とヒット率の相関
+        hi_bias = [c for c in cross_picks if c["bias"] >= 10]
+        if hi_bias:
+            hit_rate_hi = sum(1 for c in hi_bias if c["finish"] <= 3) / len(hi_bias)
+            block.append(f"- bias≥10の✕（強推奨）: {len(hi_bias)}件、3着内率{hit_rate_hi*100:.0f}%")
+        lo_bias = [c for c in cross_picks if c["bias"] < 10]
+        if lo_bias:
+            hit_rate_lo = sum(1 for c in lo_bias if c["finish"] <= 3) / len(lo_bias)
+            block.append(f"- bias<10の✕（弱推奨）: {len(lo_bias)}件、3着内率{hit_rate_lo*100:.0f}%")
+        if hi_bias and lo_bias and hit_rate_hi > hit_rate_lo * 1.5:
+            block.append(f"> 💡 **bias≥10の✕は信頼度が高い**（{hit_rate_hi*100:.0f}% vs {hit_rate_lo*100:.0f}%）。馬券厚めに")
 
         # 圏外で外した馬の特徴
         outside = [x for x in dark_horse_hits if x["rank"] and x["rank"] > 12]

@@ -30,6 +30,18 @@ case "$MODE" in
     LOG="$LOG_DIR/${TS}_special_entries.log"
     python3 scripts/check_special_entries.py >"$LOG" 2>&1
     ;;
+  column_miss)
+    LOG="$LOG_DIR/${TS}_column_miss.log"
+    python3 scripts/weekday_column.py miss >>"$LOG" 2>&1
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "火曜コラム: 取りこぼし深堀" && git push origin main)) >>"$LOG" 2>&1
+    ;;
+  column_watch)
+    LOG="$LOG_DIR/${TS}_column_watch.log"
+    python3 scripts/weekday_column.py watch >>"$LOG" 2>&1
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "水曜コラム: 警戒馬因子分析" && git push origin main)) >>"$LOG" 2>&1
+    ;;
   data_refresh)
     LOG="$LOG_DIR/${TS}_data_refresh.log"
     python3 scripts/data_refresh.py >>"$LOG" 2>&1
