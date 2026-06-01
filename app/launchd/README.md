@@ -6,6 +6,9 @@
 
 | 曜日・時刻 | ジョブ | 内容 |
 |---|---|---|
+| 月 07:00 | `weekly-recap` | 前週土日通算成績をretrospective.mdに「週次まとめ」として追記 |
+| 木 12:00 | `special-entries` | 翌週末の重賞・特別レース名チェック(注目馬の事前登録用) |
+| 金 19:00 | `data-refresh` | jockey_stats月次更新+lineage_fallback再構築+古キャッシュ掃除 |
 | 金 20:00 | `predict-sat` | 翌日(土)の予想生成→push→Pages反映 |
 | 土 19:00 | `review-sat` | 当日(土)結果取得→評価→retrospective.md追記 |
 | 土 20:00 | `predict-sun` | 翌日(日)の予想生成→push→Pages反映 |

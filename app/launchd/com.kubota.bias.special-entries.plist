@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.kubota.bias.special-entries</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/kubota/Desktop/bias/app/scripts/weekly_runner.sh</string>
+    <string>special_entries</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>4</integer>   <!-- 木曜 -->
+    <key>Hour</key><integer>12</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <key>WorkingDirectory</key><string>/Users/kubota/Desktop/bias/app</string>
+  <key>StandardOutPath</key><string>/Users/kubota/Desktop/bias/app/logs/launchd_special-entries.log</string>
+  <key>StandardErrorPath</key><string>/Users/kubota/Desktop/bias/app/logs/launchd_special-entries.err</string>
+</dict>
+</plist>

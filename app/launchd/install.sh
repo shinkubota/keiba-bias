@@ -9,6 +9,9 @@ PLISTS=(
   com.kubota.bias.predict-sun.plist
   com.kubota.bias.review-sat.plist
   com.kubota.bias.review-sun.plist
+  com.kubota.bias.weekly-recap.plist
+  com.kubota.bias.special-entries.plist
+  com.kubota.bias.data-refresh.plist
 )
 ACTION="${1:-install}"
 mkdir -p "$LA_DIR"
