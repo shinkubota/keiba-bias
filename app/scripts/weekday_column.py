@@ -6,12 +6,100 @@
 火曜: 取りこぼしテーマ深堀り(取りこぼし因子で最も悪い軸を1つ選択)
 水曜: 警戒馬テーマ深堀り(✕押え or 警戒馬ゾーンのヒット因子分析)
 """
-import json, re, sys, pathlib, datetime, importlib.util, collections
+import json, re, sys, pathlib, datetime, importlib.util, collections, subprocess
 
 ROOT = pathlib.Path(__file__).parent.parent
 COL_DIR = ROOT/"data"/"review"/"columns"; COL_DIR.mkdir(parents=True, exist_ok=True)
+SIRE_DIR = ROOT/"data"/"memory"/"sire_profiles"; SIRE_DIR.mkdir(parents=True, exist_ok=True)
 spec = importlib.util.spec_from_file_location("az", ROOT/"scripts"/"analyze.py")
 az = importlib.util.module_from_spec(spec); spec.loader.exec_module(az)
+
+# 種牡馬プロフィール取得・キャッシュ
+def ensure_sire_profile(sire_name, sire_id=None):
+    """horses_*.json+ped HTMLから sire/broodmare_sire の horse_idを逆引きしてプロファイル取得。"""
+    if not sire_id:
+        from bs4 import BeautifulSoup
+        for hp in sorted((ROOT/"data").glob("horses_*.json"), reverse=True):
+            try: d = json.loads(hp.read_text(encoding="utf-8"))
+            except Exception: continue
+            for child_hid, v in d.items():
+                ped = v.get("pedigree", {})
+                # 父名 or 母父名 と一致した子馬を探す
+                hit_role = None
+                for role in ("sire", "broodmare_sire"):
+                    sn = ped.get(role) or ""
+                    m = re.match(r"^([぀-ヿ一-鿿・ー]+)", sn)
+                    key = m.group(1) if m else sn
+                    if key == sire_name:
+                        hit_role = role; break
+                if not hit_role: continue
+                ped_cache = ROOT/"cache"/f"ped_{child_hid}.html"
+                if not ped_cache.exists(): continue
+                s = BeautifulSoup(ped_cache.read_text(encoding="utf-8"), "lxml")
+                tbl = s.select_one("table.blood_table")
+                if not tbl: continue
+                big = [td for td in tbl.find_all("td") if td.get("rowspan") == "16"]
+                target_td = None
+                if hit_role == "sire":
+                    target_td = big[0] if big else None
+                else:
+                    # 母父: 母(big[1])を含むtr内の最初の rowspan=8 のtd
+                    if len(big) >= 2:
+                        mtr = big[1].find_parent("tr")
+                        sibs = mtr.find_all("td", recursive=False)
+                        passed = False
+                        for td in sibs:
+                            if td is big[1]:
+                                passed = True; continue
+                            if passed and td.get("rowspan") == "8":
+                                target_td = td; break
+                if not target_td: continue
+                a = target_td.find("a")
+                if not a: continue
+                m2 = re.search(r"/horse/([0-9a-z]+)", a.get("href",""))
+                if m2:
+                    sire_id = m2.group(1); break
+            if sire_id: break
+    if not sire_id:
+        return None
+    cache_path = SIRE_DIR/f"{sire_id}.json"
+    if cache_path.exists():
+        return json.loads(cache_path.read_text(encoding="utf-8"))
+    # 取得実行
+    try:
+        subprocess.run([sys.executable, str(ROOT/"scripts"/"fetch_sire_profile.py"), sire_id,
+                        "--name", sire_name], cwd=ROOT, check=False, timeout=30,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except Exception:
+        return None
+    if cache_path.exists():
+        return json.loads(cache_path.read_text(encoding="utf-8"))
+    return None
+
+def render_sire_profile(prof):
+    """サイア詳細をmd断片に。"""
+    if not prof: return ["- 種牡馬データ取得失敗"]
+    r = prof.get("results", {}); s = r.get("summary", {}); ped = prof.get("pedigree", {})
+    out = []
+    rank_trend = ", ".join(f"{y['year']}:{y['rank']}位" for y in r.get('years',[])[:3] if y.get('rank'))
+    out.append(f"**{r.get('name','種牡馬')}** 累計プロフィール (年度ランキング推移：{rank_trend})")
+    if ped:
+        out.append(f"- 系統: 父{ped.get('father','?')} / 母父{ped.get('mother_father','?')}" + (f" ({ped['lineage_marker']})" if ped.get('lineage_marker') else ""))
+    if s:
+        out.append(f"- 累計出走馬{s.get('starters')}頭 / 勝馬{s.get('winners')}頭 (勝馬率{s.get('win_rate_horse','?')}) / EI {s.get('EI','?')} / 賞金{s.get('prize','?')}万円")
+        # 芝/ダ勝率
+        tr = s.get("turf_races") or 0; tw = s.get("turf_wins") or 0
+        dr = s.get("dirt_races") or 0; dw = s.get("dirt_wins") or 0
+        if tr or dr:
+            tr_rate = tw/tr*100 if tr else 0; dr_rate = dw/dr*100 if dr else 0
+            stronger = "ダート" if dr_rate > tr_rate else ("芝" if tr_rate > dr_rate else "互角")
+            out.append(f"- **芝勝率 {tr_rate:.1f}% ({tw}/{tr}) / ダ勝率 {dr_rate:.1f}% ({dw}/{dr})** → 得意は**{stronger}**")
+        g_races = s.get("g_races") or 0; g_wins = s.get("g_wins") or 0
+        sp_races = s.get("sp_races") or 0; sp_wins = s.get("sp_wins") or 0
+        out.append(f"- 重賞 {g_wins}/{g_races} / 特別 {sp_wins}/{sp_races} → 重賞勝率{(g_wins/g_races*100 if g_races else 0):.1f}%")
+        if s.get("avg_dist_turf"): out.append(f"- 平均距離: 芝{s['avg_dist_turf']}m / ダ{s.get('avg_dist_dirt','?')}m → 適性距離帯の参考")
+        if s.get("rep_horse"): out.append(f"- 代表産駒: {s['rep_horse']}")
+    return out
 
 WD = ["月","火","水","木","金","土","日"]
 
@@ -153,22 +241,62 @@ def column_miss_topic(dates):
     matched = [e for e in examples if e["keys"].get(ax) == k]
     body = []
     body.append(f"# 🔍 火曜コラム: {ax}「{k}」の取りこぼしを掘る")
+    body.append(f"_前週: {dates[0][4:6]}/{dates[0][6:]}-{dates[1][4:6]}/{dates[1][6:]}_")
     body.append("")
-    body.append(f"## 数字")
+    body.append(f"## 1. 数字で見る問題")
     body.append(f"前週末の対象期間で **{ax}「{k}」のレースは {t} 件中 {miss} 件で取りこぼし（{rate*100:.0f}%）**。")
     body.append(f"全体取りこぼし率（〜13%程度）から大きく外れており、改善優先順位は高い。")
     body.append("")
-    body.append(f"## 該当レース ({len(matched)}件)")
+    body.append(f"## 2. 該当レース ({len(matched)}件)")
     for e in matched:
         body.append(f"- {e['date'][4:6]}/{e['date'][6:]} {e['race']} {e['race_name']}")
         body.append(f"  - 本命: {e['top1_name']} (能力{e['ability']}) → 1着 {e['winner_name']}({e['winner_pop']}人気・{e['winner_odds']}倍)")
     body.append("")
-    body.append(f"## 考察")
-    body += _miss_consider(ax, k, matched)
-    body.append("")
-    body.append(f"## 次週への申し送り")
+
+    # 血統軸なら種牡馬深堀
+    if ax == "血統":
+        body.append(f"## 3. {k}産駒の戦績データ")
+        prof = ensure_sire_profile(k)
+        body += render_sire_profile(prof)
+        body.append("")
+        body.append(f"## 4. なぜ取りこぼしたか — 配合パターン考察")
+        if prof and prof.get("results", {}).get("summary"):
+            s = prof["results"]["summary"]
+            tr = s.get("turf_races") or 0; tw = s.get("turf_wins") or 0
+            dr = s.get("dirt_races") or 0; dw = s.get("dirt_wins") or 0
+            if tr and dr:
+                t_rate = tw/tr*100; d_rate = dw/dr*100
+                if abs(t_rate-d_rate) >= 2:
+                    body.append(f"- {k}は **{'芝' if t_rate>d_rate else 'ダート'}向きの種牡馬**（勝率差{abs(t_rate-d_rate):.1f}pt）。条件外で取りこぼした可能性")
+            avg_t = s.get("avg_dist_turf","")
+            if avg_t: body.append(f"- 平均距離(芝)={avg_t}m → これと大きく外れる距離は適性外と判断する目安")
+            ped = prof.get("pedigree", {})
+            if ped.get("father"): body.append(f"- 父系: {ped['father']} → 同系統馬の好走条件をcourses.json sire_favoredと照合可能")
+        body.append("")
+    else:
+        body.append(f"## 3. 考察")
+        body += _miss_consider(ax, k, matched)
+        body.append("")
+    body.append(f"## 5. 次週への申し送り")
     body += _miss_action(ax, k, matched)
+    body.append("")
+    body.append(f"## 6. 確認ポイント")
+    body += build_miss_check_list(ax, k)
     return f"{datetime.date.today().strftime('%Y%m%d')}_火_取りこぼし_{ax}_{k}.md", "\n".join(body)
+
+def build_miss_check_list(ax, k):
+    out = []
+    if ax == "血統":
+        out.append(f"- 出走表に{k}産駒がいたら、その馬の芝・ダ別実績を horse_id 経由で確認")
+        out.append(f"- courses.json sire_favored から{k}を外す/弱化する判断材料を蓄積")
+    if ax == "間隔":
+        out.append(f"- 該当間隔の馬は能力スコアを 0.7〜0.8 で割引するシミュレーションを試行")
+    if ax == "脚質":
+        out.append(f"- 想定ペース予測ロジックの精度確認（先行馬数の判定閾値が妥当か）")
+    if ax == "クラス":
+        out.append(f"- 該当クラス専用の重みプロファイル(weights分岐)を検討")
+    out.append("- 同条件が翌週も発生するか出馬表確認、再現性チェック")
+    return out
 
 def _miss_consider(ax, k, examples):
     out = []
@@ -207,19 +335,19 @@ def _miss_action(ax, k, examples):
     return out
 
 def column_watch_topic(dates):
-    """水曜: 警戒馬ゾーンで拾えた因子の深堀"""
+    """水曜: 警戒馬ゾーンで拾えた因子の深堀+種牡馬詳細"""
     fac, ex, total_dark, in_watch = aggregate_watch_factors(dates)
-    if total_dark == 0:
-        return None, None
+    if total_dark == 0: return None, None
     body = []
-    body.append(f"# 🔍 水曜コラム: 警戒馬ゾーン(6-12位)が大穴を拾えた因子")
+    body.append(f"# 🔍 水曜コラム: 警戒馬ゾーンが大穴を拾えた因子を深掘る")
+    body.append(f"_前週: {dates[0][4:6]}/{dates[0][6:]}-{dates[1][4:6]}/{dates[1][6:]}_")
     body.append("")
-    body.append(f"## 数字")
-    body.append(f"前週末で 8人気以下が3着内に飛び込んだ件数: **{total_dark} 件**。")
-    body.append(f"そのうち推奨6-12位の警戒馬ゾーンが捕捉したのは **{in_watch} 件 ({in_watch/total_dark*100:.0f}%)**。")
-    body.append("つまり本命人気馬を◎にしつつワイドで警戒馬を絡める戦略が機能している。")
+    body.append(f"## 1. 数字で見る警戒馬戦略")
+    body.append(f"- 8人気以下が3着内に飛び込んだ件数: **{total_dark} 件**")
+    body.append(f"- そのうち推奨6-12位の警戒馬ゾーンが捕捉: **{in_watch} 件 ({in_watch/total_dark*100:.0f}%)**")
+    body.append(f"- 本命人気馬を◎にしつつワイドで警戒馬を絡める「人気軸×警戒馬」戦略が機能")
     body.append("")
-    body.append(f"## どの因子が「人気薄を浮上させた」か")
+    body.append(f"## 2. 人気薄を浮上させた因子ランキング")
     if not fac:
         body.append("- 該当因子なし")
     else:
@@ -230,15 +358,68 @@ def column_watch_topic(dates):
             samples = "／".join(sorted(set(ex[k]))[:3])
             body.append(f"| {k} | {v} | {samples} |")
     body.append("")
-    body.append(f"## 考察")
-    body.append("- 「強因子（複勝安定・トップ騎手）」は人気馬で発火しやすく、能力スコア上位を支える。")
-    body.append("- 一方で「中位因子（距離延長・継続騎乗・大外枠）」は能力下位の人気薄で発火し、警戒馬ゾーンを作り上げる。")
-    body.append("- 両者を分けて配点・抽出することで、人気と穴の二段構えが実現する。")
+
+    # 血統因子の深堀: 因子名が「父○○」「母父○○」のものから種牡馬詳細
+    sire_factors = [(k, v) for k, v in fac.most_common() if k.startswith(("父","母父"))]
+    if sire_factors:
+        body.append(f"## 3. 注目血統の深掘り（戦績データ）")
+        for fk, fv in sire_factors[:3]:
+            # 「母父」を先に削る(でないと「父」だけ削って「母」が残る)
+            sire_name = fk.replace("母父","").replace("父","").strip()
+            prof = ensure_sire_profile(sire_name)
+            body.append(f"\n### {fk} (発火{fv}回)")
+            body.append(f"_{ '／'.join(sorted(set(ex[fk]))[:3]) }_")
+            body += render_sire_profile(prof)
+        body.append("")
+
+    # コース・距離・脚質系の深堀
+    course_factors = [(k, v) for k, v in fac.most_common() if any(t in k for t in ("ダート","芝","距離","枠","先行","差し","上がり"))]
+    if course_factors:
+        body.append(f"## 4. コース・距離・脚質系シグナルの解釈")
+        for fk, fv in course_factors[:5]:
+            body.append(f"- **{fk}** ({fv}回): {analyze_signal_meaning(fk)}")
+        body.append("")
+
+    body.append(f"## 5. 来週の確認ポイント")
+    body += build_check_list(fac, course_factors, sire_factors)
     body.append("")
-    body.append(f"## 次週への申し送り")
-    body.append("- 警戒馬抽出の閾値(bias>=5, オッズ>=10)が妥当か継続検証")
-    body.append("- 大穴3着内ヒットの ◎-警戒馬ワイド での実利益を試算する仕組みを次回追加")
+    body.append(f"## 6. 検証データの出典")
+    body.append(f"- 推奨ロジック: analyze.py v0.9 (能力×バイアス補正)")
+    body.append(f"- 種牡馬累計成績: netkeiba 産駒成績ページ (data/memory/sire_profiles/*.json)")
+    body.append(f"- 集計対象: {dates[0]} + {dates[1]} 2日間の中央全レース")
     return f"{datetime.date.today().strftime('%Y%m%d')}_水_警戒馬_因子分析.md", "\n".join(body)
+
+def analyze_signal_meaning(factor_name):
+    """因子名から戦略的意味を返す。"""
+    if "ダート" in factor_name:
+        return "ダート戦は時計の絶対値より砂適性が支配的。芝→ダ替わり初戦の人気薄は粗削りで取りこぼされやすい。馬体重増減・血統と合わせ評価"
+    if "距離延長" in factor_name:
+        return "ペース緩和で前残りor末脚瞬発を活かすパターン。出走馬の脚質構成(前走通過順)から想定ペースを読み、延長馬の脚質が合致するか確認"
+    if "距離短縮" in factor_name:
+        return "前走スタミナ温存→ハイラップ対応。スピード持続型(芝マイル↔1400, ダ1700↔1400)の血統馬で機能しやすい"
+    if "外枠" in factor_name or "大外枠" in factor_name:
+        return "コース別の外枠バイアスはレース毎に強弱あり。馬場発表(芝の傷み具合)と先行馬の枠位置から外枠が活きるかを判断"
+    if "内枠" in factor_name:
+        return "ロスなく回れる利点だが、出遅れリスクと前詰まりに注意。先行馬の枠分布を見て『内に逃げ馬が居ない』なら好機"
+    if "先行" in factor_name:
+        return "ペース読みが鍵。逃げ馬複数で潰し合う展開なら不利、先行馬が少なければ単騎で残れる"
+    if "差し" in factor_name or "後方" in factor_name:
+        return "ハイペース必至 or 直線長コースで活きる。前走通過順が深い馬の上がり3F時計を確認"
+    if "上がり" in factor_name:
+        return "末脚絶対値より相対値(レース上がりに対する差)が重要。直近の上がり3F最速は能力代理として強い指標"
+    return "—"
+
+def build_check_list(fac, course_facs, sire_facs):
+    out = []
+    if sire_facs:
+        names = "／".join(f.replace("父","").replace("母父","") for f, _ in sire_facs[:3])
+        out.append(f"- **血統チェック**: {names}産駒の今週末出走を確認、watchlistへ登録検討")
+    if course_facs:
+        out.append(f"- **コース×脚質マッチング**: {len(course_facs)}つの効いた因子について、対象コースで該当馬が居るか出馬表確認")
+    out.append("- **警戒馬抽出閾値**: 現状bias>=5/オッズ>=10で運用、もし大穴ヒットが圏外(13位以下)に偏る週があれば閾値見直し検討")
+    out.append("- **馬場発表**: 当日朝のクッション値/含水率で芝の前残り傾向が変わる。馬場適性因子の重み再考")
+    out.append("- **ペース予測**: 出走馬の前走脚質を集計し、先行馬3頭以上なら『差し有利』判定で警戒馬ゾーンに差し馬を加える")
+    return out
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "auto"
