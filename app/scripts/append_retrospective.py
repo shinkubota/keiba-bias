@@ -143,18 +143,29 @@ def main():
                 "baba": keys["馬場"], "weather": keys["天候"],
             })
 
-        # 大穴3着内ヒットの集計（推奨ランクで「警戒馬セクションの有効性」を検証）
+        # 大穴3着内ヒットの集計（推奨ランク＋発火した因子も記録 — 「なぜ拾えたか」分析用）
         for h_res in r["horses"][:3]:
             ph = h_res.get("popularity")
             if ph and ph >= 8:
                 try: u_int = int(h_res["umaban"])
                 except: u_int = None
                 rk = rank_by_um.get(u_int) if u_int else None
+                # 該当馬のreasons取得
+                reasons = []
+                bias_pt = 0
+                for hh in a["horses"]:
+                    try:
+                        if int(hh["horse"]["umaban"]) == u_int:
+                            reasons = hh.get("reasons", [])[:5]
+                            bias_pt = hh.get("bias", 0)
+                            break
+                    except: pass
                 dark_horse_hits.append({
                     "track": race["track"], "race_no": race["race_no"],
                     "race_name": race["race_name"],
                     "finish": h_res["finish"], "name": h_res["name"],
                     "pop": ph, "odds": h_res.get("odds"), "rank": rk,
+                    "reasons": reasons, "bias": bias_pt,
                 })
 
     if n == 0:
@@ -210,6 +221,35 @@ def main():
                 block.append(f"> ✅ 警戒馬ゾーン(6-12位)が大穴ヒットの{watch_ratio*100:.0f}%を占める — 「人気軸◎＋警戒馬ワイド」戦略が有効")
             elif bucket["圏外(13位以下)"] > bucket["警戒馬(6-12位)"]:
                 block.append(f"> ⚠ 大穴の{bucket['圏外(13位以下)']/total*100:.0f}%が推奨13位以下＝バイアス検出から漏れている。閾値見直し検討")
+
+        # 「なぜ拾えたか」因子別分析
+        block += ["", "#### なぜ拾えたか — 因子別ヒット数", "推奨6位以内に入った大穴馬の発火因子（理由）を集計："]
+        factor_count = {}
+        sample_horses = {}
+        for x in dark_horse_hits:
+            if x["rank"] is None or x["rank"] > 12: continue   # 圏外は除外
+            for rr in x["reasons"]:
+                key = rr.split("(")[0].split("=")[0].split("該当")[0].strip()
+                factor_count[key] = factor_count.get(key, 0) + 1
+                sample_horses.setdefault(key, []).append(f"{x['name']}({x['pop']}人気)")
+        if factor_count:
+            block += ["", "| 因子 | 発火数 | 拾えた馬例 |", "|---|--:|---|"]
+            for k, v in sorted(factor_count.items(), key=lambda x:-x[1]):
+                if v < 2: continue
+                samples = "／".join(sample_horses[k][:3])
+                block.append(f"| {k} | {v} | {samples} |")
+            block.append("")
+            block.append("> 💡 この因子群が「人気薄を拾う鍵」になっている。配点強化候補。")
+
+        # 圏外で外した馬の特徴
+        outside = [x for x in dark_horse_hits if x["rank"] and x["rank"] > 12]
+        if outside:
+            block += ["", "#### 圏外(13位以下)で逃した大穴 — 改善余地",
+                      "推奨13位以下の大穴3着内ヒット。バイアス検出が届かなかった例:",
+                      "", "| 馬 | 人気 | 推奨ランク | bias | 主な理由 |", "|---|--:|--:|--:|---|"]
+            for x in outside:
+                rs = "／".join(x["reasons"][:3]) if x["reasons"] else "—"
+                block.append(f"| {x['name']} | {x['pop']} | {x['rank']}位 | {x['bias']} | {rs} |")
 
     # 取りこぼし分析
     if miss_races:
