@@ -42,6 +42,12 @@ case "$MODE" in
     cd "$APP_DIR/.." && git add -A && \
       (git diff --cached --quiet || (git commit -q -m "水曜コラム: 警戒馬因子分析" && git push origin main)) >>"$LOG" 2>&1
     ;;
+  pundit_review)
+    LOG="$LOG_DIR/${TS}_pundit_review.log"
+    python3 scripts/pundit_review.py >>"$LOG" 2>&1
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "配信者レビュー(平日夕方)" && git push origin main)) >>"$LOG" 2>&1
+    ;;
   data_refresh)
     LOG="$LOG_DIR/${TS}_data_refresh.log"
     python3 scripts/data_refresh.py >>"$LOG" 2>&1

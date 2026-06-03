@@ -14,6 +14,10 @@ PLISTS=(
   com.kubota.bias.column-wed.plist
   com.kubota.bias.special-entries.plist
   com.kubota.bias.data-refresh.plist
+  com.kubota.bias.pundit-mon.plist
+  com.kubota.bias.pundit-tue.plist
+  com.kubota.bias.pundit-wed.plist
+  com.kubota.bias.pundit-thu.plist
 )
 ACTION="${1:-install}"
 mkdir -p "$LA_DIR"

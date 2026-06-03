@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "description": "面白い競馬コンテンツ配信者リスト。月〜木の夕方コラムで1人ずつ取り上げ予想傾向を分析。採用するシグナルは手動承認後にloop_signalsへ昇格",
+    "schema": {
+      "id": "識別子(英数字)",
+      "name": "表示名",
+      "platform": "note|X|YouTube|blog",
+      "url": "プロフィールURL",
+      "style": "予想スタイルの一言(穴狙い/本命派/データ系 等)",
+      "added": "登録日 YYYY-MM-DD",
+      "priority": "high|mid|low (週に紹介する優先順)",
+      "notes": "メモ",
+      "last_reviewed": "最終レビュー日 YYYY-MM-DD (自動更新)"
+    }
+  },
+  "pundits": [
+    {
+      "id": "calimero",
+      "name": "カリメロ@穴馬オタク",
+      "platform": "note",
+      "url": "https://note.com/kooootalll",
+      "style": "穴馬◎中心。中穴〜大穴の本命を提示",
+      "added": "2026-05-30",
+      "priority": "high",
+      "notes": "85記事分の予想実績を既にanalyze.pyのCalシグナルとして統合済み。継続的な検証対象",
+      "last_reviewed": "2026-05-31"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "TARO",
+      "platform": "note/YouTube",
+      "url_hint": "https://note.com/tarokeiba",
+      "style": "ラップタイム理論",
+      "note": "追加候補。スタイル確認後priorityつけて登録"
+    },
+    {
+      "name": "亀谷敬正",
+      "platform": "blog/note",
+      "url_hint": "https://www.kameblog.com/",
+      "style": "血統理論の代表格",
+      "note": "種牡馬・系統別の戦績解説が深い"
+    }
+  ],
+  "candidate_signals": []
+}
