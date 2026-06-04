@@ -28,7 +28,11 @@ case "$MODE" in
     ;;
   special_entries)
     LOG="$LOG_DIR/${TS}_special_entries.log"
+    # 結果は data/review/columns/ ではなくログにのみ出す設計
+    # ただし watchlist.json などが手動更新されていた場合に備えて add のみ実行
     python3 scripts/check_special_entries.py >"$LOG" 2>&1
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "special_entries: 翌週末特別レース確認" && git push origin main)) >>"$LOG" 2>&1
     ;;
   column_miss)
     LOG="$LOG_DIR/${TS}_column_miss.log"
