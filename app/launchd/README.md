@@ -7,7 +7,13 @@
 | 曜日・時刻 | ジョブ | 内容 |
 |---|---|---|
 | 月 07:00 | `weekly-recap` | 前週土日通算成績をretrospective.mdに「週次まとめ」として追記 |
+| 月 18:00 | `pundit-mon` | 配信者レビュー1人(pundits.json順送り) |
+| 火 09:00 | `column-tue` | 取りこぼし深堀コラム |
+| 火 18:00 | `pundit-tue` | 配信者レビュー1人 |
+| 水 09:00 | `column-wed` | 警戒馬因子分析コラム(種牡馬詳細含む) |
+| 水 18:00 | `pundit-wed` | 配信者レビュー1人 |
 | 木 12:00 | `special-entries` | 翌週末の重賞・特別レース名チェック(注目馬の事前登録用) |
+| 木 18:00 | `pundit-thu` | 配信者レビュー1人 |
 | 金 19:00 | `data-refresh` | jockey_stats月次更新+lineage_fallback再構築+古キャッシュ掃除 |
 | 金 20:00 | `predict-sat` | 翌日(土)の予想生成→push→Pages反映 |
 | 土 19:00 | `review-sat` | 当日(土)結果取得→評価→retrospective.md追記 |
