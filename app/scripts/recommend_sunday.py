@@ -85,7 +85,8 @@ def fmt_row(p):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("date")
-    ap.add_argument("--track", default="東京,京都"); args = ap.parse_args()
+    ap.add_argument("--track", default="札幌,函館,福島,新潟,東京,中山,中京,京都,阪神,小倉")
+    args = ap.parse_args()
     tracks = set(args.track.split(","))
     d = datetime.date(int(args.date[:4]),int(args.date[4:6]),int(args.date[6:8]))
     data = json.loads((ROOT/"data"/f"shutuba_{args.date}.json").read_text(encoding="utf-8"))

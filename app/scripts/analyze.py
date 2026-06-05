@@ -672,8 +672,18 @@ def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None):
         baba = race.get("baba") or "良"
     key = course_key(race["track"], race["surface"], race["distance"], race.get("variant"))
     if not key:
-        return {"warn": f"未登録コース: {race['track']}{race['surface']}{race['distance']}m"}
-    course = COURSES[key]
+        # コース未登録: 障害は対象外、それ以外はデフォルト辞書で処理続行
+        if race["surface"] == "障":
+            return {"warn": f"未登録コース: {race['track']}{race['surface']}{race['distance']}m"}
+        course = {
+            "track": race["track"], "surface": race["surface"], "distance": race["distance"],
+            "headline": f"{race['track']}{race['surface']}{race['distance']}m(コース個別バイアス未登録・能力/血統/騎手/Calシグナルで評価)",
+            "rules": [], "sire_favored": [],
+            "gate_bias": {"general": ""},
+        }
+        key = f"{race['track']}{race['surface']}{race['distance']}m_default"
+    else:
+        course = COURSES[key]
     total = len(race["horses"])
     gates = any(h["umaban"] for h in race["horses"])
     # 斤量の軽量閾値: レース内最小+0.5kg以内 かつ レース内に有意な斤量差(>=1.5kg)があるときのみ有効

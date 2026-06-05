@@ -219,7 +219,9 @@ def rebuild_index():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("date"); ap.add_argument("--track", default="東京,京都"); ap.add_argument("--top", type=int, default=4)
+    ap.add_argument("date")
+    ap.add_argument("--track", default="札幌,函館,福島,新潟,東京,中山,中京,京都,阪神,小倉")
+    ap.add_argument("--top", type=int, default=4)
     ap.add_argument("--baba", default=None, help="馬場状態 良/稍/重/不良（未指定なら出馬表の実データ→無ければ良）")
     args = ap.parse_args()
     tracks = set(args.track.split(",")) if args.track else set()

@@ -124,7 +124,8 @@ def parse_shutuba(race_id):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("date", help="YYYYMMDD")
-    ap.add_argument("--tracks", default="東京,京都")
+    ap.add_argument("--tracks", default="札幌,函館,福島,新潟,東京,中山,中京,京都,阪神,小倉",
+                    help="対象場(カンマ区切り)。デフォルト中央10場全て＝その日の開催場を自動取得")
     args = ap.parse_args()
     tracks = set(args.tracks.split(","))
 
