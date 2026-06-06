@@ -21,7 +21,7 @@ TARGET_PREFIXES = ("shutuba_","horses_","odds_","results_",
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--keep", type=int, default=7, help="保持日数(N日以内は残す)")
+    ap.add_argument("--keep", type=int, default=4, help="保持日数(N日以内は残す)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
