@@ -1,0 +1,2511 @@
+[
+  {
+    "race_id": "202605030101",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 14,
+        "name": "ライラスター",
+        "popularity": 2,
+        "odds": 3.5
+      },
+      {
+        "finish": 2,
+        "umaban": 1,
+        "name": "サルヴァトーレ",
+        "popularity": 1,
+        "odds": 3.5
+      },
+      {
+        "finish": 3,
+        "umaban": 12,
+        "name": "タガノバルコス",
+        "popularity": 6,
+        "odds": 17.4
+      },
+      {
+        "finish": 4,
+        "umaban": 6,
+        "name": "ボールドハーテッド",
+        "popularity": 11,
+        "odds": 153.6
+      },
+      {
+        "finish": 5,
+        "umaban": 9,
+        "name": "アウスヴァール",
+        "popularity": 4,
+        "odds": 4.9
+      },
+      {
+        "finish": 6,
+        "umaban": 10,
+        "name": "コスモアミマネラ",
+        "popularity": 3,
+        "odds": 4.1
+      },
+      {
+        "finish": 7,
+        "umaban": 2,
+        "name": "ベラトール",
+        "popularity": 10,
+        "odds": 83.5
+      },
+      {
+        "finish": 8,
+        "umaban": 13,
+        "name": "フェスティヴビーム",
+        "popularity": 8,
+        "odds": 49.5
+      },
+      {
+        "finish": 9,
+        "umaban": 7,
+        "name": "ブラックシールド",
+        "popularity": 5,
+        "odds": 10.6
+      },
+      {
+        "finish": 10,
+        "umaban": 5,
+        "name": "モナコブル",
+        "popularity": 9,
+        "odds": 79.8
+      },
+      {
+        "finish": 11,
+        "umaban": 3,
+        "name": "コルデアニル",
+        "popularity": 7,
+        "odds": 36.4
+      },
+      {
+        "finish": 12,
+        "umaban": 8,
+        "name": "ナスノソナタ",
+        "popularity": 13,
+        "odds": 219.6
+      },
+      {
+        "finish": 13,
+        "umaban": 11,
+        "name": "シャトーホークビル",
+        "popularity": 14,
+        "odds": 318.8
+      },
+      {
+        "finish": 14,
+        "umaban": 4,
+        "name": "ワキノノーブル",
+        "popularity": 12,
+        "odds": 182.5
+      }
+    ],
+    "track": "東京",
+    "race_no": 1,
+    "race_name": "3歳以上障害未勝利"
+  },
+  {
+    "race_id": "202605030102",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 15,
+        "name": "ライトハウス",
+        "popularity": 8,
+        "odds": 41.5
+      },
+      {
+        "finish": 2,
+        "umaban": 9,
+        "name": "アイアンパイク",
+        "popularity": 2,
+        "odds": 2.8
+      },
+      {
+        "finish": 3,
+        "umaban": 1,
+        "name": "ラショナルポイント",
+        "popularity": 1,
+        "odds": 1.8
+      },
+      {
+        "finish": 4,
+        "umaban": 5,
+        "name": "コーリンクレア",
+        "popularity": 7,
+        "odds": 39.2
+      },
+      {
+        "finish": 5,
+        "umaban": 13,
+        "name": "タイセイルビー",
+        "popularity": 3,
+        "odds": 9.3
+      },
+      {
+        "finish": 6,
+        "umaban": 12,
+        "name": "ソフィアプルーマ",
+        "popularity": 12,
+        "odds": 114.3
+      },
+      {
+        "finish": 7,
+        "umaban": 7,
+        "name": "デルマザオウ",
+        "popularity": 10,
+        "odds": 58.2
+      },
+      {
+        "finish": 8,
+        "umaban": 2,
+        "name": "ビレッジルイーザ",
+        "popularity": 5,
+        "odds": 22.4
+      },
+      {
+        "finish": 9,
+        "umaban": 3,
+        "name": "アジュアカレンツ",
+        "popularity": 4,
+        "odds": 16.1
+      },
+      {
+        "finish": 10,
+        "umaban": 11,
+        "name": "アテナガール",
+        "popularity": 13,
+        "odds": 145.1
+      },
+      {
+        "finish": 11,
+        "umaban": 6,
+        "name": "カグヤヒメ",
+        "popularity": 6,
+        "odds": 28.3
+      },
+      {
+        "finish": 12,
+        "umaban": 14,
+        "name": "リナクィーンアスク",
+        "popularity": 15,
+        "odds": 294.6
+      },
+      {
+        "finish": 13,
+        "umaban": 16,
+        "name": "クラックアスマイル",
+        "popularity": 16,
+        "odds": 323.3
+      },
+      {
+        "finish": 14,
+        "umaban": 8,
+        "name": "アリストクラット",
+        "popularity": 14,
+        "odds": 267.8
+      },
+      {
+        "finish": 15,
+        "umaban": 4,
+        "name": "ダイユウヴェンティ",
+        "popularity": 11,
+        "odds": 106.7
+      },
+      {
+        "finish": 16,
+        "umaban": 10,
+        "name": "アンニャンクッキー",
+        "popularity": 9,
+        "odds": 55.2
+      }
+    ],
+    "track": "東京",
+    "race_no": 2,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202605030103",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 15,
+        "name": "レイズテンペスト",
+        "popularity": 1,
+        "odds": 2.5
+      },
+      {
+        "finish": 2,
+        "umaban": 9,
+        "name": "レイズレガシー",
+        "popularity": 3,
+        "odds": 3.9
+      },
+      {
+        "finish": 3,
+        "umaban": 12,
+        "name": "サトノワーグナー",
+        "popularity": 2,
+        "odds": 3.0
+      },
+      {
+        "finish": 4,
+        "umaban": 1,
+        "name": "ヴェントベローチェ",
+        "popularity": 9,
+        "odds": 72.5
+      },
+      {
+        "finish": 5,
+        "umaban": 4,
+        "name": "ロジシーザ",
+        "popularity": 11,
+        "odds": 111.6
+      },
+      {
+        "finish": 6,
+        "umaban": 11,
+        "name": "ファナティカル",
+        "popularity": 10,
+        "odds": 101.6
+      },
+      {
+        "finish": 7,
+        "umaban": 3,
+        "name": "ベセル",
+        "popularity": 4,
+        "odds": 15.0
+      },
+      {
+        "finish": 8,
+        "umaban": 10,
+        "name": "キタノシオン",
+        "popularity": 7,
+        "odds": 27.6
+      },
+      {
+        "finish": 9,
+        "umaban": 14,
+        "name": "エルアン",
+        "popularity": 6,
+        "odds": 25.7
+      },
+      {
+        "finish": 10,
+        "umaban": 6,
+        "name": "ヨシウッドテール",
+        "popularity": 14,
+        "odds": 312.4
+      },
+      {
+        "finish": 11,
+        "umaban": 5,
+        "name": "カミカクシ",
+        "popularity": 5,
+        "odds": 21.2
+      },
+      {
+        "finish": 12,
+        "umaban": 7,
+        "name": "プリンセスダーコ",
+        "popularity": 13,
+        "odds": 170.1
+      },
+      {
+        "finish": 13,
+        "umaban": 16,
+        "name": "シーズナルワーズ",
+        "popularity": 8,
+        "odds": 40.2
+      },
+      {
+        "finish": 14,
+        "umaban": 8,
+        "name": "ジューングレイス",
+        "popularity": 12,
+        "odds": 137.9
+      },
+      {
+        "finish": 15,
+        "umaban": 2,
+        "name": "クインズヒマワリ",
+        "popularity": 16,
+        "odds": 452.1
+      },
+      {
+        "finish": 16,
+        "umaban": 13,
+        "name": "クラウンアバンティ",
+        "popularity": 15,
+        "odds": 366.4
+      }
+    ],
+    "track": "東京",
+    "race_no": 3,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202605030104",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 2,
+        "name": "ラードンチェイス",
+        "popularity": 3,
+        "odds": 3.9
+      },
+      {
+        "finish": 2,
+        "umaban": 4,
+        "name": "リリカルフレア",
+        "popularity": 1,
+        "odds": 2.7
+      },
+      {
+        "finish": 3,
+        "umaban": 5,
+        "name": "オオセイケイ",
+        "popularity": 2,
+        "odds": 3.9
+      },
+      {
+        "finish": 4,
+        "umaban": 6,
+        "name": "ニューロファイター",
+        "popularity": 4,
+        "odds": 5.6
+      },
+      {
+        "finish": 5,
+        "umaban": 7,
+        "name": "ベアアミーチ",
+        "popularity": 6,
+        "odds": 55.9
+      },
+      {
+        "finish": 6,
+        "umaban": 3,
+        "name": "ドルチェテソーロ",
+        "popularity": 5,
+        "odds": 5.9
+      },
+      {
+        "finish": 7,
+        "umaban": 1,
+        "name": "シュアシング",
+        "popularity": 7,
+        "odds": 63.5
+      }
+    ],
+    "track": "東京",
+    "race_no": 4,
+    "race_name": "2歳新馬"
+  },
+  {
+    "race_id": "202605030105",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 2,
+        "name": "フィリオソラーレ",
+        "popularity": 1,
+        "odds": 1.3
+      },
+      {
+        "finish": 2,
+        "umaban": 1,
+        "name": "ウィンターブリーズ",
+        "popularity": 3,
+        "odds": 6.5
+      },
+      {
+        "finish": 3,
+        "umaban": 6,
+        "name": "クシェドゥソレイユ",
+        "popularity": 2,
+        "odds": 4.9
+      },
+      {
+        "finish": 4,
+        "umaban": 4,
+        "name": "アテナブレイブ",
+        "popularity": 5,
+        "odds": 25.8
+      },
+      {
+        "finish": 5,
+        "umaban": 5,
+        "name": "スクリプトール",
+        "popularity": 6,
+        "odds": 26.2
+      },
+      {
+        "finish": 6,
+        "umaban": 7,
+        "name": "コウソクレムリア",
+        "popularity": 8,
+        "odds": 114.6
+      },
+      {
+        "finish": 7,
+        "umaban": 9,
+        "name": "エリステソーロ",
+        "popularity": 4,
+        "odds": 22.7
+      },
+      {
+        "finish": 8,
+        "umaban": 3,
+        "name": "レオリアライズ",
+        "popularity": 7,
+        "odds": 70.9
+      },
+      {
+        "finish": 9,
+        "umaban": 8,
+        "name": "アミノショコラ",
+        "popularity": 9,
+        "odds": 190.9
+      }
+    ],
+    "track": "東京",
+    "race_no": 5,
+    "race_name": "2歳新馬"
+  },
+  {
+    "race_id": "202605030106",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 4,
+        "name": "ポッドジーク",
+        "popularity": 5,
+        "odds": 14.0
+      },
+      {
+        "finish": 2,
+        "umaban": 13,
+        "name": "テンオンスゴールド",
+        "popularity": 6,
+        "odds": 15.8
+      },
+      {
+        "finish": 3,
+        "umaban": 6,
+        "name": "ロングミックス",
+        "popularity": 8,
+        "odds": 18.8
+      },
+      {
+        "finish": 4,
+        "umaban": 15,
+        "name": "タマモブレイキン",
+        "popularity": 10,
+        "odds": 34.4
+      },
+      {
+        "finish": 5,
+        "umaban": 8,
+        "name": "アオイミズホ",
+        "popularity": 1,
+        "odds": 2.5
+      },
+      {
+        "finish": 6,
+        "umaban": 11,
+        "name": "ラッキースウィッチ",
+        "popularity": 2,
+        "odds": 3.4
+      },
+      {
+        "finish": 7,
+        "umaban": 2,
+        "name": "ホウオウファラオ",
+        "popularity": 11,
+        "odds": 55.7
+      },
+      {
+        "finish": 8,
+        "umaban": 16,
+        "name": "タニセンローマ",
+        "popularity": 12,
+        "odds": 63.8
+      },
+      {
+        "finish": 9,
+        "umaban": 10,
+        "name": "ノリキング",
+        "popularity": 4,
+        "odds": 12.9
+      },
+      {
+        "finish": 10,
+        "umaban": 9,
+        "name": "ドゥーニ",
+        "popularity": 7,
+        "odds": 16.8
+      },
+      {
+        "finish": 11,
+        "umaban": 1,
+        "name": "フェンリル",
+        "popularity": 9,
+        "odds": 29.2
+      },
+      {
+        "finish": 12,
+        "umaban": 12,
+        "name": "モウレツ",
+        "popularity": 15,
+        "odds": 280.2
+      },
+      {
+        "finish": 13,
+        "umaban": 7,
+        "name": "パンパネイラ",
+        "popularity": 13,
+        "odds": 72.2
+      },
+      {
+        "finish": 14,
+        "umaban": 5,
+        "name": "ショービット",
+        "popularity": 16,
+        "odds": 475.0
+      },
+      {
+        "finish": 15,
+        "umaban": 14,
+        "name": "ウインファイネスト",
+        "popularity": 14,
+        "odds": 76.3
+      },
+      {
+        "finish": 16,
+        "umaban": 3,
+        "name": "ファーザーアウェイ",
+        "popularity": 3,
+        "odds": 8.2
+      }
+    ],
+    "track": "東京",
+    "race_no": 6,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202605030107",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 9,
+        "name": "イニスフェイル",
+        "popularity": 2,
+        "odds": 3.3
+      },
+      {
+        "finish": 2,
+        "umaban": 6,
+        "name": "ショウナンマルチ",
+        "popularity": 1,
+        "odds": 2.2
+      },
+      {
+        "finish": 3,
+        "umaban": 2,
+        "name": "アールグレイ",
+        "popularity": 5,
+        "odds": 17.6
+      },
+      {
+        "finish": 4,
+        "umaban": 10,
+        "name": "アッシズオブローズ",
+        "popularity": 3,
+        "odds": 4.2
+      },
+      {
+        "finish": 5,
+        "umaban": 8,
+        "name": "ヤマメホープ",
+        "popularity": 4,
+        "odds": 7.4
+      },
+      {
+        "finish": 6,
+        "umaban": 1,
+        "name": "ブライスフェアリー",
+        "popularity": 12,
+        "odds": 182.5
+      },
+      {
+        "finish": 7,
+        "umaban": 7,
+        "name": "シークレットシティ",
+        "popularity": 7,
+        "odds": 82.7
+      },
+      {
+        "finish": 8,
+        "umaban": 13,
+        "name": "カワイクテゴメン",
+        "popularity": 6,
+        "odds": 45.0
+      },
+      {
+        "finish": 9,
+        "umaban": 12,
+        "name": "モンドシュピーゲル",
+        "popularity": 8,
+        "odds": 87.0
+      },
+      {
+        "finish": 10,
+        "umaban": 4,
+        "name": "マイネルシュラハト",
+        "popularity": 13,
+        "odds": 207.9
+      },
+      {
+        "finish": 11,
+        "umaban": 16,
+        "name": "ブルーリファール",
+        "popularity": 11,
+        "odds": 145.7
+      },
+      {
+        "finish": 12,
+        "umaban": 5,
+        "name": "プリヴィマーク",
+        "popularity": 14,
+        "odds": 249.2
+      },
+      {
+        "finish": 13,
+        "umaban": 11,
+        "name": "ナズドゥラヴィ",
+        "popularity": 10,
+        "odds": 131.4
+      },
+      {
+        "finish": 14,
+        "umaban": 14,
+        "name": "アルバニクス",
+        "popularity": 16,
+        "odds": 503.0
+      },
+      {
+        "finish": 15,
+        "umaban": 3,
+        "name": "シアワセチョウサン",
+        "popularity": 15,
+        "odds": 426.7
+      },
+      {
+        "finish": 16,
+        "umaban": 15,
+        "name": "ハスカップジャム",
+        "popularity": 9,
+        "odds": 95.9
+      }
+    ],
+    "track": "東京",
+    "race_no": 7,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202605030108",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 2,
+        "name": "サファイアテソーロ",
+        "popularity": 13,
+        "odds": 116.8
+      },
+      {
+        "finish": 2,
+        "umaban": 16,
+        "name": "エムノビアンカ",
+        "popularity": 2,
+        "odds": 6.0
+      },
+      {
+        "finish": 3,
+        "umaban": 4,
+        "name": "ファンシーズ",
+        "popularity": 5,
+        "odds": 20.6
+      },
+      {
+        "finish": 4,
+        "umaban": 1,
+        "name": "リバースザトレンド",
+        "popularity": 6,
+        "odds": 21.0
+      },
+      {
+        "finish": 5,
+        "umaban": 3,
+        "name": "ヴンダーバール",
+        "popularity": 1,
+        "odds": 1.4
+      },
+      {
+        "finish": 6,
+        "umaban": 7,
+        "name": "ルージュカルデア",
+        "popularity": 11,
+        "odds": 70.7
+      },
+      {
+        "finish": 7,
+        "umaban": 14,
+        "name": "エアトベーレ",
+        "popularity": 10,
+        "odds": 54.3
+      },
+      {
+        "finish": 8,
+        "umaban": 11,
+        "name": "プルーヴンウィナー",
+        "popularity": 9,
+        "odds": 49.4
+      },
+      {
+        "finish": 9,
+        "umaban": 12,
+        "name": "ミライヘノティアラ",
+        "popularity": 4,
+        "odds": 19.6
+      },
+      {
+        "finish": 10,
+        "umaban": 10,
+        "name": "リケアマカロニ",
+        "popularity": 8,
+        "odds": 39.4
+      },
+      {
+        "finish": 11,
+        "umaban": 8,
+        "name": "アンディラメナ",
+        "popularity": 3,
+        "odds": 10.7
+      },
+      {
+        "finish": 12,
+        "umaban": 6,
+        "name": "エコールナヴァール",
+        "popularity": 7,
+        "odds": 24.3
+      },
+      {
+        "finish": 13,
+        "umaban": 9,
+        "name": "レイフロレット",
+        "popularity": 15,
+        "odds": 419.4
+      },
+      {
+        "finish": 14,
+        "umaban": 13,
+        "name": "トキメキジニア",
+        "popularity": 16,
+        "odds": 654.6
+      },
+      {
+        "finish": 15,
+        "umaban": 5,
+        "name": "マーキュリーダイム",
+        "popularity": 14,
+        "odds": 196.0
+      },
+      {
+        "finish": 16,
+        "umaban": 15,
+        "name": "カリヨンアヴォン",
+        "popularity": 12,
+        "odds": 79.4
+      }
+    ],
+    "track": "東京",
+    "race_no": 8,
+    "race_name": "3歳以上1勝クラス"
+  },
+  {
+    "race_id": "202605030109",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 8,
+        "name": "エリプティクカーブ",
+        "popularity": 2,
+        "odds": 3.7
+      },
+      {
+        "finish": 2,
+        "umaban": 10,
+        "name": "ウップヘリーア",
+        "popularity": 1,
+        "odds": 2.1
+      },
+      {
+        "finish": 3,
+        "umaban": 9,
+        "name": "サンセットビュー",
+        "popularity": 6,
+        "odds": 25.8
+      },
+      {
+        "finish": 4,
+        "umaban": 5,
+        "name": "ゲンジ",
+        "popularity": 7,
+        "odds": 35.6
+      },
+      {
+        "finish": 5,
+        "umaban": 12,
+        "name": "イブキ",
+        "popularity": 3,
+        "odds": 3.9
+      },
+      {
+        "finish": 6,
+        "umaban": 3,
+        "name": "ヴォートセレスト",
+        "popularity": 5,
+        "odds": 18.0
+      },
+      {
+        "finish": 7,
+        "umaban": 1,
+        "name": "トラストボス",
+        "popularity": 9,
+        "odds": 52.1
+      },
+      {
+        "finish": 8,
+        "umaban": 11,
+        "name": "オリオアルセーリオ",
+        "popularity": 11,
+        "odds": 125.5
+      },
+      {
+        "finish": 9,
+        "umaban": 2,
+        "name": "ニシノヒノトリ",
+        "popularity": 4,
+        "odds": 13.5
+      },
+      {
+        "finish": 10,
+        "umaban": 7,
+        "name": "ガンバルマン",
+        "popularity": 8,
+        "odds": 43.3
+      },
+      {
+        "finish": 11,
+        "umaban": 4,
+        "name": "リアライズオーラム",
+        "popularity": 10,
+        "odds": 56.9
+      },
+      {
+        "finish": 12,
+        "umaban": 6,
+        "name": "リリエンフェルト",
+        "popularity": 12,
+        "odds": 179.5
+      }
+    ],
+    "track": "東京",
+    "race_no": 9,
+    "race_name": "稲城特別"
+  },
+  {
+    "race_id": "202605030110",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 6,
+        "name": "ロジケープ",
+        "popularity": 3,
+        "odds": 11.2
+      },
+      {
+        "finish": 2,
+        "umaban": 4,
+        "name": "クレパスキュラー",
+        "popularity": 1,
+        "odds": 1.6
+      },
+      {
+        "finish": 3,
+        "umaban": 2,
+        "name": "ユキノエミリオ",
+        "popularity": 16,
+        "odds": 220.6
+      },
+      {
+        "finish": 4,
+        "umaban": 1,
+        "name": "サンタアニタ",
+        "popularity": 8,
+        "odds": 29.8
+      },
+      {
+        "finish": 5,
+        "umaban": 16,
+        "name": "イゾラフェリーチェ",
+        "popularity": 7,
+        "odds": 23.5
+      },
+      {
+        "finish": 6,
+        "umaban": 8,
+        "name": "レイユール",
+        "popularity": 14,
+        "odds": 167.9
+      },
+      {
+        "finish": 7,
+        "umaban": 9,
+        "name": "ツーネサーン",
+        "popularity": 4,
+        "odds": 11.6
+      },
+      {
+        "finish": 8,
+        "umaban": 15,
+        "name": "スターウェーブ",
+        "popularity": 6,
+        "odds": 16.5
+      },
+      {
+        "finish": 9,
+        "umaban": 13,
+        "name": "ジョヴィアン",
+        "popularity": 15,
+        "odds": 195.6
+      },
+      {
+        "finish": 10,
+        "umaban": 10,
+        "name": "ウインイザナミ",
+        "popularity": 5,
+        "odds": 14.3
+      },
+      {
+        "finish": 11,
+        "umaban": 17,
+        "name": "メイケイバートン",
+        "popularity": 9,
+        "odds": 39.2
+      },
+      {
+        "finish": 12,
+        "umaban": 11,
+        "name": "ファムマルキーズ",
+        "popularity": 2,
+        "odds": 5.6
+      },
+      {
+        "finish": 13,
+        "umaban": 3,
+        "name": "クレオズニードル",
+        "popularity": 13,
+        "odds": 142.6
+      },
+      {
+        "finish": 14,
+        "umaban": 7,
+        "name": "タイキエクセロン",
+        "popularity": 17,
+        "odds": 238.9
+      },
+      {
+        "finish": 15,
+        "umaban": 14,
+        "name": "トラスコンガーデン",
+        "popularity": 10,
+        "odds": 51.7
+      },
+      {
+        "finish": 16,
+        "umaban": 12,
+        "name": "ゴールドスター",
+        "popularity": 11,
+        "odds": 58.6
+      },
+      {
+        "finish": 17,
+        "umaban": 5,
+        "name": "ラスティングスノー",
+        "popularity": 12,
+        "odds": 76.0
+      }
+    ],
+    "track": "東京",
+    "race_no": 10,
+    "race_name": "テレビ山梨杯"
+  },
+  {
+    "race_id": "202605030111",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 9,
+        "name": "メリディアンスター",
+        "popularity": 2,
+        "odds": 3.2
+      },
+      {
+        "finish": 2,
+        "umaban": 12,
+        "name": "スナッピードレッサ",
+        "popularity": 1,
+        "odds": 2.0
+      },
+      {
+        "finish": 3,
+        "umaban": 8,
+        "name": "ピエマンソン",
+        "popularity": 6,
+        "odds": 24.1
+      },
+      {
+        "finish": 4,
+        "umaban": 15,
+        "name": "メイショウツヨキ",
+        "popularity": 9,
+        "odds": 38.3
+      },
+      {
+        "finish": 5,
+        "umaban": 5,
+        "name": "モーニングマジック",
+        "popularity": 4,
+        "odds": 15.0
+      },
+      {
+        "finish": 6,
+        "umaban": 10,
+        "name": "クインズデネブ",
+        "popularity": 12,
+        "odds": 75.1
+      },
+      {
+        "finish": 7,
+        "umaban": 1,
+        "name": "ドンレパルス",
+        "popularity": 7,
+        "odds": 35.2
+      },
+      {
+        "finish": 8,
+        "umaban": 14,
+        "name": "ワンダラー",
+        "popularity": 11,
+        "odds": 69.3
+      },
+      {
+        "finish": 9,
+        "umaban": 3,
+        "name": "グレイテストソング",
+        "popularity": 15,
+        "odds": 223.7
+      },
+      {
+        "finish": 10,
+        "umaban": 6,
+        "name": "セミマル",
+        "popularity": 3,
+        "odds": 7.8
+      },
+      {
+        "finish": 11,
+        "umaban": 13,
+        "name": "シャパリュ",
+        "popularity": 13,
+        "odds": 78.6
+      },
+      {
+        "finish": 12,
+        "umaban": 11,
+        "name": "オペラプラージュ",
+        "popularity": 14,
+        "odds": 138.6
+      },
+      {
+        "finish": 13,
+        "umaban": 16,
+        "name": "シュヴァルボヌール",
+        "popularity": 10,
+        "odds": 50.5
+      },
+      {
+        "finish": 14,
+        "umaban": 7,
+        "name": "エイプリルインパリ",
+        "popularity": 8,
+        "odds": 37.5
+      },
+      {
+        "finish": 15,
+        "umaban": 4,
+        "name": "ゴールドハンマー",
+        "popularity": 5,
+        "odds": 17.5
+      }
+    ],
+    "track": "東京",
+    "race_no": 11,
+    "race_name": "麦秋S"
+  },
+  {
+    "race_id": "202605030112",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 10,
+        "name": "ザーフィル",
+        "popularity": 1,
+        "odds": 1.2
+      },
+      {
+        "finish": 2,
+        "umaban": 16,
+        "name": "ザローズハーツ",
+        "popularity": 6,
+        "odds": 30.3
+      },
+      {
+        "finish": 3,
+        "umaban": 6,
+        "name": "カルフ",
+        "popularity": 2,
+        "odds": 10.5
+      },
+      {
+        "finish": 4,
+        "umaban": 2,
+        "name": "ピースサイン",
+        "popularity": 3,
+        "odds": 12.2
+      },
+      {
+        "finish": 5,
+        "umaban": 5,
+        "name": "ファンタイムギフト",
+        "popularity": 4,
+        "odds": 14.0
+      },
+      {
+        "finish": 6,
+        "umaban": 3,
+        "name": "タキノボリ",
+        "popularity": 10,
+        "odds": 71.4
+      },
+      {
+        "finish": 7,
+        "umaban": 9,
+        "name": "タイセイエムロード",
+        "popularity": 5,
+        "odds": 21.8
+      },
+      {
+        "finish": 8,
+        "umaban": 8,
+        "name": "ベンメリア",
+        "popularity": 14,
+        "odds": 260.8
+      },
+      {
+        "finish": 9,
+        "umaban": 12,
+        "name": "パッカパッカブー",
+        "popularity": 11,
+        "odds": 206.8
+      },
+      {
+        "finish": 10,
+        "umaban": 15,
+        "name": "オンサイト",
+        "popularity": 15,
+        "odds": 272.7
+      },
+      {
+        "finish": 11,
+        "umaban": 13,
+        "name": "カンレイスキー",
+        "popularity": 9,
+        "odds": 66.6
+      },
+      {
+        "finish": 12,
+        "umaban": 14,
+        "name": "レッドシュトラール",
+        "popularity": 8,
+        "odds": 48.6
+      },
+      {
+        "finish": 13,
+        "umaban": 1,
+        "name": "ユーウェイン",
+        "popularity": 12,
+        "odds": 250.8
+      },
+      {
+        "finish": 14,
+        "umaban": 11,
+        "name": "タイセイエキサイト",
+        "popularity": 13,
+        "odds": 256.9
+      },
+      {
+        "finish": 15,
+        "umaban": 4,
+        "name": "ドルビナ",
+        "popularity": 7,
+        "odds": 48.1
+      },
+      {
+        "finish": 16,
+        "umaban": 7,
+        "name": "アイファーファイト",
+        "popularity": 16,
+        "odds": 333.4
+      }
+    ],
+    "track": "東京",
+    "race_no": 12,
+    "race_name": "3歳以上1勝クラス"
+  },
+  {
+    "race_id": "202609030101",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 11,
+        "name": "アクアアイ",
+        "popularity": 1,
+        "odds": 1.5
+      },
+      {
+        "finish": 2,
+        "umaban": 4,
+        "name": "アンティスマ",
+        "popularity": 7,
+        "odds": 15.3
+      },
+      {
+        "finish": 3,
+        "umaban": 2,
+        "name": "キャスケード",
+        "popularity": 10,
+        "odds": 51.7
+      },
+      {
+        "finish": 4,
+        "umaban": 5,
+        "name": "ベストレイク",
+        "popularity": 11,
+        "odds": 96.2
+      },
+      {
+        "finish": 5,
+        "umaban": 8,
+        "name": "ルージュエテルナ",
+        "popularity": 4,
+        "odds": 13.4
+      },
+      {
+        "finish": 6,
+        "umaban": 1,
+        "name": "コイバナ",
+        "popularity": 5,
+        "odds": 14.0
+      },
+      {
+        "finish": 7,
+        "umaban": 6,
+        "name": "ダノンベルビュー",
+        "popularity": 3,
+        "odds": 13.2
+      },
+      {
+        "finish": 8,
+        "umaban": 15,
+        "name": "マルベック",
+        "popularity": 2,
+        "odds": 6.9
+      },
+      {
+        "finish": 9,
+        "umaban": 10,
+        "name": "トリーア",
+        "popularity": 6,
+        "odds": 14.9
+      },
+      {
+        "finish": 10,
+        "umaban": 3,
+        "name": "ヴィータリッカ",
+        "popularity": 9,
+        "odds": 51.0
+      },
+      {
+        "finish": 11,
+        "umaban": 13,
+        "name": "ヴェルメロディ",
+        "popularity": 13,
+        "odds": 119.3
+      },
+      {
+        "finish": 12,
+        "umaban": 16,
+        "name": "ナイトシンフォニー",
+        "popularity": 15,
+        "odds": 191.3
+      },
+      {
+        "finish": 13,
+        "umaban": 14,
+        "name": "ルージュシャラポワ",
+        "popularity": 12,
+        "odds": 99.3
+      },
+      {
+        "finish": 14,
+        "umaban": 7,
+        "name": "テーオーエリーナ",
+        "popularity": 14,
+        "odds": 168.3
+      },
+      {
+        "finish": 15,
+        "umaban": 9,
+        "name": "ボンボンブーケ",
+        "popularity": 16,
+        "odds": 361.0
+      },
+      {
+        "finish": 16,
+        "umaban": 12,
+        "name": "ジューンマロン",
+        "popularity": 8,
+        "odds": 38.8
+      }
+    ],
+    "track": "阪神",
+    "race_no": 1,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202609030102",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 5,
+        "name": "ビスケットアソート",
+        "popularity": 3,
+        "odds": 5.6
+      },
+      {
+        "finish": 2,
+        "umaban": 6,
+        "name": "ジャスパーブレイズ",
+        "popularity": 5,
+        "odds": 11.9
+      },
+      {
+        "finish": 3,
+        "umaban": 15,
+        "name": "アルムアポジェ",
+        "popularity": 1,
+        "odds": 2.5
+      },
+      {
+        "finish": 4,
+        "umaban": 12,
+        "name": "シャインゴーツ",
+        "popularity": 4,
+        "odds": 11.5
+      },
+      {
+        "finish": 5,
+        "umaban": 10,
+        "name": "ナムラロダン",
+        "popularity": 2,
+        "odds": 3.1
+      },
+      {
+        "finish": 6,
+        "umaban": 7,
+        "name": "グラマラス",
+        "popularity": 8,
+        "odds": 49.1
+      },
+      {
+        "finish": 7,
+        "umaban": 1,
+        "name": "デルニエジョイ",
+        "popularity": 7,
+        "odds": 19.7
+      },
+      {
+        "finish": 8,
+        "umaban": 14,
+        "name": "ミルトメテオ",
+        "popularity": 6,
+        "odds": 14.8
+      },
+      {
+        "finish": 9,
+        "umaban": 13,
+        "name": "マカホウ",
+        "popularity": 9,
+        "odds": 74.6
+      },
+      {
+        "finish": 10,
+        "umaban": 8,
+        "name": "レーヌペスカ",
+        "popularity": 15,
+        "odds": 300.7
+      },
+      {
+        "finish": 11,
+        "umaban": 9,
+        "name": "インディクイーン",
+        "popularity": 16,
+        "odds": 347.0
+      },
+      {
+        "finish": 12,
+        "umaban": 2,
+        "name": "ナムラステラ",
+        "popularity": 11,
+        "odds": 117.3
+      },
+      {
+        "finish": 13,
+        "umaban": 3,
+        "name": "シュネードリーム",
+        "popularity": 12,
+        "odds": 121.9
+      },
+      {
+        "finish": 14,
+        "umaban": 4,
+        "name": "クレバーキュート",
+        "popularity": 14,
+        "odds": 273.2
+      },
+      {
+        "finish": 15,
+        "umaban": 11,
+        "name": "ヤングジャガー",
+        "popularity": 10,
+        "odds": 88.2
+      },
+      {
+        "finish": 16,
+        "umaban": 16,
+        "name": "モズナツノジン",
+        "popularity": 13,
+        "odds": 142.5
+      }
+    ],
+    "track": "阪神",
+    "race_no": 2,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202609030103",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 10,
+        "name": "ドリームキャリー",
+        "popularity": 4,
+        "odds": 5.6
+      },
+      {
+        "finish": 2,
+        "umaban": 2,
+        "name": "マクノス",
+        "popularity": 2,
+        "odds": 4.1
+      },
+      {
+        "finish": 3,
+        "umaban": 15,
+        "name": "ダノンロワール",
+        "popularity": 7,
+        "odds": 20.9
+      },
+      {
+        "finish": 4,
+        "umaban": 4,
+        "name": "タントレーベル",
+        "popularity": 5,
+        "odds": 12.0
+      },
+      {
+        "finish": 5,
+        "umaban": 5,
+        "name": "リリークリスタル",
+        "popularity": 16,
+        "odds": 181.5
+      },
+      {
+        "finish": 6,
+        "umaban": 8,
+        "name": "レウコテア",
+        "popularity": 8,
+        "odds": 25.0
+      },
+      {
+        "finish": 7,
+        "umaban": 9,
+        "name": "ヤマニンコルザ",
+        "popularity": 3,
+        "odds": 5.2
+      },
+      {
+        "finish": 8,
+        "umaban": 16,
+        "name": "ソルアモール",
+        "popularity": 6,
+        "odds": 12.1
+      },
+      {
+        "finish": 9,
+        "umaban": 14,
+        "name": "ファントムグレース",
+        "popularity": 13,
+        "odds": 81.9
+      },
+      {
+        "finish": 10,
+        "umaban": 3,
+        "name": "ワンダージェム",
+        "popularity": 10,
+        "odds": 36.4
+      },
+      {
+        "finish": 11,
+        "umaban": 1,
+        "name": "ワイドシャッフエン",
+        "popularity": 9,
+        "odds": 34.6
+      },
+      {
+        "finish": 12,
+        "umaban": 13,
+        "name": "エイル",
+        "popularity": 11,
+        "odds": 48.5
+      },
+      {
+        "finish": 13,
+        "umaban": 12,
+        "name": "ハッピーバンク",
+        "popularity": 1,
+        "odds": 3.8
+      },
+      {
+        "finish": 14,
+        "umaban": 6,
+        "name": "アマノガワギンガ",
+        "popularity": 14,
+        "odds": 114.2
+      },
+      {
+        "finish": 15,
+        "umaban": 7,
+        "name": "ウインロズパレード",
+        "popularity": 12,
+        "odds": 55.6
+      },
+      {
+        "finish": 16,
+        "umaban": 11,
+        "name": "タマモアマルフィ",
+        "popularity": 15,
+        "odds": 138.4
+      }
+    ],
+    "track": "阪神",
+    "race_no": 3,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202609030104",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 3,
+        "name": "タナブイハチターボ",
+        "popularity": 1,
+        "odds": 3.0
+      },
+      {
+        "finish": 2,
+        "umaban": 12,
+        "name": "アンガーザガール",
+        "popularity": 3,
+        "odds": 4.1
+      },
+      {
+        "finish": 3,
+        "umaban": 15,
+        "name": "カルロット",
+        "popularity": 4,
+        "odds": 4.8
+      },
+      {
+        "finish": 4,
+        "umaban": 4,
+        "name": "スイートポメロ",
+        "popularity": 7,
+        "odds": 33.6
+      },
+      {
+        "finish": 5,
+        "umaban": 9,
+        "name": "リアララ",
+        "popularity": 2,
+        "odds": 4.0
+      },
+      {
+        "finish": 6,
+        "umaban": 6,
+        "name": "プリュスエクラ",
+        "popularity": 5,
+        "odds": 10.4
+      },
+      {
+        "finish": 7,
+        "umaban": 5,
+        "name": "ハクサンテドリガワ",
+        "popularity": 6,
+        "odds": 23.3
+      },
+      {
+        "finish": 8,
+        "umaban": 11,
+        "name": "リアンマカ",
+        "popularity": 14,
+        "odds": 352.4
+      },
+      {
+        "finish": 9,
+        "umaban": 2,
+        "name": "ドゥボヌール",
+        "popularity": 8,
+        "odds": 52.7
+      },
+      {
+        "finish": 10,
+        "umaban": 14,
+        "name": "タマモマリアージュ",
+        "popularity": 16,
+        "odds": 399.8
+      },
+      {
+        "finish": 11,
+        "umaban": 7,
+        "name": "タマモパルファン",
+        "popularity": 10,
+        "odds": 182.8
+      },
+      {
+        "finish": 12,
+        "umaban": 1,
+        "name": "チョウギャル",
+        "popularity": 15,
+        "odds": 395.4
+      },
+      {
+        "finish": 13,
+        "umaban": 10,
+        "name": "ルビーブロンド",
+        "popularity": 12,
+        "odds": 270.1
+      },
+      {
+        "finish": 14,
+        "umaban": 16,
+        "name": "フェイトブレイカー",
+        "popularity": 11,
+        "odds": 236.2
+      },
+      {
+        "finish": 15,
+        "umaban": 13,
+        "name": "オラロア",
+        "popularity": 9,
+        "odds": 62.4
+      },
+      {
+        "finish": 16,
+        "umaban": 8,
+        "name": "ハギノデュア",
+        "popularity": 13,
+        "odds": 346.1
+      }
+    ],
+    "track": "阪神",
+    "race_no": 4,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202609030105",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 5,
+        "name": "ジーティーサクラ",
+        "popularity": 2,
+        "odds": 2.7
+      },
+      {
+        "finish": 2,
+        "umaban": 3,
+        "name": "ロジクラウン",
+        "popularity": 1,
+        "odds": 2.2
+      },
+      {
+        "finish": 3,
+        "umaban": 6,
+        "name": "エコロラーダ",
+        "popularity": 5,
+        "odds": 18.4
+      },
+      {
+        "finish": 4,
+        "umaban": 4,
+        "name": "シャインラブ",
+        "popularity": 4,
+        "odds": 11.7
+      },
+      {
+        "finish": 5,
+        "umaban": 2,
+        "name": "シャプシュ",
+        "popularity": 6,
+        "odds": 20.7
+      },
+      {
+        "finish": 6,
+        "umaban": 1,
+        "name": "タイドビート",
+        "popularity": 3,
+        "odds": 4.0
+      }
+    ],
+    "track": "阪神",
+    "race_no": 5,
+    "race_name": "2歳新馬"
+  },
+  {
+    "race_id": "202609030106",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 14,
+        "name": "メイショウコシュウ",
+        "popularity": 2,
+        "odds": 3.1
+      },
+      {
+        "finish": 2,
+        "umaban": 5,
+        "name": "スパルタンエックス",
+        "popularity": 6,
+        "odds": 23.5
+      },
+      {
+        "finish": 3,
+        "umaban": 9,
+        "name": "レッドフロイデ",
+        "popularity": 1,
+        "odds": 2.2
+      },
+      {
+        "finish": 4,
+        "umaban": 15,
+        "name": "ベルアズーロ",
+        "popularity": 10,
+        "odds": 47.1
+      },
+      {
+        "finish": 5,
+        "umaban": 6,
+        "name": "ゴールデンドラゴン",
+        "popularity": 8,
+        "odds": 34.9
+      },
+      {
+        "finish": 6,
+        "umaban": 3,
+        "name": "ジーティーピカソ",
+        "popularity": 3,
+        "odds": 5.1
+      },
+      {
+        "finish": 7,
+        "umaban": 10,
+        "name": "ブラストオフ",
+        "popularity": 11,
+        "odds": 60.6
+      },
+      {
+        "finish": 8,
+        "umaban": 7,
+        "name": "リリーサンダー",
+        "popularity": 4,
+        "odds": 15.3
+      },
+      {
+        "finish": 9,
+        "umaban": 1,
+        "name": "ロードファイター",
+        "popularity": 9,
+        "odds": 40.0
+      },
+      {
+        "finish": 10,
+        "umaban": 2,
+        "name": "クールブレーブ",
+        "popularity": 15,
+        "odds": 609.9
+      },
+      {
+        "finish": 11,
+        "umaban": 12,
+        "name": "ニシノエビガタメ",
+        "popularity": 5,
+        "odds": 22.4
+      },
+      {
+        "finish": 12,
+        "umaban": 8,
+        "name": "カラバッシュ",
+        "popularity": 7,
+        "odds": 29.1
+      },
+      {
+        "finish": 13,
+        "umaban": 4,
+        "name": "アライブテーラー",
+        "popularity": 14,
+        "odds": 401.2
+      },
+      {
+        "finish": 14,
+        "umaban": 11,
+        "name": "ティアーズクィーン",
+        "popularity": 13,
+        "odds": 163.1
+      },
+      {
+        "finish": 15,
+        "umaban": 13,
+        "name": "マイトグラッド",
+        "popularity": 16,
+        "odds": 613.5
+      },
+      {
+        "finish": 16,
+        "umaban": 16,
+        "name": "イニシオ",
+        "popularity": 12,
+        "odds": 128.4
+      }
+    ],
+    "track": "阪神",
+    "race_no": 6,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202609030107",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 5,
+        "name": "ビーチェマーレ",
+        "popularity": 3,
+        "odds": 9.4
+      },
+      {
+        "finish": 2,
+        "umaban": 3,
+        "name": "オメガヒストリー",
+        "popularity": 10,
+        "odds": 52.6
+      },
+      {
+        "finish": 3,
+        "umaban": 14,
+        "name": "レッドパラジウム",
+        "popularity": 4,
+        "odds": 16.1
+      },
+      {
+        "finish": 4,
+        "umaban": 11,
+        "name": "レインボーステート",
+        "popularity": 2,
+        "odds": 6.3
+      },
+      {
+        "finish": 5,
+        "umaban": 9,
+        "name": "ネッカーズルム",
+        "popularity": 5,
+        "odds": 16.2
+      },
+      {
+        "finish": 6,
+        "umaban": 2,
+        "name": "モンシーク",
+        "popularity": 1,
+        "odds": 1.5
+      },
+      {
+        "finish": 7,
+        "umaban": 10,
+        "name": "フェブリノ",
+        "popularity": 15,
+        "odds": 276.1
+      },
+      {
+        "finish": 8,
+        "umaban": 4,
+        "name": "シャロン",
+        "popularity": 18,
+        "odds": 452.7
+      },
+      {
+        "finish": 9,
+        "umaban": 12,
+        "name": "テリオスヒナ",
+        "popularity": 17,
+        "odds": 441.9
+      },
+      {
+        "finish": 10,
+        "umaban": 16,
+        "name": "ディアーモルタル",
+        "popularity": 12,
+        "odds": 92.2
+      },
+      {
+        "finish": 11,
+        "umaban": 1,
+        "name": "グッデイ",
+        "popularity": 7,
+        "odds": 31.2
+      },
+      {
+        "finish": 12,
+        "umaban": 7,
+        "name": "ロールスワン",
+        "popularity": 6,
+        "odds": 18.0
+      },
+      {
+        "finish": 13,
+        "umaban": 15,
+        "name": "ケンブリッジグレイ",
+        "popularity": 8,
+        "odds": 32.1
+      },
+      {
+        "finish": 14,
+        "umaban": 8,
+        "name": "ダイメイプリンス",
+        "popularity": 16,
+        "odds": 335.9
+      },
+      {
+        "finish": 15,
+        "umaban": 13,
+        "name": "マヤノイマジン",
+        "popularity": 13,
+        "odds": 179.1
+      },
+      {
+        "finish": 16,
+        "umaban": 17,
+        "name": "ラジャブルック",
+        "popularity": 11,
+        "odds": 70.0
+      },
+      {
+        "finish": 17,
+        "umaban": 18,
+        "name": "エリカアズーラ",
+        "popularity": 9,
+        "odds": 40.1
+      },
+      {
+        "finish": 18,
+        "umaban": 6,
+        "name": "テンタイムトップ",
+        "popularity": 14,
+        "odds": 197.0
+      }
+    ],
+    "track": "阪神",
+    "race_no": 7,
+    "race_name": "3歳未勝利"
+  },
+  {
+    "race_id": "202609030108",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 5,
+        "name": "マイバレンタイン",
+        "popularity": 5,
+        "odds": 7.9
+      },
+      {
+        "finish": 2,
+        "umaban": 8,
+        "name": "フウセン",
+        "popularity": 4,
+        "odds": 5.1
+      },
+      {
+        "finish": 3,
+        "umaban": 7,
+        "name": "ガウディ",
+        "popularity": 1,
+        "odds": 3.0
+      },
+      {
+        "finish": 4,
+        "umaban": 4,
+        "name": "サンライズグラシア",
+        "popularity": 7,
+        "odds": 30.5
+      },
+      {
+        "finish": 5,
+        "umaban": 6,
+        "name": "ヨカオウ",
+        "popularity": 3,
+        "odds": 4.6
+      },
+      {
+        "finish": 6,
+        "umaban": 3,
+        "name": "ワンダフルデイズ",
+        "popularity": 2,
+        "odds": 3.6
+      },
+      {
+        "finish": 7,
+        "umaban": 1,
+        "name": "ミッドタウンナイト",
+        "popularity": 9,
+        "odds": 187.0
+      },
+      {
+        "finish": 8,
+        "umaban": 2,
+        "name": "ゴールドアクセス",
+        "popularity": 6,
+        "odds": 18.4
+      },
+      {
+        "finish": 9,
+        "umaban": 9,
+        "name": "オーシンエス",
+        "popularity": 8,
+        "odds": 47.7
+      }
+    ],
+    "track": "阪神",
+    "race_no": 8,
+    "race_name": "3歳以上1勝クラス"
+  },
+  {
+    "race_id": "202609030109",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 3,
+        "name": "カフジエメンタール",
+        "popularity": 1,
+        "odds": 1.6
+      },
+      {
+        "finish": 2,
+        "umaban": 4,
+        "name": "ブラックシャリマー",
+        "popularity": 2,
+        "odds": 2.9
+      },
+      {
+        "finish": 3,
+        "umaban": 5,
+        "name": "エイシンティザー",
+        "popularity": 3,
+        "odds": 10.7
+      },
+      {
+        "finish": 4,
+        "umaban": 9,
+        "name": "エンジェルボイス",
+        "popularity": 4,
+        "odds": 10.8
+      },
+      {
+        "finish": 5,
+        "umaban": 2,
+        "name": "フレイムスター",
+        "popularity": 5,
+        "odds": 14.9
+      },
+      {
+        "finish": 6,
+        "umaban": 1,
+        "name": "ジェゼロ",
+        "popularity": 6,
+        "odds": 33.8
+      },
+      {
+        "finish": 7,
+        "umaban": 6,
+        "name": "ナムラブーニン",
+        "popularity": 7,
+        "odds": 41.7
+      },
+      {
+        "finish": 8,
+        "umaban": 8,
+        "name": "キタノファーンヒル",
+        "popularity": 9,
+        "odds": 237.5
+      },
+      {
+        "finish": 9,
+        "umaban": 7,
+        "name": "メイショウヒュウガ",
+        "popularity": 8,
+        "odds": 178.2
+      }
+    ],
+    "track": "阪神",
+    "race_no": 9,
+    "race_name": "城崎特別"
+  },
+  {
+    "race_id": "202609030110",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 4,
+        "name": "バトンインディ",
+        "popularity": 2,
+        "odds": 4.6
+      },
+      {
+        "finish": 2,
+        "umaban": 9,
+        "name": "プライベートアイズ",
+        "popularity": 4,
+        "odds": 12.4
+      },
+      {
+        "finish": 3,
+        "umaban": 2,
+        "name": "タカサンフェイス",
+        "popularity": 7,
+        "odds": 36.8
+      },
+      {
+        "finish": 4,
+        "umaban": 1,
+        "name": "クリノフィガロ",
+        "popularity": 5,
+        "odds": 14.6
+      },
+      {
+        "finish": 5,
+        "umaban": 6,
+        "name": "ボクマダネムイヨ",
+        "popularity": 1,
+        "odds": 1.6
+      },
+      {
+        "finish": 6,
+        "umaban": 5,
+        "name": "ドゥラエテルノ",
+        "popularity": 3,
+        "odds": 5.6
+      },
+      {
+        "finish": 7,
+        "umaban": 7,
+        "name": "タイガースパーク",
+        "popularity": 6,
+        "odds": 24.6
+      },
+      {
+        "finish": 8,
+        "umaban": 3,
+        "name": "サパテアール",
+        "popularity": 11,
+        "odds": 194.9
+      },
+      {
+        "finish": 9,
+        "umaban": 11,
+        "name": "フクキタテーラー",
+        "popularity": 9,
+        "odds": 61.4
+      },
+      {
+        "finish": 10,
+        "umaban": 8,
+        "name": "ゴルデールスカー",
+        "popularity": 8,
+        "odds": 50.6
+      },
+      {
+        "finish": 11,
+        "umaban": 10,
+        "name": "ヒデノレインボー",
+        "popularity": 10,
+        "odds": 158.1
+      },
+      {
+        "finish": 12,
+        "umaban": 12,
+        "name": "エクストラノート",
+        "popularity": 12,
+        "odds": 289.3
+      }
+    ],
+    "track": "阪神",
+    "race_no": 10,
+    "race_name": "加古川特別"
+  },
+  {
+    "race_id": "202609030111",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 2,
+        "name": "ジーティーダーリン",
+        "popularity": 7,
+        "odds": 20.2
+      },
+      {
+        "finish": 2,
+        "umaban": 1,
+        "name": "ミュージシャン",
+        "popularity": 1,
+        "odds": 2.6
+      },
+      {
+        "finish": 3,
+        "umaban": 6,
+        "name": "バッデレイト",
+        "popularity": 2,
+        "odds": 3.9
+      },
+      {
+        "finish": 4,
+        "umaban": 4,
+        "name": "クルミナーレ",
+        "popularity": 3,
+        "odds": 4.5
+      },
+      {
+        "finish": 5,
+        "umaban": 3,
+        "name": "キャントウェイト",
+        "popularity": 4,
+        "odds": 6.7
+      },
+      {
+        "finish": 6,
+        "umaban": 8,
+        "name": "ミッキーツインクル",
+        "popularity": 6,
+        "odds": 18.5
+      },
+      {
+        "finish": 7,
+        "umaban": 7,
+        "name": "エラン",
+        "popularity": 5,
+        "odds": 11.6
+      },
+      {
+        "finish": 8,
+        "umaban": 11,
+        "name": "イケイケドンドン",
+        "popularity": 9,
+        "odds": 65.4
+      },
+      {
+        "finish": 9,
+        "umaban": 9,
+        "name": "モズマーヴェリック",
+        "popularity": 11,
+        "odds": 144.1
+      },
+      {
+        "finish": 10,
+        "umaban": 5,
+        "name": "ミカッテヨンデイイ",
+        "popularity": 10,
+        "odds": 76.2
+      },
+      {
+        "finish": 11,
+        "umaban": 10,
+        "name": "ハギノアルデバラン",
+        "popularity": 8,
+        "odds": 49.8
+      }
+    ],
+    "track": "阪神",
+    "race_no": 11,
+    "race_name": "垂水S"
+  },
+  {
+    "race_id": "202609030112",
+    "horses": [
+      {
+        "finish": 1,
+        "umaban": 1,
+        "name": "フェスティヴドレス",
+        "popularity": 3,
+        "odds": 6.2
+      },
+      {
+        "finish": 2,
+        "umaban": 3,
+        "name": "ジューンアゲイン",
+        "popularity": 5,
+        "odds": 11.8
+      },
+      {
+        "finish": 3,
+        "umaban": 5,
+        "name": "ルージュバロン",
+        "popularity": 2,
+        "odds": 5.1
+      },
+      {
+        "finish": 4,
+        "umaban": 2,
+        "name": "シュテルンビルト",
+        "popularity": 8,
+        "odds": 24.1
+      },
+      {
+        "finish": 5,
+        "umaban": 16,
+        "name": "ニシノジェダイ",
+        "popularity": 12,
+        "odds": 53.6
+      },
+      {
+        "finish": 6,
+        "umaban": 8,
+        "name": "サマーナイト",
+        "popularity": 7,
+        "odds": 23.2
+      },
+      {
+        "finish": 7,
+        "umaban": 11,
+        "name": "マダムイグレイン",
+        "popularity": 9,
+        "odds": 37.4
+      },
+      {
+        "finish": 8,
+        "umaban": 7,
+        "name": "セルズパワー",
+        "popularity": 11,
+        "odds": 49.5
+      },
+      {
+        "finish": 9,
+        "umaban": 15,
+        "name": "メイショウサトノヒ",
+        "popularity": 10,
+        "odds": 45.3
+      },
+      {
+        "finish": 10,
+        "umaban": 10,
+        "name": "スレッドザニードル",
+        "popularity": 13,
+        "odds": 84.6
+      },
+      {
+        "finish": 11,
+        "umaban": 4,
+        "name": "ユーヴェリア",
+        "popularity": 14,
+        "odds": 194.0
+      },
+      {
+        "finish": 12,
+        "umaban": 13,
+        "name": "ゼンカイナダル",
+        "popularity": 1,
+        "odds": 2.4
+      },
+      {
+        "finish": 13,
+        "umaban": 9,
+        "name": "コマチチャン",
+        "popularity": 6,
+        "odds": 18.5
+      },
+      {
+        "finish": 14,
+        "umaban": 6,
+        "name": "メイプルギャング",
+        "popularity": 15,
+        "odds": 196.4
+      },
+      {
+        "finish": 15,
+        "umaban": 12,
+        "name": "ゴメンネジロー",
+        "popularity": 4,
+        "odds": 6.5
+      },
+      {
+        "finish": 16,
+        "umaban": 14,
+        "name": "アンピュルシオン",
+        "popularity": 16,
+        "odds": 207.3
+      }
+    ],
+    "track": "阪神",
+    "race_no": 12,
+    "race_name": "3歳以上1勝クラス"
+  }
+]
