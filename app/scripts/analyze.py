@@ -453,13 +453,16 @@ def calimero_bonus(horse, race, horse_data, total_horses, odds_for_race=None):
         if prev_dist and cur:
             diff = cur - prev_dist
             if -400 <= diff <= -100:
+                # 3日通算 距離短縮×1.35 (3着内28%) → +2 維持
                 score += 2; notes.append(f"距離短縮({prev_dist}→{cur})")
             elif 100 <= diff <= 400:
-                score += 2; notes.append(f"距離延長({prev_dist}→{cur})")
+                # 3日通算 Cal距離延長×0.74 (3着内15%) → +2→+1 抑制
+                score += 1; notes.append(f"距離延長({prev_dist}→{cur})")
 
     # S5: 減量騎手 (☆▲△◇★ いずれかが頭に付く)
     if jockey and jockey[0] in "☆▲△◇★":
-        score += 2; notes.append(f"減量騎手({jockey[0]})")
+        # 3日通算 Cal減量騎手×0.66 (3着内14%) → +2→+1 抑制
+        score += 1; notes.append(f"減量騎手({jockey[0]})")
 
     # S6: 少頭数 (≤10頭)
     if total_horses and total_horses <= 10:
@@ -516,7 +519,8 @@ def calimero_bonus(horse, race, horse_data, total_horses, odds_for_race=None):
                 score += 3; notes.append(f"4-6番人気帯({pop}人気)")
             # S1補助: 10-12人気は減点(複勝11%/n=172)
             elif 10 <= pop <= 12:
-                score -= 1; notes.append(f"10-12人気(穴薄{pop})")
+                # 3日通算 Cal10-12人気×0.36 (3着内8%) → -1→-2 強化
+                score -= 2; notes.append(f"10-12人気(穴薄{pop})")
 
     return score, notes
 
