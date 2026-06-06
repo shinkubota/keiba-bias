@@ -14,7 +14,8 @@ data/
 ├── review/         # 振り返り（継続更新）
 │   └── retrospective.md      週次成績と配点調整の履歴
 │
-├── archive/        # 旧仕様・初期検討の保管庫
+├── archive/        # 旧仕様・初期検討 + 週次自動アーカイブ
+│   └── YYYY/MM/    ← archive_old_data.py が日付付きファイルを月ごとに格納
 │   ├── _new_entries.json
 │   ├── analysis_YYYYMMDD.md           （現在は table_YYYYMMDD.md / recommend_wide_*.md に統合）
 │   ├── article_YYYYMMDD.*              （note配信機能の試作）
