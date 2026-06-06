@@ -16,8 +16,8 @@ az = importlib.util.module_from_spec(spec); spec.loader.exec_module(az)
 WD = ["月","火","水","木","金","土","日"]
 MARKS = ["◎","○","▲","△","✕"]
 
-def pick(race, db, odds_for_race=None, baba_by_track=None):
-    a = az.analyze_race(race, db, baba_by_track=baba_by_track)
+def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=False):
+    a = az.analyze_race(race, db, baba_by_track=baba_by_track, bias_boost_maiden=bias_boost_maiden)
     if a.get("warn"): return None, [], a
     rows = a["horses"]                                       # 既にscore順
     by_bias = sorted(rows, key=lambda r: -r.get("bias",0))
@@ -88,6 +88,10 @@ def main():
     ap.add_argument("--track", default="札幌,函館,福島,新潟,東京,中山,中京,京都,阪神,小倉")
     ap.add_argument("--baba-track", action="append", default=[],
                     help="場別馬場上書き 例: --baba-track 阪神=稍重")
+    ap.add_argument("--bias-boost-maiden", action="store_true",
+                    help="B案: 未勝利・新馬戦でbias倍率を2倍(0.025→0.05)")
+    ap.add_argument("--out-suffix", default="",
+                    help="出力ファイル名サフィックス(_A/_B等)")
     args = ap.parse_args()
     baba_by_track = {}
     for kv in args.baba_track:
@@ -111,7 +115,7 @@ def main():
         if race["track"] not in tracks: continue
         if len(race["horses"]) < 2: continue
         odds_for_race = odds_all.get(race["race_id"])
-        picks, watch, a = pick(race, db, odds_for_race, baba_by_track=baba_by_track)
+        picks, watch, a = pick(race, db, odds_for_race, baba_by_track=baba_by_track, bias_boost_maiden=args.bias_boost_maiden)
         title = f"{race['track']}{race['race_no']}R {race['surface']}{race['distance']}m {race['race_name']}"
         if not picks:
             L.append(f"### {title}")

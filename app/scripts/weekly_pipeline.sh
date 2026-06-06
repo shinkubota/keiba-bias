@@ -49,9 +49,14 @@ predict() {
   run python3 scripts/build_lineage_fallback.py
   # オッズは枠順確定後すぐは出ないことがあるが取得試行
   run python3 scripts/fetch_odds.py "$d" || true
-  run python3 scripts/recommend_sunday.py "$d" > "data/recommend_wide_${d}.md"
+  # A案: 現行v0.10 (デフォルト)
+  run python3 scripts/recommend_sunday.py "$d" > "data/recommend_wide_${d}_A.md"
+  # B案: 未勝利・新馬戦でbias倍率2倍(0.025→0.05)、能力低クラスではability_eff上限25
+  run python3 scripts/recommend_sunday.py "$d" --bias-boost-maiden > "data/recommend_wide_${d}_B.md"
+  # 既存ファイル名(A案)も残す(他スクリプトとの互換)
+  cp "data/recommend_wide_${d}_A.md" "data/recommend_wide_${d}.md"
   run python3 scripts/build_web.py "$d" --top 4
-  git_push "weekly: ${d} 予想生成"
+  git_push "weekly: ${d} 予想生成(A/B 2案)"
 }
 
 review() {

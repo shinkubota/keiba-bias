@@ -696,7 +696,7 @@ def _odds_for_date(date_str):
     _ODDS_CACHE[date_str] = d
     return d
 
-def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None, baba_by_track=None):
+def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None, baba_by_track=None, bias_boost_maiden=False):
     # date_strが渡されたらodds_*.jsonからこのレースのオッズを自動ロード
     if odds_for_race is None and date_str:
         odds_for_race = _odds_for_date(date_str).get(race["race_id"])
@@ -747,6 +747,12 @@ def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None, 
     # v0.7: 5/30全24R結果より「能力単独22% = 現行22%」と同等→バイアスはチューニング次第
     # 複勝率は能力78% < バイアス83%、つまりバイアスは複勝寄与が大。係数を維持
     BIAS_K = 0.025
+    # B案: 未勝利・新馬戦は過去走少→能力スコアの信頼性が低い
+    # → bias倍率を上げ、能力スコアの寄与を相対的に下げる
+    race_name = race.get("race_name", "")
+    is_low_data = ("未勝利" in race_name) or ("新馬" in race_name)
+    if bias_boost_maiden and is_low_data:
+        BIAS_K = 0.05    # 通常の2倍
 
     ranked = []
     for h in race["horses"]:
@@ -755,7 +761,6 @@ def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None, 
         bias, rs, cb = evaluate_horse(h, course, total, hd, race["distance"], lw_thr, rc,
                                        this_surface=race["surface"], race=race,
                                        odds_for_race=odds_for_race)
-        # 前走が地方競馬の場合は能力スコアを抑制(中央水準に届かないことが多い)
         if recent and is_local_track(recent[0]):
             try:
                 fin = int(recent[0].get("finish") or "9")
@@ -764,6 +769,9 @@ def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None, 
             rs.append(tag)
         abil = ability_score(recent)
         abil_eff = abil if abil is not None else DEFAULT_ABILITY
+        # B案で未勝利新馬かつ能力データ少なら基礎値を下げ、bias依存をさらに高める
+        if bias_boost_maiden and is_low_data and (abil is None or abil < 30):
+            abil_eff = min(abil_eff, 25.0)
         final = round(abil_eff * (1 + BIAS_K * bias), 1)
         ranked.append({
             "score": final,            # 最終評価(=能力×バイアス補正)。表示・ソートの主指標
