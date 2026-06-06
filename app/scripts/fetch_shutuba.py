@@ -65,6 +65,7 @@ def parse_shutuba(race_id):
                  or tr.select_one("a[href*='/horse/']"))
         barei = tr.select_one(".Barei")
         jky   = tr.select_one(".Jockey a")
+        trn   = tr.select_one(".Trainer a")
         if not name: continue
         href = name.get("href","")
         horse_id = re.search(r"/horse/(\d+)", href)
@@ -101,6 +102,7 @@ def parse_shutuba(race_id):
             "horse_id": horse_id.group(1) if horse_id else "",
             "sex_age": barei.get_text(strip=True) if barei else "",
             "jockey": jky.get_text(strip=True) if jky else "",
+            "trainer": trn.get_text(strip=True) if trn else "",
             "jockey_weight": jockey_weight,
             "odds": odds,
             "popularity": pop,

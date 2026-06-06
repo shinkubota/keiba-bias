@@ -1,0 +1,3684 @@
+{
+  "_meta": {
+    "date": "20260607",
+    "source": "netkeiba直近5年累計"
+  },
+  "name_to_id": {
+    "佐藤吉": "01035",
+    "松山": "01100",
+    "室井": "01221",
+    "小野": "01125",
+    "高木": "01088",
+    "松永康": "01093",
+    "武市": "01089",
+    "大和田": "01124",
+    "黒岩": "01133",
+    "松尾": "01220",
+    "西田": "01187",
+    "石栗": "01043",
+    "清水英": "01080",
+    "斎藤誠": "01086",
+    "粕谷": "01096",
+    "和田郎": "01114",
+    "加藤士": "01169",
+    "萱野": "01024",
+    "小笠": "01076",
+    "手塚久": "01038",
+    "奥平": "01074",
+    "水野": "01094",
+    "辻": "01182",
+    "久保田": "01067",
+    "新開": "01116",
+    "鈴木慎": "01179",
+    "手塚徳": "01217",
+    "蛯名利": "01131",
+    "奥村武": "01145",
+    "的場": "01063",
+    "中舘": "01153",
+    "武井": "01147",
+    "上原博": "00423",
+    "菊沢": "01115",
+    "畠山": "01048",
+    "大竹": "01102",
+    "戸田": "01054",
+    "勢司": "01047",
+    "天間": "01090",
+    "田村": "01027",
+    "矢野": "01108",
+    "本間": "01056",
+    "深山": "01174",
+    "伊藤大": "01109",
+    "和田勇": "01165",
+    "田中博": "01162",
+    "堀内": "01189",
+    "尾形": "01141",
+    "田中勝": "01207",
+    "小手川": "01171",
+    "高柳瑞": "01118",
+    "藤岡健": "01062",
+    "相沢": "01020",
+    "松永幹": "01092",
+    "青木": "01156",
+    "池上": "01150",
+    "嘉藤": "01195",
+    "武藤": "01064",
+    "矢嶋": "01202",
+    "岩戸": "01051",
+    "高橋文": "01134",
+    "柄崎": "01208",
+    "蛯名正": "01191",
+    "伊藤圭": "01023",
+    "加藤征": "01059",
+    "上原佑": "01192",
+    "田島": "01112",
+    "杉浦": "01008",
+    "浅利": "01204",
+    "鹿戸": "01097",
+    "牧": "01106",
+    "平岩": "01219",
+    "伊坂": "01177",
+    "森一": "01201",
+    "武幸": "01160",
+    "吉岡": "01176",
+    "千葉": "01199",
+    "林": "01163",
+    "藤原": "01055",
+    "金成": "01132",
+    "寺島": "01158",
+    "中川": "01081",
+    "竹内": "01152",
+    "吉村": "01130",
+    "堀": "01070",
+    "宮田": "01175",
+    "牧田": "01123",
+    "田中剛": "01119",
+    "石橋": "01140",
+    "池添": "01144",
+    "橋口": "01154",
+    "杉山晴": "01157",
+    "藤野": "01200",
+    "高橋康": "01135",
+    "西村": "01148",
+    "栗田": "01127",
+    "鈴木伸": "01026",
+    "矢作": "01075",
+    "和田雄": "01143",
+    "松下": "01149",
+    "中内田": "01137",
+    "平田": "01082",
+    "飯田": "01139",
+    "高柳大": "01159",
+    "大根田": "01032",
+    "宮本": "01073",
+    "宮": "01018",
+    "上村": "01168",
+    "梅田": "01084",
+    "新谷": "01172",
+    "秋山": "01212",
+    "小林": "01185",
+    "小崎": "01085",
+    "友道": "01061",
+    "中尾": "01069",
+    "浜田": "01138",
+    "杉山佳": "01178",
+    "東田": "01209",
+    "田中克": "01180",
+    "石坂": "01166",
+    "今野": "01128",
+    "本田": "01099",
+    "高橋一": "01206",
+    "高野": "01117",
+    "福永": "01203",
+    "緒方": "01193",
+    "小椋": "01197",
+    "鈴木孝": "01111",
+    "牧浦": "01113",
+    "中村": "01186",
+    "吉田": "01101",
+    "辻野": "01183",
+    "谷": "00431",
+    "四位": "01184",
+    "北出": "01078",
+    "佐藤悠": "01205",
+    "橋田": "01218",
+    "坂口": "01170",
+    "斉藤崇": "01151",
+    "加藤公": "01215",
+    "長谷川": "01173",
+    "池江": "01071",
+    "井上": "01214",
+    "前川": "01210",
+    "羽月": "01091",
+    "昆": "01044",
+    "清水久": "01110",
+    "武英": "01161",
+    "安田": "01164",
+    "大久保": "01058",
+    "中竹": "01039",
+    "高橋亮": "01136",
+    "森田": "01142",
+    "野中": "01098",
+    "角田": "01121",
+    "笹野博": "05675",
+    "西園翔": "01196",
+    "小栗": "01194",
+    "岡田": "01066",
+    "河嶋": "01198",
+    "荒川": "01095",
+    "大橋": "01065",
+    "須貝": "01105",
+    "奥村豊": "01146",
+    "庄野": "01087",
+    "茶木": "01181",
+    "渡辺": "01155"
+  },
+  "stats": {
+    "00423": {
+      "trainer_id": "00423",
+      "career": {
+        "year": "累計",
+        "win": 523,
+        "win2": 538,
+        "win3": 571,
+        "runs": 7532,
+        "win_rate": 0.069,
+        "place_rate": 0.217
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 10,
+        "win3": 5,
+        "runs": 111,
+        "win_rate": 0.063,
+        "place_rate": 0.198
+      }
+    },
+    "00431": {
+      "trainer_id": "00431",
+      "career": {
+        "year": "累計",
+        "win": 405,
+        "win2": 505,
+        "win3": 531,
+        "runs": 7063,
+        "win_rate": 0.057,
+        "place_rate": 0.204
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 6,
+        "win3": 5,
+        "runs": 105,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.133
+      }
+    },
+    "01008": {
+      "trainer_id": "01008",
+      "career": {
+        "year": "累計",
+        "win": 436,
+        "win2": 497,
+        "win3": 562,
+        "runs": 7603,
+        "win_rate": 0.057,
+        "place_rate": 0.19699999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 1,
+        "win3": 3,
+        "runs": 103,
+        "win_rate": 0.049,
+        "place_rate": 0.087
+      }
+    },
+    "01018": {
+      "trainer_id": "01018",
+      "career": {
+        "year": "累計",
+        "win": 501,
+        "win2": 603,
+        "win3": 601,
+        "runs": 7587,
+        "win_rate": 0.066,
+        "place_rate": 0.225
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 9,
+        "win3": 7,
+        "runs": 114,
+        "win_rate": 0.079,
+        "place_rate": 0.21899999999999997
+      }
+    },
+    "01020": {
+      "trainer_id": "01020",
+      "career": {
+        "year": "累計",
+        "win": 529,
+        "win2": 550,
+        "win3": 605,
+        "runs": 7886,
+        "win_rate": 0.067,
+        "place_rate": 0.214
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 9,
+        "win3": 12,
+        "runs": 125,
+        "win_rate": 0.04,
+        "place_rate": 0.20800000000000002
+      }
+    },
+    "01023": {
+      "trainer_id": "01023",
+      "career": {
+        "year": "累計",
+        "win": 594,
+        "win2": 621,
+        "win3": 605,
+        "runs": 8129,
+        "win_rate": 0.073,
+        "place_rate": 0.22399999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 15,
+        "win2": 12,
+        "win3": 6,
+        "runs": 161,
+        "win_rate": 0.09300000000000001,
+        "place_rate": 0.205
+      }
+    },
+    "01024": {
+      "trainer_id": "01024",
+      "career": {
+        "year": "累計",
+        "win": 345,
+        "win2": 335,
+        "win3": 387,
+        "runs": 6507,
+        "win_rate": 0.053,
+        "place_rate": 0.16399999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 3,
+        "win3": 4,
+        "runs": 102,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.098
+      }
+    },
+    "01026": {
+      "trainer_id": "01026",
+      "career": {
+        "year": "累計",
+        "win": 450,
+        "win2": 447,
+        "win3": 461,
+        "runs": 6463,
+        "win_rate": 0.07,
+        "place_rate": 0.21
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 7,
+        "win3": 5,
+        "runs": 111,
+        "win_rate": 0.063,
+        "place_rate": 0.171
+      }
+    },
+    "01027": {
+      "trainer_id": "01027",
+      "career": {
+        "year": "累計",
+        "win": 662,
+        "win2": 688,
+        "win3": 603,
+        "runs": 8264,
+        "win_rate": 0.08,
+        "place_rate": 0.23600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 11,
+        "win3": 5,
+        "runs": 121,
+        "win_rate": 0.083,
+        "place_rate": 0.215
+      }
+    },
+    "01032": {
+      "trainer_id": "01032",
+      "career": {
+        "year": "累計",
+        "win": 323,
+        "win2": 346,
+        "win3": 364,
+        "runs": 5666,
+        "win_rate": 0.057,
+        "place_rate": 0.182
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 6,
+        "win3": 5,
+        "runs": 99,
+        "win_rate": 0.071,
+        "place_rate": 0.182
+      }
+    },
+    "01035": {
+      "trainer_id": "01035",
+      "career": {
+        "year": "累計",
+        "win": 187,
+        "win2": 247,
+        "win3": 301,
+        "runs": 5706,
+        "win_rate": 0.033,
+        "place_rate": 0.129
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 0,
+        "win3": 2,
+        "runs": 97,
+        "win_rate": 0.021,
+        "place_rate": 0.040999999999999995
+      }
+    },
+    "01038": {
+      "trainer_id": "01038",
+      "career": {
+        "year": "累計",
+        "win": 741,
+        "win2": 683,
+        "win3": 651,
+        "runs": 7438,
+        "win_rate": 0.1,
+        "place_rate": 0.27899999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 21,
+        "win2": 14,
+        "win3": 12,
+        "runs": 135,
+        "win_rate": 0.156,
+        "place_rate": 0.348
+      }
+    },
+    "01039": {
+      "trainer_id": "01039",
+      "career": {
+        "year": "累計",
+        "win": 706,
+        "win2": 687,
+        "win3": 634,
+        "runs": 8144,
+        "win_rate": 0.087,
+        "place_rate": 0.249
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 10,
+        "win3": 9,
+        "runs": 148,
+        "win_rate": 0.068,
+        "place_rate": 0.196
+      }
+    },
+    "01043": {
+      "trainer_id": "01043",
+      "career": {
+        "year": "累計",
+        "win": 135,
+        "win2": 159,
+        "win3": 223,
+        "runs": 4681,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.11
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 0,
+        "win2": 0,
+        "win3": 0,
+        "runs": 65,
+        "win_rate": 0.0,
+        "place_rate": 0.0
+      }
+    },
+    "01044": {
+      "trainer_id": "01044",
+      "career": {
+        "year": "累計",
+        "win": 501,
+        "win2": 515,
+        "win3": 443,
+        "runs": 5411,
+        "win_rate": 0.09300000000000001,
+        "place_rate": 0.27
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 2,
+        "win3": 6,
+        "runs": 76,
+        "win_rate": 0.039,
+        "place_rate": 0.145
+      }
+    },
+    "01047": {
+      "trainer_id": "01047",
+      "career": {
+        "year": "累計",
+        "win": 359,
+        "win2": 348,
+        "win3": 382,
+        "runs": 5110,
+        "win_rate": 0.07,
+        "place_rate": 0.213
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 7,
+        "win3": 8,
+        "runs": 95,
+        "win_rate": 0.021,
+        "place_rate": 0.179
+      }
+    },
+    "01048": {
+      "trainer_id": "01048",
+      "career": {
+        "year": "累計",
+        "win": 397,
+        "win2": 408,
+        "win3": 443,
+        "runs": 6266,
+        "win_rate": 0.063,
+        "place_rate": 0.19899999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 4,
+        "win3": 6,
+        "runs": 101,
+        "win_rate": 0.079,
+        "place_rate": 0.17800000000000002
+      }
+    },
+    "01051": {
+      "trainer_id": "01051",
+      "career": {
+        "year": "累計",
+        "win": 369,
+        "win2": 422,
+        "win3": 423,
+        "runs": 6621,
+        "win_rate": 0.055999999999999994,
+        "place_rate": 0.183
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 5,
+        "win3": 8,
+        "runs": 117,
+        "win_rate": 0.12,
+        "place_rate": 0.231
+      }
+    },
+    "01054": {
+      "trainer_id": "01054",
+      "career": {
+        "year": "累計",
+        "win": 530,
+        "win2": 576,
+        "win3": 551,
+        "runs": 7290,
+        "win_rate": 0.073,
+        "place_rate": 0.22699999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 7,
+        "win3": 3,
+        "runs": 89,
+        "win_rate": 0.022000000000000002,
+        "place_rate": 0.135
+      }
+    },
+    "01055": {
+      "trainer_id": "01055",
+      "career": {
+        "year": "累計",
+        "win": 957,
+        "win2": 739,
+        "win3": 628,
+        "runs": 6505,
+        "win_rate": 0.147,
+        "place_rate": 0.35700000000000004
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 21,
+        "win2": 15,
+        "win3": 16,
+        "runs": 153,
+        "win_rate": 0.13699999999999998,
+        "place_rate": 0.34
+      }
+    },
+    "01056": {
+      "trainer_id": "01056",
+      "career": {
+        "year": "累計",
+        "win": 200,
+        "win2": 268,
+        "win3": 267,
+        "runs": 5042,
+        "win_rate": 0.04,
+        "place_rate": 0.146
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 1,
+        "win3": 3,
+        "runs": 83,
+        "win_rate": 0.024,
+        "place_rate": 0.07200000000000001
+      }
+    },
+    "01058": {
+      "trainer_id": "01058",
+      "career": {
+        "year": "累計",
+        "win": 680,
+        "win2": 635,
+        "win3": 578,
+        "runs": 6071,
+        "win_rate": 0.11199999999999999,
+        "place_rate": 0.312
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 18,
+        "win2": 14,
+        "win3": 10,
+        "runs": 108,
+        "win_rate": 0.16699999999999998,
+        "place_rate": 0.389
+      }
+    },
+    "01059": {
+      "trainer_id": "01059",
+      "career": {
+        "year": "累計",
+        "win": 724,
+        "win2": 624,
+        "win3": 574,
+        "runs": 6394,
+        "win_rate": 0.113,
+        "place_rate": 0.301
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 13,
+        "win2": 7,
+        "win3": 9,
+        "runs": 104,
+        "win_rate": 0.125,
+        "place_rate": 0.27899999999999997
+      }
+    },
+    "01061": {
+      "trainer_id": "01061",
+      "career": {
+        "year": "累計",
+        "win": 818,
+        "win2": 631,
+        "win3": 556,
+        "runs": 5594,
+        "win_rate": 0.146,
+        "place_rate": 0.358
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 12,
+        "win3": 12,
+        "runs": 123,
+        "win_rate": 0.114,
+        "place_rate": 0.309
+      }
+    },
+    "01062": {
+      "trainer_id": "01062",
+      "career": {
+        "year": "累計",
+        "win": 637,
+        "win2": 575,
+        "win3": 495,
+        "runs": 6108,
+        "win_rate": 0.10400000000000001,
+        "place_rate": 0.27899999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 10,
+        "win3": 11,
+        "runs": 111,
+        "win_rate": 0.045,
+        "place_rate": 0.23399999999999999
+      }
+    },
+    "01063": {
+      "trainer_id": "01063",
+      "career": {
+        "year": "累計",
+        "win": 195,
+        "win2": 211,
+        "win3": 220,
+        "runs": 4653,
+        "win_rate": 0.042,
+        "place_rate": 0.135
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 0,
+        "win2": 0,
+        "win3": 0,
+        "runs": 76,
+        "win_rate": 0.0,
+        "place_rate": 0.0
+      }
+    },
+    "01064": {
+      "trainer_id": "01064",
+      "career": {
+        "year": "累計",
+        "win": 370,
+        "win2": 392,
+        "win3": 388,
+        "runs": 6130,
+        "win_rate": 0.06,
+        "place_rate": 0.188
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 6,
+        "win3": 4,
+        "runs": 99,
+        "win_rate": 0.061,
+        "place_rate": 0.162
+      }
+    },
+    "01065": {
+      "trainer_id": "01065",
+      "career": {
+        "year": "累計",
+        "win": 372,
+        "win2": 399,
+        "win3": 406,
+        "runs": 5898,
+        "win_rate": 0.063,
+        "place_rate": 0.2
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 12,
+        "win2": 5,
+        "win3": 12,
+        "runs": 121,
+        "win_rate": 0.099,
+        "place_rate": 0.24
+      }
+    },
+    "01066": {
+      "trainer_id": "01066",
+      "career": {
+        "year": "累計",
+        "win": 473,
+        "win2": 487,
+        "win3": 496,
+        "runs": 6083,
+        "win_rate": 0.078,
+        "place_rate": 0.239
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 9,
+        "win3": 11,
+        "runs": 121,
+        "win_rate": 0.040999999999999995,
+        "place_rate": 0.207
+      }
+    },
+    "01067": {
+      "trainer_id": "01067",
+      "career": {
+        "year": "累計",
+        "win": 545,
+        "win2": 485,
+        "win3": 508,
+        "runs": 5548,
+        "win_rate": 0.098,
+        "place_rate": 0.27699999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 10,
+        "win3": 13,
+        "runs": 99,
+        "win_rate": 0.051,
+        "place_rate": 0.28300000000000003
+      }
+    },
+    "01069": {
+      "trainer_id": "01069",
+      "career": {
+        "year": "累計",
+        "win": 397,
+        "win2": 399,
+        "win3": 360,
+        "runs": 4904,
+        "win_rate": 0.081,
+        "place_rate": 0.23600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 3,
+        "win3": 6,
+        "runs": 102,
+        "win_rate": 0.059000000000000004,
+        "place_rate": 0.147
+      }
+    },
+    "01070": {
+      "trainer_id": "01070",
+      "career": {
+        "year": "累計",
+        "win": 851,
+        "win2": 563,
+        "win3": 492,
+        "runs": 5207,
+        "win_rate": 0.163,
+        "place_rate": 0.366
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 15,
+        "win3": 8,
+        "runs": 90,
+        "win_rate": 0.156,
+        "place_rate": 0.41100000000000003
+      }
+    },
+    "01071": {
+      "trainer_id": "01071",
+      "career": {
+        "year": "累計",
+        "win": 919,
+        "win2": 756,
+        "win3": 627,
+        "runs": 6478,
+        "win_rate": 0.142,
+        "place_rate": 0.355
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 22,
+        "win2": 15,
+        "win3": 11,
+        "runs": 146,
+        "win_rate": 0.151,
+        "place_rate": 0.32899999999999996
+      }
+    },
+    "01073": {
+      "trainer_id": "01073",
+      "career": {
+        "year": "累計",
+        "win": 415,
+        "win2": 481,
+        "win3": 476,
+        "runs": 5580,
+        "win_rate": 0.07400000000000001,
+        "place_rate": 0.24600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 12,
+        "win3": 10,
+        "runs": 115,
+        "win_rate": 0.017,
+        "place_rate": 0.209
+      }
+    },
+    "01074": {
+      "trainer_id": "01074",
+      "career": {
+        "year": "累計",
+        "win": 323,
+        "win2": 353,
+        "win3": 354,
+        "runs": 5161,
+        "win_rate": 0.063,
+        "place_rate": 0.2
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 7,
+        "win3": 5,
+        "runs": 100,
+        "win_rate": 0.06,
+        "place_rate": 0.18
+      }
+    },
+    "01075": {
+      "trainer_id": "01075",
+      "career": {
+        "year": "累計",
+        "win": 963,
+        "win2": 873,
+        "win3": 791,
+        "runs": 9783,
+        "win_rate": 0.098,
+        "place_rate": 0.26899999999999996
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 22,
+        "win2": 26,
+        "win3": 16,
+        "runs": 219,
+        "win_rate": 0.1,
+        "place_rate": 0.292
+      }
+    },
+    "01076": {
+      "trainer_id": "01076",
+      "career": {
+        "year": "累計",
+        "win": 302,
+        "win2": 285,
+        "win3": 329,
+        "runs": 4926,
+        "win_rate": 0.061,
+        "place_rate": 0.18600000000000003
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 3,
+        "win3": 9,
+        "runs": 98,
+        "win_rate": 0.08199999999999999,
+        "place_rate": 0.204
+      }
+    },
+    "01078": {
+      "trainer_id": "01078",
+      "career": {
+        "year": "累計",
+        "win": 337,
+        "win2": 372,
+        "win3": 375,
+        "runs": 5451,
+        "win_rate": 0.062,
+        "place_rate": 0.19899999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 5,
+        "win3": 9,
+        "runs": 128,
+        "win_rate": 0.062,
+        "place_rate": 0.172
+      }
+    },
+    "01080": {
+      "trainer_id": "01080",
+      "career": {
+        "year": "累計",
+        "win": 258,
+        "win2": 263,
+        "win3": 287,
+        "runs": 4832,
+        "win_rate": 0.053,
+        "place_rate": 0.16699999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 0,
+        "win2": 3,
+        "win3": 2,
+        "runs": 101,
+        "win_rate": 0.0,
+        "place_rate": 0.05
+      }
+    },
+    "01081": {
+      "trainer_id": "01081",
+      "career": {
+        "year": "累計",
+        "win": 280,
+        "win2": 281,
+        "win3": 304,
+        "runs": 4423,
+        "win_rate": 0.063,
+        "place_rate": 0.196
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 12,
+        "win3": 7,
+        "runs": 86,
+        "win_rate": 0.07,
+        "place_rate": 0.29100000000000004
+      }
+    },
+    "01082": {
+      "trainer_id": "01082",
+      "career": {
+        "year": "累計",
+        "win": 432,
+        "win2": 416,
+        "win3": 368,
+        "runs": 5096,
+        "win_rate": 0.085,
+        "place_rate": 0.239
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 2,
+        "win3": 8,
+        "runs": 122,
+        "win_rate": 0.025,
+        "place_rate": 0.107
+      }
+    },
+    "01084": {
+      "trainer_id": "01084",
+      "career": {
+        "year": "累計",
+        "win": 330,
+        "win2": 365,
+        "win3": 422,
+        "runs": 5188,
+        "win_rate": 0.064,
+        "place_rate": 0.215
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 10,
+        "win3": 12,
+        "runs": 131,
+        "win_rate": 0.069,
+        "place_rate": 0.237
+      }
+    },
+    "01085": {
+      "trainer_id": "01085",
+      "career": {
+        "year": "累計",
+        "win": 324,
+        "win2": 314,
+        "win3": 346,
+        "runs": 4655,
+        "win_rate": 0.07,
+        "place_rate": 0.21100000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 9,
+        "win3": 15,
+        "runs": 115,
+        "win_rate": 0.061,
+        "place_rate": 0.27
+      }
+    },
+    "01086": {
+      "trainer_id": "01086",
+      "career": {
+        "year": "累計",
+        "win": 568,
+        "win2": 577,
+        "win3": 507,
+        "runs": 6626,
+        "win_rate": 0.086,
+        "place_rate": 0.249
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 15,
+        "win2": 14,
+        "win3": 13,
+        "runs": 180,
+        "win_rate": 0.083,
+        "place_rate": 0.233
+      }
+    },
+    "01087": {
+      "trainer_id": "01087",
+      "career": {
+        "year": "累計",
+        "win": 348,
+        "win2": 318,
+        "win3": 332,
+        "runs": 4243,
+        "win_rate": 0.08199999999999999,
+        "place_rate": 0.235
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 6,
+        "win3": 5,
+        "runs": 106,
+        "win_rate": 0.085,
+        "place_rate": 0.18899999999999997
+      }
+    },
+    "01088": {
+      "trainer_id": "01088",
+      "career": {
+        "year": "累計",
+        "win": 420,
+        "win2": 409,
+        "win3": 431,
+        "runs": 5317,
+        "win_rate": 0.079,
+        "place_rate": 0.237
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 16,
+        "win3": 12,
+        "runs": 144,
+        "win_rate": 0.069,
+        "place_rate": 0.264
+      }
+    },
+    "01089": {
+      "trainer_id": "01089",
+      "career": {
+        "year": "累計",
+        "win": 252,
+        "win2": 316,
+        "win3": 323,
+        "runs": 5540,
+        "win_rate": 0.045,
+        "place_rate": 0.161
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 3,
+        "win3": 5,
+        "runs": 121,
+        "win_rate": 0.025,
+        "place_rate": 0.091
+      }
+    },
+    "01090": {
+      "trainer_id": "01090",
+      "career": {
+        "year": "累計",
+        "win": 153,
+        "win2": 190,
+        "win3": 207,
+        "runs": 4678,
+        "win_rate": 0.033,
+        "place_rate": 0.11800000000000001
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 1,
+        "win3": 5,
+        "runs": 102,
+        "win_rate": 0.039,
+        "place_rate": 0.098
+      }
+    },
+    "01091": {
+      "trainer_id": "01091",
+      "career": {
+        "year": "累計",
+        "win": 263,
+        "win2": 265,
+        "win3": 291,
+        "runs": 4556,
+        "win_rate": 0.057999999999999996,
+        "place_rate": 0.18
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 4,
+        "win3": 5,
+        "runs": 123,
+        "win_rate": 0.040999999999999995,
+        "place_rate": 0.114
+      }
+    },
+    "01092": {
+      "trainer_id": "01092",
+      "career": {
+        "year": "累計",
+        "win": 572,
+        "win2": 466,
+        "win3": 504,
+        "runs": 5507,
+        "win_rate": 0.10400000000000001,
+        "place_rate": 0.28
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 15,
+        "win2": 7,
+        "win3": 17,
+        "runs": 140,
+        "win_rate": 0.107,
+        "place_rate": 0.27899999999999997
+      }
+    },
+    "01093": {
+      "trainer_id": "01093",
+      "career": {
+        "year": "累計",
+        "win": 116,
+        "win2": 160,
+        "win3": 188,
+        "runs": 3838,
+        "win_rate": 0.03,
+        "place_rate": 0.121
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 3,
+        "win3": 7,
+        "runs": 95,
+        "win_rate": 0.032,
+        "place_rate": 0.13699999999999998
+      }
+    },
+    "01094": {
+      "trainer_id": "01094",
+      "career": {
+        "year": "累計",
+        "win": 275,
+        "win2": 354,
+        "win3": 365,
+        "runs": 5725,
+        "win_rate": 0.048,
+        "place_rate": 0.174
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 5,
+        "win3": 12,
+        "runs": 127,
+        "win_rate": 0.039,
+        "place_rate": 0.17300000000000001
+      }
+    },
+    "01095": {
+      "trainer_id": "01095",
+      "career": {
+        "year": "累計",
+        "win": 340,
+        "win2": 426,
+        "win3": 388,
+        "runs": 5600,
+        "win_rate": 0.061,
+        "place_rate": 0.20600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 4,
+        "win3": 9,
+        "runs": 132,
+        "win_rate": 0.061,
+        "place_rate": 0.159
+      }
+    },
+    "01096": {
+      "trainer_id": "01096",
+      "career": {
+        "year": "累計",
+        "win": 144,
+        "win2": 181,
+        "win3": 195,
+        "runs": 4114,
+        "win_rate": 0.035,
+        "place_rate": 0.126
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 6,
+        "win3": 6,
+        "runs": 99,
+        "win_rate": 0.051,
+        "place_rate": 0.172
+      }
+    },
+    "01097": {
+      "trainer_id": "01097",
+      "career": {
+        "year": "累計",
+        "win": 518,
+        "win2": 533,
+        "win3": 447,
+        "runs": 5373,
+        "win_rate": 0.096,
+        "place_rate": 0.27899999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 19,
+        "win2": 15,
+        "win3": 14,
+        "runs": 136,
+        "win_rate": 0.14,
+        "place_rate": 0.353
+      }
+    },
+    "01098": {
+      "trainer_id": "01098",
+      "career": {
+        "year": "累計",
+        "win": 398,
+        "win2": 337,
+        "win3": 313,
+        "runs": 4054,
+        "win_rate": 0.098,
+        "place_rate": 0.259
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 12,
+        "win2": 13,
+        "win3": 7,
+        "runs": 118,
+        "win_rate": 0.102,
+        "place_rate": 0.271
+      }
+    },
+    "01099": {
+      "trainer_id": "01099",
+      "career": {
+        "year": "累計",
+        "win": 429,
+        "win2": 421,
+        "win3": 455,
+        "runs": 5976,
+        "win_rate": 0.07200000000000001,
+        "place_rate": 0.218
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 0,
+        "win2": 8,
+        "win3": 10,
+        "runs": 129,
+        "win_rate": 0.0,
+        "place_rate": 0.14
+      }
+    },
+    "01100": {
+      "trainer_id": "01100",
+      "career": {
+        "year": "累計",
+        "win": 155,
+        "win2": 192,
+        "win3": 254,
+        "runs": 4091,
+        "win_rate": 0.038,
+        "place_rate": 0.147
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 0,
+        "win2": 5,
+        "win3": 6,
+        "runs": 101,
+        "win_rate": 0.0,
+        "place_rate": 0.109
+      }
+    },
+    "01101": {
+      "trainer_id": "01101",
+      "career": {
+        "year": "累計",
+        "win": 326,
+        "win2": 339,
+        "win3": 350,
+        "runs": 4703,
+        "win_rate": 0.069,
+        "place_rate": 0.21600000000000003
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 3,
+        "win3": 10,
+        "runs": 108,
+        "win_rate": 0.07400000000000001,
+        "place_rate": 0.19399999999999998
+      }
+    },
+    "01102": {
+      "trainer_id": "01102",
+      "career": {
+        "year": "累計",
+        "win": 416,
+        "win2": 335,
+        "win3": 314,
+        "runs": 4217,
+        "win_rate": 0.099,
+        "place_rate": 0.253
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 20,
+        "win2": 15,
+        "win3": 11,
+        "runs": 121,
+        "win_rate": 0.165,
+        "place_rate": 0.38
+      }
+    },
+    "01105": {
+      "trainer_id": "01105",
+      "career": {
+        "year": "累計",
+        "win": 609,
+        "win2": 573,
+        "win3": 544,
+        "runs": 5370,
+        "win_rate": 0.113,
+        "place_rate": 0.321
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 18,
+        "win3": 14,
+        "runs": 146,
+        "win_rate": 0.055,
+        "place_rate": 0.27399999999999997
+      }
+    },
+    "01106": {
+      "trainer_id": "01106",
+      "career": {
+        "year": "累計",
+        "win": 381,
+        "win2": 429,
+        "win3": 406,
+        "runs": 5501,
+        "win_rate": 0.069,
+        "place_rate": 0.221
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 11,
+        "win3": 7,
+        "runs": 130,
+        "win_rate": 0.062,
+        "place_rate": 0.2
+      }
+    },
+    "01108": {
+      "trainer_id": "01108",
+      "career": {
+        "year": "累計",
+        "win": 302,
+        "win2": 304,
+        "win3": 351,
+        "runs": 4477,
+        "win_rate": 0.067,
+        "place_rate": 0.214
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 4,
+        "win3": 4,
+        "runs": 102,
+        "win_rate": 0.08800000000000001,
+        "place_rate": 0.16699999999999998
+      }
+    },
+    "01109": {
+      "trainer_id": "01109",
+      "career": {
+        "year": "累計",
+        "win": 224,
+        "win2": 286,
+        "win3": 302,
+        "runs": 4792,
+        "win_rate": 0.047,
+        "place_rate": 0.16899999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 8,
+        "win3": 4,
+        "runs": 117,
+        "win_rate": 0.043,
+        "place_rate": 0.145
+      }
+    },
+    "01110": {
+      "trainer_id": "01110",
+      "career": {
+        "year": "累計",
+        "win": 478,
+        "win2": 454,
+        "win3": 480,
+        "runs": 6097,
+        "win_rate": 0.078,
+        "place_rate": 0.23199999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 14,
+        "win3": 11,
+        "runs": 189,
+        "win_rate": 0.042,
+        "place_rate": 0.175
+      }
+    },
+    "01111": {
+      "trainer_id": "01111",
+      "career": {
+        "year": "累計",
+        "win": 298,
+        "win2": 342,
+        "win3": 334,
+        "runs": 4331,
+        "win_rate": 0.069,
+        "place_rate": 0.225
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 8,
+        "win3": 14,
+        "runs": 120,
+        "win_rate": 0.033,
+        "place_rate": 0.217
+      }
+    },
+    "01112": {
+      "trainer_id": "01112",
+      "career": {
+        "year": "累計",
+        "win": 238,
+        "win2": 261,
+        "win3": 281,
+        "runs": 4530,
+        "win_rate": 0.053,
+        "place_rate": 0.172
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 7,
+        "win3": 6,
+        "runs": 123,
+        "win_rate": 0.081,
+        "place_rate": 0.187
+      }
+    },
+    "01113": {
+      "trainer_id": "01113",
+      "career": {
+        "year": "累計",
+        "win": 302,
+        "win2": 297,
+        "win3": 304,
+        "runs": 4252,
+        "win_rate": 0.071,
+        "place_rate": 0.212
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 10,
+        "win3": 14,
+        "runs": 128,
+        "win_rate": 0.062,
+        "place_rate": 0.25
+      }
+    },
+    "01114": {
+      "trainer_id": "01114",
+      "career": {
+        "year": "累計",
+        "win": 243,
+        "win2": 217,
+        "win3": 245,
+        "runs": 3814,
+        "win_rate": 0.064,
+        "place_rate": 0.185
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 0,
+        "win3": 5,
+        "runs": 87,
+        "win_rate": 0.034,
+        "place_rate": 0.092
+      }
+    },
+    "01115": {
+      "trainer_id": "01115",
+      "career": {
+        "year": "累計",
+        "win": 307,
+        "win2": 288,
+        "win3": 288,
+        "runs": 3781,
+        "win_rate": 0.081,
+        "place_rate": 0.23399999999999999
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 6,
+        "win3": 12,
+        "runs": 107,
+        "win_rate": 0.084,
+        "place_rate": 0.252
+      }
+    },
+    "01116": {
+      "trainer_id": "01116",
+      "career": {
+        "year": "累計",
+        "win": 195,
+        "win2": 242,
+        "win3": 230,
+        "runs": 3314,
+        "win_rate": 0.059000000000000004,
+        "place_rate": 0.201
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 2,
+        "win3": 12,
+        "runs": 82,
+        "win_rate": 0.024,
+        "place_rate": 0.195
+      }
+    },
+    "01117": {
+      "trainer_id": "01117",
+      "career": {
+        "year": "累計",
+        "win": 442,
+        "win2": 408,
+        "win3": 373,
+        "runs": 4115,
+        "win_rate": 0.107,
+        "place_rate": 0.297
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 16,
+        "win2": 12,
+        "win3": 12,
+        "runs": 129,
+        "win_rate": 0.124,
+        "place_rate": 0.31
+      }
+    },
+    "01118": {
+      "trainer_id": "01118",
+      "career": {
+        "year": "累計",
+        "win": 263,
+        "win2": 251,
+        "win3": 249,
+        "runs": 3372,
+        "win_rate": 0.078,
+        "place_rate": 0.226
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 4,
+        "win3": 8,
+        "runs": 110,
+        "win_rate": 0.055,
+        "place_rate": 0.16399999999999998
+      }
+    },
+    "01119": {
+      "trainer_id": "01119",
+      "career": {
+        "year": "累計",
+        "win": 171,
+        "win2": 236,
+        "win3": 200,
+        "runs": 3330,
+        "win_rate": 0.051,
+        "place_rate": 0.182
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 6,
+        "win3": 3,
+        "runs": 86,
+        "win_rate": 0.035,
+        "place_rate": 0.14
+      }
+    },
+    "01121": {
+      "trainer_id": "01121",
+      "career": {
+        "year": "累計",
+        "win": 330,
+        "win2": 357,
+        "win3": 334,
+        "runs": 3967,
+        "win_rate": 0.083,
+        "place_rate": 0.257
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 8,
+        "win3": 6,
+        "runs": 106,
+        "win_rate": 0.094,
+        "place_rate": 0.226
+      }
+    },
+    "01123": {
+      "trainer_id": "01123",
+      "career": {
+        "year": "累計",
+        "win": 230,
+        "win2": 252,
+        "win3": 261,
+        "runs": 4072,
+        "win_rate": 0.055999999999999994,
+        "place_rate": 0.182
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 3,
+        "win3": 8,
+        "runs": 120,
+        "win_rate": 0.025,
+        "place_rate": 0.11699999999999999
+      }
+    },
+    "01124": {
+      "trainer_id": "01124",
+      "career": {
+        "year": "累計",
+        "win": 199,
+        "win2": 203,
+        "win3": 222,
+        "runs": 3501,
+        "win_rate": 0.057,
+        "place_rate": 0.17800000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 0,
+        "win3": 6,
+        "runs": 104,
+        "win_rate": 0.038,
+        "place_rate": 0.096
+      }
+    },
+    "01125": {
+      "trainer_id": "01125",
+      "career": {
+        "year": "累計",
+        "win": 160,
+        "win2": 171,
+        "win3": 201,
+        "runs": 3685,
+        "win_rate": 0.043,
+        "place_rate": 0.14400000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 3,
+        "win3": 4,
+        "runs": 107,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.09300000000000001
+      }
+    },
+    "01127": {
+      "trainer_id": "01127",
+      "career": {
+        "year": "累計",
+        "win": 318,
+        "win2": 305,
+        "win3": 326,
+        "runs": 4006,
+        "win_rate": 0.079,
+        "place_rate": 0.237
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 13,
+        "win3": 13,
+        "runs": 153,
+        "win_rate": 0.092,
+        "place_rate": 0.261
+      }
+    },
+    "01128": {
+      "trainer_id": "01128",
+      "career": {
+        "year": "累計",
+        "win": 263,
+        "win2": 255,
+        "win3": 221,
+        "runs": 3304,
+        "win_rate": 0.08,
+        "place_rate": 0.22399999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 11,
+        "win3": 9,
+        "runs": 113,
+        "win_rate": 0.08800000000000001,
+        "place_rate": 0.265
+      }
+    },
+    "01130": {
+      "trainer_id": "01130",
+      "career": {
+        "year": "累計",
+        "win": 313,
+        "win2": 284,
+        "win3": 273,
+        "runs": 3538,
+        "win_rate": 0.08800000000000001,
+        "place_rate": 0.24600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 5,
+        "win3": 7,
+        "runs": 114,
+        "win_rate": 0.079,
+        "place_rate": 0.184
+      }
+    },
+    "01131": {
+      "trainer_id": "01131",
+      "career": {
+        "year": "累計",
+        "win": 101,
+        "win2": 117,
+        "win3": 138,
+        "runs": 3516,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.10099999999999999
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 3,
+        "win3": 2,
+        "runs": 100,
+        "win_rate": 0.05,
+        "place_rate": 0.1
+      }
+    },
+    "01132": {
+      "trainer_id": "01132",
+      "career": {
+        "year": "累計",
+        "win": 238,
+        "win2": 225,
+        "win3": 276,
+        "runs": 3609,
+        "win_rate": 0.066,
+        "place_rate": 0.205
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 5,
+        "win3": 5,
+        "runs": 119,
+        "win_rate": 0.034,
+        "place_rate": 0.11800000000000001
+      }
+    },
+    "01133": {
+      "trainer_id": "01133",
+      "career": {
+        "year": "累計",
+        "win": 225,
+        "win2": 194,
+        "win3": 228,
+        "runs": 3298,
+        "win_rate": 0.068,
+        "place_rate": 0.196
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 9,
+        "win3": 7,
+        "runs": 117,
+        "win_rate": 0.051,
+        "place_rate": 0.188
+      }
+    },
+    "01134": {
+      "trainer_id": "01134",
+      "career": {
+        "year": "累計",
+        "win": 164,
+        "win2": 208,
+        "win3": 210,
+        "runs": 3174,
+        "win_rate": 0.052000000000000005,
+        "place_rate": 0.183
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 3,
+        "win3": 6,
+        "runs": 94,
+        "win_rate": 0.032,
+        "place_rate": 0.128
+      }
+    },
+    "01135": {
+      "trainer_id": "01135",
+      "career": {
+        "year": "累計",
+        "win": 142,
+        "win2": 145,
+        "win3": 169,
+        "runs": 2991,
+        "win_rate": 0.047,
+        "place_rate": 0.152
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 1,
+        "win3": 8,
+        "runs": 119,
+        "win_rate": 0.067,
+        "place_rate": 0.14300000000000002
+      }
+    },
+    "01136": {
+      "trainer_id": "01136",
+      "career": {
+        "year": "累計",
+        "win": 248,
+        "win2": 226,
+        "win3": 266,
+        "runs": 3047,
+        "win_rate": 0.081,
+        "place_rate": 0.243
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 13,
+        "win3": 4,
+        "runs": 97,
+        "win_rate": 0.052000000000000005,
+        "place_rate": 0.22699999999999998
+      }
+    },
+    "01137": {
+      "trainer_id": "01137",
+      "career": {
+        "year": "累計",
+        "win": 489,
+        "win2": 343,
+        "win3": 292,
+        "runs": 2795,
+        "win_rate": 0.175,
+        "place_rate": 0.402
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 12,
+        "win2": 8,
+        "win3": 14,
+        "runs": 88,
+        "win_rate": 0.136,
+        "place_rate": 0.386
+      }
+    },
+    "01138": {
+      "trainer_id": "01138",
+      "career": {
+        "year": "累計",
+        "win": 220,
+        "win2": 221,
+        "win3": 228,
+        "runs": 3259,
+        "win_rate": 0.068,
+        "place_rate": 0.205
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 7,
+        "win3": 7,
+        "runs": 117,
+        "win_rate": 0.085,
+        "place_rate": 0.205
+      }
+    },
+    "01139": {
+      "trainer_id": "01139",
+      "career": {
+        "year": "累計",
+        "win": 166,
+        "win2": 192,
+        "win3": 181,
+        "runs": 2791,
+        "win_rate": 0.059000000000000004,
+        "place_rate": 0.193
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 5,
+        "win3": 7,
+        "runs": 102,
+        "win_rate": 0.039,
+        "place_rate": 0.157
+      }
+    },
+    "01140": {
+      "trainer_id": "01140",
+      "career": {
+        "year": "累計",
+        "win": 184,
+        "win2": 191,
+        "win3": 215,
+        "runs": 2930,
+        "win_rate": 0.063,
+        "place_rate": 0.201
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 14,
+        "win3": 14,
+        "runs": 107,
+        "win_rate": 0.047,
+        "place_rate": 0.308
+      }
+    },
+    "01141": {
+      "trainer_id": "01141",
+      "career": {
+        "year": "累計",
+        "win": 177,
+        "win2": 178,
+        "win3": 195,
+        "runs": 3263,
+        "win_rate": 0.054000000000000006,
+        "place_rate": 0.16899999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 7,
+        "win3": 4,
+        "runs": 118,
+        "win_rate": 0.042,
+        "place_rate": 0.136
+      }
+    },
+    "01142": {
+      "trainer_id": "01142",
+      "career": {
+        "year": "累計",
+        "win": 156,
+        "win2": 207,
+        "win3": 200,
+        "runs": 3321,
+        "win_rate": 0.047,
+        "place_rate": 0.17
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 3,
+        "win3": 5,
+        "runs": 118,
+        "win_rate": 0.017,
+        "place_rate": 0.085
+      }
+    },
+    "01143": {
+      "trainer_id": "01143",
+      "career": {
+        "year": "累計",
+        "win": 121,
+        "win2": 143,
+        "win3": 163,
+        "runs": 3417,
+        "win_rate": 0.035,
+        "place_rate": 0.125
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 1,
+        "win2": 1,
+        "win3": 0,
+        "runs": 105,
+        "win_rate": 0.01,
+        "place_rate": 0.019
+      }
+    },
+    "01144": {
+      "trainer_id": "01144",
+      "career": {
+        "year": "累計",
+        "win": 323,
+        "win2": 263,
+        "win3": 258,
+        "runs": 2890,
+        "win_rate": 0.11199999999999999,
+        "place_rate": 0.292
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 8,
+        "win3": 13,
+        "runs": 110,
+        "win_rate": 0.091,
+        "place_rate": 0.282
+      }
+    },
+    "01145": {
+      "trainer_id": "01145",
+      "career": {
+        "year": "累計",
+        "win": 231,
+        "win2": 209,
+        "win3": 205,
+        "runs": 2854,
+        "win_rate": 0.081,
+        "place_rate": 0.226
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 11,
+        "win3": 9,
+        "runs": 107,
+        "win_rate": 0.047,
+        "place_rate": 0.23399999999999999
+      }
+    },
+    "01146": {
+      "trainer_id": "01146",
+      "career": {
+        "year": "累計",
+        "win": 263,
+        "win2": 246,
+        "win3": 252,
+        "runs": 3144,
+        "win_rate": 0.084,
+        "place_rate": 0.242
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 17,
+        "win2": 14,
+        "win3": 9,
+        "runs": 136,
+        "win_rate": 0.125,
+        "place_rate": 0.294
+      }
+    },
+    "01147": {
+      "trainer_id": "01147",
+      "career": {
+        "year": "累計",
+        "win": 268,
+        "win2": 269,
+        "win3": 262,
+        "runs": 3217,
+        "win_rate": 0.083,
+        "place_rate": 0.248
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 6,
+        "win3": 14,
+        "runs": 125,
+        "win_rate": 0.04,
+        "place_rate": 0.2
+      }
+    },
+    "01148": {
+      "trainer_id": "01148",
+      "career": {
+        "year": "累計",
+        "win": 278,
+        "win2": 293,
+        "win3": 238,
+        "runs": 3340,
+        "win_rate": 0.083,
+        "place_rate": 0.242
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 7,
+        "win3": 4,
+        "runs": 130,
+        "win_rate": 0.062,
+        "place_rate": 0.146
+      }
+    },
+    "01149": {
+      "trainer_id": "01149",
+      "career": {
+        "year": "累計",
+        "win": 239,
+        "win2": 209,
+        "win3": 234,
+        "runs": 3204,
+        "win_rate": 0.075,
+        "place_rate": 0.213
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 12,
+        "win2": 8,
+        "win3": 11,
+        "runs": 115,
+        "win_rate": 0.10400000000000001,
+        "place_rate": 0.27
+      }
+    },
+    "01150": {
+      "trainer_id": "01150",
+      "career": {
+        "year": "累計",
+        "win": 167,
+        "win2": 193,
+        "win3": 183,
+        "runs": 2578,
+        "win_rate": 0.065,
+        "place_rate": 0.21100000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 11,
+        "win3": 5,
+        "runs": 105,
+        "win_rate": 0.067,
+        "place_rate": 0.21899999999999997
+      }
+    },
+    "01151": {
+      "trainer_id": "01151",
+      "career": {
+        "year": "累計",
+        "win": 326,
+        "win2": 253,
+        "win3": 240,
+        "runs": 2782,
+        "win_rate": 0.11699999999999999,
+        "place_rate": 0.294
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 15,
+        "win3": 17,
+        "runs": 147,
+        "win_rate": 0.095,
+        "place_rate": 0.313
+      }
+    },
+    "01152": {
+      "trainer_id": "01152",
+      "career": {
+        "year": "累計",
+        "win": 172,
+        "win2": 196,
+        "win3": 185,
+        "runs": 2828,
+        "win_rate": 0.061,
+        "place_rate": 0.196
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 7,
+        "win3": 8,
+        "runs": 103,
+        "win_rate": 0.068,
+        "place_rate": 0.214
+      }
+    },
+    "01153": {
+      "trainer_id": "01153",
+      "career": {
+        "year": "累計",
+        "win": 241,
+        "win2": 247,
+        "win3": 177,
+        "runs": 2871,
+        "win_rate": 0.084,
+        "place_rate": 0.23199999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 14,
+        "win3": 11,
+        "runs": 121,
+        "win_rate": 0.11599999999999999,
+        "place_rate": 0.322
+      }
+    },
+    "01154": {
+      "trainer_id": "01154",
+      "career": {
+        "year": "累計",
+        "win": 231,
+        "win2": 224,
+        "win3": 216,
+        "runs": 2507,
+        "win_rate": 0.092,
+        "place_rate": 0.268
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 11,
+        "win3": 11,
+        "runs": 111,
+        "win_rate": 0.081,
+        "place_rate": 0.27899999999999997
+      }
+    },
+    "01155": {
+      "trainer_id": "01155",
+      "career": {
+        "year": "累計",
+        "win": 177,
+        "win2": 223,
+        "win3": 203,
+        "runs": 2735,
+        "win_rate": 0.065,
+        "place_rate": 0.22
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 11,
+        "win2": 12,
+        "win3": 6,
+        "runs": 129,
+        "win_rate": 0.085,
+        "place_rate": 0.225
+      }
+    },
+    "01156": {
+      "trainer_id": "01156",
+      "career": {
+        "year": "累計",
+        "win": 107,
+        "win2": 137,
+        "win3": 145,
+        "runs": 2506,
+        "win_rate": 0.043,
+        "place_rate": 0.155
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 7,
+        "win3": 2,
+        "runs": 132,
+        "win_rate": 0.015,
+        "place_rate": 0.083
+      }
+    },
+    "01157": {
+      "trainer_id": "01157",
+      "career": {
+        "year": "累計",
+        "win": 392,
+        "win2": 345,
+        "win3": 277,
+        "runs": 3304,
+        "win_rate": 0.11900000000000001,
+        "place_rate": 0.307
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 27,
+        "win2": 29,
+        "win3": 15,
+        "runs": 165,
+        "win_rate": 0.16399999999999998,
+        "place_rate": 0.43
+      }
+    },
+    "01158": {
+      "trainer_id": "01158",
+      "career": {
+        "year": "累計",
+        "win": 275,
+        "win2": 259,
+        "win3": 247,
+        "runs": 3152,
+        "win_rate": 0.087,
+        "place_rate": 0.248
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 21,
+        "win2": 19,
+        "win3": 12,
+        "runs": 153,
+        "win_rate": 0.13699999999999998,
+        "place_rate": 0.34
+      }
+    },
+    "01159": {
+      "trainer_id": "01159",
+      "career": {
+        "year": "累計",
+        "win": 196,
+        "win2": 199,
+        "win3": 189,
+        "runs": 2114,
+        "win_rate": 0.09300000000000001,
+        "place_rate": 0.276
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 13,
+        "win2": 14,
+        "win3": 8,
+        "runs": 113,
+        "win_rate": 0.115,
+        "place_rate": 0.31
+      }
+    },
+    "01160": {
+      "trainer_id": "01160",
+      "career": {
+        "year": "累計",
+        "win": 213,
+        "win2": 206,
+        "win3": 205,
+        "runs": 2075,
+        "win_rate": 0.10300000000000001,
+        "place_rate": 0.301
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 12,
+        "win2": 10,
+        "win3": 9,
+        "runs": 112,
+        "win_rate": 0.107,
+        "place_rate": 0.27699999999999997
+      }
+    },
+    "01161": {
+      "trainer_id": "01161",
+      "career": {
+        "year": "累計",
+        "win": 213,
+        "win2": 232,
+        "win3": 212,
+        "runs": 2577,
+        "win_rate": 0.083,
+        "place_rate": 0.255
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 12,
+        "win3": 15,
+        "runs": 142,
+        "win_rate": 0.099,
+        "place_rate": 0.289
+      }
+    },
+    "01162": {
+      "trainer_id": "01162",
+      "career": {
+        "year": "累計",
+        "win": 243,
+        "win2": 184,
+        "win3": 167,
+        "runs": 1719,
+        "win_rate": 0.141,
+        "place_rate": 0.34600000000000003
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 14,
+        "win2": 9,
+        "win3": 16,
+        "runs": 88,
+        "win_rate": 0.159,
+        "place_rate": 0.44299999999999995
+      }
+    },
+    "01163": {
+      "trainer_id": "01163",
+      "career": {
+        "year": "累計",
+        "win": 165,
+        "win2": 144,
+        "win3": 132,
+        "runs": 1821,
+        "win_rate": 0.091,
+        "place_rate": 0.242
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 15,
+        "win3": 15,
+        "runs": 98,
+        "win_rate": 0.071,
+        "place_rate": 0.37799999999999995
+      }
+    },
+    "01164": {
+      "trainer_id": "01164",
+      "career": {
+        "year": "累計",
+        "win": 189,
+        "win2": 154,
+        "win3": 207,
+        "runs": 1895,
+        "win_rate": 0.1,
+        "place_rate": 0.29
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 13,
+        "win2": 3,
+        "win3": 13,
+        "runs": 108,
+        "win_rate": 0.12,
+        "place_rate": 0.26899999999999996
+      }
+    },
+    "01165": {
+      "trainer_id": "01165",
+      "career": {
+        "year": "累計",
+        "win": 116,
+        "win2": 137,
+        "win3": 122,
+        "runs": 1951,
+        "win_rate": 0.059000000000000004,
+        "place_rate": 0.192
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 3,
+        "win3": 4,
+        "runs": 100,
+        "win_rate": 0.02,
+        "place_rate": 0.09
+      }
+    },
+    "01166": {
+      "trainer_id": "01166",
+      "career": {
+        "year": "累計",
+        "win": 153,
+        "win2": 163,
+        "win3": 131,
+        "runs": 1754,
+        "win_rate": 0.087,
+        "place_rate": 0.255
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 11,
+        "win3": 7,
+        "runs": 112,
+        "win_rate": 0.054000000000000006,
+        "place_rate": 0.214
+      }
+    },
+    "01168": {
+      "trainer_id": "01168",
+      "career": {
+        "year": "累計",
+        "win": 227,
+        "win2": 168,
+        "win3": 141,
+        "runs": 1576,
+        "win_rate": 0.14400000000000002,
+        "place_rate": 0.34
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 15,
+        "win2": 12,
+        "win3": 10,
+        "runs": 102,
+        "win_rate": 0.147,
+        "place_rate": 0.363
+      }
+    },
+    "01169": {
+      "trainer_id": "01169",
+      "career": {
+        "year": "累計",
+        "win": 137,
+        "win2": 143,
+        "win3": 156,
+        "runs": 1848,
+        "win_rate": 0.07400000000000001,
+        "place_rate": 0.23600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 19,
+        "win2": 10,
+        "win3": 19,
+        "runs": 112,
+        "win_rate": 0.17,
+        "place_rate": 0.429
+      }
+    },
+    "01170": {
+      "trainer_id": "01170",
+      "career": {
+        "year": "累計",
+        "win": 93,
+        "win2": 102,
+        "win3": 95,
+        "runs": 1619,
+        "win_rate": 0.057,
+        "place_rate": 0.179
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 9,
+        "win3": 6,
+        "runs": 104,
+        "win_rate": 0.048,
+        "place_rate": 0.192
+      }
+    },
+    "01171": {
+      "trainer_id": "01171",
+      "career": {
+        "year": "累計",
+        "win": 58,
+        "win2": 86,
+        "win3": 102,
+        "runs": 1609,
+        "win_rate": 0.036000000000000004,
+        "place_rate": 0.153
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 6,
+        "win3": 5,
+        "runs": 109,
+        "win_rate": 0.073,
+        "place_rate": 0.174
+      }
+    },
+    "01172": {
+      "trainer_id": "01172",
+      "career": {
+        "year": "累計",
+        "win": 120,
+        "win2": 116,
+        "win3": 118,
+        "runs": 1596,
+        "win_rate": 0.075,
+        "place_rate": 0.222
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 8,
+        "win3": 8,
+        "runs": 103,
+        "win_rate": 0.087,
+        "place_rate": 0.243
+      }
+    },
+    "01173": {
+      "trainer_id": "01173",
+      "career": {
+        "year": "累計",
+        "win": 139,
+        "win2": 134,
+        "win3": 155,
+        "runs": 1752,
+        "win_rate": 0.079,
+        "place_rate": 0.244
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 11,
+        "win3": 6,
+        "runs": 111,
+        "win_rate": 0.054000000000000006,
+        "place_rate": 0.207
+      }
+    },
+    "01174": {
+      "trainer_id": "01174",
+      "career": {
+        "year": "累計",
+        "win": 73,
+        "win2": 81,
+        "win3": 113,
+        "runs": 1750,
+        "win_rate": 0.042,
+        "place_rate": 0.153
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 6,
+        "win3": 6,
+        "runs": 115,
+        "win_rate": 0.052000000000000005,
+        "place_rate": 0.157
+      }
+    },
+    "01175": {
+      "trainer_id": "01175",
+      "career": {
+        "year": "累計",
+        "win": 165,
+        "win2": 123,
+        "win3": 120,
+        "runs": 1261,
+        "win_rate": 0.131,
+        "place_rate": 0.324
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 17,
+        "win2": 17,
+        "win3": 11,
+        "runs": 114,
+        "win_rate": 0.149,
+        "place_rate": 0.395
+      }
+    },
+    "01176": {
+      "trainer_id": "01176",
+      "career": {
+        "year": "累計",
+        "win": 172,
+        "win2": 144,
+        "win3": 135,
+        "runs": 1476,
+        "win_rate": 0.11699999999999999,
+        "place_rate": 0.306
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 16,
+        "win3": 11,
+        "runs": 104,
+        "win_rate": 0.096,
+        "place_rate": 0.35600000000000004
+      }
+    },
+    "01177": {
+      "trainer_id": "01177",
+      "career": {
+        "year": "累計",
+        "win": 69,
+        "win2": 58,
+        "win3": 82,
+        "runs": 1303,
+        "win_rate": 0.053,
+        "place_rate": 0.16
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 7,
+        "win3": 6,
+        "runs": 106,
+        "win_rate": 0.066,
+        "place_rate": 0.18899999999999997
+      }
+    },
+    "01178": {
+      "trainer_id": "01178",
+      "career": {
+        "year": "累計",
+        "win": 106,
+        "win2": 109,
+        "win3": 133,
+        "runs": 1608,
+        "win_rate": 0.066,
+        "place_rate": 0.21600000000000003
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 5,
+        "win3": 11,
+        "runs": 145,
+        "win_rate": 0.069,
+        "place_rate": 0.179
+      }
+    },
+    "01179": {
+      "trainer_id": "01179",
+      "career": {
+        "year": "累計",
+        "win": 77,
+        "win2": 77,
+        "win3": 98,
+        "runs": 1221,
+        "win_rate": 0.063,
+        "place_rate": 0.20600000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 14,
+        "win3": 11,
+        "runs": 120,
+        "win_rate": 0.083,
+        "place_rate": 0.292
+      }
+    },
+    "01180": {
+      "trainer_id": "01180",
+      "career": {
+        "year": "累計",
+        "win": 139,
+        "win2": 108,
+        "win3": 91,
+        "runs": 1187,
+        "win_rate": 0.11699999999999999,
+        "place_rate": 0.285
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 16,
+        "win2": 8,
+        "win3": 7,
+        "runs": 116,
+        "win_rate": 0.138,
+        "place_rate": 0.267
+      }
+    },
+    "01181": {
+      "trainer_id": "01181",
+      "career": {
+        "year": "累計",
+        "win": 91,
+        "win2": 102,
+        "win3": 83,
+        "runs": 1262,
+        "win_rate": 0.07200000000000001,
+        "place_rate": 0.21899999999999997
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 10,
+        "win3": 6,
+        "runs": 102,
+        "win_rate": 0.098,
+        "place_rate": 0.255
+      }
+    },
+    "01182": {
+      "trainer_id": "01182",
+      "career": {
+        "year": "累計",
+        "win": 83,
+        "win2": 67,
+        "win3": 92,
+        "runs": 1042,
+        "win_rate": 0.08,
+        "place_rate": 0.23199999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 11,
+        "win2": 5,
+        "win3": 7,
+        "runs": 87,
+        "win_rate": 0.126,
+        "place_rate": 0.264
+      }
+    },
+    "01183": {
+      "trainer_id": "01183",
+      "career": {
+        "year": "累計",
+        "win": 128,
+        "win2": 112,
+        "win3": 107,
+        "runs": 1152,
+        "win_rate": 0.111,
+        "place_rate": 0.301
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 5,
+        "win3": 12,
+        "runs": 95,
+        "win_rate": 0.07400000000000001,
+        "place_rate": 0.253
+      }
+    },
+    "01184": {
+      "trainer_id": "01184",
+      "career": {
+        "year": "累計",
+        "win": 120,
+        "win2": 128,
+        "win3": 102,
+        "runs": 1191,
+        "win_rate": 0.10099999999999999,
+        "place_rate": 0.294
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 14,
+        "win3": 9,
+        "runs": 108,
+        "win_rate": 0.083,
+        "place_rate": 0.29600000000000004
+      }
+    },
+    "01185": {
+      "trainer_id": "01185",
+      "career": {
+        "year": "累計",
+        "win": 95,
+        "win2": 82,
+        "win3": 88,
+        "runs": 1192,
+        "win_rate": 0.08,
+        "place_rate": 0.222
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 9,
+        "win3": 5,
+        "runs": 113,
+        "win_rate": 0.044000000000000004,
+        "place_rate": 0.168
+      }
+    },
+    "01186": {
+      "trainer_id": "01186",
+      "career": {
+        "year": "累計",
+        "win": 91,
+        "win2": 89,
+        "win3": 94,
+        "runs": 1139,
+        "win_rate": 0.08,
+        "place_rate": 0.24100000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 14,
+        "win3": 8,
+        "runs": 116,
+        "win_rate": 0.069,
+        "place_rate": 0.259
+      }
+    },
+    "01187": {
+      "trainer_id": "01187",
+      "career": {
+        "year": "累計",
+        "win": 54,
+        "win2": 73,
+        "win3": 59,
+        "runs": 990,
+        "win_rate": 0.055,
+        "place_rate": 0.188
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 8,
+        "win2": 6,
+        "win3": 9,
+        "runs": 117,
+        "win_rate": 0.068,
+        "place_rate": 0.19699999999999998
+      }
+    },
+    "01189": {
+      "trainer_id": "01189",
+      "career": {
+        "year": "累計",
+        "win": 30,
+        "win2": 47,
+        "win3": 65,
+        "runs": 1052,
+        "win_rate": 0.028999999999999998,
+        "place_rate": 0.135
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 9,
+        "win3": 7,
+        "runs": 121,
+        "win_rate": 0.033,
+        "place_rate": 0.165
+      }
+    },
+    "01191": {
+      "trainer_id": "01191",
+      "career": {
+        "year": "累計",
+        "win": 75,
+        "win2": 92,
+        "win3": 64,
+        "runs": 803,
+        "win_rate": 0.09300000000000001,
+        "place_rate": 0.28800000000000003
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 16,
+        "win3": 6,
+        "runs": 94,
+        "win_rate": 0.106,
+        "place_rate": 0.34
+      }
+    },
+    "01192": {
+      "trainer_id": "01192",
+      "career": {
+        "year": "累計",
+        "win": 84,
+        "win2": 82,
+        "win3": 69,
+        "runs": 736,
+        "win_rate": 0.114,
+        "place_rate": 0.319
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 15,
+        "win2": 8,
+        "win3": 16,
+        "runs": 101,
+        "win_rate": 0.149,
+        "place_rate": 0.386
+      }
+    },
+    "01193": {
+      "trainer_id": "01193",
+      "career": {
+        "year": "累計",
+        "win": 28,
+        "win2": 42,
+        "win3": 43,
+        "runs": 767,
+        "win_rate": 0.037000000000000005,
+        "place_rate": 0.147
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 5,
+        "win2": 6,
+        "win3": 7,
+        "runs": 105,
+        "win_rate": 0.048,
+        "place_rate": 0.171
+      }
+    },
+    "01194": {
+      "trainer_id": "01194",
+      "career": {
+        "year": "累計",
+        "win": 70,
+        "win2": 59,
+        "win3": 65,
+        "runs": 815,
+        "win_rate": 0.086,
+        "place_rate": 0.23800000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 10,
+        "win3": 11,
+        "runs": 121,
+        "win_rate": 0.057999999999999996,
+        "place_rate": 0.231
+      }
+    },
+    "01195": {
+      "trainer_id": "01195",
+      "career": {
+        "year": "累計",
+        "win": 75,
+        "win2": 72,
+        "win3": 72,
+        "runs": 895,
+        "win_rate": 0.084,
+        "place_rate": 0.245
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 7,
+        "win3": 9,
+        "runs": 116,
+        "win_rate": 0.06,
+        "place_rate": 0.198
+      }
+    },
+    "01196": {
+      "trainer_id": "01196",
+      "career": {
+        "year": "累計",
+        "win": 68,
+        "win2": 80,
+        "win3": 58,
+        "runs": 809,
+        "win_rate": 0.084,
+        "place_rate": 0.255
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 9,
+        "win2": 10,
+        "win3": 6,
+        "runs": 116,
+        "win_rate": 0.078,
+        "place_rate": 0.21600000000000003
+      }
+    },
+    "01197": {
+      "trainer_id": "01197",
+      "career": {
+        "year": "累計",
+        "win": 25,
+        "win2": 30,
+        "win3": 27,
+        "runs": 563,
+        "win_rate": 0.044000000000000004,
+        "place_rate": 0.146
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 5,
+        "win3": 7,
+        "runs": 122,
+        "win_rate": 0.057,
+        "place_rate": 0.156
+      }
+    },
+    "01198": {
+      "trainer_id": "01198",
+      "career": {
+        "year": "累計",
+        "win": 34,
+        "win2": 57,
+        "win3": 58,
+        "runs": 661,
+        "win_rate": 0.051,
+        "place_rate": 0.225
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 14,
+        "win3": 20,
+        "runs": 142,
+        "win_rate": 0.07,
+        "place_rate": 0.31
+      }
+    },
+    "01199": {
+      "trainer_id": "01199",
+      "career": {
+        "year": "累計",
+        "win": 35,
+        "win2": 34,
+        "win3": 50,
+        "runs": 529,
+        "win_rate": 0.066,
+        "place_rate": 0.225
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 6,
+        "win3": 7,
+        "runs": 114,
+        "win_rate": 0.061,
+        "place_rate": 0.175
+      }
+    },
+    "01200": {
+      "trainer_id": "01200",
+      "career": {
+        "year": "累計",
+        "win": 22,
+        "win2": 27,
+        "win3": 24,
+        "runs": 548,
+        "win_rate": 0.04,
+        "place_rate": 0.133
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 4,
+        "win3": 6,
+        "runs": 116,
+        "win_rate": 0.026000000000000002,
+        "place_rate": 0.11199999999999999
+      }
+    },
+    "01201": {
+      "trainer_id": "01201",
+      "career": {
+        "year": "累計",
+        "win": 51,
+        "win2": 34,
+        "win3": 27,
+        "runs": 394,
+        "win_rate": 0.129,
+        "place_rate": 0.284
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 4,
+        "win3": 4,
+        "runs": 89,
+        "win_rate": 0.11199999999999999,
+        "place_rate": 0.20199999999999999
+      }
+    },
+    "01202": {
+      "trainer_id": "01202",
+      "career": {
+        "year": "累計",
+        "win": 22,
+        "win2": 31,
+        "win3": 27,
+        "runs": 518,
+        "win_rate": 0.042,
+        "place_rate": 0.154
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 9,
+        "win3": 6,
+        "runs": 108,
+        "win_rate": 0.065,
+        "place_rate": 0.204
+      }
+    },
+    "01203": {
+      "trainer_id": "01203",
+      "career": {
+        "year": "累計",
+        "win": 66,
+        "win2": 61,
+        "win3": 58,
+        "runs": 499,
+        "win_rate": 0.132,
+        "place_rate": 0.371
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 20,
+        "win2": 21,
+        "win3": 9,
+        "runs": 116,
+        "win_rate": 0.172,
+        "place_rate": 0.431
+      }
+    },
+    "01204": {
+      "trainer_id": "01204",
+      "career": {
+        "year": "累計",
+        "win": 7,
+        "win2": 12,
+        "win3": 17,
+        "runs": 189,
+        "win_rate": 0.037000000000000005,
+        "place_rate": 0.19
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 2,
+        "win2": 6,
+        "win3": 9,
+        "runs": 78,
+        "win_rate": 0.026000000000000002,
+        "place_rate": 0.218
+      }
+    },
+    "01205": {
+      "trainer_id": "01205",
+      "career": {
+        "year": "累計",
+        "win": 27,
+        "win2": 39,
+        "win3": 29,
+        "runs": 342,
+        "win_rate": 0.079,
+        "place_rate": 0.278
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 17,
+        "win3": 14,
+        "runs": 128,
+        "win_rate": 0.047,
+        "place_rate": 0.289
+      }
+    },
+    "01206": {
+      "trainer_id": "01206",
+      "career": {
+        "year": "累計",
+        "win": 32,
+        "win2": 36,
+        "win3": 31,
+        "runs": 555,
+        "win_rate": 0.057999999999999996,
+        "place_rate": 0.17800000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 10,
+        "win2": 10,
+        "win3": 8,
+        "runs": 115,
+        "win_rate": 0.087,
+        "place_rate": 0.243
+      }
+    },
+    "01207": {
+      "trainer_id": "01207",
+      "career": {
+        "year": "累計",
+        "win": 9,
+        "win2": 12,
+        "win3": 12,
+        "runs": 206,
+        "win_rate": 0.044000000000000004,
+        "place_rate": 0.16
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 3,
+        "win3": 2,
+        "runs": 74,
+        "win_rate": 0.054000000000000006,
+        "place_rate": 0.122
+      }
+    },
+    "01208": {
+      "trainer_id": "01208",
+      "career": {
+        "year": "累計",
+        "win": 7,
+        "win2": 7,
+        "win3": 5,
+        "runs": 167,
+        "win_rate": 0.042,
+        "place_rate": 0.114
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 1,
+        "win2": 3,
+        "win3": 3,
+        "runs": 64,
+        "win_rate": 0.016,
+        "place_rate": 0.109
+      }
+    },
+    "01209": {
+      "trainer_id": "01209",
+      "career": {
+        "year": "累計",
+        "win": 23,
+        "win2": 19,
+        "win3": 27,
+        "runs": 359,
+        "win_rate": 0.064,
+        "place_rate": 0.192
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 9,
+        "win3": 11,
+        "runs": 131,
+        "win_rate": 0.053,
+        "place_rate": 0.20600000000000002
+      }
+    },
+    "01210": {
+      "trainer_id": "01210",
+      "career": {
+        "year": "累計",
+        "win": 14,
+        "win2": 26,
+        "win3": 11,
+        "runs": 354,
+        "win_rate": 0.04,
+        "place_rate": 0.14400000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 7,
+        "win2": 6,
+        "win3": 4,
+        "runs": 120,
+        "win_rate": 0.057999999999999996,
+        "place_rate": 0.142
+      }
+    },
+    "01212": {
+      "trainer_id": "01212",
+      "career": {
+        "year": "累計",
+        "win": 13,
+        "win2": 10,
+        "win3": 15,
+        "runs": 328,
+        "win_rate": 0.04,
+        "place_rate": 0.11599999999999999
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 4,
+        "win2": 2,
+        "win3": 8,
+        "runs": 131,
+        "win_rate": 0.031,
+        "place_rate": 0.107
+      }
+    },
+    "01214": {
+      "trainer_id": "01214",
+      "career": {
+        "year": "累計",
+        "win": 14,
+        "win2": 17,
+        "win3": 24,
+        "runs": 231,
+        "win_rate": 0.061,
+        "place_rate": 0.23800000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 5,
+        "win3": 6,
+        "runs": 78,
+        "win_rate": 0.038,
+        "place_rate": 0.179
+      }
+    },
+    "01215": {
+      "trainer_id": "01215",
+      "career": {
+        "year": "累計",
+        "win": 14,
+        "win2": 12,
+        "win3": 17,
+        "runs": 262,
+        "win_rate": 0.053,
+        "place_rate": 0.16399999999999998
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 6,
+        "win2": 6,
+        "win3": 3,
+        "runs": 94,
+        "win_rate": 0.064,
+        "place_rate": 0.16
+      }
+    },
+    "01217": {
+      "trainer_id": "01217",
+      "career": {
+        "year": "累計",
+        "win": 1,
+        "win2": 3,
+        "win3": 2,
+        "runs": 43,
+        "win_rate": 0.023,
+        "place_rate": 0.14
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 1,
+        "win2": 3,
+        "win3": 2,
+        "runs": 43,
+        "win_rate": 0.023,
+        "place_rate": 0.14
+      }
+    },
+    "01218": {
+      "trainer_id": "01218",
+      "career": {
+        "year": "累計",
+        "win": 3,
+        "win2": 5,
+        "win3": 4,
+        "runs": 50,
+        "win_rate": 0.06,
+        "place_rate": 0.24
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 5,
+        "win3": 4,
+        "runs": 50,
+        "win_rate": 0.06,
+        "place_rate": 0.24
+      }
+    },
+    "01219": {
+      "trainer_id": "01219",
+      "career": {
+        "year": "累計",
+        "win": 1,
+        "win2": 0,
+        "win3": 0,
+        "runs": 38,
+        "win_rate": 0.026000000000000002,
+        "place_rate": 0.026000000000000002
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 1,
+        "win2": 0,
+        "win3": 0,
+        "runs": 38,
+        "win_rate": 0.026000000000000002,
+        "place_rate": 0.026000000000000002
+      }
+    },
+    "01220": {
+      "trainer_id": "01220",
+      "career": {
+        "year": "累計",
+        "win": 1,
+        "win2": 2,
+        "win3": 5,
+        "runs": 36,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.222
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 1,
+        "win2": 2,
+        "win3": 5,
+        "runs": 36,
+        "win_rate": 0.027999999999999997,
+        "place_rate": 0.222
+      }
+    },
+    "01221": {
+      "trainer_id": "01221",
+      "career": {
+        "year": "累計",
+        "win": 3,
+        "win2": 1,
+        "win3": 1,
+        "runs": 51,
+        "win_rate": 0.059000000000000004,
+        "place_rate": 0.098
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 3,
+        "win2": 1,
+        "win3": 1,
+        "runs": 51,
+        "win_rate": 0.059000000000000004,
+        "place_rate": 0.098
+      }
+    },
+    "05675": {
+      "trainer_id": "05675",
+      "career": {
+        "year": "累計",
+        "win": 0,
+        "win2": 0,
+        "win3": 0,
+        "runs": 44,
+        "win_rate": 0.0,
+        "place_rate": 0.0
+      },
+      "recent_year": {
+        "year": "2026",
+        "win": 0,
+        "win2": 0,
+        "win3": 0,
+        "runs": 1,
+        "win_rate": 0.0,
+        "place_rate": 0.0
+      }
+    }
+  }
+}

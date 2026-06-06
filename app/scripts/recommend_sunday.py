@@ -16,8 +16,8 @@ az = importlib.util.module_from_spec(spec); spec.loader.exec_module(az)
 WD = ["月","火","水","木","金","土","日"]
 MARKS = ["◎","○","▲","△","✕"]
 
-def pick(race, db, odds_for_race=None):
-    a = az.analyze_race(race, db)
+def pick(race, db, odds_for_race=None, baba_by_track=None):
+    a = az.analyze_race(race, db, baba_by_track=baba_by_track)
     if a.get("warn"): return None, [], a
     rows = a["horses"]                                       # 既にscore順
     by_bias = sorted(rows, key=lambda r: -r.get("bias",0))
@@ -86,7 +86,14 @@ def fmt_row(p):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("date")
     ap.add_argument("--track", default="札幌,函館,福島,新潟,東京,中山,中京,京都,阪神,小倉")
+    ap.add_argument("--baba-track", action="append", default=[],
+                    help="場別馬場上書き 例: --baba-track 阪神=稍重")
     args = ap.parse_args()
+    baba_by_track = {}
+    for kv in args.baba_track:
+        if "=" in kv:
+            t, b = kv.split("=", 1)
+            baba_by_track[t.strip()] = b.strip()
     tracks = set(args.track.split(","))
     d = datetime.date(int(args.date[:4]),int(args.date[4:6]),int(args.date[6:8]))
     data = json.loads((ROOT/"data"/f"shutuba_{args.date}.json").read_text(encoding="utf-8"))
@@ -104,7 +111,7 @@ def main():
         if race["track"] not in tracks: continue
         if len(race["horses"]) < 2: continue
         odds_for_race = odds_all.get(race["race_id"])
-        picks, watch, a = pick(race, db, odds_for_race)
+        picks, watch, a = pick(race, db, odds_for_race, baba_by_track=baba_by_track)
         title = f"{race['track']}{race['race_no']}R {race['surface']}{race['distance']}m {race['race_name']}"
         if not picks:
             L.append(f"### {title}")

@@ -27,6 +27,38 @@ def _load_jockey_stats():
     if not p.exists(): return {}, {}
     d = json.loads(p.read_text(encoding="utf-8"))
     return d.get("name_to_id",{}), d.get("stats",{})
+
+def _load_trainer_stats():
+    p = _memory_path("trainer_stats.json")
+    if not p.exists(): return {}, {}
+    d = json.loads(p.read_text(encoding="utf-8"))
+    return d.get("name_to_id",{}), d.get("stats",{})
+TR_NAME2ID, TR_STATS = _load_trainer_stats()
+
+def trainer_bonus(trainer_name, race_name):
+    """調教師の通算複勝率。新馬戦のみ重み大、それ以外は控えめ。
+    出馬表のtrainer欄は『美浦鈴木慎』のように所属＋短縮形なので前方一致で解決。
+    """
+    if not trainer_name: return (0, None)
+    raw = re.sub(r"^(美浦|栗東)", "", trainer_name)
+    tid = TR_NAME2ID.get(trainer_name) or TR_NAME2ID.get(raw)
+    if not tid:
+        # 前方一致
+        for k, v in TR_NAME2ID.items():
+            if k.startswith(raw) or raw.startswith(k):
+                tid = v; break
+    if not tid: return (0, None)
+    s = (TR_STATS.get(tid) or {}).get("career") or {}
+    pr = s.get("place_rate"); rd = s.get("runs") or 0
+    if pr is None or rd < 200: return (0, None)
+    is_shinba = "新馬" in (race_name or "")
+    if pr >= 0.30 and rd >= 500:
+        return (3 if is_shinba else 1, f"トップ厩舎({raw}複勝{pr*100:.0f}%)")
+    if pr >= 0.22:
+        return (2 if is_shinba else 1, f"上位厩舎({raw}複勝{pr*100:.0f}%)")
+    if pr < 0.10:
+        return (-1, f"低勝率厩舎({raw}複勝{pr*100:.0f}%)")
+    return (0, None)
 JKY_NAME2ID, JKY_STATS = _load_jockey_stats()
 
 def jockey_bonus(jockey_name):
@@ -568,6 +600,11 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     if jr:
         reasons.append(jr); score += jb * weights.get("jockey", 1)
 
+    # 厩舎バイアス: 通常+1だが新馬戦は+2/+3に強化(情報少ない新馬は厩舎の力大)
+    tb, tr = trainer_bonus(horse.get("trainer"), race.get("race_name") if race else None)
+    if tr:
+        reasons.append(tr); score += tb * weights.get("trainer", 1)
+
     # 血統
     favored = course.get("sire_favored", [])
     ped = horse_data.get("pedigree", {}) if horse_data else {}
@@ -659,21 +696,21 @@ def _odds_for_date(date_str):
     _ODDS_CACHE[date_str] = d
     return d
 
-def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None):
+def analyze_race(race, horses_db, baba=None, odds_for_race=None, date_str=None, baba_by_track=None):
     # date_strが渡されたらodds_*.jsonからこのレースのオッズを自動ロード
     if odds_for_race is None and date_str:
         odds_for_race = _odds_for_date(date_str).get(race["race_id"])
-    # date_str未指定でもrace_idの上位4桁=年からYYYYMMDD候補を作るのは難しいので
-    # 呼び出し側が指定したoddsを優先。未指定時は分布から日付推定
     if odds_for_race is None:
-        # race_id先頭4桁=年、ただし開催日は別途必要。データ存在する全odds_*.jsonを舐めて該当race_idを探す
         for p in (ROOT/"data").glob("odds_*.json"):
             d = _odds_for_date(p.stem.replace("odds_",""))
             if race["race_id"] in d:
                 odds_for_race = d[race["race_id"]]; break
-    # baba優先順位: 明示引数 > 出馬表の実データ(race['baba']) > 良
+    # baba優先: 明示引数 > 場別辞書(雨予報用) > 出馬表の実データ > 良
     if baba is None:
-        baba = race.get("baba") or "良"
+        if baba_by_track and race.get("track") in baba_by_track:
+            baba = baba_by_track[race["track"]]
+        else:
+            baba = race.get("baba") or "良"
     key = course_key(race["track"], race["surface"], race["distance"], race.get("variant"))
     if not key:
         # コース未登録: 障害は対象外、それ以外はデフォルト辞書で処理続行
