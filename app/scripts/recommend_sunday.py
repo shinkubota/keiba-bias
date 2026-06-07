@@ -41,39 +41,31 @@ def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=Fal
         if uid in used: continue
         add(r, "△", f"バイアス特化(bias{r['bias']})")
         break
-    # ✕: バイアス上位 かつ 能力中位以下＝伏兵(土曜鳳雛Sタイプ)
-    abil_sorted = sorted([(r.get("ability_eff") or 0) for r in rows], reverse=True)
-    med = abil_sorted[len(abil_sorted)//2] if abil_sorted else 0
-    for r in by_bias:
-        if r["bias"] < 6: break
-        uid = r["horse"].get("horse_id") or r["horse"]["umaban"]
-        if uid in used: continue
-        if (r.get("ability_eff") or 0) > med: continue
-        add(r, "✕", f"伏兵(bias{r['bias']}・能力中位以下)")
-        break
+    # v0.11: 回収率検証(6/7)の結果、✕を廃止し4頭(◎○▲△)に絞る
+    # ✕廃止理由: 警戒馬込み28点ボックスの回収率25% vs ◎○▲△6点48%
+    # → 印は絞った方が回収率が上がる
     # 4頭以下なら現行4位を△で補完
     if len(picks) < 4 and len(rows) >= 4 and rows[3]["score"] > 0:
         add(rows[3], "△", "総合4位")
 
-    # 警戒馬: 推奨6-12位の中で「警戒すべき馬」を抽出
-    # 根拠: 土日46Rの大穴3着内ヒットは推奨6-12位に集中(13位以下0)
-    # 条件: 推奨6-12位 ＋ bias>=5 (バイアス適合) ＋ オッズ>=10 もしくは未取得
+    # 警戒馬: 推奨6-12位の中で「警戒すべき馬」を最大1頭抽出
+    # v0.11: 回収率検証(6/7)の結果、警戒馬2-3頭追加しても回収率改善せず(E0=E1=E2=36%)
+    # → bias>=8 (大穴シグナル強) かつ オッズ>=15倍 の1頭のみに限定
     watch = []
     for idx, r in enumerate(rows[5:12], start=6):
-        if r.get("bias", 0) < 5: continue
+        if r.get("bias", 0) < 8: continue   # 5→8 に厳格化
         um = r["horse"].get("umaban")
         odds_pop = None
         if odds_for_race and um:
             o = odds_for_race.get(str(um)) or odds_for_race.get(int(um) if um.isdigit() else um)
             if o: odds_pop = (o.get("pop"), o.get("win"))
-        # オッズが取れていれば10倍以上だけ、取れていなければ通す
         if odds_pop:
             pop, win = odds_pop
-            if win and win < 10: continue
+            if win and win < 15: continue   # 10→15倍に厳格化
         watch.append({"rank": idx, "row": r, "odds_pop": odds_pop})
-        if len(watch) >= 3: break
+        if len(watch) >= 1: break           # 3→1頭のみ
 
-    return picks[:5], watch, a
+    return picks[:4], watch, a               # 5→4頭(✕廃止)
 
 def fmt_row(p):
     h = p["row"]["horse"]
@@ -107,9 +99,11 @@ def main():
     odds_path = ROOT/"data"/f"odds_{args.date}.json"
     odds_all = json.loads(odds_path.read_text(encoding="utf-8")) if odds_path.exists() else {}
 
-    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（3-5頭・幅広版）", ""]
-    L.append("> ◎総合1位 ○2位 ▲3位 △バイアス特化or総合4位 ✕押え（能力中位だがバイアス特化＝穴の一発候補）")
-    L.append("> ⚠ **警戒馬** = 推奨6-12位の中でバイアス適合する人気薄。本命人気馬を脅かす3着候補(ワイド要員)")
+    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（v0.11 絞り版・4頭+α）", ""]
+    L.append("> 📝 v0.11: 6/7回収率検証より✕廃止＆警戒馬1頭に絞り (28点ボックス回収率25%→絞り4点で48%)")
+    L.append("> ◎総合1位 ○2位 ▲3位 △総合4位またはバイアス特化")
+    L.append("> ⚠ **警戒馬** = bias≥8 ＋ 単オッズ≥15倍の推奨6-12位馬を1頭のみ(穴のスパイス)")
+    L.append("> 💰 **推奨買い方**: ◎単勝(回収率最高) / ◎○▲△ボックスワイド6点 / 大穴狙いなら◎-警戒馬ワイド1点")
     L.append("")
     for race in data:
         if race["track"] not in tracks: continue
