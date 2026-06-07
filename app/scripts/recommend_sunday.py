@@ -99,14 +99,14 @@ def main():
     odds_path = ROOT/"data"/f"odds_{args.date}.json"
     odds_all = json.loads(odds_path.read_text(encoding="utf-8")) if odds_path.exists() else {}
 
-    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（v0.12 3連複フォーメーション最適化）", ""]
-    L.append("> 📝 v0.12: 6/7検証で **◎-○▲△-警戒馬2頭 3連複フォーメーション 回収率184%** を採用")
+    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（v0.13 ◎軸3連複流し）", ""]
+    L.append("> 📝 v0.13: 6/7検証 — 3列目に○▲△も含める**◎軸 3連複流し** 採用 (ROI 113%, 的中4/23R)")
     L.append("> ◎総合1位 ○2位 ▲3位 △総合4位またはバイアス特化")
-    L.append("> ⚠ **警戒馬** = bias≥6 ＋ 単オッズ≥10倍の推奨6-12位馬を最大2頭(3列目候補)")
+    L.append("> ⚠ **警戒馬** = bias≥6 ＋ 単オッズ≥10倍の推奨6-12位馬を最大2頭")
     L.append("> 💰 **推奨買い方** (回収率順):")
-    L.append("> 　1. **3連複フォーメーション** 1列◎ / 2列○▲△ / 3列警戒馬2頭 → 最大6点 (ROI 184%)")
+    L.append("> 　1. **◎軸3連複流し** 相手=○▲△＋警戒馬2頭(計5頭) → 5C2=**10点** (ROI 113%, 的中率17%)")
     L.append("> 　2. **◎単勝集中** → 1点 (ROI 118%、メインレース向け)")
-    L.append("> 　3. **◎○▲△ 3連複ボックス** → 4点 (ROI 165%、警戒馬不在時)")
+    L.append("> 　3. **狭め版** ◎-○▲△-警戒馬2頭フォーメーション → 6点 (ROI 184%だが的中サンプル少)")
     L.append("")
     for race in data:
         if race["track"] not in tracks: continue
