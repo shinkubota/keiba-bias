@@ -40,23 +40,32 @@ git_push() {
 
 predict() {
   local d="$1"
-  log "=== PREDICT $d ==="
-  # 出馬表系のキャッシュをクリア(枠順確定対応)
+  local phase="${2:-early}"  # early=想定オッズ / late=直前オッズ
+  log "=== PREDICT $d ($phase) ==="
+  # 出馬表系のキャッシュをクリア(枠順確定/直前更新対応)
   find cache -name "racelist_${d}.html" -delete 2>/dev/null
-  find cache -name "shutuba_*.html" -mtime +0 -delete 2>/dev/null   # >24h
+  if [ "$phase" = "late" ]; then
+    # 直前は全キャッシュ刷新(オッズが頻繁に動くため)
+    find cache -name "shutuba_*.html" -delete 2>/dev/null
+    find cache -name "odds_*.html" -delete 2>/dev/null
+  else
+    find cache -name "shutuba_*.html" -mtime +0 -delete 2>/dev/null   # >24h
+  fi
   run python3 scripts/fetch_shutuba.py "$d"
   run python3 scripts/fetch_horse.py "$d"
   run python3 scripts/build_lineage_fallback.py
-  # オッズは枠順確定後すぐは出ないことがあるが取得試行
   run python3 scripts/fetch_odds.py "$d" || true
-  # A案: 現行v0.10 (デフォルト)
-  run python3 scripts/recommend_sunday.py "$d" > "data/recommend_wide_${d}_A.md"
-  # B案: 未勝利・新馬戦でbias倍率2倍(0.025→0.05)、能力低クラスではability_eff上限25
-  run python3 scripts/recommend_sunday.py "$d" --bias-boost-maiden > "data/recommend_wide_${d}_B.md"
-  # 既存ファイル名(A案)も残す(他スクリプトとの互換)
-  cp "data/recommend_wide_${d}_A.md" "data/recommend_wide_${d}.md"
+  # phaseで出力ファイル名を分ける: early(想定)→_early / late(直前)→_late
+  # 互換のためデフォルト名(recommend_wide_${d}.md)はlateで上書き、なければearlyで作る
+  local sfx="_${phase}"
+  run python3 scripts/recommend_sunday.py "$d" > "data/recommend_wide_${d}${sfx}_A.md"
+  run python3 scripts/recommend_sunday.py "$d" --bias-boost-maiden > "data/recommend_wide_${d}${sfx}_B.md"
+  # 最新版を canonical 名にも反映 (lateが優先、なければearly)
+  cp "data/recommend_wide_${d}${sfx}_A.md" "data/recommend_wide_${d}_A.md"
+  cp "data/recommend_wide_${d}${sfx}_B.md" "data/recommend_wide_${d}_B.md"
+  cp "data/recommend_wide_${d}${sfx}_A.md" "data/recommend_wide_${d}.md"
   run python3 scripts/build_web.py "$d" --top 4
-  git_push "weekly: ${d} 予想生成(A/B 2案)"
+  git_push "weekly: ${d} 予想生成(${phase}/A・B 2案)"
 }
 
 review() {
@@ -72,8 +81,10 @@ review() {
 }
 
 case "$MODE" in
-  predict) predict "$DATE" ;;
-  review)  review  "$DATE" ;;
-  *) echo "Usage: $0 predict|review YYYYMMDD"; exit 2 ;;
+  predict)       predict "$DATE" early ;;
+  predict_early) predict "$DATE" early ;;
+  predict_late)  predict "$DATE" late ;;
+  review)        review  "$DATE" ;;
+  *) echo "Usage: $0 predict|predict_early|predict_late|review YYYYMMDD"; exit 2 ;;
 esac
 log "DONE"
