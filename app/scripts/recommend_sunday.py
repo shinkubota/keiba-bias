@@ -104,20 +104,20 @@ def main():
     odds_path = ROOT/"data"/f"odds_{args.date}.json"
     odds_all = json.loads(odds_path.read_text(encoding="utf-8")) if odds_path.exists() else {}
 
-    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（v0.14 動的配分戦略）", ""]
-    L.append("> 📝 v0.14: 6/7検証 — ◎人気帯で**単勝期待値が劇的に変化**。動的配分戦略でROI 129%達成")
+    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（v0.16 包括検証ベスト戦略）", ""]
+    L.append("> 📝 v0.16: 2日46R包括検証 — **3連複流しの相手は4頭がスイートスポット(ROI 100%)** / **5人気↓◎は見送り(4R全敗)**")
     L.append("> ◎総合1位 ○2位 ▲3位 △総合4位またはバイアス特化")
-    L.append("> ⚠ **警戒馬** = bias≥6 ＋ 単オッズ≥10倍の推奨6-12位馬を最大2頭")
+    L.append("> ⚠ **警戒馬** = bias≥6(湿時5) ＋ 単オッズ≥10倍(湿時8倍)の推奨6-12位馬を最大2頭")
     L.append("")
-    L.append("> 💰 **動的配分戦略** (◎人気帯による単勝EV差を活かす):")
+    L.append("> 💰 **動的配分戦略 v0.16** (券種・点数を最適化):")
     L.append("> ")
-    L.append("> | ◎人気 | 単勝率 | 平均オッズ | 単勝EV | **推奨配分** |")
-    L.append("> |---|---:|---:|---:|---|")
-    L.append("> | 1-2人気 | 18% | 3.3 | 0.59❌ | 単勝なし / **◎軸流し10点(100円)** |")
-    L.append("> | **3-4人気** | **33%** | **6.8** | **2.24**🏆 | **◎単勝500円 + ◎軸流し10点(100円)** |")
-    L.append("> | 5人気↓ | 0% | 14.9 | — | ◎単勝300円 + ◎-○▲△流し3点(100円) |")
+    L.append("> | ◎人気 | 単勝EV | **推奨配分** | 1Rコスト |")
+    L.append("> |---|---:|---|---:|")
+    L.append("> | 1-2人気 | 0.62❌ | **◎軸3連複4頭流し 6点** | 600円 |")
+    L.append("> | **3-4人気** | **2.34**🏆 | **🔥単勝500円 + 3連複4頭流し 6点** | **1,100円** |")
+    L.append("> | 5人気↓ | 0.00 | ⛔ **見送り**(2日4R全敗) | 0円 |")
     L.append(">")
-    L.append("> 各レース欄に **【推奨配分】** を併記。1日合計約2,000-2,500円想定。")
+    L.append("> **検証ROI 125%** (v0.14旧版84%→大幅改善)。3連複の相手は5頭よりも**4頭の方が良い**(ROI 100% vs 69%)。馬連/ワイドは ROI 12-32%で論外。")
     L.append("")
     for race in data:
         if race["track"] not in tracks: continue
@@ -179,31 +179,30 @@ def main():
                       if w["row"]["horse"]["name"] not in other_names]
         pool = other_names + watch_only
         main_name = main_horse["name"]
-        # v0.15: 天候・馬場ロジック
-        # 検証(46R): 晴での単勝抑制は逆効果(104%→102%)→撤回
-        # 残すのは「馬場湿時の警戒馬閾値緩和」(pick内で実装済み)
+        # v0.16: 包括検証(46R)で得たベスト戦略 ROI 125%
+        # - 3連複流しの相手は「4頭」がスイートスポット(ROI 100%, 5頭流しは69%)
+        # - 5人気↓◎は4R全敗→見送り
+        # - 馬連はROI 12-20%で論外、ワイドは28-32%で3連複に劣る
         weather = race.get("weather") or ""
         baba_now = race.get("baba") or ""
-        tan_main = 500
-        tan_note = ""
-        if baba_now in ("稍","稍重","重","不良"):
-            tan_note = f"(馬場{baba_now}=警戒馬閾値緩和済み)"
-        elif weather == "晴" and baba_now == "良":
-            tan_note = "(晴/良)"
+        baba_note = f"(馬場{baba_now}=警戒馬閾値緩和)" if baba_now in ("稍","稍重","重","不良") else ""
 
-        n_combo = len(pool) * (len(pool)-1) // 2
-        pool_str = " / ".join(pool) if pool else "(相手不足)"
+        # 3連複流し相手プール: ○▲△ + 警戒馬から計4頭 (4C2=6点)
+        pool4 = (other_names + watch_only)[:4]
+        n_combo = len(pool4) * (len(pool4)-1) // 2  # =6 if 4頭
+        pool_str = " / ".join(pool4) if pool4 else "(相手不足)"
+
         if main_pop is None:
-            L.append(f"- (オッズ未確定→朝再生成推奨) **◎軸3連複流し** {main_name} → {pool_str} ({n_combo}点・{n_combo*100}円)")
+            L.append(f"- ⏳ (オッズ未確定→朝再生成推奨) **◎軸3連複4頭流し** {main_name} → {pool_str} ({n_combo}点・{n_combo*100}円)")
+        elif main_pop >= 5:
+            L.append(f"- ⛔ **見送り推奨** {main_name}({main_pop}人気) — 5人気↓◎は2日4R全敗(ROI 0%)")
+            L.append(f"  - 観戦のみ。または少額の遊び馬券のみに留める")
         elif main_pop <= 2:
-            L.append(f"- **◎軸3連複流し** {main_name}({main_pop}人気) → {pool_str} ({n_combo}点・{n_combo*100}円) ※単勝EV低=見送り")
-        elif main_pop <= 4:
-            L.append(f"- 🔥 **◎単勝 {tan_main}円** {main_name}({main_pop}人気) — **単勝EV最大帯(2.34)** {tan_note}")
-            L.append(f"- **◎軸3連複流し** → {pool_str} ({n_combo}点・{n_combo*100}円)")
-        else:
-            n3 = len(other_names)*(len(other_names)-1)//2
-            L.append(f"- **◎単勝 300円** {main_name}({main_pop}人気) ※5人気↓は爆発候補")
-            L.append(f"- **◎-○▲△ 3連複流し** {main_name} → {' / '.join(other_names)} ({n3}点・{n3*100}円)")
+            L.append(f"- **◎軸3連複4頭流し** {main_name}({main_pop}人気) → {pool_str} ({n_combo}点・{n_combo*100}円){baba_note}")
+            L.append(f"  - ※1-2人気◎は単勝EV<1(0.62)につき単勝は買わない")
+        else:  # 3-4人気
+            L.append(f"- 🔥 **◎単勝 500円** {main_name}({main_pop}人気) — **単勝EV最大帯(2.34)** {baba_note}")
+            L.append(f"- **◎軸3連複4頭流し** → {pool_str} ({n_combo}点・{n_combo*100}円)")
         L.append("")
     out = "\n".join(L)
     (ROOT/"data"/f"recommend_wide_{args.date}.md").write_text(out, encoding="utf-8")
