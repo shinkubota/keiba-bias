@@ -49,11 +49,16 @@ def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=Fal
         add(rows[3], "△", "総合4位")
 
     # 警戒馬: 推奨6-12位の中で「警戒すべき馬」を最大2頭抽出
-    # v0.12: 3連複フォーメーション ◎-○▲△-警戒馬2頭が回収率184%(6/7検証)で最良
-    # → bias>=6 ＋ オッズ>=10倍 の2頭を3列目候補に
+    # v0.15: 馬場状態で閾値を動的調整
+    # - 良: bias≥6 / オッズ≥10倍 (標準)
+    # - 稍以上(湿): bias≥5 / オッズ≥8倍 (大穴的中率高い→緩める)
+    baba = a.get("baba", "良")
+    wet_baba = baba in ("稍","稍重","重","不良")
+    bias_thr = 5 if wet_baba else 6
+    odds_thr = 8 if wet_baba else 10
     watch = []
     for idx, r in enumerate(rows[5:12], start=6):
-        if r.get("bias", 0) < 6: continue
+        if r.get("bias", 0) < bias_thr: continue
         um = r["horse"].get("umaban")
         odds_pop = None
         if odds_for_race and um:
@@ -61,7 +66,7 @@ def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=Fal
             if o: odds_pop = (o.get("pop"), o.get("win"))
         if odds_pop:
             pop, win = odds_pop
-            if win and win < 10: continue
+            if win and win < odds_thr: continue
         watch.append({"rank": idx, "row": r, "odds_pop": odds_pop})
         if len(watch) >= 2: break
 
@@ -174,6 +179,18 @@ def main():
                       if w["row"]["horse"]["name"] not in other_names]
         pool = other_names + watch_only
         main_name = main_horse["name"]
+        # v0.15: 天候・馬場ロジック
+        # 検証(46R): 晴での単勝抑制は逆効果(104%→102%)→撤回
+        # 残すのは「馬場湿時の警戒馬閾値緩和」(pick内で実装済み)
+        weather = race.get("weather") or ""
+        baba_now = race.get("baba") or ""
+        tan_main = 500
+        tan_note = ""
+        if baba_now in ("稍","稍重","重","不良"):
+            tan_note = f"(馬場{baba_now}=警戒馬閾値緩和済み)"
+        elif weather == "晴" and baba_now == "良":
+            tan_note = "(晴/良)"
+
         n_combo = len(pool) * (len(pool)-1) // 2
         pool_str = " / ".join(pool) if pool else "(相手不足)"
         if main_pop is None:
@@ -181,7 +198,7 @@ def main():
         elif main_pop <= 2:
             L.append(f"- **◎軸3連複流し** {main_name}({main_pop}人気) → {pool_str} ({n_combo}点・{n_combo*100}円) ※単勝EV低=見送り")
         elif main_pop <= 4:
-            L.append(f"- 🔥 **◎単勝厚張り 500円** {main_name}({main_pop}人気) — **単勝EV最大帯(2.24)**")
+            L.append(f"- 🔥 **◎単勝 {tan_main}円** {main_name}({main_pop}人気) — **単勝EV最大帯(2.34)** {tan_note}")
             L.append(f"- **◎軸3連複流し** → {pool_str} ({n_combo}点・{n_combo*100}円)")
         else:
             n3 = len(other_names)*(len(other_names)-1)//2
