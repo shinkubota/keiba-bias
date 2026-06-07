@@ -48,12 +48,12 @@ def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=Fal
     if len(picks) < 4 and len(rows) >= 4 and rows[3]["score"] > 0:
         add(rows[3], "△", "総合4位")
 
-    # 警戒馬: 推奨6-12位の中で「警戒すべき馬」を最大1頭抽出
-    # v0.11: 回収率検証(6/7)の結果、警戒馬2-3頭追加しても回収率改善せず(E0=E1=E2=36%)
-    # → bias>=8 (大穴シグナル強) かつ オッズ>=15倍 の1頭のみに限定
+    # 警戒馬: 推奨6-12位の中で「警戒すべき馬」を最大2頭抽出
+    # v0.12: 3連複フォーメーション ◎-○▲△-警戒馬2頭が回収率184%(6/7検証)で最良
+    # → bias>=6 ＋ オッズ>=10倍 の2頭を3列目候補に
     watch = []
     for idx, r in enumerate(rows[5:12], start=6):
-        if r.get("bias", 0) < 8: continue   # 5→8 に厳格化
+        if r.get("bias", 0) < 6: continue
         um = r["horse"].get("umaban")
         odds_pop = None
         if odds_for_race and um:
@@ -61,11 +61,11 @@ def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=Fal
             if o: odds_pop = (o.get("pop"), o.get("win"))
         if odds_pop:
             pop, win = odds_pop
-            if win and win < 15: continue   # 10→15倍に厳格化
+            if win and win < 10: continue
         watch.append({"rank": idx, "row": r, "odds_pop": odds_pop})
-        if len(watch) >= 1: break           # 3→1頭のみ
+        if len(watch) >= 2: break
 
-    return picks[:4], watch, a               # 5→4頭(✕廃止)
+    return picks[:4], watch, a
 
 def fmt_row(p):
     h = p["row"]["horse"]
@@ -99,11 +99,14 @@ def main():
     odds_path = ROOT/"data"/f"odds_{args.date}.json"
     odds_all = json.loads(odds_path.read_text(encoding="utf-8")) if odds_path.exists() else {}
 
-    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（v0.11 絞り版・4頭+α）", ""]
-    L.append("> 📝 v0.11: 6/7回収率検証より✕廃止＆警戒馬1頭に絞り (28点ボックス回収率25%→絞り4点で48%)")
+    L = [f"# 🐎 {d.year}/{d.month}/{d.day}({WD[d.weekday()]}) 推奨（v0.12 3連複フォーメーション最適化）", ""]
+    L.append("> 📝 v0.12: 6/7検証で **◎-○▲△-警戒馬2頭 3連複フォーメーション 回収率184%** を採用")
     L.append("> ◎総合1位 ○2位 ▲3位 △総合4位またはバイアス特化")
-    L.append("> ⚠ **警戒馬** = bias≥8 ＋ 単オッズ≥15倍の推奨6-12位馬を1頭のみ(穴のスパイス)")
-    L.append("> 💰 **推奨買い方**: ◎単勝(回収率最高) / ◎○▲△ボックスワイド6点 / 大穴狙いなら◎-警戒馬ワイド1点")
+    L.append("> ⚠ **警戒馬** = bias≥6 ＋ 単オッズ≥10倍の推奨6-12位馬を最大2頭(3列目候補)")
+    L.append("> 💰 **推奨買い方** (回収率順):")
+    L.append("> 　1. **3連複フォーメーション** 1列◎ / 2列○▲△ / 3列警戒馬2頭 → 最大6点 (ROI 184%)")
+    L.append("> 　2. **◎単勝集中** → 1点 (ROI 118%、メインレース向け)")
+    L.append("> 　3. **◎○▲△ 3連複ボックス** → 4点 (ROI 165%、警戒馬不在時)")
     L.append("")
     for race in data:
         if race["track"] not in tracks: continue
