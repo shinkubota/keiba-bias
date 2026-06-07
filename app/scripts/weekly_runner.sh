@@ -22,11 +22,13 @@ case "$MODE" in
     ;;
   weekly_recap)
     LOG="$LOG_DIR/${TS}_weekly_recap.log"
+    # スマホ(GitHubアプリ)で書き溜めたメモを retrospective.md へ統合
+    python3 scripts/integrate_mobile_notes.py >>"$LOG" 2>&1
     python3 scripts/weekly_recap.py >>"$LOG" 2>&1
-    # 古い日付ファイルをアーカイブ(7日より古い)
+    # 古い日付ファイルをアーカイブ(4日より古い)
     python3 scripts/archive_old_data.py >>"$LOG" 2>&1
     cd "$APP_DIR/.." && git add -A && \
-      (git diff --cached --quiet || (git commit -q -m "weekly_recap: 月曜朝の週次まとめ+古データ整理" && git push origin main)) >>"$LOG" 2>&1
+      (git diff --cached --quiet || (git commit -q -m "weekly_recap: 月曜朝の週次まとめ+モバイルメモ統合+古データ整理" && git push origin main)) >>"$LOG" 2>&1
     ;;
   special_entries)
     LOG="$LOG_DIR/${TS}_special_entries.log"

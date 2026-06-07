@@ -1,0 +1,29 @@
+# 📱 モバイル振り返りメモ
+
+スマホ(GitHubアプリ)から自由にテキストを書き殴る場所。
+構造・表組み・絵文字なんでもOK。あとで `integrate_mobile_notes.py` が `retrospective.md` に整形して取り込みます。
+
+## 書き方ルール (シンプル)
+
+1. 新しいメモは **一番上に追加** (上が最新)
+2. 1メモ = 1ブロック、開始行に `## YYYY-MM-DD メモ` と書く(日付だけでOK)
+3. 内容は自由(箇条書きでも文章でも)
+4. コミットメッセージは `memo: ...` で始めると整形時に区別しやすい
+
+## 取り込みフロー
+
+- スマホで追記→コミット
+- 次の `weekly_recap`(月曜朝) または手動 `python3 scripts/integrate_mobile_notes.py` で `retrospective.md` 末尾に統合
+- 統合済みメモはこのファイルから自動削除 → クリーン保持
+
+---
+
+<!-- ↓ ここから下に新しいメモを書く ↓ -->
+
+## 使い方サンプル
+
+スマホから:
+1. GitHubアプリを開く → `shinkubota/keiba-bias` を選択
+2. `app/data/review/mobile_inbox.md` をタップ
+3. 右上の鉛筆アイコン → 上の「---」のすぐ下に新規ブロック追加
+4. 「Commit changes」→ メッセージに `memo: 6/13土曜の感想` など → Commit
