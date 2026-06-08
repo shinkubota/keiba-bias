@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # launchdから呼ばれるラッパ。引数: predict_tomorrow | review_today
 #   predict_tomorrow : 翌日(土or日)分の予想を生成
 #   review_today     : 今日(土or日)分の答え合わせ

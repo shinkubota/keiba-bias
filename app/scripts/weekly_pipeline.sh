@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 毎週運用パイプライン
 #   predict YYYYMMDD  : 出馬表→血統→fallback→web→md  (枠順確定後の前夜に走らせる)
 #   review  YYYYMMDD  : 結果取得→評価→retrospective.md追記  (当日夕方)
