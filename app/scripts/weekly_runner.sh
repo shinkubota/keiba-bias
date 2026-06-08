@@ -12,13 +12,32 @@ LOG_DIR="$APP_DIR/logs"; mkdir -p "$LOG_DIR"
 TS=$(date +%Y%m%d_%H%M%S)
 
 case "$MODE" in
-  predict_tomorrow)
+  predict_tomorrow|predict_tomorrow_early)
     D=$(date -v+1d +%Y%m%d)
-    exec "$APP_DIR/scripts/weekly_pipeline.sh" predict "$D"
+    "$APP_DIR/scripts/weekly_pipeline.sh" predict_early "$D"
+    python3 "$APP_DIR/scripts/note_writer.py" predict "$D" 2>/dev/null
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "予想+note記事(早期/想定オッズ): $D" && git push origin main))
+    ;;
+  predict_today_late)
+    D=$(date +%Y%m%d)
+    "$APP_DIR/scripts/weekly_pipeline.sh" predict_late "$D"
+    python3 "$APP_DIR/scripts/note_writer.py" predict "$D" 2>/dev/null
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "予想+note記事(直前/最新オッズ): $D" && git push origin main))
     ;;
   review_today)
     D=$(date +%Y%m%d)
-    exec "$APP_DIR/scripts/weekly_pipeline.sh" review "$D"
+    "$APP_DIR/scripts/weekly_pipeline.sh" review "$D"
+    python3 "$APP_DIR/scripts/note_writer.py" review "$D" 2>/dev/null
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "振り返り+note記事: $D" && git push origin main))
+    ;;
+  daily_inbox_sync)
+    LOG="$LOG_DIR/${TS}_daily_inbox_sync.log"
+    python3 "$APP_DIR/scripts/integrate_mobile_notes.py" >>"$LOG" 2>&1
+    cd "$APP_DIR/.." && git add -A && \
+      (git diff --cached --quiet || (git commit -q -m "daily_inbox_sync: モバイルメモ統合" && git push origin main)) >>"$LOG" 2>&1
     ;;
   weekly_recap)
     LOG="$LOG_DIR/${TS}_weekly_recap.log"
