@@ -12,3 +12,24 @@ saved: /Users/kubota/Desktop/bias/app/data/shutuba_20260609.json
 saved: /Users/kubota/Desktop/bias/app/data/horses_20260609.json
 [2026-06-08 22:18:31]   OK
 [2026-06-08 22:18:31] RUN: python3 scripts/build_lineage_fallback.py
+fallback補完: 410種牡馬
+[2026-06-08 22:18:54]   OK
+[2026-06-08 22:18:54] RUN: python3 scripts/fetch_odds.py 20260609
+/Users/kubota/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+saved: odds_20260609.json
+[2026-06-08 22:18:54]   OK
+[2026-06-08 22:18:54] RUN: python3 scripts/build_web.py 20260609 --top 4
+# 🐎 2026/6/9(火) トラックバイアス推奨
+
+**開催**: 　**馬場**: —
+
+> **印**: ◎本命 ○対抗 ▲単穴 △連下　／　**能力**=過去実績スコア(0-100)　**bias**=バイアス適合点　**評価**=能力×バイアス補正（この順で本命決定）　／　💎=能力中位だがバイアスで浮上した穴候補
+
+## 📋 全レース
+
+---
+_馬券は自己責任で。本表は分析の共有であり購入を推奨するものではありません。_
+
+# HTML: /Users/kubota/Desktop/bias/docs/predict_20260609.html
+[2026-06-08 22:18:54]   OK
