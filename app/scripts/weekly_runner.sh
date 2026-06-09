@@ -35,8 +35,9 @@ case "$MODE" in
     ;;
   daily_inbox_sync)
     LOG="$LOG_DIR/${TS}_daily_inbox_sync.log"
+    cd "$APP_DIR/.." && git pull --rebase --autostash origin main >>"$LOG" 2>&1 || true
     python3 "$APP_DIR/scripts/integrate_mobile_notes.py" >>"$LOG" 2>&1
-    cd "$APP_DIR/.." && git add -A && \
+    git add -A && \
       (git diff --cached --quiet || (git commit -q -m "daily_inbox_sync: モバイルメモ統合" && git push origin main)) >>"$LOG" 2>&1
     ;;
   weekly_recap)
