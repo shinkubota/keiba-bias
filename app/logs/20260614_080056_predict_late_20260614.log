@@ -1,3 +1,146 @@
+[2026-06-14 08:00:56] === PREDICT 20260614 (late) ===
+[2026-06-14 08:00:56] RUN: python3 scripts/fetch_shutuba.py 20260614
+/Users/kubota/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[20260614] 36 races found
+  函館 1R 芝1200m  16頭  3歳未勝利
+  函館 2R ダ1700m  11頭  3歳未勝利
+  函館 3R ダ1000m  12頭  3歳未勝利
+  函館 4R 芝1800m  16頭  3歳未勝利
+  函館 5R 芝1000m  8頭  2歳新馬
+  函館 6R 芝2000m  16頭  3歳未勝利
+  函館 7R ダ1000m  12頭  3歳以上1勝クラス
+  函館 8R 芝1200m  13頭  3歳以上1勝クラス
+  函館 9R 芝1800m  10頭  八雲特別
+  函館10R ダ1700m  12頭  津軽海峡特別
+  函館11R 芝1200m  16頭  函館日刊スポーツ杯
+  函館12R ダ1700m  10頭  3歳以上1勝クラス
+  東京 1R ダ1300m  15頭  3歳未勝利
+  東京 2R ダ2100m  16頭  3歳未勝利
+  東京 3R 芝1400m  18頭  3歳未勝利
+  東京 4R ダ1400m  14頭  2歳新馬
+  東京 5R 芝1600m  8頭  2歳新馬
+  東京 6R ダ2100m  16頭  3歳以上1勝クラス
+  東京 7R 芝2000m  8頭  3歳以上1勝クラス
+  東京 8R ダ1600m  16頭  3歳以上1勝クラス
+  東京 9R 芝1600m  11頭  芦ノ湖特別
+  東京10R 芝2400m  14頭  江の島S
+  東京11R 芝1400m  14頭  パラダイスS
+  東京12R ダ1600m  12頭  3歳以上2勝クラス
+  阪神 1R ダ1800m  16頭  3歳未勝利
+  阪神 2R ダ1400m  16頭  3歳未勝利
+  阪神 3R ダ1800m  16頭  3歳未勝利
+  阪神 4R 芝2200m  17頭  3歳未勝利
+  阪神 5R 芝1800m  8頭  2歳新馬
+  阪神 6R ダ1200m  16頭  3歳以上1勝クラス
+  阪神 7R 芝2000m  11頭  3歳以上1勝クラス
+  阪神 8R ダ1800m  9頭  逆瀬川特別
+  阪神 9R 芝1200m  14頭  武庫川特別
+  阪神10R 芝1600m  14頭  花のみちS
+  阪神11R 芝2200m  18頭  宝塚記念
+  阪神12R ダ1200m  16頭  リボン賞
+saved: /Users/kubota/Desktop/bias/app/data/shutuba_20260614.json
+[2026-06-14 08:01:25]   OK
+[2026-06-14 08:01:25] RUN: python3 scripts/fetch_horse.py 20260614
+/Users/kubota/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+取得対象: 485頭
+  10/485: 父=ミッキーアイル 母父=Dawn Approach(愛) 前走=4件
+  20/485: 父=リアルスティール 母父=ノヴェリストNovellist(愛) 前走=5件
+  30/485: 父=シャンハイボビーShanghai Bobby(米) 母父=サウスヴィグラス 前走=2件
+  40/485: 父=シルバーステート 母父=キングカメハメハ 前走=5件
+  50/485: 父=ロジャーバローズ 母父=マリエンバードMarienbard(愛) 前走=5件
+  60/485: 父=タワーオブロンドン 母父=フェノーメノ 前走=0件
+  70/485: 父=サトノダイヤモンド 母父=ファスリエフFasliyev(米) 前走=4件
+  80/485: 父=クリソベリル 母父=ヨハネスブルグJohannesburg(米) 前走=5件
+  90/485: 父=Constitution(米) 母父=Tizway(米) 前走=5件
+  100/485: 父=ビーチパトロールBeach Patrol(米) 母父=アグネスデジタル 前走=5件
+  110/485: 父=ジョーカプチーノ 母父=マツリダゴッホ 前走=5件
+  120/485: 父=ディーマジェスティ 母父=Devil's Bag 前走=5件
+  130/485: 父=Iffraaj 母父=Frankel 前走=5件
+  140/485: 父=Kingman(英) 母父=Dark Angel 前走=5件
+  150/485: 父=ルヴァンスレーヴ 母父=キングカメハメハ 前走=3件
+  160/485: 父=バゴBago(仏) 母父=スマートファルコン 前走=4件
+  170/485: 父=スワーヴリチャード 母父=シニスターミニスターSinister Minister(米) 前走=2件
+  180/485: 父=モズアスコット 母父=Dalakhani 前走=5件
+  190/485: 父=ドリームバレンチノ 母父=フサイチセブン 前走=3件
+  200/485: 父=モズアスコット 母父=スズカマンボ 前走=2件
+  210/485: 父=ルヴァンスレーヴ 母父=ワイルドラッシュWild Rush(米) 前走=0件
+  220/485: 父=アメリカンペイトリオット 母父=マンハッタンカフェ 前走=0件
+  230/485: 父=マジェスティックウォリアーMajestic Warrior(米) 母父=ダイワメジャー 前走=5件
+  240/485: 父=ゴールドシップ 母父=アイルハヴアナザーI'll Have Another(米) 前走=5件
+  250/485: 父=シャンハイボビーShanghai Bobby(米) 母父=ステイゴールド 前走=5件
+  260/485: 父=カレンブラックヒル 母父=アグネスデジタル 前走=5件
+  270/485: 父=ブリックスアンドモルタルBricks and Mortar(米) 母父=Le Havre 前走=5件
+  280/485: 父=メイショウサムソン 母父=マンハッタンカフェ 前走=5件
+  290/485: 父=マジェスティックウォリアーMajestic Warrior(米) 母父=ディープインパクト 前走=5件
+  300/485: 父=レッドファルクス 母父=Grand Slam 前走=5件
+  310/485: 父=マジェスティックウォリアーMajestic Warrior(米) 母父=フジキセキ 前走=5件
+  320/485: 父=シュヴァルグラン 母父=ディープブリランテ 前走=3件
+  330/485: 父=シニスターミニスターSinister Minister(米) 母父=ワイルドラッシュWild Rush(米) 前走=2件
+  340/485: 父=ダノンスマッシュ 母父=タニノギムレット 前走=5件
+  350/485: 父=ゴールドドリーム 母父=エイシンフラッシュ 前走=5件
+  360/485: 父=キタサンブラック 母父=Scat Daddy(米) 前走=3件
+  370/485: 父=エピファネイア 母父=Galileo(愛) 前走=1件
+  380/485: 父=ジャスタウェイ 母父=ディープインパクト 前走=0件
+  390/485: 父=キンシャサノキセキ 母父=トワイニングTwining(米) 前走=5件
+  400/485: 父=モーリス 母父=ゴールドアリュール 前走=5件
+  410/485: 父=ダノンキングリー 母父=キングカメハメハ 前走=3件
+  420/485: 父=モズアスコット 母父=ブラックタイド 前走=5件
+  430/485: 父=ロードカナロア 母父=ステイゴールド 前走=5件
+  440/485: 父=ブリックスアンドモルタルBricks and Mortar(米) 母父=ヴィクトワールピサ 前走=5件
+  450/485: 父=ダイワメジャー 母父=ウォーエンブレムWar Emblem(米) 前走=5件
+  460/485: 父=アルアイン 母父=Southern Image(米) 前走=5件
+  470/485: 父=リアルスティール 母父=クロフネ 前走=5件
+  480/485: 父=Too Darn Hot(英) 母父=Invincible Spirit(愛) 前走=5件
+  485/485: 父=ドゥラメンテ 母父=Bernardini(米) 前走=5件
+saved: /Users/kubota/Desktop/bias/app/data/horses_20260614.json
+[2026-06-14 08:01:39]   OK
+[2026-06-14 08:01:39] RUN: python3 scripts/build_lineage_fallback.py
+fallback補完: 496種牡馬
+[2026-06-14 08:03:27]   OK
+[2026-06-14 08:03:27] RUN: python3 scripts/fetch_odds.py 20260614
+/Users/kubota/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  ! 202602010201: 'str' object has no attribute 'get'
+  ! 202602010202: 'str' object has no attribute 'get'
+  ! 202602010203: 'str' object has no attribute 'get'
+  ! 202602010204: 'str' object has no attribute 'get'
+  ! 202602010205: 'str' object has no attribute 'get'
+  ! 202602010206: 'str' object has no attribute 'get'
+  ! 202602010207: 'str' object has no attribute 'get'
+  ! 202602010208: 'str' object has no attribute 'get'
+  ! 202602010209: 'str' object has no attribute 'get'
+  ! 202602010210: 'str' object has no attribute 'get'
+  ! 202602010211: 'str' object has no attribute 'get'
+  ! 202602010212: 'str' object has no attribute 'get'
+  ! 202605030401: 'str' object has no attribute 'get'
+  ! 202605030402: 'str' object has no attribute 'get'
+  ! 202605030403: 'str' object has no attribute 'get'
+  ! 202605030404: 'str' object has no attribute 'get'
+  ! 202605030405: 'str' object has no attribute 'get'
+  ! 202605030406: 'str' object has no attribute 'get'
+  ! 202605030407: 'str' object has no attribute 'get'
+  ! 202605030408: 'str' object has no attribute 'get'
+  ! 202605030409: 'str' object has no attribute 'get'
+  ! 202605030410: 'str' object has no attribute 'get'
+  ! 202605030411: 'str' object has no attribute 'get'
+  ! 202605030412: 'str' object has no attribute 'get'
+  ! 202609030401: 'str' object has no attribute 'get'
+  ! 202609030402: 'str' object has no attribute 'get'
+  ! 202609030403: 'str' object has no attribute 'get'
+  ! 202609030404: 'str' object has no attribute 'get'
+  ! 202609030405: 'str' object has no attribute 'get'
+  ! 202609030406: 'str' object has no attribute 'get'
+  ! 202609030407: 'str' object has no attribute 'get'
+  ! 202609030408: 'str' object has no attribute 'get'
+  ! 202609030409: 'str' object has no attribute 'get'
+  ! 202609030410: 'str' object has no attribute 'get'
+  ! 202609030411: 'str' object has no attribute 'get'
+  ! 202609030412: 'str' object has no attribute 'get'
+saved: odds_20260614.json
+[2026-06-14 08:04:01]   OK
+[2026-06-14 08:04:01] RUN: python3 scripts/build_web.py 20260614 --top 4
 # 🐎 2026/6/14(日) トラックバイアス推奨
 
 **開催**: 函館・東京・阪神　**馬場**: ☀️晴 馬場稍 / ☀️晴 馬場良 / ☁️曇 馬場良
@@ -378,3 +521,6 @@
 
 ---
 _馬券は自己責任で。本表は分析の共有であり購入を推奨するものではありません。_
+
+# HTML: /Users/kubota/Desktop/bias/docs/predict_20260614.html
+[2026-06-14 08:04:01]   OK
