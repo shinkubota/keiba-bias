@@ -1,2 +1,4 @@
 shell-init: error retrieving current directory: getcwd: cannot access parent directories: Operation not permitted
 bash: /Users/kubota/Desktop/bias/app/scripts/weekly_runner.sh: Operation not permitted
+To https://github.com/shinkubota/keiba-bias.git
+   0733b73..7582a1d  main -> main
