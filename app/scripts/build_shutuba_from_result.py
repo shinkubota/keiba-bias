@@ -19,7 +19,14 @@ def fetch(url, key, ttl=86400*30):
     if p.exists() and (time.time()-p.stat().st_mtime) < ttl:
         return p.read_text(encoding="utf-8")
     r = requests.get(url, headers={"User-Agent": UA}, timeout=15)
-    r.encoding = "EUC-JP"
+    ct=r.headers.get("Content-Type","").lower()
+    if "utf-8" in ct or "utf8" in ct:
+        r.encoding="utf-8"
+    elif "euc" in ct:
+        r.encoding="EUC-JP"
+    else:
+        g=(r.apparent_encoding or "").lower()
+        r.encoding="utf-8" if "utf" in g else "EUC-JP"
     p.write_text(r.text, encoding="utf-8")
     time.sleep(0.4)
     return r.text

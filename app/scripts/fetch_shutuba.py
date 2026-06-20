@@ -17,7 +17,20 @@ def fetch(url, cache_key):
     if p.exists() and (time.time() - p.stat().st_mtime) < 3600:
         return p.read_text(encoding="utf-8")
     r = requests.get(url, headers={"User-Agent": UA}, timeout=15)
-    r.encoding = "EUC-JP"
+    # netkeibaは古い場(東京/阪神等)はEUC-JP、新しい場(函館/札幌等)はUTF-8で配信
+    # Content-Type charset を尊重し、無ければバイト列から推定
+    ct = r.headers.get("Content-Type","").lower()
+    if "utf-8" in ct or "utf8" in ct:
+        r.encoding = "utf-8"
+    elif "euc" in ct:
+        r.encoding = "EUC-JP"
+    else:
+        # HTML側のmetaタグから判定 (apparent_encoding)
+        guessed = (r.apparent_encoding or "").lower()
+        if "utf" in guessed:
+            r.encoding = "utf-8"
+        else:
+            r.encoding = "EUC-JP"  # 既存挙動の維持
     p.write_text(r.text, encoding="utf-8")
     return r.text
 
