@@ -20,6 +20,13 @@ def shares(scores):
 def collect(date_str, tracks, top, baba=None):
     data = json.loads((ROOT/"data"/f"shutuba_{date_str}.json").read_text(encoding="utf-8"))
     db = az.load_horses(date_str)
+    # レース順(R番号→場順)でソート: 1R全場→2R全場→…
+    TRACK_ORDER = ["札幌","函館","福島","新潟","東京","中山","中京","京都","阪神","小倉"]
+    def _order(r):
+        try: t = TRACK_ORDER.index(r["track"])
+        except ValueError: t = 99
+        return (r["race_no"], t, r["race_id"])
+    data = sorted(data, key=_order)
     races = []
     for race in data:
         if tracks and race["track"] not in tracks: continue

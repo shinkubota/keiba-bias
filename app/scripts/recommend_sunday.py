@@ -119,7 +119,13 @@ def main():
     L.append(">")
     L.append("> **検証ROI 125%** (v0.14旧版84%→大幅改善)。3連複の相手は5頭よりも**4頭の方が良い**(ROI 100% vs 69%)。馬連/ワイドは ROI 12-32%で論外。")
     L.append("")
-    for race in data:
+    # レース順(R番号→場順)でソート: 函館1R→札幌1R→...→函館12R→札幌12R→...
+    TRACK_ORDER = ["札幌","函館","福島","新潟","東京","中山","中京","京都","阪神","小倉"]
+    def _order(r):
+        try: t = TRACK_ORDER.index(r["track"])
+        except ValueError: t = 99
+        return (r["race_no"], t, r["race_id"])
+    for race in sorted(data, key=_order):
         if race["track"] not in tracks: continue
         if len(race["horses"]) < 2: continue
         odds_for_race = odds_all.get(race["race_id"])
