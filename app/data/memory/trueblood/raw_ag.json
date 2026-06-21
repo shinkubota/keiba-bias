@@ -1,0 +1,136 @@
+{
+  "_note": "All 12 images are aggregate-statistics ('COMPACT DATA 2026-27') ranking tables, not individual sire profile pages, TOC, or feature articles. Each image is a full two-page magazine spread containing dense ranking tables. Section titles and column structure are legible; individual numeric cell values are NOT reliably resolvable at this image resolution, so per-row stat fields are recorded as null per the no-fabrication rule.",
+  "_columns": ["種牡馬名 (sire_name)", "出走 (starts)", "着別度数 (runs x-x-x-x)", "勝率 (win_pct)", "連対率", "複勝率 (place_pct)", "単回 (tan_return)", "複回 (fuku_return)"],
+  "images": [
+    {
+      "file": "IMG_1602.PNG",
+      "type": "data",
+      "page_range": "206-207",
+      "section": "COMPACT DATA 2026-27",
+      "categories": [
+        {"category": "klass", "title": "POG必勝データ 勝ち上がり率", "rows": [], "note": "Sire ranking by win-up rate; per-row numeric values not legibly resolvable -> null"},
+        {"category": "klass", "title": "賞金獲得額と回収率", "rows": [], "note": "Sire ranking by prize money & ROI; per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1603.PNG",
+      "type": "data",
+      "page_range": "208-209",
+      "section": "距離別 (distance)",
+      "categories": [
+        {"category": "distance", "course": "芝", "distance": "1000m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "芝", "distance": "1200m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "芝", "distance": "1400m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "芝", "distance": "1600m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1604.PNG",
+      "type": "data",
+      "page_range": "210-211",
+      "section": "距離別 (distance)",
+      "categories": [
+        {"category": "distance", "course": "芝", "distance": "2000m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "芝", "distance": "2200m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1605.PNG",
+      "type": "data",
+      "page_range": "212-213",
+      "section": "距離別 (distance)",
+      "categories": [
+        {"category": "distance", "course": "芝", "distance": "2200-2400m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "芝", "distance": "2500m以上", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "ダ", "distance": "1000m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "ダ", "distance": "1100m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "ダ", "distance": "1200m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1606.PNG",
+      "type": "data",
+      "page_range": "214-215",
+      "section": "距離別 (distance)",
+      "categories": [
+        {"category": "distance", "course": "ダ", "distance": "1400m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "ダ", "distance": "1600m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1607.PNG",
+      "type": "data",
+      "page_range": "216-217",
+      "section": "距離別 (distance)",
+      "categories": [
+        {"category": "distance", "course": "ダ", "distance": "1700m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "distance", "course": "ダ", "distance": "1800m", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1608.PNG",
+      "type": "data",
+      "page_range": "218-219",
+      "section": "距離別 / コース別",
+      "categories": [
+        {"category": "distance", "course": "ダ", "distance": "1900m以上", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "芝", "track": "札幌", "title": "コース別 札幌芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1609.PNG",
+      "type": "data",
+      "page_range": "220-221",
+      "section": "コース別 (course)",
+      "categories": [
+        {"category": "course", "course": "芝", "track": "函館", "title": "函館芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "ダ", "track": "函館", "title": "函館ダ", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "芝", "track": "福島", "title": "福島芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "ダ", "track": "福島", "title": "福島ダ", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1610.PNG",
+      "type": "data",
+      "page_range": "222-223",
+      "section": "コース別 (course)",
+      "categories": [
+        {"category": "course", "course": "芝", "track": "新潟", "title": "新潟芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "ダ", "track": "新潟", "title": "新潟ダ", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "芝", "track": "東京", "title": "東京芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1611.PNG",
+      "type": "data",
+      "page_range": "224-225",
+      "section": "コース別 (course)",
+      "categories": [
+        {"category": "course", "course": "芝", "track": "東京", "title": "東京芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "ダ", "track": "東京", "title": "東京ダ", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "芝", "track": "中山", "title": "中山芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1612.PNG",
+      "type": "data",
+      "page_range": "226-227",
+      "section": "コース別 (course)",
+      "categories": [
+        {"category": "course", "course": "ダ", "track": "中山", "title": "中山ダ", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "芝", "track": "中京", "title": "中京芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    },
+    {
+      "file": "IMG_1613.PNG",
+      "type": "data",
+      "page_range": "228-229",
+      "section": "コース別 (course)",
+      "categories": [
+        {"category": "course", "course": "ダ", "track": "中京", "title": "中京ダ", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "芝", "track": "京都", "title": "京都芝", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"},
+        {"category": "course", "course": "ダ", "track": "京都", "title": "京都ダ", "rows": [], "note": "per-row numeric values not legibly resolvable -> null"}
+      ]
+    }
+  ]
+}

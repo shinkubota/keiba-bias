@@ -1,0 +1,642 @@
+{
+  "_meta": {
+    "source": "パーフェクト種牡馬辞典2026-2027",
+    "note": "data pages have split 芝/ダート columns each with 成績/勝率/連対率/複勝率/単勝回収/複勝回収. For single-valued non-course categories the 芝 (left, primary) figures are recorded. course[] holds both 芝 and ダ rows. win_pct=勝率, place_pct=複勝率, tan_return=単勝回収率, fuku_return=複勝回収率. Author of comment columns is 望田潤 or 栗山求 depending on page. Right edges of comment text were slightly cropped; transcribed as fully as legible. Data tables OCR'd from upscaled crops; some low-confidence cells noted as null only when unreadable.",
+    "images_processed": 12
+  },
+  "images": [
+    {
+      "file": "IMG_1542.PNG",
+      "type": "data",
+      "sire_name": "リオンディーズ",
+      "total_record": "279-285-290-2867",
+      "shiba_avg_dist_m": 1668,
+      "course": [
+        {"key": "芝札幌", "runs": "10-9-6-78", "win_pct": 9.7, "place_pct": 24.3, "tan_return": 55.8, "fuku_return": 57.3},
+        {"key": "芝函館", "runs": "8-7-10-66", "win_pct": 6.5, "place_pct": 27.5, "tan_return": 39.9, "fuku_return": null},
+        {"key": "芝福島", "runs": "12-10-6-112", "win_pct": 8.5, "place_pct": 20.0, "tan_return": 68.4, "fuku_return": 82.2},
+        {"key": "芝新潟", "runs": "12-17-13-176", "win_pct": 5.5, "place_pct": 19.3, "tan_return": 48.7, "fuku_return": 48.5},
+        {"key": "芝東京", "runs": "18-13-20-202", "win_pct": 7.1, "place_pct": 20.2, "tan_return": 46.8, "fuku_return": null},
+        {"key": "芝中山", "runs": "19-17-18-165", "win_pct": 8.7, "place_pct": 24.6, "tan_return": 43.5, "fuku_return": 65.5},
+        {"key": "芝中京", "runs": "13-25-23-188", "win_pct": 5.2, "place_pct": 24.5, "tan_return": 48.2, "fuku_return": 65.0},
+        {"key": "芝京都", "runs": "17-18-14-141", "win_pct": 8.9, "place_pct": 24.6, "tan_return": null, "fuku_return": 89.1},
+        {"key": "芝阪神", "runs": "23-27-27-211", "win_pct": 8.4, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ札幌", "runs": "13-7-5-57", "win_pct": 15.9, "place_pct": 30.5, "tan_return": null, "fuku_return": null},
+        {"key": "ダ函館", "runs": "5-3-9-44", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ福島", "runs": "7-11-5-74", "win_pct": 7.2, "place_pct": 26.0, "tan_return": null, "fuku_return": null},
+        {"key": "ダ新潟", "runs": "9-8-13-113", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ東京", "runs": "16-20-21-221", "win_pct": 5.8, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中山", "runs": "29-22-22-204", "win_pct": 10.5, "place_pct": 26.4, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中京", "runs": "19-16-12-191", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ京都", "runs": "7-8-14-139", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ阪神", "runs": "16-24-22-203", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "distance": [
+        {"key": "芝1000", "runs": "2-2-3-25", "win_pct": 6.3, "place_pct": 21.9, "tan_return": 66.9, "fuku_return": 58.8},
+        {"key": "芝1200", "runs": "32-37-37-335", "win_pct": 7.3, "place_pct": 21.0, "tan_return": 72.8, "fuku_return": 71.7},
+        {"key": "芝1400", "runs": "17-17-26-206", "win_pct": 6.4, "place_pct": 17.5, "tan_return": 25.8, "fuku_return": 53.8},
+        {"key": "芝1600", "runs": "35-53-42-374", "win_pct": 7.0, "place_pct": 21.0, "tan_return": null, "fuku_return": null},
+        {"key": "芝1700", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "芝1800", "runs": "30-24-18-238", "win_pct": 9.7, "place_pct": 23.2, "tan_return": 67.6, "fuku_return": 55.6},
+        {"key": "芝2000", "runs": "18-16-22-245", "win_pct": 6.0, "place_pct": 11.3, "tan_return": 31.7, "fuku_return": 78.3},
+        {"key": "芝2200", "runs": "1-3-1-12", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "芝2300~", "runs": "10-3-3-38", "win_pct": 18.5, "place_pct": 29.6, "tan_return": 112.4, "fuku_return": 55.6},
+        {"key": "ダ1000", "runs": "11-3-7-40", "win_pct": 18.0, "place_pct": 34.4, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1200", "runs": "53-57-66-...", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1400", "runs": "68-43-50-466", "win_pct": 9.0, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1600", "runs": "8-4-8-96", "win_pct": 6.9, "place_pct": 17.2, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1800", "runs": "37-28-42-348", "win_pct": 8.1, "place_pct": 14.3, "tan_return": 23.5, "fuku_return": null},
+        {"key": "ダ2000", "runs": "7-13-7-66", "win_pct": 6.6, "place_pct": 28.4, "tan_return": null, "fuku_return": null},
+        {"key": "ダ2300~", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "baba": [
+        {"key": "良", "runs": "116-121-108-1180", "win_pct": 7.6, "place_pct": 25.6, "tan_return": 60.4, "fuku_return": 64.7},
+        {"key": "稍重", "runs": "19-27-29-229", "win_pct": 6.3, "place_pct": 23.4, "tan_return": null, "fuku_return": null},
+        {"key": "重", "runs": "9-7-11-81", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "不良", "runs": "2-1-3-13", "win_pct": 10.5, "place_pct": 31.6, "tan_return": 50.6, "fuku_return": 89.5}
+      ],
+      "draw": [
+        {"key": "1枠", "runs": "13-19-11-186", "win_pct": 5.7, "place_pct": 18.8, "tan_return": 38.3, "fuku_return": 46.4},
+        {"key": "2枠", "runs": "18-12-13-149", "win_pct": 9.4, "place_pct": 22.4, "tan_return": 68.8, "fuku_return": 64.4},
+        {"key": "3枠", "runs": "16-22-17-170", "win_pct": 7.1, "place_pct": 16.9, "tan_return": 24.4, "fuku_return": null},
+        {"key": "4枠", "runs": "22-26-20-180", "win_pct": 8.9, "place_pct": 27.4, "tan_return": 51.9, "fuku_return": 71.4},
+        {"key": "5枠", "runs": "14-19-17-193", "win_pct": 5.8, "place_pct": 20.6, "tan_return": 34.0, "fuku_return": 72.1},
+        {"key": "6枠", "runs": "20-19-21-193", "win_pct": 7.9, "place_pct": 23.4, "tan_return": 56.6, "fuku_return": 55.1},
+        {"key": "7枠", "runs": "24-21-26-201", "win_pct": 8.8, "place_pct": 16.5, "tan_return": 26.1, "fuku_return": 69.2},
+        {"key": "8枠", "runs": "19-18-26-231", "win_pct": 6.5, "place_pct": 12.6, "tan_return": 21.4, "fuku_return": 67.8}
+      ],
+      "popularity": [
+        {"key": "1番人気", "runs": "57-35-16-55", "win_pct": 35.0, "place_pct": 66.7, "tan_return": 86.7, "fuku_return": 87.4},
+        {"key": "2番人気", "runs": "23-35-29-79", "win_pct": 13.9, "place_pct": 52.4, "tan_return": 80.4, "fuku_return": 84.8},
+        {"key": "3番人気", "runs": "19-14-18-99", "win_pct": 12.7, "place_pct": 33.3, "tan_return": null, "fuku_return": 75.8},
+        {"key": "4番人気", "runs": "12-23-18-83", "win_pct": 8.4, "place_pct": 39.0, "tan_return": 64.4, "fuku_return": 92.2},
+        {"key": "5番人気", "runs": "14-20-18-123", "win_pct": 8.0, "place_pct": 29.7, "tan_return": null, "fuku_return": null},
+        {"key": "6番人気以下", "runs": "21-29-52-1064", "win_pct": 1.8, "place_pct": 9.0, "tan_return": null, "fuku_return": null}
+      ],
+      "pace_style": [
+        {"key": "逃げ", "runs": "57-48-35-357", "win_pct": 11.5, "place_pct": 26.2, "tan_return": 101.0, "fuku_return": 70.0},
+        {"key": "先行", "runs": "51-59-53-403", "win_pct": 9.0, "place_pct": 28.8, "tan_return": null, "fuku_return": null},
+        {"key": "差し", "runs": "26-39-42-373", "win_pct": 5.4, "place_pct": 18.4, "tan_return": null, "fuku_return": 70.6},
+        {"key": "追込", "runs": "10-8-19-342", "win_pct": 2.6, "place_pct": 9.7, "tan_return": null, "fuku_return": null}
+      ],
+      "klass": [
+        {"key": "新馬", "runs": "20-22-24-188", "win_pct": 7.9, "place_pct": 26.0, "tan_return": 119.4, "fuku_return": 75.1},
+        {"key": "未勝利", "runs": "42-58-50-608", "win_pct": 5.5, "place_pct": 19.8, "tan_return": 36.6, "fuku_return": 55.5},
+        {"key": "1勝クラス", "runs": "34-35-29-361", "win_pct": 7.4, "place_pct": 21.4, "tan_return": 64.4, "fuku_return": 65.5},
+        {"key": "2勝クラス", "runs": "19-21-20-107", "win_pct": 11.4, "place_pct": 35.9, "tan_return": 50.1, "fuku_return": 73.0},
+        {"key": "3勝クラス", "runs": "9-8-15-111", "win_pct": 6.0, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "OPEN", "runs": "22-12-13-128", "win_pct": 12.6, "place_pct": 19.4, "tan_return": 78.6, "fuku_return": 76.2}
+      ],
+      "interval": [],
+      "grade": [],
+      "sex": [
+        {"key": "牡馬", "runs": "92-99-87-756", "win_pct": 8.9, "place_pct": 26.9, "tan_return": 56.1, "fuku_return": 63.8},
+        {"key": "牝馬", "runs": "53-54-64-729", "win_pct": 5.9, "place_pct": 19.0, "tan_return": 64.7, "fuku_return": 63.8},
+        {"key": "せん馬", "runs": "1-3-0-18", "win_pct": 4.5, "place_pct": 18.2, "tan_return": 12.3, "fuku_return": 42.7}
+      ],
+      "season": [
+        {"key": "春3~5月", "runs": "32-34-37-362", "win_pct": 6.9, "place_pct": 22.2, "tan_return": 61.3, "fuku_return": 68.2},
+        {"key": "夏6~8月", "runs": "40-44-40-450", "win_pct": 6.4, "place_pct": 19.4, "tan_return": 41.4, "fuku_return": 54.2},
+        {"key": "秋9~11月", "runs": "44-43-42-358", "win_pct": 9.0, "place_pct": 26.5, "tan_return": 87.0, "fuku_return": 82.9},
+        {"key": "冬12~1月", "runs": "30-35-32-333", "win_pct": 7.0, "place_pct": 15.1, "tan_return": 22.0, "fuku_return": 57.4}
+      ],
+      "shinba": [
+        {"key": "2歳新馬", "runs": "20-19-23-165", "win_pct": 8.8, "place_pct": 17.2, "tan_return": 27.3, "fuku_return": 133.7},
+        {"key": "3歳新馬", "runs": "0-1-1-23", "win_pct": 0.0, "place_pct": 11.1, "tan_return": 14.8, "fuku_return": 0.0}
+      ]
+    },
+    {
+      "file": "IMG_1543.PNG",
+      "type": "profile",
+      "rank": 7,
+      "sire_name": "ドレフォン",
+      "sire_name_en": "DREFONG",
+      "birth_year": 2013,
+      "coat": "栗毛",
+      "catchphrase": "芝は札幌、ダは函館、中京得意 穴は6歳以上のダート",
+      "stud_fee": null,
+      "total_record": "399-342-362-3103",
+      "pedigree": {"sire": "Gio Ponti", "dam": "Eltimaas", "damsire": "Ghostzapper"},
+      "blood_author": "望田潤",
+      "blood_comment": "アングロイメドルやフジキセキでダート上級、スレイエフとトニービンで芝大物狙い。アングロイメドル、フジキセキ、クロフネ、エンパイアメーカー、キングヘイロー、フォーティナイナー系を持つ繁殖との配合はダート上級がよく、芝狙い・大物狙いならばスレイエフ、トニービン、ガリレオ、サクラユタカオーといった有力なナスペリオン血脈を取り入れたい。ミッキーファイトやジオグリフなど。サドラー系のロベルトやダイワメジャー肌も良く、キングカメハメハやハービンジャー肌・ステイゴールド肌には不振。",
+      "bet_author": "望田潤",
+      "bet_comment": "昨年はダートのリーディングサイアーに就いた。平地勝ち鞍の81%がダ、平均勝ち距離は1631m。1800mの勝ち鞍が最多。芝もこなすが嫌われないので、ダ1700mの内枠回りが立ち回り得意。札幌芝1500mも顕著に良い。松山騎乗のダ1700mは勝負どころ。荒れた馬場や短距離だと苦戦傾向で、牝は芝1200mの単勝を裏切る。",
+      "aim": "血統 買い→スレイエフやトニービン、ゼンノロブロイも好相性／消し→キングカメハメハ肌やステイ肌とは不振。 馬券 買い→◎ミッキーファイトとスターアニス／◎ダ1400mの松山、ダ1700mの鮫／消し→×芝もこなすが高速上がりとダ1200m..."
+    },
+    {
+      "file": "IMG_1544.PNG",
+      "type": "data",
+      "sire_name": "ドレフォン",
+      "total_record": "399-342-362-3103",
+      "shiba_avg_dist_m": 1695,
+      "course": [
+        {"key": "芝札幌", "runs": "9-9-8-56", "win_pct": 11.0, "place_pct": 31.7, "tan_return": 129.4, "fuku_return": 107.6},
+        {"key": "芝函館", "runs": "4-6-7-49", "win_pct": 5.8, "place_pct": 24.6, "tan_return": 56.1, "fuku_return": 54.1},
+        {"key": "芝福島", "runs": "4-10-2-65", "win_pct": 4.9, "place_pct": 19.5, "tan_return": 11.9, "fuku_return": 55.2},
+        {"key": "芝新潟", "runs": "4-7-9-90", "win_pct": 3.6, "place_pct": 18.0, "tan_return": 113.4, "fuku_return": 51.4},
+        {"key": "芝東京", "runs": "19-15-11-139", "win_pct": 10.3, "place_pct": 24.6, "tan_return": 55.3, "fuku_return": 86.6},
+        {"key": "芝中山", "runs": "13-6-11-118", "win_pct": 8.8, "place_pct": 20.0, "tan_return": 55.3, "fuku_return": 78.9},
+        {"key": "芝中京", "runs": "7-12-6-89", "win_pct": 6.1, "place_pct": 21.9, "tan_return": null, "fuku_return": 86.6},
+        {"key": "芝京都", "runs": "9-7-7-78", "win_pct": 8.9, "place_pct": 21.2, "tan_return": 60.4, "fuku_return": 122.5},
+        {"key": "芝阪神", "runs": "9-7-12-109", "win_pct": 6.6, "place_pct": 20.4, "tan_return": 67.2, "fuku_return": null},
+        {"key": "芝小倉", "runs": "5-2-3-90", "win_pct": 5.0, "place_pct": 10.0, "tan_return": null, "fuku_return": null},
+        {"key": "ダ函館", "runs": "12-13-16-93", "win_pct": 9.0, "place_pct": 37.3, "tan_return": null, "fuku_return": null},
+        {"key": "ダ福島", "runs": "12-8-13-61", "win_pct": 12.9, "place_pct": 35.1, "tan_return": null, "fuku_return": null},
+        {"key": "ダ新潟", "runs": "14-15-16-153", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ東京", "runs": "61-47-50-393", "win_pct": 11.1, "place_pct": 19.6, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中山", "runs": "42-31-35-323", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中京", "runs": "45-32-44-291", "win_pct": 11.3, "place_pct": 19.3, "tan_return": null, "fuku_return": null},
+        {"key": "ダ京都", "runs": "38-40-36-292", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ阪神", "runs": "61-35-41-333", "win_pct": 13.0, "place_pct": 20.4, "tan_return": null, "fuku_return": null}
+      ],
+      "distance": [
+        {"key": "芝1000", "runs": "0-1-0-11", "win_pct": 0.0, "place_pct": 8.3, "tan_return": 0.0, "fuku_return": 20.0},
+        {"key": "芝1200", "runs": "16-29-22-222", "win_pct": 5.6, "place_pct": 23.9, "tan_return": 80.6, "fuku_return": 70.0},
+        {"key": "芝1400", "runs": "13-14-14-152", "win_pct": 6.7, "place_pct": 21.2, "tan_return": 37.4, "fuku_return": 61.2},
+        {"key": "芝1600", "runs": "28-21-27-234", "win_pct": 9.0, "place_pct": 16.8, "tan_return": 103.2, "fuku_return": 101.5},
+        {"key": "芝1700", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "芝1800", "runs": "9-13-13-128", "win_pct": 5.5, "place_pct": 21.5, "tan_return": 92.8, "fuku_return": 52.0},
+        {"key": "芝2000", "runs": "7-7-7-94", "win_pct": 6.1, "place_pct": 12.2, "tan_return": 61.5, "fuku_return": 68.9},
+        {"key": "芝2200", "runs": "6-1-4-31", "win_pct": 14.3, "place_pct": 26.2, "tan_return": null, "fuku_return": 51.7},
+        {"key": "芝2300~", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1000", "runs": "7-3-9-41", "win_pct": 11.7, "place_pct": 31.7, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1200", "runs": "68-43-59-464", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1400", "runs": "68-72-58-...", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1600", "runs": "30-28-22-191", "win_pct": 11.1, "place_pct": 21.4, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1800", "runs": "96-68-74-618", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ2000", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ2300~", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "baba": [
+        {"key": "良", "runs": "67-72-66-692", "win_pct": 7.5, "place_pct": 22.9, "tan_return": 63.8, "fuku_return": 75.0},
+        {"key": "稍重", "runs": "9-10-14-144", "win_pct": 5.1, "place_pct": 18.6, "tan_return": 85.0, "fuku_return": 66.3},
+        {"key": "重", "runs": "2-4-5-43", "win_pct": 3.7, "place_pct": 20.4, "tan_return": 6.9, "fuku_return": 38.2},
+        {"key": "不良", "runs": "1-0-2-10", "win_pct": 7.7, "place_pct": 23.1, "tan_return": 40.8, "fuku_return": 66.2}
+      ],
+      "draw": [
+        {"key": "1枠", "runs": "6-15-12-90", "win_pct": 4.9, "place_pct": 17.1, "tan_return": 26.8, "fuku_return": 78.4},
+        {"key": "2枠", "runs": "8-13-12-87", "win_pct": 6.7, "place_pct": 27.5, "tan_return": 67.8, "fuku_return": 87.9},
+        {"key": "3枠", "runs": "11-10-10-103", "win_pct": 8.2, "place_pct": 23.1, "tan_return": 161.1, "fuku_return": 78.8},
+        {"key": "4枠", "runs": "10-5-4-119", "win_pct": 7.2, "place_pct": 13.8, "tan_return": 66.7, "fuku_return": 37.9},
+        {"key": "5枠", "runs": "12-18-9-101", "win_pct": 8.6, "place_pct": 27.9, "tan_return": 60.4, "fuku_return": 101.4},
+        {"key": "6枠", "runs": "13-12-16-124", "win_pct": 7.9, "place_pct": 24.8, "tan_return": 66.5, "fuku_return": 80.9},
+        {"key": "7枠", "runs": "9-6-8-143", "win_pct": 5.4, "place_pct": 13.9, "tan_return": 40.7, "fuku_return": 41.4},
+        {"key": "8枠", "runs": null, "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "popularity": [
+        {"key": "1番人気", "runs": "21-21-11-38", "win_pct": 23.1, "place_pct": 58.2, "tan_return": 51.8, "fuku_return": 77.8},
+        {"key": "2番人気", "runs": "17-9-12-42", "win_pct": 21.3, "place_pct": 47.5, "tan_return": 86.6, "fuku_return": 75.0},
+        {"key": "3番人気", "runs": "16-11-13-67", "win_pct": 15.0, "place_pct": 37.4, "tan_return": 90.4, "fuku_return": 74.0},
+        {"key": "4番人気", "runs": "8-13-13-79", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "5番人気", "runs": "8-13-11-78", "win_pct": 7.3, "place_pct": 19.1, "tan_return": 29.1, "fuku_return": null},
+        {"key": "6番人気以下", "runs": "9-17-26-596", "win_pct": 1.4, "place_pct": 8.0, "tan_return": null, "fuku_return": 55.0}
+      ],
+      "pace_style": [
+        {"key": "逃げ", "runs": "44-34-28-243", "win_pct": 13.8, "place_pct": 29.6, "tan_return": 142.8, "fuku_return": null},
+        {"key": "先行", "runs": "24-35-34-236", "win_pct": 7.3, "place_pct": 17.9, "tan_return": 28.3, "fuku_return": null},
+        {"key": "差し", "runs": "16-39-19-194", "win_pct": 3.5, "place_pct": 15.1, "tan_return": 27.3, "fuku_return": 64.6},
+        {"key": "追込", "runs": "3-7-6-236", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "klass": [
+        {"key": "新馬", "runs": "15-14-20-185", "win_pct": 6.4, "place_pct": 21.0, "tan_return": 91.6, "fuku_return": 62.4},
+        {"key": "未勝利", "runs": "26-33-28-338", "win_pct": 6.1, "place_pct": 13.9, "tan_return": 20.5, "fuku_return": 54.3},
+        {"key": "1勝クラス", "runs": "15-18-21-189", "win_pct": 6.2, "place_pct": 22.1, "tan_return": 55.4, "fuku_return": 87.7},
+        {"key": "2勝クラス", "runs": "6-9-3-100", "win_pct": 6.0, "place_pct": 26.2, "tan_return": 56.5, "fuku_return": null},
+        {"key": "3勝クラス", "runs": "6-1-3-18", "win_pct": 21.4, "place_pct": 35.7, "tan_return": 119.3, "fuku_return": 86.4},
+        {"key": "OPEN", "runs": "10-14-11-121", "win_pct": 6.8, "place_pct": 24.0, "tan_return": 61.9, "fuku_return": 117.1}
+      ],
+      "interval": [],
+      "grade": [],
+      "sex": [
+        {"key": "牡馬", "runs": "42-36-36-339", "win_pct": 9.3, "place_pct": 17.2, "tan_return": 25.2, "fuku_return": 98.3},
+        {"key": "牝馬", "runs": "33-48-47-531", "win_pct": 5.0, "place_pct": 12.3, "tan_return": 19.4, "fuku_return": 41.1},
+        {"key": "せん馬", "runs": "2-7-4-62", "win_pct": 2.7, "place_pct": 12.0, "tan_return": 17.3, "fuku_return": 45.1}
+      ],
+      "season": [
+        {"key": "春3~5月", "runs": "13-14-14-184", "win_pct": 5.8, "place_pct": 18.2, "tan_return": 37.0, "fuku_return": 74.2},
+        {"key": "夏6~8月", "runs": "25-36-29-276", "win_pct": 6.6, "place_pct": 16.8, "tan_return": 73.6, "fuku_return": 69.6},
+        {"key": "秋9~11月", "runs": "25-23-25-239", "win_pct": 8.0, "place_pct": 15.4, "tan_return": 23.4, "fuku_return": 72.1},
+        {"key": "冬12~1月", "runs": "16-13-19-190", "win_pct": 6.7, "place_pct": 12.2, "tan_return": 20.2, "fuku_return": 64.8}
+      ],
+      "shinba": [
+        {"key": "2歳新馬", "runs": "13-13-19-170", "win_pct": 6.9, "place_pct": 13.3, "tan_return": 22.0, "fuku_return": 96.3},
+        {"key": "3歳新馬", "runs": "0-0-1-15", "win_pct": 0.0, "place_pct": 6.3, "tan_return": 0.0, "fuku_return": 53.3}
+      ]
+    },
+    {
+      "file": "IMG_1545.PNG",
+      "type": "profile",
+      "rank": 8,
+      "sire_name": "リアルスティール",
+      "sire_name_en": "REAL STEEL",
+      "birth_year": 2012,
+      "coat": "鹿毛",
+      "catchphrase": "芝は関東、ダは中京、阪神 芝の不良、芝2歳新馬◎",
+      "stud_fee": null,
+      "total_record": "248-209-198-1696",
+      "pedigree": {"sire": "ディープインパクト", "dam": "ラヴズオンリーミー", "damsire": "Storm Cat"},
+      "blood_author": "望田潤",
+      "blood_comment": "フォーエヴァーヤングが世界の頂点に サドラー系・パワー型のアメリカ血統からはパワー型に出る。フォーエヴァーヤングの海外賞金が入れられたらもっと上だった。「ディープ×ストームキャット」のニックスから誕生し、全妹にラヴズオンリーユーがいる。2代母モネヴァッシアはキングマンボの全妹、3代母ミエスクは史上最強マイラーという良血。サドラーズウェルズやデインヒルといった欧州主流血統が良く、ブラッシンググルーム、マキャヴェリアンも好相性。一方でロベーインやヘネシーといったアメリカ血統とも好相性で、その場合はパワー型に出やすい。デビ ューはミスタープロスペクター系は不振。",
+      "bet_author": "栗山求",
+      "bet_comment": "芝とダートの二刀流 キングカメハメハを彷彿とさせる。芝とダートの二刀流。系統は違うがキングカメハメハを彷彿させる。芝・ダともに東京コースの成績が抜群で、とくに東京芝1600mとダ2100mは特注。同じ左回りでも芝1800m、中京芝2000m~2200mらしい。関西圏の京都は芝◎ダート△、遠波の傾向が出てダートの持続力に秀でており、芝で混戦になると単騎逃げの成績が優秀。メンバー構成的に単勝になる場合は狙ってみたい。二刀流ながらダートの成績は芝◎ダ△と明暗が分かれる。4枠の成績が良く、5~8枠はやや...",
+      "aim": "血統 買い→サドラーズウェルズ、デインヒルは◎／ロベインディやヘネシーもいい／消し→ミスタープロスペクター系は不振。 馬券 買い→◎芝・ダートともに東京コース／◎芝で単騎逃げが見込める場合／消し→×芝の5~8枠、ダートの新馬戦..."
+    },
+    {
+      "file": "IMG_1546.PNG",
+      "type": "data",
+      "sire_name": "リアルスティール",
+      "total_record": "248-209-198-1696",
+      "shiba_avg_dist_m": 1844,
+      "course": [
+        {"key": "芝札幌", "runs": "7-4-3-39", "win_pct": 13.2, "place_pct": 26.4, "tan_return": 96.4, "fuku_return": 68.1},
+        {"key": "芝函館", "runs": "6-0-5-39", "win_pct": 13.0, "place_pct": 23.9, "tan_return": 107.6, "fuku_return": 51.9},
+        {"key": "芝福島", "runs": "12-7-7-77", "win_pct": 11.7, "place_pct": 25.5, "tan_return": 83.7, "fuku_return": 88.3},
+        {"key": "芝新潟", "runs": "12-10-4-74", "win_pct": 12.0, "place_pct": 26.0, "tan_return": 84.1, "fuku_return": 76.2},
+        {"key": "芝東京", "runs": "33-24-24-141", "win_pct": 14.9, "place_pct": 25.8, "tan_return": 96.7, "fuku_return": 90.3},
+        {"key": "芝中京", "runs": "14-14-12-112", "win_pct": 9.2, "place_pct": 18.4, "tan_return": 44.4, "fuku_return": 96.3},
+        {"key": "芝京都", "runs": "16-19-13-118", "win_pct": 9.6, "place_pct": 18.9, "tan_return": 71.1, "fuku_return": 70.5},
+        {"key": "芝阪神", "runs": "19-11-17-113", "win_pct": 9.9, "place_pct": 23.4, "tan_return": null, "fuku_return": 62.7},
+        {"key": "芝小倉", "runs": "8-6-3-77", "win_pct": 8.4, "place_pct": 17.9, "tan_return": 147.4, "fuku_return": 114.1},
+        {"key": "ダ札幌", "runs": "7-2-3-35", "win_pct": 14.9, "place_pct": 19.1, "tan_return": null, "fuku_return": null},
+        {"key": "ダ函館", "runs": "4-3-2-22", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ新潟", "runs": "7-2-9-54", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ東京", "runs": "20-20-12-123", "win_pct": 11.4, "place_pct": 29.7, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中山", "runs": "15-19-17-139", "win_pct": 7.9, "place_pct": 17.9, "tan_return": 26.8, "fuku_return": null},
+        {"key": "ダ中京", "runs": "16-12-16-92", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ京都", "runs": "11-13-15-155", "win_pct": 14.8, "place_pct": 23.4, "tan_return": 31.3, "fuku_return": null},
+        {"key": "ダ阪神", "runs": "19-11-10-88", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "distance": [
+        {"key": "芝1000", "runs": "1-0-1-8", "win_pct": 10.0, "place_pct": 20.0, "tan_return": 54.0, "fuku_return": 57.0},
+        {"key": "芝1200", "runs": "11-7-11-118", "win_pct": 7.5, "place_pct": 19.9, "tan_return": 52.9, "fuku_return": 59.4},
+        {"key": "芝1400", "runs": "9-16-10-80", "win_pct": 7.8, "place_pct": 21.7, "tan_return": 30.4, "fuku_return": 57.9},
+        {"key": "芝1600", "runs": "31-22-16-188", "win_pct": 12.1, "place_pct": 20.6, "tan_return": 118.5, "fuku_return": 67.5},
+        {"key": "芝1700", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "芝1800", "runs": "40-29-27-192", "win_pct": 13.9, "place_pct": 24.0, "tan_return": 103.1, "fuku_return": 77.3},
+        {"key": "芝2000", "runs": "33-31-38-215", "win_pct": 10.4, "place_pct": 32.4, "tan_return": 91.5, "fuku_return": 102.1},
+        {"key": "芝2200", "runs": "11-4-7-46", "win_pct": 16.2, "place_pct": 32.4, "tan_return": 155.9, "fuku_return": 80.8},
+        {"key": "芝2300~", "runs": "8-6-4-54", "win_pct": 11.1, "place_pct": 15.4, "tan_return": 129.3, "fuku_return": 80.8},
+        {"key": "ダ1000", "runs": "4-5-0-16", "win_pct": 16.0, "place_pct": 36.0, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1200", "runs": "13-15-23-141", "win_pct": 6.8, "place_pct": 26.6, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1400", "runs": "20-20-12-123", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1600", "runs": "4-5-5-37", "win_pct": 7.8, "place_pct": 17.6, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1800", "runs": "36-21-25-266", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ2000", "runs": "16-14-5-66", "win_pct": 16.8, "place_pct": 34.7, "tan_return": null, "fuku_return": null},
+        {"key": "ダ2300~", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "baba": [
+        {"key": "良", "runs": "124-87-95-717", "win_pct": 12.1, "place_pct": 20.6, "tan_return": 29.9, "fuku_return": 94.5, "_note": "tan_return likely mis-segmented"},
+        {"key": "稍重", "runs": "10-19-10-122", "win_pct": 6.2, "place_pct": 16.0, "tan_return": 35.0, "fuku_return": 45.1},
+        {"key": "重", "runs": "7-6-7-52", "win_pct": 9.7, "place_pct": 18.1, "tan_return": 27.6, "fuku_return": null},
+        {"key": "不良", "runs": "3-3-2-10", "win_pct": 16.7, "place_pct": 33.3, "tan_return": 44.4, "fuku_return": 830.0}
+      ],
+      "draw": [
+        {"key": "1枠", "runs": "8-19-13-94", "win_pct": 6.0, "place_pct": 20.1, "tan_return": 79.1, "fuku_return": 67.5},
+        {"key": "2枠", "runs": "19-18-10-106", "win_pct": 12.4, "place_pct": 24.2, "tan_return": 30.7, "fuku_return": null},
+        {"key": "3枠", "runs": "21-13-14-105", "win_pct": 13.7, "place_pct": 22.2, "tan_return": 31.4, "fuku_return": 83.0},
+        {"key": "4枠", "runs": "19-14-16-94", "win_pct": 13.3, "place_pct": 23.1, "tan_return": 34.3, "fuku_return": 113.6},
+        {"key": "5枠", "runs": "19-8-11-127", "win_pct": 11.5, "place_pct": 16.4, "tan_return": 23.0, "fuku_return": 127.6},
+        {"key": "6枠", "runs": "15-15-17-102", "win_pct": 10.1, "place_pct": 20.1, "tan_return": 61.7, "fuku_return": 94.2},
+        {"key": "7枠", "runs": "22-12-17-134", "win_pct": 11.9, "place_pct": 18.4, "tan_return": 27.6, "fuku_return": 172.3},
+        {"key": "8枠", "runs": "21-16-16-159", "win_pct": 10.9, "place_pct": 19.3, "tan_return": 61.0, "fuku_return": 59.9}
+      ],
+      "popularity": [
+        {"key": "1番人気", "runs": "45-18-20-48", "win_pct": 34.4, "place_pct": 63.1, "tan_return": 77.3, "fuku_return": 81.9},
+        {"key": "2番人気", "runs": "30-22-25-53", "win_pct": 23.1, "place_pct": 59.2, "tan_return": 91.9, "fuku_return": 86.9},
+        {"key": "3番人気", "runs": "29-23-12-51", "win_pct": 25.7, "place_pct": 55.7, "tan_return": 142.2, "fuku_return": 96.9},
+        {"key": "4番人気", "runs": "9-19-17-63", "win_pct": 8.3, "place_pct": 41.7, "tan_return": 56.9, "fuku_return": 94.7},
+        {"key": "5番人気", "runs": "10-9-17-74", "win_pct": 9.1, "place_pct": 32.7, "tan_return": 100.2, "fuku_return": 81.8},
+        {"key": "6番人気以下", "runs": "21-24-23-612", "win_pct": 3.1, "place_pct": 10.0, "tan_return": 100.7, "fuku_return": 74.6}
+      ],
+      "pace_style": [
+        {"key": "逃げ", "runs": "58-52-27-189", "win_pct": 17.8, "place_pct": 33.7, "tan_return": 42.0, "fuku_return": 76.4},
+        {"key": "先行", "runs": "49-31-44-224", "win_pct": 14.0, "place_pct": 23.0, "tan_return": 35.6, "fuku_return": 74.2},
+        {"key": "差し", "runs": "25-20-30-221", "win_pct": 8.4, "place_pct": 15.2, "tan_return": 140.2, "fuku_return": 88.6},
+        {"key": "追込", "runs": "11-12-12-259", "win_pct": 3.7, "place_pct": 11.9, "tan_return": 28.2, "fuku_return": 46.4}
+      ],
+      "klass": [
+        {"key": "新馬", "runs": "24-29-19-141", "win_pct": 11.3, "place_pct": 24.9, "tan_return": 33.8, "fuku_return": 149.2},
+        {"key": "未勝利", "runs": "52-39-37-356", "win_pct": 10.7, "place_pct": 18.8, "tan_return": 26.4, "fuku_return": 104.4},
+        {"key": "1勝クラス", "runs": "38-25-29-212", "win_pct": 12.0, "place_pct": 25.3, "tan_return": 30.3, "fuku_return": 95.3},
+        {"key": "2勝クラス", "runs": "16-12-15-72", "win_pct": 13.9, "place_pct": 34.7, "tan_return": 45.3, "fuku_return": null},
+        {"key": "3勝クラス", "runs": "6-0-5-39", "win_pct": 12.0, "place_pct": 22.0, "tan_return": 62.0, "fuku_return": 49.8},
+        {"key": "OPEN", "runs": "8-10-9-81", "win_pct": 7.4, "place_pct": 16.7, "tan_return": 25.0, "fuku_return": 101.2}
+      ],
+      "interval": [],
+      "grade": [],
+      "sex": [
+        {"key": "牡馬", "runs": "93-65-69-403", "win_pct": 14.8, "place_pct": 25.1, "tan_return": 36.0, "fuku_return": 114.7},
+        {"key": "牝馬", "runs": "50-49-45-480", "win_pct": 8.0, "place_pct": 17.5, "tan_return": 22.5, "fuku_return": 65.0},
+        {"key": "せん馬", "runs": "1-1-0-18", "win_pct": 5.0, "place_pct": 10.0, "tan_return": 14.4, "fuku_return": null}
+      ],
+      "season": [
+        {"key": "春3~5月", "runs": "29-21-26-200", "win_pct": 10.5, "place_pct": 18.1, "tan_return": 84.8, "fuku_return": 94.2},
+        {"key": "夏6~8月", "runs": "36-33-32-246", "win_pct": 10.4, "place_pct": 19.1, "tan_return": null, "fuku_return": 69.7},
+        {"key": "秋9~11月", "runs": "43-34-33-232", "win_pct": 12.6, "place_pct": 22.5, "tan_return": 109.0, "fuku_return": 77.0},
+        {"key": "冬12~1月", "runs": "23-27-22-205", "win_pct": 11.7, "place_pct": 20.4, "tan_return": 27.8, "fuku_return": 128.0}
+      ],
+      "shinba": [
+        {"key": "2歳新馬", "runs": "12-3-13-77", "win_pct": 12.3, "place_pct": 35.8, "tan_return": 166.0, "fuku_return": 102.1},
+        {"key": "3歳新馬", "runs": "1-2-2-21", "win_pct": 3.8, "place_pct": 11.5, "tan_return": 29.8, "fuku_return": 59.6}
+      ]
+    },
+    {
+      "file": "IMG_1547.PNG",
+      "type": "profile",
+      "rank": 9,
+      "sire_name": "モーリス",
+      "sire_name_en": "MAURICE",
+      "birth_year": 2011,
+      "coat": "鹿毛",
+      "catchphrase": "芝ダとも5番人気の単勝回収率100%超 芝の新馬戦は狙い目",
+      "stud_fee": null,
+      "total_record": "477-378-403-3789",
+      "pedigree": {"sire": "スクリーンヒーロー", "dam": "メジロフランシス", "damsire": "Carnegie"},
+      "blood_author": "望田潤",
+      "blood_comment": "ディープハーツのサンデー系が欲しい メジロ系のアグネスタキオンは不振。ロベルト系、母の父がサドラーズウェルズ系がメジロ血統という底力あふれる重厚さ。母方からサンデー系の素軽さを取り入れることが重要で、なかでもディープインパクト、ハーツクライ、マンハッタンカフェ、ステイゴールド、ネオユニヴァースは素晴らしく、トニービン、ウッドマン、マキャヴェリアン系ヘネシーラインも例外的な好結果を残している。サンデー系のなかでも例外的にアグネスタキオンは不振。サドラーズウェルズとロベルト系、また、ストームキャット、シアトルスルー、デインヒルも低調。",
+      "bet_author": "栗山求",
+      "bet_comment": "洋芝や東京芝の成績が優秀 ダートの1番人気は軽視したい。トビが大きいので東京芝の成績がよく、単勝回収率は128%。とくに東京芝2000mの成績が秀でている。これは見どころ。自身が香港で実績を残し、芝は得意。小回りコースながら函館も良好で、とくに1800mは連対率も高い。札幌芝1500mも素晴らしい。スローからの瞬発力に特長があるので、意外にも中山も好結果を残している。早期の2歳タイプだが、本格化は3歳夏以降。ダートの人気は信頼性に乏しい。砂をかぶりやすいのでダートの1、2番枠は評価を下げたい。",
+      "aim": "血統 買い→ディープやハーツなどサンデー系／消し→アグネスタキオンは不振。 馬券 買い→◎東京芝1600~2000mが一番／◎洋芝の函館芝1800m、札幌芝1500m／消し→×砂をかぶりやすいダートの1、2番枠..."
+    },
+    {
+      "file": "IMG_1548.PNG",
+      "type": "data",
+      "sire_name": "モーリス",
+      "total_record": "477-378-403-3789",
+      "shiba_avg_dist_m": 1676,
+      "course": [
+        {"key": "芝札幌", "runs": "18-18-21-158", "win_pct": 8.7, "place_pct": 26.5, "tan_return": 54.9, "fuku_return": 77.2},
+        {"key": "芝函館", "runs": "19-12-8-119", "win_pct": 12.0, "place_pct": 24.7, "tan_return": 152.5, "fuku_return": 77.2},
+        {"key": "芝福島", "runs": "13-9-14-115", "win_pct": 8.6, "place_pct": 23.3, "tan_return": 77.8, "fuku_return": 65.5},
+        {"key": "芝新潟", "runs": "36-26-17-261", "win_pct": 10.6, "place_pct": 18.2, "tan_return": 107.4, "fuku_return": 65.5},
+        {"key": "芝東京", "runs": "69-50-63-391", "win_pct": 12.0, "place_pct": 20.8, "tan_return": 31.8, "fuku_return": 89.5},
+        {"key": "芝中山", "runs": "45-32-36-336", "win_pct": 10.0, "place_pct": 17.1, "tan_return": 25.4, "fuku_return": 99.7},
+        {"key": "芝中京", "runs": "43-34-34-332", "win_pct": 9.7, "place_pct": 24.1, "tan_return": 71.4, "fuku_return": 79.7},
+        {"key": "芝京都", "runs": "29-31-29-216", "win_pct": 9.6, "place_pct": 29.2, "tan_return": 60.1, "fuku_return": 111.3},
+        {"key": "芝阪神", "runs": "50-26-53-348", "win_pct": 10.5, "place_pct": 19.5, "tan_return": null, "fuku_return": null},
+        {"key": "芝小倉", "runs": "43-34-24-...", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ札幌", "runs": "5-2-5-49", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ函館", "runs": "4-4-3-33", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ新潟", "runs": "12-11-7-94", "win_pct": 9.7, "place_pct": 18.5, "tan_return": null, "fuku_return": null},
+        {"key": "ダ東京", "runs": "14-14-16-154", "win_pct": 7.1, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中山", "runs": "18-20-11-181", "win_pct": 7.8, "place_pct": 16.5, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中京", "runs": "16-7-19-153", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ京都", "runs": "17-9-15-130", "win_pct": 9.9, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ阪神", "runs": "6-7-10-66", "win_pct": 6.7, "place_pct": 14.4, "tan_return": null, "fuku_return": 25.8}
+      ],
+      "distance": [
+        {"key": "芝1000", "runs": "1-0-1-30", "win_pct": 3.1, "place_pct": 6.3, "tan_return": 20.6, "fuku_return": 11.9},
+        {"key": "芝1200", "runs": "54-44-36-475", "win_pct": 8.9, "place_pct": 22.0, "tan_return": 80.3, "fuku_return": 64.9},
+        {"key": "芝1400", "runs": "50-30-39-335", "win_pct": 11.0, "place_pct": 26.1, "tan_return": null, "fuku_return": 64.7},
+        {"key": "芝1600", "runs": "93-83-97-665", "win_pct": 9.9, "place_pct": 18.0, "tan_return": 73.1, "fuku_return": 78.4},
+        {"key": "芝1700", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "芝1800", "runs": "72-63-58-480", "win_pct": 10.4, "place_pct": 28.7, "tan_return": 61.8, "fuku_return": 91.3},
+        {"key": "芝2000", "runs": "65-35-55-420", "win_pct": 11.3, "place_pct": 17.4, "tan_return": 86.1, "fuku_return": 77.2},
+        {"key": "芝2200", "runs": "9-4-7-65", "win_pct": 9.4, "place_pct": 15.1, "tan_return": 23.6, "fuku_return": 87.8},
+        {"key": "芝2300~", "runs": "8-4-6-94", "win_pct": 7.1, "place_pct": 16.1, "tan_return": 16.2, "fuku_return": 32.1},
+        {"key": "ダ1000", "runs": "7-4-7-53", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1200", "runs": "29-24-19-288", "win_pct": 8.9, "place_pct": 15.5, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1400", "runs": "33-23-24-269", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1600", "runs": "9-5-4-67", "win_pct": 10.6, "place_pct": 16.5, "tan_return": 21.2, "fuku_return": null},
+        {"key": "ダ1800", "runs": "23-32-25-275", "win_pct": 6.5, "place_pct": 12.9, "tan_return": 19.4, "fuku_return": null},
+        {"key": "ダ2000", "runs": "7-7-8-71", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ2300~", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "baba": [
+        {"key": "良", "runs": "287-208-232-2026", "win_pct": 10.4, "place_pct": 18.0, "tan_return": 26.4, "fuku_return": 82.6},
+        {"key": "稍重", "runs": "44-44-46-394", "win_pct": 8.3, "place_pct": 16.3, "tan_return": 25.1, "fuku_return": 112.9},
+        {"key": "重", "runs": "18-13-21-138", "win_pct": 9.5, "place_pct": 16.3, "tan_return": 27.4, "fuku_return": null},
+        {"key": "不良", "runs": "6-3-3-35", "win_pct": 12.8, "place_pct": 19.7, "tan_return": 25.5, "fuku_return": 140.0}
+      ],
+      "draw": [
+        {"key": "1枠", "runs": "34-34-37-258", "win_pct": 9.4, "place_pct": 18.7, "tan_return": 28.9, "fuku_return": 49.9},
+        {"key": "2枠", "runs": "41-26-34-259", "win_pct": 11.4, "place_pct": 18.6, "tan_return": 28.1, "fuku_return": 136.9},
+        {"key": "3枠", "runs": "42-23-38-284", "win_pct": 10.9, "place_pct": 16.6, "tan_return": 22.6, "fuku_return": 78.6},
+        {"key": "4枠", "runs": "50-43-30-290", "win_pct": 12.1, "place_pct": 22.5, "tan_return": 29.8, "fuku_return": 73.2},
+        {"key": "5枠", "runs": "44-22-43-334", "win_pct": 9.9, "place_pct": 14.9, "tan_return": 24.6, "fuku_return": 85.5},
+        {"key": "6枠", "runs": "31-36-41-369", "win_pct": 6.5, "place_pct": 14.0, "tan_return": 21.5, "fuku_return": 51.8},
+        {"key": "7枠", "runs": "60-45-34-384", "win_pct": 11.5, "place_pct": 20.1, "tan_return": 26.6, "fuku_return": 91.2},
+        {"key": "8枠", "runs": "51-36-44-402", "win_pct": 9.6, "place_pct": 13.4, "tan_return": 24.6, "fuku_return": 112.7}
+      ],
+      "popularity": [
+        {"key": "1番人気", "runs": "131-61-53-136", "win_pct": 34.4, "place_pct": 50.4, "tan_return": 81.2, "fuku_return": 81.7},
+        {"key": "2番人気", "runs": "82-54-54-136", "win_pct": 21.8, "place_pct": 36.2, "tan_return": 50.5, "fuku_return": 89.4},
+        {"key": "3番人気", "runs": "38-42-44-139", "win_pct": 13.6, "place_pct": 39.6, "tan_return": 68.7, "fuku_return": 71.1},
+        {"key": "4番人気", "runs": "37-34-46-193", "win_pct": 11.9, "place_pct": 36.4, "tan_return": 103.7, "fuku_return": 72.1},
+        {"key": "5番人気", "runs": "26-25-16-228", "win_pct": 8.7, "place_pct": 17.5, "tan_return": null, "fuku_return": null},
+        {"key": "6番人気以下", "runs": "39-49-88-1048", "win_pct": 2.1, "place_pct": 9.6, "tan_return": 73.4, "fuku_return": null}
+      ],
+      "pace_style": [
+        {"key": "逃げ", "runs": "107-103-100-693", "win_pct": 17.0, "place_pct": 37.0, "tan_return": 100.8, "fuku_return": 106.2},
+        {"key": "先行", "runs": "108-90-72-621", "win_pct": 10.9, "place_pct": 31.2, "tan_return": 100.8, "fuku_return": null},
+        {"key": "差し", "runs": "49-48-63-601", "win_pct": 6.4, "place_pct": 21.0, "tan_return": 49.6, "fuku_return": 43.8},
+        {"key": "追込", "runs": "18-17-29-612", "win_pct": 2.7, "place_pct": 6.6, "tan_return": null, "fuku_return": null}
+      ],
+      "klass": [
+        {"key": "新馬", "runs": "57-27-44-260", "win_pct": 14.7, "place_pct": 21.6, "tan_return": 33.0, "fuku_return": 126.2},
+        {"key": "未勝利", "runs": "105-98-93-848", "win_pct": 9.2, "place_pct": 17.7, "tan_return": 25.9, "fuku_return": 84.7},
+        {"key": "1勝クラス", "runs": "84-66-76-665", "win_pct": 9.4, "place_pct": 16.8, "tan_return": 23.4, "fuku_return": 79.6},
+        {"key": "2勝クラス", "runs": "46-26-44-237", "win_pct": 13.0, "place_pct": 20.4, "tan_return": 32.9, "fuku_return": 145.0},
+        {"key": "3勝クラス", "runs": "22-13-22-218", "win_pct": 8.0, "place_pct": 12.7, "tan_return": 69.2, "fuku_return": null},
+        {"key": "OPEN", "runs": "39-35-22-352", "win_pct": 8.7, "place_pct": 16.5, "tan_return": 21.4, "fuku_return": null}
+      ],
+      "interval": [],
+      "grade": [],
+      "sex": [
+        {"key": "牡馬", "runs": "212-156-176-1248", "win_pct": 11.8, "place_pct": 30.4, "tan_return": 69.6, "fuku_return": 74.2},
+        {"key": "牝馬", "runs": "131-105-118-1245", "win_pct": 8.2, "place_pct": 14.8, "tan_return": 22.1, "fuku_return": 88.9},
+        {"key": "せん馬", "runs": "8-13-13-118", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "season": [
+        {"key": "春3~5月", "runs": "80-57-72-579", "win_pct": 10.2, "place_pct": 17.4, "tan_return": 26.5, "fuku_return": 63.3},
+        {"key": "夏6~8月", "runs": "98-91-79-733", "win_pct": 9.4, "place_pct": 25.6, "tan_return": null, "fuku_return": null},
+        {"key": "秋9~11月", "runs": "99-67-77-629", "win_pct": 11.4, "place_pct": 19.0, "tan_return": 27.9, "fuku_return": 110.0},
+        {"key": "冬12~1月", "runs": "76-50-73-639", "win_pct": 9.4, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "shinba": [
+        {"key": "2歳新馬", "runs": "51-26-38-225", "win_pct": 15.0, "place_pct": 26.4, "tan_return": 33.8, "fuku_return": 116.0},
+        {"key": "3歳新馬", "runs": "6-1-6-35", "win_pct": 12.5, "place_pct": 27.1, "tan_return": null, "fuku_return": null}
+      ]
+    },
+    {
+      "file": "IMG_1549.PNG",
+      "type": "profile",
+      "rank": 10,
+      "sire_name": "レイデオロ",
+      "sire_name_en": "REY DE ORO",
+      "birth_year": 2014,
+      "coat": "青鹿毛",
+      "catchphrase": "ダートより芝向き 芝の複勝率3割超は東京、札幌、新潟",
+      "stud_fee": null,
+      "total_record": "131-121-116-1108",
+      "pedigree": {"sire": "キングカメハメハ", "dam": "ラドラーダ", "damsire": "Singspiel"},
+      "blood_author": "望田潤",
+      "blood_comment": "ロベルト系ディープ牝系のステイヤー 母父キングカメハメハと配合したい。短距離に乏しく距離が延びて台頭し、牝系に出がちで、獲得賞金上位10頭はロベルト系のステイヤーでコルトサイアー的。サンライズアーゴワーソング、トロヴァートレはソニンク系産駒の母系は優れたスピードを誇る。スレイエフ、デインヒル、フレンチデビ ュ ー、タラバ クシシ ンオー、ノーザンテーストなど、頑強なマイラー質の繁殖と配合。ディープインパクト肌との配合はウインドヘアのクロス4×3となり、サイズダウンして今のところ不振。",
+      "bet_author": "栗山求",
+      "bet_comment": "平均勝ち距離はドゥラメンテ 菊花賞で2年連続複穴に。まだ3世代の出走産駒なので、平均勝ち距離1884mはドゥラメンテやエピファネイアよりも長い。昨年はサンライズアースが芝長距離重賞を勝った。菊花賞で2年連続で複穴をあげている。牡は平均勝ち距離1942mで、芝2500m以上は連対率121%とベタ買いプラス。平均勝ち距離1633mで、勝ち鞍の過半数は3歳以下。牡はウォーターガーベラやアサヒが桜花賞のトライアルで好走したが、A級の活躍馬は芝マイラーが多い。牝は平均馬体重434キロと馬格に乏しく苦戦している。",
+      "aim": "血統 買い→母父はスピード豊かな名牝系の出 スレイエフ、デインヒル、フレンチデビュティと◎／消し→ディープ肌との配合はサイズダウン。 馬券 買い→◎目黒記念と阪神大賞典を制覇／◎牡は芝2500m以上でベタ買い／消し→×牝はガサのない芝マイラー..."
+    },
+    {
+      "file": "IMG_1550.PNG",
+      "type": "data",
+      "sire_name": "レイデオロ",
+      "total_record": "131-121-116-1108",
+      "shiba_avg_dist_m": 1994,
+      "course": [
+        {"key": "芝札幌", "runs": "3-8-3-28", "win_pct": 7.1, "place_pct": 33.3, "tan_return": 53.3, "fuku_return": 75.5},
+        {"key": "芝函館", "runs": "4-1-2-27", "win_pct": 11.8, "place_pct": 20.6, "tan_return": 120.0, "fuku_return": 73.0},
+        {"key": "芝福島", "runs": "7-2-1-44", "win_pct": 7.4, "place_pct": 24.6, "tan_return": 31.6, "fuku_return": null},
+        {"key": "芝新潟", "runs": "8-11-9-65", "win_pct": 8.6, "place_pct": 30.1, "tan_return": 56.0, "fuku_return": 83.1},
+        {"key": "芝東京", "runs": "27-21-12-130", "win_pct": 14.2, "place_pct": 33.0, "tan_return": null, "fuku_return": 60.3},
+        {"key": "芝中山", "runs": "17-11-14-110", "win_pct": 11.2, "place_pct": 27.6, "tan_return": 65.4, "fuku_return": 64.5},
+        {"key": "芝中京", "runs": "9-8-8-82", "win_pct": 8.3, "place_pct": 24.1, "tan_return": 45.7, "fuku_return": 78.0},
+        {"key": "芝京都", "runs": "13-7-19-131", "win_pct": 7.6, "place_pct": 22.8, "tan_return": 28.7, "fuku_return": null},
+        {"key": "芝阪神", "runs": "12-8-8-79", "win_pct": 11.2, "place_pct": 26.2, "tan_return": null, "fuku_return": 107.7},
+        {"key": "芝小倉", "runs": "11-7-1-72", "win_pct": 11.8, "place_pct": 16.7, "tan_return": 21.5, "fuku_return": null},
+        {"key": "ダ函館", "runs": "2-9-8-89", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ福島", "runs": "1-3-3-21", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": 32.1},
+        {"key": "ダ新潟", "runs": "3-3-2-21", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ東京", "runs": "2-3-3-34", "win_pct": 3.4, "place_pct": 24.0, "tan_return": null, "fuku_return": null},
+        {"key": "ダ中山", "runs": "9-6-3-45", "win_pct": 14.3, "place_pct": 23.8, "tan_return": 28.6, "fuku_return": null},
+        {"key": "ダ中京", "runs": "9-3-4-37", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ京都", "runs": "6-3-9-49", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ阪神", "runs": "5-2-4-44", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "distance": [
+        {"key": "芝1000", "runs": "0-1-0-2", "win_pct": 0.0, "place_pct": 33.3, "tan_return": 0.0, "fuku_return": 56.7},
+        {"key": "芝1200", "runs": "2-0-0-40", "win_pct": 4.8, "place_pct": 4.8, "tan_return": 15.5, "fuku_return": 7.1},
+        {"key": "芝1400", "runs": "11-8-3-54", "win_pct": 14.5, "place_pct": 28.9, "tan_return": 172.9, "fuku_return": 66.4},
+        {"key": "芝1600", "runs": "15-17-15-126", "win_pct": 8.7, "place_pct": 24.7, "tan_return": 57.5, "fuku_return": 60.3},
+        {"key": "芝1700", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "芝1800", "runs": "19-15-24-159", "win_pct": 8.8, "place_pct": 26.7, "tan_return": 55.1, "fuku_return": 86.5},
+        {"key": "芝2000", "runs": "30-20-31-245", "win_pct": 9.2, "place_pct": 15.3, "tan_return": 24.8, "fuku_return": 60.2},
+        {"key": "芝2200", "runs": "13-9-12-92", "win_pct": 13.9, "place_pct": 22.2, "tan_return": 29.2, "fuku_return": 97.5},
+        {"key": "芝2300~", "runs": "15-19-5-77", "win_pct": 12.9, "place_pct": 33.6, "tan_return": 46.6, "fuku_return": 74.5},
+        {"key": "ダ1000", "runs": "0-0-0-7", "win_pct": 0.0, "place_pct": 0.0, "tan_return": 0.0, "fuku_return": 28.5},
+        {"key": "ダ1200", "runs": "1-1-3-21", "win_pct": 3.8, "place_pct": 7.7, "tan_return": 19.2, "fuku_return": null},
+        {"key": "ダ1400", "runs": "2-2-2-42", "win_pct": 4.3, "place_pct": 13.0, "tan_return": 30.0, "fuku_return": 30.0},
+        {"key": "ダ1600", "runs": "1-2-6-21", "win_pct": 3.3, "place_pct": 10.0, "tan_return": null, "fuku_return": null},
+        {"key": "ダ1800", "runs": "19-17-7-136", "win_pct": 10.6, "place_pct": 20.1, "tan_return": 24.0, "fuku_return": null},
+        {"key": "ダ2000", "runs": "3-3-2-37", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "ダ2300~", "runs": "—", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null}
+      ],
+      "baba": [
+        {"key": "良", "runs": "86-71-62-613", "win_pct": 10.3, "place_pct": 18.9, "tan_return": 26.3, "fuku_return": 62.5},
+        {"key": "稍重", "runs": "12-10-18-105", "win_pct": 8.3, "place_pct": 15.2, "tan_return": 27.6, "fuku_return": 58.0},
+        {"key": "重", "runs": "3-4-3-31", "win_pct": 7.3, "place_pct": 24.4, "tan_return": 164.9, "fuku_return": 71.5},
+        {"key": "不良", "runs": "1-1-0-5", "win_pct": 14.3, "place_pct": 28.6, "tan_return": 82.9, "fuku_return": 60.0}
+      ],
+      "draw": [
+        {"key": "1枠", "runs": "12-5-9-83", "win_pct": 11.0, "place_pct": 23.9, "tan_return": 37.1, "fuku_return": 42.5},
+        {"key": "2枠", "runs": "14-9-4-82", "win_pct": 12.8, "place_pct": 24.8, "tan_return": 52.7, "fuku_return": 36.4},
+        {"key": "3枠", "runs": "13-14-12-89", "win_pct": 10.2, "place_pct": 21.1, "tan_return": 30.5, "fuku_return": 108.2},
+        {"key": "4枠", "runs": "10-5-14-86", "win_pct": 8.7, "place_pct": 13.0, "tan_return": 25.2, "fuku_return": 61.6},
+        {"key": "5枠", "runs": "14-13-10-83", "win_pct": 11.7, "place_pct": 22.5, "tan_return": 30.8, "fuku_return": 58.6},
+        {"key": "6枠", "runs": "11-11-9-90", "win_pct": 9.1, "place_pct": 25.6, "tan_return": 60.4, "fuku_return": 56.9},
+        {"key": "7枠", "runs": "7-8-11-127", "win_pct": 4.7, "place_pct": 17.7, "tan_return": 41.1, "fuku_return": 102.9},
+        {"key": "8枠", "runs": "15-12-9-121", "win_pct": 9.6, "place_pct": 22.9, "tan_return": 101.0, "fuku_return": 68.0}
+      ],
+      "popularity": [
+        {"key": "1番人気", "runs": "39-19-7-25", "win_pct": 43.3, "place_pct": 72.2, "tan_return": 93.2, "fuku_return": 88.4},
+        {"key": "2番人気", "runs": "19-17-11-39", "win_pct": 22.1, "place_pct": 54.7, "tan_return": 84.4, "fuku_return": 86.8},
+        {"key": "3番人気", "runs": "17-14-8-42", "win_pct": 21.0, "place_pct": 48.1, "tan_return": 110.2, "fuku_return": 82.8},
+        {"key": "4番人気", "runs": "10-11-12-46", "win_pct": 12.7, "place_pct": 43.0, "tan_return": null, "fuku_return": 110.9},
+        {"key": "5番人気", "runs": "7-6-7-56", "win_pct": 9.2, "place_pct": 17.1, "tan_return": 26.3, "fuku_return": 102.4},
+        {"key": "6番人気以下", "runs": "10-19-28-546", "win_pct": 1.7, "place_pct": 9.5, "tan_return": 45.5, "fuku_return": 60.2}
+      ],
+      "pace_style": [
+        {"key": "逃げ", "runs": "44-25-23-144", "win_pct": 18.6, "place_pct": 39.0, "tan_return": 163.9, "fuku_return": 104.3},
+        {"key": "先行", "runs": "35-28-24-183", "win_pct": 13.0, "place_pct": 23.3, "tan_return": 22.2, "fuku_return": null},
+        {"key": "差し", "runs": "15-23-21-203", "win_pct": 5.7, "place_pct": 14.5, "tan_return": 24.3, "fuku_return": 49.2},
+        {"key": "追込", "runs": "8-9-15-220", "win_pct": 3.2, "place_pct": 6.7, "tan_return": 12.9, "fuku_return": 64.1}
+      ],
+      "klass": [
+        {"key": "新馬", "runs": "17-15-9-157", "win_pct": 8.6, "place_pct": 16.2, "tan_return": 20.7, "fuku_return": 58.9},
+        {"key": "未勝利", "runs": "40-33-46-379", "win_pct": 8.0, "place_pct": 14.7, "tan_return": 23.8, "fuku_return": 76.6},
+        {"key": "1勝クラス", "runs": "24-19-19-139", "win_pct": 11.9, "place_pct": 21.4, "tan_return": 30.8, "fuku_return": 84.4},
+        {"key": "2勝クラス", "runs": "19-2-6-44", "win_pct": null, "place_pct": null, "tan_return": null, "fuku_return": null},
+        {"key": "3勝クラス", "runs": "3-4-2-6", "win_pct": 20.0, "place_pct": 46.7, "tan_return": 60.0, "fuku_return": 78.0},
+        {"key": "OPEN", "runs": "8-4-5-44", "win_pct": 13.1, "place_pct": 19.7, "tan_return": 73.3, "fuku_return": 90.7}
+      ],
+      "interval": [],
+      "grade": [],
+      "sex": [
+        {"key": "牡馬", "runs": "80-62-55-388", "win_pct": 13.7, "place_pct": 24.3, "tan_return": 33.7, "fuku_return": 93.6},
+        {"key": "牝馬", "runs": "22-24-27-354", "win_pct": 5.2, "place_pct": 10.8, "tan_return": 17.1, "fuku_return": 30.4},
+        {"key": "せん馬", "runs": "0-0-0-6", "win_pct": 0.0, "place_pct": 0.0, "tan_return": 7.7, "fuku_return": null}
+      ],
+      "season": [
+        {"key": "春3~5月", "runs": "20-10-15-171", "win_pct": 9.3, "place_pct": 13.9, "tan_return": 55.0, "fuku_return": 72.9},
+        {"key": "夏6~8月", "runs": "29-35-23-211", "win_pct": 9.7, "place_pct": 29.2, "tan_return": 73.1, "fuku_return": null},
+        {"key": "秋9~11月", "runs": "37-26-30-196", "win_pct": 12.8, "place_pct": 31.8, "tan_return": 32.2, "fuku_return": 91.0},
+        {"key": "冬12~1月", "runs": "7-2-14-100", "win_pct": 7.2, "place_pct": 14.0, "tan_return": 20.7, "fuku_return": 35.0}
+      ],
+      "shinba": [
+        {"key": "2歳新馬", "runs": "16-15-9-137", "win_pct": 9.0, "place_pct": 17.5, "tan_return": 22.8, "fuku_return": 64.2},
+        {"key": "3歳新馬", "runs": "1-0-0-20", "win_pct": 4.8, "place_pct": 4.8, "tan_return": 13.8, "fuku_return": 6.7}
+      ]
+    },
+    {
+      "file": "IMG_1551.PNG",
+      "type": "profile",
+      "rank": 11,
+      "sire_name": "ルーラーシップ",
+      "sire_name_en": "RULERSHIP",
+      "birth_year": 2007,
+      "coat": "鹿毛",
+      "catchphrase": "ダ新馬戦で穴作製 芝は阪神、ダは札幌が勝率10%超",
+      "stud_fee": null,
+      "total_record": "359-300-308-3133",
+      "pedigree": {"sire": "キングカメハメハ", "dam": "エアグルーヴ", "damsire": "トニービン"},
+      "blood_author": "望田潤",
+      "blood_comment": "サンデー系を抱えた繁殖馬が好相性 母の父ディープインパクトはニックス。イメドルとフジキセキの4分の3同血で、年度代表馬エアグルーヴを抱える。産駒の収得賞金上位33頭はサンデーを抱えた繁殖から誕生した。母の父ディープインパクトはニックス。スレイエフのクロス、ダンジグ、リファール系のステイ肌とは好相性。デピュティミニスター、エービーイー、ブラッシンググルーム、トニービンはイマイチ。",
+      "bet_author": "栗山求",
+      "bet_comment": "4歳時にピーク 芝1600m以上に向く。トビが大きいので芝1600m以上に向くタイプ。2200mの破壊力も強さは素晴らしく、なかでも東京芝2400m、京都の芝2200mは積極的に狙ってみたい。北海道の札幌と函館は、いずれも芝1800mの成績が優秀だが不振。成長力があり4歳時にピークを迎え、上のクラスの壁を突破して昇級戦でもどんどん馬券に。",
+      "aim": "血統 買い→サンデー系を抱えた繁殖、ステイ肌が好相性／消し→トニービンはイマイチ。 馬券 買い→◎4歳時にピーク／◎東京芝2400m、中山と京都の芝2200mは買い／消し→×（低調傾向）"
+    },
+    {
+      "file": "IMG_1552.PNG",
+      "type": "profile",
+      "rank": 12,
+      "sire_name": "サートゥルナーリア",
+      "sire_name_en": "SATURNALIA",
+      "birth_year": 2016,
+      "coat": "黒鹿毛",
+      "catchphrase": "小倉芝は1番が買えるか 芝ダとも1番人気が複勝率7割超",
+      "stud_fee": null,
+      "total_record": "139-?-?-?",
+      "pedigree": {"sire": "ロードカナロア", "dam": "シーザリオ", "damsire": "スペシャルウィーク"},
+      "blood_author": "望田潤",
+      "blood_comment": "ハーツクライとはG1馬が出て黄金配合に トニービンを持つ繁殖との配合はカヴァレリッツァやファムが出て優秀。ロードカナロア×ハーツクライ、スマートストライク×ハーツクライも黄金配合に。ディープインパクト肌やナスペリオン血脈との配合が成功する。クロスは可もなく不可もなし。",
+      "bet_author": "望田潤",
+      "bet_comment": "リーディングサイアーは京都芝外、母父ハーツは阪神芝外。芝の内訳は芝92勝ダ14勝。連対時平均距離は1658m。重賞連対は全て芝外回り。新馬戦から10頭立て以下だと[8-5-3-3]だが、それ以上だと[3-0-3-22.0]。馬群に弱いシーザリオの影響もある。母父ディープは京都芝外、母父ハーツクライは阪神芝外が鬼。少頭数新馬ではシーザリオの揉まれ弱さが...",
+      "aim": "血統 買い→スマートストライクやワイルドアゲインも◎／消し→（記載なし）。 馬券 買い→◎10頭立て以下の少頭数新馬／消し→×馬群に弱いシーザリオ系の多頭数新馬",
+      "recommended_mating": [
+        {"name": "アモーレエテルノの24(牡)", "sire": "ロードカナロア", "damsire_chain": "シーザリオ / ゼンノロブロイ / ヒカルアモーレ", "note": "京都新聞杯2着ヴェローナシチー(父ミルコ)の3/4同血の弟。グレイトフィーヴァー牝系。カナロア×ハーツクライ系黄金配合。ロードカナロア系やランタンキリヤ、ニッカ系と相性が良い牝系。母父5×5を持つのもよい"},
+        {"name": "クロノジェネシスの24(牝)", "sire": "ロードカナロア", "damsire_chain": "バゴ(FR) / クロノロジスト", "note": "ベレシート(父エピファネイア)の3/4同血。コアの姪でクロノジェネシスはG1勝4頭の名牝。サートゥルナーリアはカナロア産駒なので、ハーツクライやオルフェーヴル系の肌との配合が成功する"}
+      ]
+    },
+    {
+      "file": "IMG_1553.PNG",
+      "type": "profile",
+      "rank": 13,
+      "sire_name": "ゴールドシップ",
+      "sire_name_en": "GOLD SHIP",
+      "birth_year": 2009,
+      "coat": "芦毛",
+      "catchphrase": "芝向きで小倉、福島巧者 複勝率が高いのは芝ダとも460kg台",
+      "stud_fee": null,
+      "total_record": "122-?-?-?",
+      "pedigree": {"sire": "ステイゴールド", "dam": "ポイントフラッグ", "damsire": "メジロマックイーン"},
+      "blood_author": "望田潤",
+      "blood_comment": "ヌレイエフ、Bタイムとは好相性 母父のフィリーサイアーぶりで、クラブやPOGで「競走成績優秀な娘」から選ぶのが成功への近道。ヌレイエフ、リファールやストームキャットもこれで拾える。ハイクレム、ヌレイエフ、ブライアンズタイム、デピュティミニスターとは好相性。牡駒はヘイロー~サンデーのクロスがよく走っている。",
+      "bet_author": "栗山求",
+      "bet_comment": "重馬場のローカルの芝長丁場で奮闘 産駒の86%が芝、平均勝ち距離2006mは上位の長さ。芝重賞勝ちの平均上がりは35.1で高速京都外2200m以上が得意で、レース上がりが京都と単勝回収率200%超。ローカル芝2400mは複勝を除けばベタ買いプラス。ダ1600m以下は逃げ追走で連対率3%とサッパリ。",
+      "aim": "血統 買い→牡駒はヘイロー~SSのクロスが走る／消し→（記載なし）。 馬券 買い→◎重馬場のローカル芝長丁場／◎高速京都外2200m以上／消し→×ダ1600m以下の逃げ追走",
+      "recommended_mating": [
+        {"name": "コスモコジオスコの24(牝)", "sire": "ステイゴールド", "damsire_chain": "ポイントフラッグ / Southern Image / Golden Eagle", "note": "コスモキュランダの半妹で、母サザンスピードはフィールドC勝ち馬。母父サウザンプビールベンの母系にもサーアイヴァー系のアウトラインをユーバーに似る"},
+        {"name": "マイネルアリスタの24(牡)", "sire": "ステイゴールド", "damsire_chain": "ポイントフラッグ / ロージズインメイ(USA) / マイネヌーヴェル", "note": "ユーバーレーベンやマイネルファンロンのエンペラー(父ロードカナロア)やマイネルオルフェーヴルの3/4同血の弟。母はミネルバとの配合でPOG向き。母父ロージズインメイはソラと同じ。重厚な牝系なのでPOG向きでちょっと微妙なのだが…。"}
+      ]
+    }
+  ]
+}
