@@ -1207,7 +1207,7 @@
   "キングカメハメハ": {
     "rank": null,
     "catchphrase": null,
-    "aim": null,
+    "aim": "中山ダ単勝回収率205%",
     "pedigree": {
       "sire": "Kingmambo",
       "dam": "マンファスIRE",
@@ -1297,7 +1297,7 @@
   "クロフネ": {
     "rank": null,
     "catchphrase": null,
-    "aim": null,
+    "aim": "ダ1200m単複回収率120%超",
     "pedigree": {
       "sire": "フレンチデピュティUSA",
       "dam": "ブルーアヴェニューUSA",
@@ -1623,5 +1623,1347 @@
       "dam": "チリエージェ",
       "damsire": "サクラバクシンオー"
     }
+  },
+  "バゴ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "函館芝1200m(3-2-1-8)",
+    "pedigree": {
+      "sire": "Nashwan",
+      "damsire": "Nureyev",
+      "dam": "Moonlight's Box",
+      "dam_dam": "Coup de Genie"
+    }
+  },
+  "パドトロワ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "京都ダ1400m(1-3-1-6)",
+    "pedigree": {
+      "sire": "スウェプトオーヴァーボードUSA",
+      "damsire": "フジキセキ",
+      "dam": "グランパドドゥ",
+      "dam_dam": "スターバレリーナ"
+    }
+  },
+  "バンドワゴン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "中京ダ1800m(1-1-1-5)",
+    "pedigree": {
+      "sire": "ホワイトマズルGB",
+      "damsire": "Unbridled's Song",
+      "dam": "ピラミマUSA",
+      "dam_dam": "キャリアコレクションUSA"
+    }
+  },
+  "ハットトリック": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "サンプル不足",
+    "pedigree": {
+      "sire": "サンデーサイレンス",
+      "damsire": "Lost Code",
+      "dam": "トリッキーコードUSA",
+      "dam_dam": "Dam Clever"
+    }
+  },
+  "バトルプラン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "芝の重(2-2-0-7)",
+    "pedigree": {
+      "sire": "エンパイアメーカー",
+      "damsire": "Seeking the Gold",
+      "dam": "Flanders",
+      "dam_dam": "Starlet Storm"
+    }
+  },
+  "バンブーエール": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "東京ダ1300m(1-2-0-4)",
+    "pedigree": {
+      "sire": "アフリートCAN",
+      "damsire": "Rainbow Quest",
+      "dam": "レインボーウッドGB",
+      "dam_dam": "Priceless Fame"
+    }
+  },
+  "ビーチパトロール": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "松山騎手(1-3-4-6)",
+    "pedigree": {
+      "sire": "Lemon Drop Kid",
+      "damsire": "Quiet American",
+      "dam": "Bashful Bertie",
+      "dam_dam": "Clever Bertie"
+    }
+  },
+  "フェノーメノ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "ダート2400m以上(1-7-4-14)",
+    "pedigree": {
+      "sire": "ステイゴールド",
+      "damsire": "デインヒルUSA",
+      "dam": "ディラローシェIRE",
+      "dam_dam": "Sea Port"
+    }
+  },
+  "プリサイスエンド": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "新潟ダ1800m(2-3-5-15)",
+    "pedigree": {
+      "sire": "エンドスウィープUSA",
+      "damsire": "Summing",
+      "dam": "Precisely",
+      "dam_dam": "Crisp 'n Clear"
+    }
+  },
+  "フィレンツェファイア": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "芝1200m牝馬(4-0-0-12)",
+    "pedigree": {
+      "sire": "Poseidon's Warrior",
+      "damsire": "Langfuhr",
+      "dam": "My Every Wish",
+      "dam_dam": "Mille Lacs"
+    }
+  },
+  "フリオーソ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "函館ダ1000m(2-0-2-7)",
+    "pedigree": {
+      "sire": "ブライアンズタイムUSA",
+      "damsire": "Mr. Prospector",
+      "dam": "ファーザUSA",
+      "dam_dam": "Baya"
+    }
+  },
+  "ベストウォーリア": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "小倉ダ1000m(2-1-2-13)",
+    "pedigree": {
+      "sire": "マジェスティックウォリアーUSA",
+      "damsire": "Mr. Greeley",
+      "dam": "フラーテイシャスミスUSA",
+      "dam_dam": "Seductive Smile"
+    }
+  },
+  "ヘンリーバローズ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "京都芝1800m(1-1-1-4)",
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "damsire": "Silver Hawk",
+      "dam": "シルヴァースカヤUSA",
+      "dam_dam": "Boubskaia"
+    }
+  },
+  "ホークビル": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "札幌芝(1-4-0-9)",
+    "pedigree": {
+      "sire": "Kitten's Joy",
+      "damsire": "Giant's Causeway",
+      "dam": "Trensa",
+      "dam_dam": "Serape"
+    }
+  },
+  "マテラスカイ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "中山ダ1200m(2-2-1-8)",
+    "pedigree": {
+      "sire": "Speightstown",
+      "damsire": "Rahy",
+      "dam": "Mostaqeleh",
+      "dam_dam": "Istiqlal"
+    }
+  },
+  "ポエティックフレア": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "東京芝(3-2-2-5)",
+    "pedigree": {
+      "sire": "Dawn Approach",
+      "damsire": "ロックオブジブラルタルIRE",
+      "dam": "Maria Lee",
+      "dam_dam": "Elida"
+    }
+  },
+  "マツリダゴッホ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "鮫島克駿騎手(3-1-2-7)",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "damsire": "Bel Bolide",
+      "dam": "ペイパーレインUSA",
+      "dam_dam": "フローラルマジックUSA"
+    }
+  },
+  "ミッキーグローリー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "ダートの稍重(4-2-1-8)",
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "damsire": "ホワイトマズルGB",
+      "dam": "メリッサ",
+      "dam_dam": "ストーミーラン"
+    }
+  },
+  "ミッキーロケット": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "母父ディープインパクト(15-12-11-45)",
+    "pedigree": {
+      "sire": "キングカメハメハ",
+      "damsire": "Pivotal",
+      "dam": "マネーキャントバイミーラヴIRE",
+      "dam_dam": "Sabreon"
+    }
+  },
+  "メイショウボーラー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "札幌ダ1700m(2-1-1-12)",
+    "pedigree": {
+      "sire": "タイキシャトルUSA",
+      "damsire": "Storm Cat",
+      "dam": "ナイスレイズUSA",
+      "dam_dam": "Nice Tradition"
+    }
+  },
+  "ラニ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "小倉ダ1700m(5-3-1-10)",
+    "pedigree": {
+      "sire": "Tapit",
+      "damsire": "サンデーサイレンスUSA",
+      "dam": "ヘヴンリーロマンス",
+      "dam_dam": "ファーストアクトIRE"
+    }
+  },
+  "ミュゼスルタン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "福島ダ1700m(2-2-0-6)",
+    "pedigree": {
+      "sire": "キングカメハメハ",
+      "damsire": "フレンチデピュティUSA",
+      "dam": "アスクデピュティ",
+      "dam_dam": "マルカマチ"
+    }
+  },
+  "ヤマカツエース": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "新潟芝2000m(1-1-1-2)",
+    "pedigree": {
+      "sire": "キングカメハメハ",
+      "damsire": "グラスワンダーUSA",
+      "dam": "ヤマカツマリリン",
+      "dam_dam": "イクセプトフォーワンダCAN"
+    }
+  },
+  "ラブリーデイ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "阪神芝2000m(2-1-0-6)",
+    "pedigree": {
+      "sire": "キングカメハメハ",
+      "damsire": "ダンスインザダーク",
+      "dam": "ポップコーンジャズ",
+      "dam_dam": "グレイスルーマー"
+    }
+  },
+  "リアルインパクト": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "京都芝1600m(2-1-1-4)",
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "damsire": "Meadowlake",
+      "dam": "トキオリアリティーUSA",
+      "dam_dam": "What a Reality"
+    }
+  },
+  "レインボーライン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "新潟ダ1800m(1-1-0-6)",
+    "pedigree": {
+      "sire": "ステイゴールド",
+      "damsire": "フレンチデピュティUSA",
+      "dam": "レーゲンボーゲン",
+      "dam_dam": "レインボーファスト"
+    }
+  },
+  "レッドスパーダ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "小倉芝1200m(3-4-1-10)",
+    "pedigree": {
+      "sire": "タイキシャトルUSA",
+      "damsire": "Storm Cat",
+      "dam": "バービーキャットUSA",
+      "dam_dam": "Barbarika"
+    }
+  },
+  "リーチザクラウン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "新潟ダ1800m(3-2-0-14)",
+    "pedigree": {
+      "sire": "スペシャルウィーク",
+      "damsire": "Seattle Slew",
+      "dam": "クラウンピース",
+      "dam_dam": "クラシッククラウンUSA"
+    }
+  },
+  "レガーロ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "サンプル数不足",
+    "pedigree": {
+      "sire": "Bernardini",
+      "damsire": "Lemon Drop Kid",
+      "dam": "サンタテレジタUSA",
+      "dam_dam": "Sweet Gold"
+    }
+  },
+  "レッドファルクス": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "新潟ダ1200m(6-0-1-17)",
+    "pedigree": {
+      "sire": "スウェプトオーヴァーボードUSA",
+      "damsire": "サンデーサイレンスUSA",
+      "dam": "ベルモット",
+      "dam_dam": "レガシーオブストレングスUSA"
+    }
+  },
+  "レッドベルジュール": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "中京ダ1400m以下(2-1-0-4)",
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "damsire": "Unbridled's Song",
+      "dam": "レッドファンタジアUSA",
+      "dam_dam": "Cat Chat"
+    }
+  },
+  "ロゴタイプ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "京都ダ1800m(3-2-1-12)",
+    "pedigree": {
+      "sire": "ローエングリン",
+      "damsire": "サンデーサイレンスUSA",
+      "dam": "ステレオタイプ",
+      "dam_dam": "スターバレリーナ"
+    }
+  },
+  "ワールドエース": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "横山武騎手(4-6-5-9)",
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "damsire": "Acatenango",
+      "dam": "マンデラGER",
+      "dam_dam": "Mandellicht"
+    }
+  },
+  "ロージズインメイ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "函館ダ1000m(4-1-0-3)",
+    "pedigree": {
+      "sire": "Devil His Due",
+      "damsire": "Speak John",
+      "dam": "Tell a Secret",
+      "dam_dam": "Secret Retreat"
+    }
+  },
+  "ロジユニヴァース": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "芝未勝利戦(2-0-3-8)",
+    "pedigree": {
+      "sire": "ネオユニヴァース",
+      "damsire": "Cape Cross",
+      "dam": "アコースティクス",
+      "dam_dam": "ソニックGB"
+    }
+  },
+  "ワールドプレミア": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "サンプル不足",
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "damsire": "Acatenango",
+      "dam": "マンデラGER",
+      "dam_dam": "Mandellicht"
+    }
+  },
+  "ディープインパクト": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "牝芝1400m単勝回収率332%超",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "damsire": "Alzao",
+      "dam": "ウインドインハーヘアIRE",
+      "dam_dam": "Burghclere"
+    }
+  },
+  "ハーツクライ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "芝2000mは単勝回収率263%",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "damsire": "トニービンIRE",
+      "dam": "アイリッシュダンス",
+      "dam_dam": "ビューパーダンスUSA"
+    }
+  },
+  "マンハッタンカフェ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "ダ1200m単複回収率150%超",
+    "pedigree": {
+      "sire": "サンデーサイレンス",
+      "damsire": "Law Society",
+      "dam": "サトルチェンジIRE",
+      "dam_dam": "Santa Luciana"
+    }
+  },
+  "ハービンジャー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "福島芝は単複回収率180%超",
+    "pedigree": {
+      "sire": "Dansili",
+      "damsire": "Bering",
+      "dam": "Penang Pearl",
+      "dam_dam": "Guapa"
+    }
+  },
+  "フレンチデピュティ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "芝2200mは複勝率47%",
+    "pedigree": {
+      "sire": "Deputy Minister",
+      "damsire": "Hold Your Peace",
+      "dam": "Mitterand",
+      "dam_dam": "Laredo Lass"
+    }
+  },
+  "シンボリクリスエス": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年のG3で複勝率29%",
+    "pedigree": {
+      "sire": "Kris S.",
+      "damsire": "Gold Meridian",
+      "dam": "Tee Kay",
+      "dam_dam": "Tri Argo"
+    }
+  },
+  "エンパイアメーカー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "中山競馬場は複勝率35%",
+    "pedigree": {
+      "sire": "Unbridled",
+      "damsire": "El Gran Senor",
+      "dam": "Toussaud",
+      "dam_dam": "Image of Reality"
+    }
+  },
+  "ステイゴールド": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "芝1400mは単勝回収率168%超",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "damsire": "デイクタスFR",
+      "dam": "ゴールデンサッシュ",
+      "dam_dam": "ダイナサッシュ"
+    }
+  },
+  "サクラバクシンオー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年はカムニャック(父ブラックタイド)がオークス、サトノレーヴ(父ロードカナロア)は高松宮記念を勝利。26年も年明けフィオライアがシルクロードSを逃げ切る。芝ダートは芝3:ダ1。距離は1200、2000、2400m。ダートは1200、1400mと短め。配合相手はブラックタイドがロードカナロア、芝はレイデオロ。ダートはシルバーステート。騎手は吉田豊。",
+    "pedigree": {
+      "sire": "サクラユタカオー",
+      "dam": "サクラハゴロモ",
+      "damsire": "ノーザンテーストCAN",
+      "damdam": "クリアアンバー"
+    }
+  },
+  "スペシャルウィーク": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年はミッキーファイト(父ドレフォン)が帝王賞、JBCクラシックを連勝。トウシンマカオ、ファウストラーゼンが中央G2勝利。25年も22〜24年同様に芝ダートで芝1:ダ2。距離は芝1400、2000m。ダートは1200、1400m。福島1150mも得意。配合相手はダートがルーラーシップ、デクラレーションオブウォー。芝はなし。騎手は戸崎、松山、高杉。",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "dam": "キャンペーンガール",
+      "damsire": "マルゼンスキー",
+      "damdam": "レディーシラオキ"
+    }
+  },
+  "ゴールドアリュール": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "自身の活躍舞台と同じく、25年も芝1勝に対しダート53勝とほぼダートでの勝ち鞍。ホウオウルーレット(父ロージズインメイ)がシリウスS、浦和記念と連勝。距離はダートは全方位型、阪神ダ2000m。阪神ダ1800mは優秀ながら東京2100m、新潟ダ1800mは不得手。配合相手はタワーオブロンドン、ナダル。騎手は松山、三浦皇成。厩舎は矢野英、森田。",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "dam": "ニキーヤUSA",
+      "damsire": "Nureyev",
+      "damdam": "Reluctant Guest"
+    }
+  },
+  "フジキセキ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年はペリエール(父ヘニーヒューズ)がエルムSを勝利など芝ダートで芝1:ダ5とダート偏重の傾向がさらに強くなった。距離はダートが全方位型も1200mと2000m超は不振。コースは新潟ダ1800m、小倉ダ1700m。芝は2000m。配合相手はダートがデクラレーションオブウォー、モズアスコット。芝がルーラーシップ。騎手は永島、横山武。",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "dam": "ミルレーサーUSA",
+      "damsire": "Le Fabuleux",
+      "damdam": "Marston's Mill"
+    }
+  },
+  "アグネスタキオン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年はドンインザムードがレパードS、ワイドラトゥールが愛知杯を勝利。芝ダートは拮抗。距離は芝がワイドラトゥール得意の1400m、2000m。ただし2000mは2着が1着の3倍と勝ち切れない。ダートは1600、1700m。配合相手は芝はモーリス、エピファネイア、ダートはホッコータルマエ。騎手は横山武、三浦皇成。厩舎は今野、萩原。",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "dam": "アグネスフローラ",
+      "damsire": "ロイヤルスキーUSA",
+      "damdam": "アグネスレディー"
+    }
+  },
+  "ゼンノロブロイ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年はシリウスコルト(父マクフィ)が新潟大賞典を勝利。年明けゲルチュタール(父ブリックスアンドモルタル)が日経新春杯を制した。芝ダートでは芝優勢で、距離は芝2000、2400m。ダート1600m。配合相手は芝がエキサイトバイオのレイデオロ、ミントラザットのエピファネイア。ダートはホッコータルマエ。騎手は戸崎。厩舎は松永幹。",
+    "pedigree": {
+      "sire": "サンデーサイレンスUSA",
+      "dam": "ローミンレイチェルUSA",
+      "damsire": "マイニングUSA",
+      "damdam": "One Smart Lady"
+    }
+  },
+  "アロゲート": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "デビュー2戦目の初勝利から破竹の7連勝でBCクラシック、ペガサスWC、ドバイワールドCに勝利。1年足らずで米国賞金王に。産駒は勝つときは派手な人気先行タイプが多く、馬券は狙いづらい。芝もこなすが、ダートマイルから1800mが基本。25年日本ではミスティックロアが久々復帰も故障で引退。アッシュバニバルは3連勝でOP入りもそこが壁。産駒重賞勝ちも遠い。",
+    "pedigree": {
+      "sire": "Unbridled's Song",
+      "dam": "Bubbler",
+      "damsire": "Distorted Humor",
+      "damdam": "Grechelle"
+    }
+  },
+  "アーミーミュール": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "2歳トレーニングセールの高額取引馬。3歳4月のデビュー戦、スタートは今一つも、持ち前のスピードで8馬身差の圧勝。長期休養後2戦目4歳1月のレースも圧勝。重賞初挑戦のカーターHでは好位追走から直線入口で先頭、後続を突き放した。爆発的なスピードの持ち主だが、揉まれたときには一抹の不安が残る父系。日本ではジェネラーレがダートスプリント3勝クラスで奮闘。",
+    "pedigree": {
+      "sire": "Friesan Fire",
+      "dam": "Crafty Toast",
+      "damsire": "Crafty Prospector",
+      "damdam": "Give a Toast"
+    }
+  },
+  "オーセンティック": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "9月にコロナ無観客ケンタッキーダービーに勝ち、同年BCクラシックは逃げ切り。史上4頭目の同一年両レース制覇。プリークネスSでは牝馬のスイススカイダイバーと一騎打ちに持ち込みながらクビ差敗戦。スピード豊かで仕上がり早。距離の融通性も高そう。産駒2世代目から2歳G1勝ち馬を出す。26年もシヴァージの半弟ウェストウッドがG2に勝つなど好調ぶりは持続。",
+    "pedigree": {
+      "sire": "Into Mischief",
+      "dam": "Flawless",
+      "damsire": "Mr. Greeley",
+      "damdam": "Oyster Baby"
+    }
+  },
+  "バーイード": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "輸入種牡馬フクムの半弟で、2022年全欧年度代表馬。どんな位置からでも競馬が出来るレースセンスと優れたスピードを武器に3歳6月のデビューから6つのG1含み10連勝。4歳7月のサセックスSでは日本馬バスラットレオンを一蹴している。父は距離不安を囁かれながらも英国ダービー、凱旋門賞に勝ち、祖母は米芝牝馬チャンピオン。日本の高速馬場に対する適性はありそうだ。",
+    "pedigree": {
+      "sire": "Sea The Stars",
+      "dam": "Aghareed",
+      "damsire": "Kingmambo",
+      "damdam": "Lahudood"
+    }
+  },
+  "ブルーポイント": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "先行力を武器に2歳8月シムグラックSで重賞初勝利。4歳6月のキングススタンドSでG1ウイナーの仲間入りを果たし、5歳時には、初日のキングススタンドSと5日目のダイヤモンドジュビリーSの両方を制して史上2頭目となるロイヤルアスコット「スプリントダブル」も達成。芝もダートもこなすスプリンター。日本では唯一の中央勝ち馬マックアルイーンが芝1200m3勝クラスで連対。",
+    "pedigree": {
+      "sire": "Shamardal",
+      "dam": "Scarlett Rose",
+      "damsire": "Royal Applause",
+      "damdam": "Billie Blue"
+    }
+  },
+  "ボルトドーロ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "2歳8月のデビュー戦を圧勝後、デルマーフューチュリティは後方から追い上げG1初制覇。本来の先行力を発揮したフロントランナーSは圧勝。サンタアニタダービーはジャスティファイの2着もケンタッキーダービーは大敗。実績はダート中距離だが、この父系は芝への対応力がある。日本では25年フルミネブルがダートマイルで新馬勝ち、フロムダスクは芝マイルで3勝クラス突破。",
+    "pedigree": {
+      "sire": "Medaglia d'Oro",
+      "dam": "Globe Trot",
+      "damsire": "A.P. Indy",
+      "damdam": "Trip"
+    }
+  },
+  "キャンディライド": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "南米アルゼンチンの伝説的な名馬。北米移籍後も圧倒的なスピードを発揮して活躍、種牡馬として米国賞金王となったガンランナーを出す。一本調子のスピードを伝えるパワー型。芝適性もあるが、瞬発力に欠くので洋芝や湿ったダートをよく得意とする。晩成型というよりもレースに慣れするのに時間がかかる産駒が多い。日本では道営所属キャンディドライヴが25年盛岡クラスターCで2着。",
+    "pedigree": {
+      "sire": "Ride the Rails",
+      "dam": "Candy Girl",
+      "damsire": "Candy Stripes",
+      "damdam": "City Girl"
+    }
+  },
+  "シャラタン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "3歳2月にサンタアニタ競馬場でデビュー。快足を武器に不敗のままアーカンソーダービーを制したが、のちに違法薬物が検出されて失格。その後、脚部不安を発症してひと息入れたがマリブSで復活V。翌年のサウジCでは名馬ミシュリフに1馬身差敗れたが後続を大きく引き離した。4度ある1位入線の合計着差は25馬身以上。父の産駒にモズスーパーフレア、マテラスカイ。ダートの短距離が◎。",
+    "pedigree": {
+      "sire": "Speightstown",
+      "dam": "Authenticity",
+      "damsire": "Quiet American",
+      "damdam": "Court of Appeal"
+    }
+  },
+  "シティオブライト": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年は23年2歳王者フィアースネスがパシフィッククラシックG1を制し3年連続のG1勝ち(BCクラシックはフォーエバーヤングの3着)と「タフさ」が再評価された。自身は3歳12月マリブSを逃げ切りG1初制覇。翌年3月トリプルベンドSも早めの先頭からG1連勝。この年BCダートマイルを快勝、引退戦ペガサスWCも2番手から圧勝。基本はダート中距離血統だが日本ではマイル以下の短距離指向。",
+    "pedigree": {
+      "sire": "Quality Road",
+      "dam": "Paris Notion",
+      "damsire": "デヒアUSA",
+      "damdam": "Fabulous Notion"
+    }
+  },
+  "コンプレキシティ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "シャンペンSを圧勝し、不敗で挑んだBCジュヴェナイルは2番人気。果敢にハナを切ったが4角手前で交わされて失速。その後、順調さを欠くも、ケルソHで4角手前で先頭を奪い返して押し切り勝ち。爆発的なスピードがあり、マイル以下を使われることが多かった。基本はダートのスプリンター〜マイルだが、英G2を勝つなど芝も走る。日本唯一の産駒シンフォーエバーのイメージどおり。",
+    "pedigree": {
+      "sire": "Maclean's Music",
+      "dam": "Goldfield",
+      "damsire": "Yes It's True",
+      "damdam": "Folly Dollar"
+    }
+  },
+  "コンスティテューション": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "3歳1月にデビュー。不敗の3連勝でクラシック候補に躍り出たが、骨折により3冠は断念。4歳2月のドンHで復活Vを遂げた。父タピットはダート指向が強いが、本馬は芝の活躍馬も多数。また、チリのシャトル先でも多くのG1馬を出し、適応力の高さを証明。中央では25年サークルオブジョイが芝長距離で2勝、シンビリーブはダ中距離3勝クラスと芝ダ不問。距離はマイル前後から中距離。",
+    "pedigree": {
+      "sire": "Tapit",
+      "dam": "Baffled",
+      "damsire": "Distorted Humor",
+      "damdam": "Surf Club"
+    }
+  },
+  "コーニッシュ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "21年全米2歳牡馬チャンピオン。抜群のダッシュ力とスピードを武器に2歳9月のデビュー戦から2つのG1含み3戦3勝。不敗のまま2歳王者となったが管理調教師のライセンス停止処分の影響で転厩を余儀なくされ、復帰初戦で大差のしんがり負け。そのまま引退となった。ダート適性の高いQuality Road系で仕上がりの早いスピード血統。どちらかと言えばハンデキャップタイプかもしれない。",
+    "pedigree": {
+      "sire": "Quality Road",
+      "dam": "Wasted Tears",
+      "damsire": "Najran",
+      "damdam": "Wishes and Roses"
+    }
+  },
+  "カーリン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "初年度からパレスマリス(日本輸入種牡馬)を出し、25年はジャーナリズムがプリークネスS、ハスキルSなど米3歳戦線で活躍。日本もダート専門。距離は1600〜1800mとやや長めで広いコースに向く。大将格のビヨンドザファザーは大井移籍でエリカヴェネチアが2勝クラスの中距離で奮闘。26年3歳馬2頭に期待がかかる。配合相手はノーザンダンサー系が好相性。",
+    "pedigree": {
+      "sire": "Smart Strike",
+      "dam": "Sherriff's Deputy",
+      "damsire": "Deputy Minister",
+      "damdam": "Barbarika"
+    }
+  },
+  "ダークエンジェル": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "2007年、2歳でG1を制覇した後、3歳になる前に早々に種牡馬入りが決定。スピードを武器とし、産駒にこの特性を伝える。24年に英愛リーディングに輝く。2026年は21歳という年齢も考慮され種付料は割安に。日本ではマッドクール、シュバルツカイザーの稼ぎ頭が引退。芝向きで距離は1200m。一度成績が下がっても巻き返す力を持つ。配合次第では距離はもう少しこなせる。",
+    "pedigree": {
+      "sire": "Acclamation",
+      "dam": "Midnight Angel",
+      "damsire": "Machiavellian",
+      "damdam": "Night At Sea"
+    }
+  },
+  "ドバウィ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "わずか1世代しかいないドバイミレニアムの代表産駒。2025年だけでノータブルスピーチやレベルスロマンス、ドラクロワなど6頭のG1勝馬を送り出した。さらに1歳馬セリの平均落札価格で5年連続欧州トップ、2025年産駒重賞勝馬が通算で200頭などいくつもの金字塔を立てた欧州の「生ける伝説」。日本では25年中央未勝利で現役不在に。最近は産駒が初勝利まで遠い傾向。芝ダ不問のマイラー。",
+    "pedigree": {
+      "sire": "Dubai Millennium",
+      "dam": "Zomaradah",
+      "damsire": "Deploy",
+      "damdam": "Jawaher"
+    }
+  },
+  "アースライト": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "2歳6月に仏国でデビューし、仏国のモルニ賞、2歳コースレコード決着となった英国ミドルパークS含め2歳時は5戦5勝。3歳シーズンは7月の準重賞から始動しデビューからの連勝を6としたが、古馬を相手にしたモーリスドゲスト賞で初の敗戦を喫す。パンデミックの影響などもあって不運な現役生活だったが、仕上がりの早いマイラー血統。日本に向きそうな血統構成。",
+    "pedigree": {
+      "sire": "Shamardal",
+      "dam": "Winters Moon",
+      "damsire": "New Approach",
+      "damdam": "Summertime Legacy"
+    }
+  },
+  "エッセンシャルクオリティ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "近税にコントレイルがいる米国2歳、3歳牡馬チャンピオン。BCジュヴェナイル、ベルモントS、トラヴァーズSなど王道路線を勝ち進み、負けたのは大外枠に泣かされたケンタッキーダービー3着と引退レースBCクラシック3着のみ。産駒にも豊富なスタミナを伝えてくれるはず。26年3歳2頭中ロードヴェリタスがデビューもややスピード負けの感。使いつつ良くなるタイプか。",
+    "pedigree": {
+      "sire": "Tapit",
+      "dam": "Delightful Quality",
+      "damsire": "Elusive Quality",
+      "damdam": "Contrive"
+    }
+  },
+  "ファー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "2、3歳時は各1戦、4歳5月不敗のまま3勝目。以降はナサニエル、フランケルらが待つG1に挑戦し、5戦2着4回3着1回。5歳初戦のロッキンジSでは中位追走、早め先頭から久々に勝利すると、脚部不安明けの英チャンピオンSも快勝。母はドイツ賞、オイロパ賞勝ち馬とスタミナのある独血統。受胎率の問題で産駒数が限られるなか欧州でマイルG1勝馬を多数輩出。オフトレイルがスワンS勝ち。",
+    "pedigree": {
+      "sire": "Pivotal",
+      "dam": "Gonbarda",
+      "damsire": "Lando",
+      "damdam": "Gonfalon"
+    }
+  },
+  "フライトライン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "2022年全米年度代表馬。ファシグ・ティプトン社の1歳セレクトセールにおいて100万ドルで落札。3歳4月のデビュー戦を圧勝した後、骨折の憂き目にあうなどクラシックには縁がなく、わずか6戦のみの競走生活だったが、その合計着差は71馬身差。この年ダート馬史上最高レーティング140ポンドを獲得した。高い身体能力と優れた心肺機能、旺盛な競走欲を併せ持つ伝説の名馬。",
+    "pedigree": {
+      "sire": "Tapit",
+      "dam": "Feathered",
+      "damsire": "Indian Charlie",
+      "damdam": "Receipt"
+    }
+  },
+  "フランケル": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "10のG1を含む重賞12勝。その多くが2着馬を3馬身以上突き放したもの。26年中山金杯で4連勝中カネラフィーナが4着。OP緒戦のシャイニングソードは日経新春杯8着と人気で敗れるパターンが目に付く。一方でレイベリングが睦月Sを12人気で逃げ切るなど、つかめない一面も。距離はスプリンターと中距離型に二分の傾向は変わらず、ダートはイマイチ。配合相手はミスプロ系と好相性。",
+    "pedigree": {
+      "sire": "Galileo",
+      "dam": "Kind",
+      "damsire": "デインヒルUSA",
+      "damdam": "Rainbow Lake"
+    }
+  },
+  "フロステッド": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "代表産駒トラヴェルコラムのようにダ中距離を好位から力でねじ伏せるのが基本。自身は連勝を重ねるタイプではなく、強さと急成が同居。産駒はまだG1未勝利も、25年は8頭のブラックタイプ勝ち馬を出す。日本では「ジャスパー」クローネ&ノワール、ディビネの芝短距離型、ドラゴンウェルズやゲッティヴィラのダ短距離型に分かれる。早期から活躍できるスピードが魅力。",
+    "pedigree": {
+      "sire": "Tapit",
+      "dam": "Fast Cookie",
+      "damsire": "Deputy Minister",
+      "damdam": "Fleet Lady"
+    }
+  },
+  "ガイヤース": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "5歳時にインターナショナルS、エクリプスS、コロネーションCとG1を3連勝したスピードとスタミナを兼備するA級馬。25年〜26年初頭と初年度、2世代目で北南半球でG1馬を出し、「ドバウィ後継」として好スタートを切る。日本では26年3歳ザーフィルが2歳新馬勝ち。この1頭では比較困難も芝の中距離が主戦場となりそう。決して仕上がり早ではないが能力だけで押し切るタイプ。",
+    "pedigree": {
+      "sire": "Dubawi",
+      "dam": "Nighttime",
+      "damsire": "Galileo",
+      "damdam": "Caumshinaun"
+    }
+  },
+  "グレンイーグルス": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "25年はカランダガンが芝現役最強馬の一頭としてその名を世界に轟かせた。自身は3歳時史上8頭目の英愛2000ギニー制覇含めマイルG1を3連勝。日本ではショックアクションの仕上がり早の早期完成型のイメージだが、エメラルドビーチのようにダート短距離の晩成型も出す。25年ジャパンCでのあの快走を見れば、芝本格派の輸入産駒登場を待たずにはいられない。",
+    "pedigree": {
+      "sire": "Galileo",
+      "dam": "You'resothrilling",
+      "damsire": "Storm Cat",
+      "damdam": "Mariah's Storm"
+    }
+  },
+  "ゴールデンパル": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "米国2歳4月のデビュー戦2着後、英国ロイヤルアスコットのノーフォークSに挑み2着。世界を震撼させた。米国帰国後一貫し芝短距離を使われ、敵陣営から「ロケットシップ(宇宙船)」と言われるほど抜群のダッシュ力と加速力、粘り強さを武器に活躍。逃げ馬の宿命で勝つ時の鮮やかさと負ける時の潔さを併せ持っていた。仕上がり早のスピード血統。すんなりいければ中距離も。",
+    "pedigree": {
+      "sire": "Uncle Mo",
+      "dam": "Lady Shipman",
+      "damsire": "Midshipman",
+      "damdam": "Sumthingtotalkabt"
+    }
+  },
+  "グローバルキャンペーン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "早くから期待されていた良血馬だが、3歳クラシックには不参加でケンタッキーダービーと同時期に行われるピーターパンSで重賞初勝利。デビュー9戦目、G1初挑戦のウッドワードHを逃げ切ってG1ウイナーの仲間入りを果たす。半兄Bolt d'Oroの産駒にフロムダスクがいるものの、こちらはダート向き、距離の融通は利くはずだが、やや一本調子の面があるかもしれない。",
+    "pedigree": {
+      "sire": "Curlin",
+      "dam": "Globe Trot",
+      "damsire": "A.P. Indy",
+      "damdam": "Trip"
+    }
+  },
+  "グッドマジック": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "初年度産駒と2年目産駒からクラシック勝ち馬を輩出。カーリン系らしい仕上がりの早さと強さを伝える。自身は2017年全米2歳牡馬チャンピオン。未勝利で挑んだBCジュヴェナイルを圧勝。ケンタッキーダービーは三冠馬ジャスティファイの2着。中央では26年3歳世代5頭も人気のわりに今ひとつ突き抜けない。コスモジンバックのように古馬で徐々に力を付けるイメージか。ダ中距離向き。",
+    "pedigree": {
+      "sire": "Curlin",
+      "dam": "Glinda the Good",
+      "damsire": "ハードスパンUSA",
+      "damdam": "Magical Flash"
+    }
+  },
+  "ガンランナー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "先行力を武器に4歳は6戦5勝。BCクラシックでアロゲートを退けた。翌年ペガサスワールドCは2番手から早め先頭で有終の美を飾る。25年は米国2歳G1勝ち馬2頭などを出し、勢いは止まらない。日本では26年3歳世代にフィンガー(ブルーバードC)、新馬勝ちアメリカンスタイル、ジャスティンダラスなど駒が揃う。ダ1600〜1800mがベスト。広いコースに向き、小回りはイマイチ。",
+    "pedigree": {
+      "sire": "Candy Ride",
+      "dam": "Quiet Giant",
+      "damsire": "Giant's Causeway",
+      "damdam": "Quiet Dance"
+    }
+  },
+  "ハリーエンジェル": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "デビュー2戦目ミルリーフSで重賞初勝利。ゴドルフィンへトレード後ジュライCでは2番手から抜け出し、不敗の6連勝中だったカラヴァッジオに初黒星をつけ、不良馬場スプリントCは逃げて圧勝。父系らしい仕上がり早のスプリンターでシャトル先の豪州でG1馬を出すなど高評価。芝向きでダートは疑問。25年中央ではコウセキが芝1200m2勝クラスで先行馬として活躍。",
+    "pedigree": {
+      "sire": "Dark Angel",
+      "dam": "Beatrix Potter",
+      "damsire": "Cadeaux Genereux",
+      "damdam": "Great Joy"
+    }
+  },
+  "イフラージ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "G23勝、シュライC2着とマイラーとしてはBの上程度だったが、産駒デビューの2010年に37頭の2歳戦勝ち馬を出し、欧州繋養の新種牡馬最多記録を更新。仕上がり早の芝のスプリント〜マイラー血統。2026年に25歳と長老に。中央現役は「チームゴドルフィン」関連3頭。アンバドゥが休みを挟みつつ4戦3勝。芝マイルOPまで行けそうな器。芝寄りでスプリントからマイルあたりが守備範囲。",
+    "pedigree": {
+      "sire": "Zafonic",
+      "dam": "Pastorale",
+      "damsire": "Nureyev",
+      "damdam": "Park Appeal"
+    }
+  },
+  "ジャッククリストファー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": "ファシグティプトン社セールで13万5000ドル落札後2歳8月にサラトガでデビュー。溢れるようなスピードと逃げなくても競馬が出来るレースセンスを武器にキャリアを積み上げた。唯一の敗戦はレコード決着となるようなハイペースを追いかけたハスケルSのみ。5勝合計着差は26馬身半。母はストリートボスの半妹で父よりは対応距離は長め、ハンデキャップタイプのダート短〜中距離型。",
+    "pedigree": {
+      "sire": "Munnings",
+      "dam": "Rushin No Blushin",
+      "damsire": "Half Ours",
+      "damdam": "Blushing Oggyian"
+    }
+  },
+  "ジャスティファイ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Scat Daddy",
+      "dam": "Stage Magic",
+      "damsire": "Ghostzapper"
+    },
+    "baba_slider": 2
+  },
+  "カンタロス": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Lion Heart",
+      "dam": "Contessa Halo",
+      "damsire": "サザンヘーロー USA"
+    },
+    "baba_slider": 2
+  },
+  "コザン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Distorted Humor",
+      "dam": "Delta Princess",
+      "damsire": "A.P. Indy"
+    },
+    "baba_slider": 2
+  },
+  "キングマン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Invincible Spirit",
+      "dam": "Zenda",
+      "damsire": "Zamindar"
+    },
+    "baba_slider": 1
+  },
+  "リアルスマップ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Unbridled's Song",
+      "dam": "Miss Macy Sue",
+      "damsire": "Trippi"
+    },
+    "baba_slider": 2
+  },
+  "ライフイズグッド": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Into Mischief",
+      "dam": "Beach Walk",
+      "damsire": "Distorted Humor"
+    },
+    "baba_slider": 2
+  },
+  "ラッキーヴェガ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Lope de Vega",
+      "dam": "Queen of Carthage",
+      "damsire": "Cape Cross"
+    },
+    "baba_slider": 2
+  },
+  "マクリーンズミュージック": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Distorted Humor",
+      "dam": "Forest Music",
+      "damsire": "Unbridled's Song"
+    },
+    "baba_slider": 2
+  },
+  "マリブムーン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "A.P. Indy",
+      "dam": "Macoumba",
+      "damsire": "Mr. Prospector"
+    },
+    "baba_slider": 2
+  },
+  "マニングス": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Speightstown",
+      "dam": "La Comete",
+      "damsire": "Holy Bull"
+    },
+    "baba_slider": 2
+  },
+  "マキシマムセキュリティ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "New Year's Day",
+      "dam": "Anashed",
+      "damsire": "Cresta Lil"
+    },
+    "baba_slider": 2
+  },
+  "マックスフィールド": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Street Sense",
+      "dam": "Velvety",
+      "damsire": "Bernardini"
+    },
+    "baba_slider": 2
+  },
+  "マッキンジー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Street Sense",
+      "dam": "Petionville",
+      "damsire": "Runaway Model"
+    },
+    "baba_slider": 2
+  },
+  "メンデルスゾーン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Scat Daddy",
+      "dam": "Leslie's Lady",
+      "damsire": "Tricky Creek"
+    },
+    "baba_slider": 2
+  },
+  "ミトーリ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Eskendereya",
+      "dam": "Indian Miss",
+      "damsire": "Indian Charlie"
+    },
+    "baba_slider": 2
+  },
+  "ミスティックガイド": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Ghostzapper",
+      "dam": "Music Note",
+      "damsire": "A.P. Indy"
+    },
+    "baba_slider": 1
+  },
+  "ニューベイ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Dubawi",
+      "dam": "Cinnamon Bay",
+      "damsire": "Trellis Bay"
+    },
+    "baba_slider": 2
+  },
+  "ナイトオブサンダー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Dubawi",
+      "dam": "Forest Storm",
+      "damsire": "Galileo"
+    },
+    "baba_slider": 2
+  },
+  "ノットディスタイム": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Giant's Causeway",
+      "dam": "Miss Macy Sue",
+      "damsire": "Trippi"
+    },
+    "baba_slider": 3
+  },
+  "ノーネイネヴァー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Scat Daddy",
+      "dam": "Cat's Eye Witness",
+      "damsire": "Elusive Quality"
+    },
+    "baba_slider": 3
+  },
+  "ナイキスト": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Uncle Mo",
+      "dam": "Seeking Gabrielle",
+      "damsire": "Forestry"
+    },
+    "baba_slider": 3
+  },
+  "パレスピア": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Kingman",
+      "dam": "Beach Frolic",
+      "damsire": "Nayef"
+    },
+    "baba_slider": 3
+  },
+  "ピナトゥボ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Shamardal",
+      "dam": "Lava Flow",
+      "damsire": "Dalakhani"
+    },
+    "baba_slider": 3
+  },
+  "プラクティカルジョーク": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Into Mischief",
+      "dam": "Halo Humor",
+      "damsire": "Distorted Humor"
+    },
+    "baba_slider": 3
+  },
+  "クオリティロード": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Elusive Quality",
+      "dam": "Kobla",
+      "damsire": "Strawberry Road"
+    },
+    "baba_slider": 3
+  },
+  "サクソンウォリアー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "dam": "Maybe",
+      "damsire": "Galileo"
+    },
+    "baba_slider": 3
+  },
+  "シャラー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Invincible Spirit",
+      "dam": "Ghurra",
+      "damsire": "War Chant"
+    },
+    "baba_slider": 3
+  },
+  "ショウケイシング": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Oasis Dream",
+      "dam": "Arabesque",
+      "damsire": "Zafonic"
+    },
+    "baba_slider": 2
+  },
+  "シューニ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Pivotal",
+      "dam": "Sichilla",
+      "damsire": "Danehill"
+    },
+    "baba_slider": 3
+  },
+  "スパイツタウン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Gone West",
+      "dam": "Silken Cat",
+      "damsire": "Storm Cat"
+    },
+    "baba_slider": 3
+  },
+  "セントマークスバシリカ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Siyouni",
+      "dam": "Cabaret",
+      "damsire": "Galileo"
+    },
+    "baba_slider": 3
+  },
+  "スタディオブマン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "ディープインパクト",
+      "dam": "セカンドハピネス USA",
+      "damsire": "Storm Cat"
+    },
+    "baba_slider": 3
+  },
+  "タピット": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Pulpit",
+      "dam": "Tap Your Heels",
+      "damsire": "Unbridled"
+    },
+    "baba_slider": 3
+  },
+  "ティズザロー": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Constitution",
+      "dam": "Tiznow",
+      "damsire": "Gin Running"
+    },
+    "baba_slider": 3
+  },
+  "トゥーダーンホット": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Dubawi",
+      "dam": "Dar Re Mi",
+      "damsire": "Singspiel"
+    },
+    "baba_slider": 3
+  },
+  "トワーリングキャンディ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Candy Ride",
+      "dam": "House of Danzing",
+      "damsire": "Chester House"
+    },
+    "baba_slider": 3
+  },
+  "ヴェコマ": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Candy Ride",
+      "dam": "Mona de Momma",
+      "damsire": "Speightstown"
+    },
+    "baba_slider": 2
+  },
+  "ヴォラタイル": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Violence",
+      "dam": "Melody Lady",
+      "damsire": "Unbridled's Song"
+    },
+    "baba_slider": 2
+  },
+  "ウォーフロント": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Danzig",
+      "dam": "Starry Dreamer",
+      "damsire": "Rubiano"
+    },
+    "baba_slider": 2
+  },
+  "ウートンバセット": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Iffraaj",
+      "dam": "Balladonia",
+      "damsire": "Primo Dominie"
+    },
+    "baba_slider": 2
+  },
+  "リトンタイクーン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Iglesia",
+      "dam": "Party Miss",
+      "damsire": "Kenmare"
+    },
+    "baba_slider": 1
+  },
+  "ヤウポン": {
+    "rank": null,
+    "catchphrase": null,
+    "aim": null,
+    "pedigree": {
+      "sire": "Uncle Mo",
+      "dam": "Modification",
+      "damsire": "Vindication"
+    },
+    "baba_slider": 3
   }
 }

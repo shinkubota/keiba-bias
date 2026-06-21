@@ -91,13 +91,57 @@ def main():
     raws = sorted(TB.glob("raw_*.json"))
     sires = {}  # name -> aggregated record
 
-    long_rows = []  # for CSV
+    long_rows = []     # for CSV (詳細成績)
+    catalog_rows = []  # for CSV (名鑑: af1/2/3の複数頭ページ)
+
+    def default_rec(name):
+        return {
+            "sire_name": name, "rank": None, "sire_name_en": None,
+            "birth_year": None, "catchphrase": None,
+            "pedigree": {}, "blood_comment": None, "bet_comment": None,
+            "aim": None, "cats": defaultdict(dict),
+            "source_images": [],
+        }
+
     for f in raws:
         try:
             data = json.load(open(f))
         except Exception as e:
             print(f"skip {f.name}: {e}"); continue
         for img in data.get("images", []):
+            # 名鑑形式(1ページに複数種牡馬: sires リスト)
+            if isinstance(img.get("sires"), list):
+                for s in img["sires"]:
+                    nm = (s.get("sire_name") or "").strip()
+                    if not nm: continue
+                    ped = s.get("pedigree") or {}
+                    apt_slider = s.get("aptitude") or {}
+                    catalog_rows.append({
+                        "sire": nm,
+                        "section": img.get("section") or img.get("page_title") or "",
+                        "line": s.get("sire_line") or s.get("line") or "",
+                        "country": s.get("country") or s.get("origin") or "",
+                        "sire": nm,
+                        "f_sire": ped.get("sire",""),
+                        "f_dam": ped.get("dam",""),
+                        "f_damsire": ped.get("damsire",""),
+                        "baba_pos": apt_slider.get("baba_pos",""),
+                        "dirt_pos": apt_slider.get("dirt_pos",""),
+                        "distance_pos": apt_slider.get("distance_pos",""),
+                        "catchphrase": s.get("catchphrase") or "",
+                        "aim": s.get("aim") or "",
+                        "comment": (s.get("comment") or s.get("memo") or "")[:200],
+                    })
+                    # sire_aptitudeにテキスト系メタを登録(未登録時のみ)
+                    rec = sires.setdefault(nm, default_rec(nm))
+                    for k in ("catchphrase","aim","sire_name_en","birth_year"):
+                        if s.get(k) and not rec.get(k): rec[k] = s[k]
+                    if ped and not rec["pedigree"]: rec["pedigree"] = ped
+                    # 重馬場スライダー(1=得意)を道悪ヒントとして保持
+                    if apt_slider.get("baba_pos") is not None:
+                        rec["baba_slider"] = apt_slider.get("baba_pos")
+                continue
+
             if img.get("type") not in ("profile","data"): continue
             name = img.get("sire_name")
             if not name: continue
@@ -157,6 +201,18 @@ def main():
             w.writerow(r)
     print(f"saved: {csv_path} ({len(long_rows)} rows)")
 
+    # --- 名鑑CSV(af1/2/3の複数頭ページ) ---
+    if catalog_rows:
+        cat_path = TB / "trueblood_catalog.csv"
+        fields = ["sire","section","line","country","f_sire","f_dam","f_damsire",
+                  "baba_pos","dirt_pos","distance_pos","catchphrase","aim","comment"]
+        with open(cat_path, "w", newline="", encoding="utf-8") as fp:
+            w = csv.DictWriter(fp, fieldnames=fields, extrasaction="ignore")
+            w.writeheader()
+            for r in sorted(catalog_rows, key=lambda x: x["sire"]):
+                w.writerow(r)
+        print(f"saved: {cat_path} ({len(catalog_rows)} sires in catalog)")
+
     # --- 予想取込用 正規化JSON ---
     apt = {}
     for name, rec in sires.items():
@@ -167,6 +223,8 @@ def main():
             "aim": rec.get("aim"),
             "pedigree": rec.get("pedigree"),
         }
+        if rec.get("baba_slider") is not None:
+            entry["baba_slider"] = rec["baba_slider"]  # 1=道悪得意 (名鑑由来)
         # 脚質: 複勝率が最も高い脚質
         pace = {}
         for skey, v in cats.get("pace", {}).items():
