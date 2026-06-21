@@ -12,3 +12,4 @@ app/cache/
 # Python
 __pycache__/
 *.pyc
+/trueblood/

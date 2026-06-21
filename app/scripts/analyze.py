@@ -87,6 +87,17 @@ def lineage_of(sire_name):
     if k in LINEAGE_FB: return LINEAGE_FB[k]
     return None
 
+# trueblood(パーフェクト種牡馬辞典)由来の種牡馬適性データ
+_SIRE_APT = None
+def sire_aptitude(name):
+    """種牡馬名→{rank,catchphrase,aim,baba_place,course_place,pace_place}。無ければNone。"""
+    global _SIRE_APT
+    if _SIRE_APT is None:
+        p = ROOT/"data"/"memory"/"trueblood"/"sire_aptitude.json"
+        try: _SIRE_APT = json.loads(p.read_text(encoding="utf-8"))
+        except Exception: _SIRE_APT = {}
+    return _SIRE_APT.get(clean_sire(name)) or _SIRE_APT.get(name)
+
 # ── ユーティリティ ────────────────────────────────────────────
 def load_horses(date_str):
     p = ROOT/"data"/f"horses_{date_str}.json"
@@ -567,7 +578,7 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     # 弱因子(削除): 軽斤量×0.69, 展開向き×0.88
     weights = {"gate":3, "sire":3, "broodmare":2, "prev":3, "weight":0,
                "agari":2, "stable":5, "class":1, "pace_fit":0, "baba":4,
-               "cal":1}   # ★Calimero穴予想知見の係数。0で無効、1で標準。
+               "cal":1, "sire_tb":2}   # sire_tb=trueblood種牡馬馬場適性(道悪巧者)
 
     # 斤量: 性別基準(牡58/牝56)より明確に軽い場合のみ「軽斤量」と評価
     # かつレース内に有意な斤量差があるときだけ（全頭同斤量なら無意味）
@@ -614,6 +625,18 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     if ped.get("broodmare_sire"):
         m = sire_matches(ped["broodmare_sire"], favored)
         if m: reasons.append(f"母父{clean_sire(ped['broodmare_sire'])}=注目血統({m})"); score += weights["broodmare"]
+
+    # trueblood: 種牡馬の馬場適性。当日が湿馬場で、その父産駒の当該馬場複勝率が
+    # 良馬場比+2pt以上高い=道悪巧者として加点。
+    if rc and ped.get("sire"):
+        apt = sire_aptitude(ped["sire"])
+        if apt and apt.get("baba_place"):
+            bb = rc.get("baba", "良")
+            bp = apt["baba_place"]
+            cur, ryo = bp.get(bb), bp.get("良")
+            if bb in ("稍","重","不良") and cur is not None and ryo is not None and (cur - ryo) >= 2.0:
+                reasons.append(f"父{clean_sire(ped['sire'])}=道悪巧者({bb}複勝{cur:.0f}%)")
+                score += weights["sire_tb"]
 
     # 前走系ルール（全ルールから条件を集約し、同一条件の重複発火を排除）
     recent = horse_data.get("recent", []) if horse_data else []
