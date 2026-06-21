@@ -6,7 +6,7 @@
 - 連下△: 現行4位 OR バイアス単独上位（能力◎と被らない場合に追加）
 - 押え✕: 能力中位だがバイアス特化＝穴の一発候補
 """
-import json, argparse, pathlib, importlib.util, datetime, html
+import json, argparse, pathlib, importlib.util, datetime, html, math
 
 ROOT = pathlib.Path(__file__).parent.parent
 SITE = ROOT.parent/"docs"
@@ -15,6 +15,20 @@ az = importlib.util.module_from_spec(spec); spec.loader.exec_module(az)
 
 WD = ["月","火","水","木","金","土","日"]
 MARKS = ["◎","○","▲","△","✕"]
+
+def predicted_odds_map(rows):
+    """確定オッズが無いとき用。score比例で予想勝率→予想単勝オッズを算出。
+    返り値 {umaban: (予想オッズ, 予想人気順位)}。control率20%を控除。"""
+    vals = [(r["horse"].get("umaban"), max(r.get("score", 0), 0.1)) for r in rows]
+    tot = sum(s for _, s in vals) or 1.0
+    arr = []
+    for um, s in vals:
+        p = s / tot
+        odds = round(max(0.8 / p, 1.0), 1)
+        arr.append((um, odds))
+    ranked = sorted(arr, key=lambda x: x[1])
+    rank = {um: i for i, (um, _) in enumerate(ranked, 1)}
+    return {um: (odds, rank[um]) for um, odds in arr}
 
 def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=False):
     a = az.analyze_race(race, db, baba_by_track=baba_by_track, bias_boost_maiden=bias_boost_maiden)
@@ -140,6 +154,24 @@ def main():
         L.append("| 印 | 馬番 | 馬名 | 性齢 | 騎手 | 斤量 | 能力 | bias | 評価 | 根拠 |")
         L.append("|:--:|:--:|--|:--:|--|:--:|--:|--:|--:|--|")
         for p in picks: L.append(fmt_row(p))
+
+        # 📖 種牡馬の狙い目メモ(trueblood辞典: catchphrase/aim/note)
+        sire_notes = []
+        for p in picks[:4]:
+            ped = p["row"].get("pedigree") or {}
+            sire = ped.get("sire")
+            if not sire: continue
+            apt = az.sire_aptitude(sire)
+            if not apt: continue
+            tip = apt.get("catchphrase") or apt.get("aim") or apt.get("note")
+            if tip:
+                sn = az.clean_sire(sire)
+                sire_notes.append(f"- {p['mark']} 父{sn}: {str(tip)[:70]}")
+        if sire_notes:
+            L.append("")
+            L.append("**📖 種牡馬メモ(辞典)**")
+            L.extend(sire_notes)
+
         if watch:
             L.append("")
             L.append("**⚠ 警戒馬(3着候補・ワイド要員)**")
@@ -198,17 +230,36 @@ def main():
         n_combo = len(pool4) * (len(pool4)-1) // 2  # =6 if 4頭
         pool_str = " / ".join(pool4) if pool4 else "(相手不足)"
 
-        if main_pop is None:
-            L.append(f"- ⏳ (オッズ未確定→朝再生成推奨) **◎軸3連複4頭流し** {main_name} → {pool_str} ({n_combo}点・{n_combo*100}円)")
-        elif main_pop >= 5:
-            L.append(f"- ⛔ **見送り推奨** {main_name}({main_pop}人気) — 5人気↓◎は2日4R全敗(ROI 0%)")
-            L.append(f"  - 観戦のみ。または少額の遊び馬券のみに留める")
-        elif main_pop <= 2:
-            L.append(f"- **◎軸3連複4頭流し** {main_name}({main_pop}人気) → {pool_str} ({n_combo}点・{n_combo*100}円){baba_note}")
-            L.append(f"  - ※1-2人気◎は単勝EV<1(0.62)につき単勝は買わない")
-        else:  # 3-4人気
-            L.append(f"- 🔥 **◎単勝 500円** {main_name}({main_pop}人気) — **単勝EV最大帯(2.34)** {baba_note}")
-            L.append(f"- **◎軸3連複4頭流し** → {pool_str} ({n_combo}点・{n_combo*100}円)")
+        if main_pop is not None:
+            # 確定/想定オッズあり: 実人気で配分
+            if main_pop >= 5:
+                L.append(f"- ⛔ **見送り推奨** {main_name}({main_pop}人気) — 5人気↓◎は2日4R全敗(ROI 0%)")
+                L.append(f"  - 観戦のみ。または少額の遊び馬券のみに留める")
+            elif main_pop <= 2:
+                L.append(f"- **◎軸3連複4頭流し** {main_name}({main_pop}人気) → {pool_str} ({n_combo}点・{n_combo*100}円){baba_note}")
+                L.append(f"  - ※1-2人気◎は単勝EV<1(0.62)につき単勝は買わない")
+            else:  # 3-4人気
+                L.append(f"- 🔥 **◎単勝 500円** {main_name}({main_pop}人気) — **単勝EV最大帯(2.34)** {baba_note}")
+                L.append(f"- **◎軸3連複4頭流し** → {pool_str} ({n_combo}点・{n_combo*100}円)")
+        else:
+            # オッズ未確定: 予想オッズ(score比例)で暫定配分
+            pred = predicted_odds_map(a["horses"])
+            mp = pred.get(main_um)
+            if mp:
+                po, pr = mp
+                tag = f"予想{po}倍(予想{pr}番人気)"
+                if po <= 3.0:
+                    L.append(f"- **◎軸3連複4頭流し** {main_name}〔{tag}〕→ {pool_str} ({n_combo}点・{n_combo*100}円){baba_note}")
+                    L.append(f"  - 予想上位人気=鉄板想定。単勝は妙味薄=見送り。確定オッズで再判定")
+                elif po <= 8.0:
+                    L.append(f"- 🔥 **◎単勝 300円**(予想なので控えめ) {main_name}〔{tag}〕— 妙味帯")
+                    L.append(f"- **◎軸3連複4頭流し** → {pool_str} ({n_combo}点・{n_combo*100}円){baba_note}")
+                    L.append(f"  - 確定オッズが3-4番人気なら単勝500円に増額推奨")
+                else:
+                    L.append(f"- ⚠ **様子見/少額** {main_name}〔{tag}〕— 予想人気薄。確定オッズ待ち")
+                    L.append(f"- (買うなら)◎軸3連複4頭流し → {pool_str} ({n_combo}点・{n_combo*100}円)")
+            else:
+                L.append(f"- **◎軸3連複4頭流し** {main_name} → {pool_str} ({n_combo}点・{n_combo*100}円)")
         L.append("")
     out = "\n".join(L)
     (ROOT/"data"/f"recommend_wide_{args.date}.md").write_text(out, encoding="utf-8")

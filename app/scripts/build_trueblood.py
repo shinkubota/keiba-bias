@@ -137,9 +137,15 @@ def main():
                     for k in ("catchphrase","aim","sire_name_en","birth_year"):
                         if s.get(k) and not rec.get(k): rec[k] = s[k]
                     if ped and not rec["pedigree"]: rec["pedigree"] = ped
-                    # 重馬場スライダー(1=得意)を道悪ヒントとして保持
-                    if apt_slider.get("baba_pos") is not None:
-                        rec["baba_slider"] = apt_slider.get("baba_pos")
+                    # 適性スライダー(1=得意/短〜5=拙/長)を保持
+                    for src, dst in [("baba_pos","baba_slider"),
+                                     ("dirt_pos","dirt_slider"),
+                                     ("distance_pos","distance_slider")]:
+                        if apt_slider.get(src) is not None:
+                            rec[dst] = apt_slider[src]
+                    # 名鑑の comment / memo も狙い目テキストとして保持
+                    if not rec.get("note"):
+                        rec["note"] = (s.get("comment") or s.get("memo") or "")[:160] or None
                 continue
 
             if img.get("type") not in ("profile","data"): continue
@@ -223,8 +229,9 @@ def main():
             "aim": rec.get("aim"),
             "pedigree": rec.get("pedigree"),
         }
-        if rec.get("baba_slider") is not None:
-            entry["baba_slider"] = rec["baba_slider"]  # 1=道悪得意 (名鑑由来)
+        for k in ("baba_slider","dirt_slider","distance_slider","note","blood_comment","bet_comment"):
+            if rec.get(k) is not None:
+                entry[k] = rec[k]
         # 脚質: 複勝率が最も高い脚質
         pace = {}
         for skey, v in cats.get("pace", {}).items():

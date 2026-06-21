@@ -578,7 +578,8 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     # 弱因子(削除): 軽斤量×0.69, 展開向き×0.88
     weights = {"gate":3, "sire":3, "broodmare":2, "prev":3, "weight":0,
                "agari":2, "stable":5, "class":1, "pace_fit":0, "baba":4,
-               "cal":1, "sire_tb":2}   # sire_tb=trueblood種牡馬馬場適性(道悪巧者)
+               "cal":1, "sire_tb":2,   # sire_tb=trueblood道悪巧者(実数複勝率)
+               "sire_apt":1}           # sire_apt=辞典スライダー/コース/脚質適性
 
     # 斤量: 性別基準(牡58/牝56)より明確に軽い場合のみ「軽斤量」と評価
     # かつレース内に有意な斤量差があるときだけ（全頭同斤量なら無意味）
@@ -625,18 +626,6 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
     if ped.get("broodmare_sire"):
         m = sire_matches(ped["broodmare_sire"], favored)
         if m: reasons.append(f"母父{clean_sire(ped['broodmare_sire'])}=注目血統({m})"); score += weights["broodmare"]
-
-    # trueblood: 種牡馬の馬場適性。当日が湿馬場で、その父産駒の当該馬場複勝率が
-    # 良馬場比+2pt以上高い=道悪巧者として加点。
-    if rc and ped.get("sire"):
-        apt = sire_aptitude(ped["sire"])
-        if apt and apt.get("baba_place"):
-            bb = rc.get("baba", "良")
-            bp = apt["baba_place"]
-            cur, ryo = bp.get(bb), bp.get("良")
-            if bb in ("稍","重","不良") and cur is not None and ryo is not None and (cur - ryo) >= 2.0:
-                reasons.append(f"父{clean_sire(ped['sire'])}=道悪巧者({bb}複勝{cur:.0f}%)")
-                score += weights["sire_tb"]
 
     # 前走系ルール（全ルールから条件を集約し、同一条件の重複発火を排除）
     recent = horse_data.get("recent", []) if horse_data else []
@@ -699,6 +688,42 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
         pref, why = rc.get("baba_pref"), rc.get("baba_why")
         if pref and my_style and my_style in pref:
             reasons.append(f"馬場適性({why}→{my_style})"); score += weights["baba"]
+
+        # ⑤b trueblood 種牡馬辞典: 馬場/ダート/距離/コース/脚質の全適性を加点
+        if ped.get("sire"):
+            apt = sire_aptitude(ped["sire"])
+            if apt:
+                sn = clean_sire(ped["sire"])
+                bb = rc.get("baba", "良")
+                wet = bb in ("稍","稍重","重","不良")
+                # 馬場: 実数複勝率を優先、無ければ辞典スライダー
+                used = False
+                bp = apt.get("baba_place") or {}
+                if wet and bp.get(bb) is not None and bp.get("良") is not None and (bp[bb]-bp["良"]) >= 2.0:
+                    reasons.append(f"父{sn}=道悪巧者({bb}複勝{bp[bb]:.0f}%)")
+                    score += weights["sire_tb"]; used = True
+                if wet and not used and apt.get("baba_slider") is not None and apt["baba_slider"] <= 2:
+                    reasons.append(f"父{sn}=道悪得意(辞典)"); score += weights["sire_apt"]
+                # ダート適性
+                if this_surface == "ダ" and apt.get("dirt_slider") is not None and apt["dirt_slider"] <= 2:
+                    reasons.append(f"父{sn}=ダート巧者(辞典)"); score += weights["sire_apt"]
+                # 距離適性(1=短〜5=長)
+                ds = apt.get("distance_slider")
+                if ds is not None and this_distance:
+                    if ds <= 2 and this_distance <= 1400:
+                        reasons.append(f"父{sn}=短距離向き(辞典)"); score += weights["sire_apt"]
+                    elif ds >= 4 and this_distance >= 2200:
+                        reasons.append(f"父{sn}=長距離向き(辞典)"); score += weights["sire_apt"]
+                # コース適性(芝/ダ複勝率の高い側)
+                cp = apt.get("course_place") or {}
+                if this_surface in cp and cp.get(this_surface) is not None and cp[this_surface] >= 33:
+                    reasons.append(f"父{sn}={this_surface}巧者(複勝{cp[this_surface]:.0f}%)")
+                    score += weights["sire_apt"]
+                # 脚質適性(複勝率の高い脚質と一致)
+                pp = apt.get("pace_place") or {}
+                if my_style and pp.get(my_style) is not None and pp[my_style] >= 33:
+                    reasons.append(f"父{sn}={my_style}巧者(複勝{pp[my_style]:.0f}%)")
+                    score += weights["sire_apt"]
 
     # ⑥ Calimero穴予想知見(他要素と同列の正式要素)
     cal_pts = 0
