@@ -30,6 +30,26 @@ def predicted_odds_map(rows):
     rank = {um: i for i, (um, _) in enumerate(ranked, 1)}
     return {um: (odds, rank[um]) for um, odds in arr}
 
+def sire_course_edge(row, race):
+    """種牡馬がこのコース/距離で妙味(複勝回収率>=90 or 複勝率>=38%)かを判定。
+    返り値: (ラベル, 複勝率, 複勝回収率) or None"""
+    ped = row.get("pedigree") or {}
+    sire = ped.get("sire")
+    if not sire: return None
+    apt = az.sire_aptitude(sire)
+    if not apt: return None
+    surf = race.get("surface"); trk = race.get("track"); dist = race.get("distance")
+    tp = apt.get("track_place") or {}
+    dp = apt.get("dist_place") or {}
+    cands = [(tp.get(f"{surf}{trk}"), f"{trk}{surf}"),
+             (dp.get(f"{surf}{dist}"), f"{surf}{dist}m")]
+    for e, label in cands:
+        if not e: continue
+        pl, rt = e.get("place"), e.get("ret")
+        if (rt is not None and rt >= 90) or (pl is not None and pl >= 38):
+            return (label, pl, rt)
+    return None
+
 def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=False):
     a = az.analyze_race(race, db, baba_by_track=baba_by_track, bias_boost_maiden=bias_boost_maiden)
     if a.get("warn"): return None, [], a
@@ -72,7 +92,9 @@ def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=Fal
     odds_thr = 8 if wet_baba else 10
     watch = []
     for idx, r in enumerate(rows[5:12], start=6):
-        if r.get("bias", 0) < bias_thr: continue
+        # bias条件 または 種牡馬コース好相性(複勝回収率90超/複勝率38%超)で候補化
+        edge = sire_course_edge(r, race)
+        if r.get("bias", 0) < bias_thr and not edge: continue
         um = r["horse"].get("umaban")
         odds_pop = None
         if odds_for_race and um:
@@ -81,7 +103,7 @@ def pick(race, db, odds_for_race=None, baba_by_track=None, bias_boost_maiden=Fal
         if odds_pop:
             pop, win = odds_pop
             if win and win < odds_thr: continue
-        watch.append({"rank": idx, "row": r, "odds_pop": odds_pop})
+        watch.append({"rank": idx, "row": r, "odds_pop": odds_pop, "sire_edge": edge})
         if len(watch) >= 2: break
 
     return picks[:4], watch, a
@@ -182,7 +204,13 @@ def main():
                 bias = w["row"].get("bias",0)
                 abil = w["row"].get("ability"); abil_s = f"{abil:.0f}" if abil is not None else "—"
                 top_reasons = " ／ ".join(w["row"]["reasons"][:3])
-                L.append(f"- 推奨{w['rank']}位 {h['umaban']}番 {h['name']}（能力{abil_s}・bias{bias}{odds_str}） {top_reasons}")
+                edge = w.get("sire_edge")
+                edge_str = ""
+                if edge:
+                    lbl, pl, rt = edge
+                    metric = f"複回{rt:.0f}" if rt is not None and rt >= 90 else f"複勝{pl:.0f}%"
+                    edge_str = f" 🩸父{az.clean_sire((w['row'].get('pedigree') or {}).get('sire',''))}={lbl}妙味({metric})"
+                L.append(f"- 推奨{w['rank']}位 {h['umaban']}番 {h['name']}（能力{abil_s}・bias{bias}{odds_str}） {top_reasons}{edge_str}")
 
         # v0.14: 動的配分戦略を提示
         # ◎の人気を推定: (1)shutuba popularity (2)odds_for_race (3)shutuba odds
