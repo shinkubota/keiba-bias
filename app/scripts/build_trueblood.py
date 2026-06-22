@@ -249,13 +249,28 @@ def main():
                 if raw in k2 and v["place_pct"] is not None:
                     baba[norm] = max(baba.get(norm,0), v["place_pct"])
         if baba: entry["baba_place"] = baba
-        # コース(芝ダ)
-        course = {}
+        # コース: 芝ダ大分類 + 競馬場別(芝東京等) + 距離別(芝1400等)
+        TRACKS = ["札幌","函館","福島","新潟","東京","中山","中京","京都","阪神","小倉"]
+        course = {}; track_place = {}; dist_place = {}
         for skey, v in cats.get("course", {}).items():
-            if v["place_pct"] is None: continue
-            if "芝" in skey: course["芝"] = max(course.get("芝",0), v["place_pct"])
-            elif "ダ" in skey: course["ダ"] = max(course.get("ダ",0), v["place_pct"])
+            # skeyは "芝/札幌"(surface別格納) か "芝東京"(key内に芝ダ) の2形式
+            parts = skey.split("/")
+            surf_pre = parts[0] if len(parts) == 2 and parts[0] in ("芝","ダ") else None
+            k = parts[-1]
+            place = v.get("place_pct"); ret = v.get("fuku_return")
+            if place is None and ret is None: continue
+            surf = surf_pre or ("芝" if "芝" in k else ("ダ" if "ダ" in k else None))
+            if not surf: continue
+            tr = next((t for t in TRACKS if t in k), None)
+            dm = re.search(r"(\d{3,4})", k)
+            if tr:
+                track_place[f"{surf}{tr}"] = {"place": place, "ret": ret}
+                if place is not None: course[surf] = max(course.get(surf,0), place)
+            elif dm:
+                dist_place[f"{surf}{dm.group(1)}"] = {"place": place, "ret": ret}
         if course: entry["course_place"] = course
+        if track_place: entry["track_place"] = track_place
+        if dist_place: entry["dist_place"] = dist_place
         apt[name] = entry
 
     apt_path = TB / "sire_aptitude.json"

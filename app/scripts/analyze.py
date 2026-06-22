@@ -714,11 +714,31 @@ def evaluate_horse(horse, course, total_horses, horse_data, this_distance,
                         reasons.append(f"父{sn}=短距離向き(辞典)"); score += weights["sire_apt"]
                     elif ds >= 4 and this_distance >= 2200:
                         reasons.append(f"父{sn}=長距離向き(辞典)"); score += weights["sire_apt"]
-                # コース適性(芝/ダ複勝率の高い側)
-                cp = apt.get("course_place") or {}
-                if this_surface in cp and cp.get(this_surface) is not None and cp[this_surface] >= 33:
-                    reasons.append(f"父{sn}={this_surface}巧者(複勝{cp[this_surface]:.0f}%)")
-                    score += weights["sire_apt"]
+                # コース適性: 競馬場別(芝東京等)→距離別(芝1400等)→芝ダ大分類
+                # 複勝率35%以上 or 複勝回収率85以上(妙味)で加点
+                trk = race.get("track") if race else None
+                def _course_hit(e):
+                    if not e: return None
+                    pl, rt = e.get("place"), e.get("ret")
+                    if pl is not None and pl >= 35: return f"複勝{pl:.0f}%"
+                    if rt is not None and rt >= 85: return f"複回{rt:.0f}"
+                    return None
+                fired = False
+                if trk and this_surface:
+                    tag = _course_hit((apt.get("track_place") or {}).get(f"{this_surface}{trk}"))
+                    if tag:
+                        reasons.append(f"父{sn}={trk}{this_surface}巧者({tag})")
+                        score += weights["sire_apt"]; fired = True
+                if not fired and this_surface and this_distance:
+                    tag = _course_hit((apt.get("dist_place") or {}).get(f"{this_surface}{this_distance}"))
+                    if tag:
+                        reasons.append(f"父{sn}={this_surface}{this_distance}m巧者({tag})")
+                        score += weights["sire_apt"]; fired = True
+                if not fired:
+                    cp = apt.get("course_place") or {}
+                    if this_surface in cp and cp.get(this_surface) is not None and cp[this_surface] >= 33:
+                        reasons.append(f"父{sn}={this_surface}巧者(複勝{cp[this_surface]:.0f}%)")
+                        score += weights["sire_apt"]
                 # 脚質適性(複勝率の高い脚質と一致)
                 pp = apt.get("pace_place") or {}
                 if my_style and pp.get(my_style) is not None and pp[my_style] >= 33:
