@@ -23,7 +23,7 @@
       "added": "2026-05-30",
       "priority": "high",
       "notes": "85記事分の予想実績を既にanalyze.pyのCalシグナルとして統合済み。継続的な検証対象",
-      "last_reviewed": "2026-06-23"
+      "last_reviewed": "2026-06-24"
     }
   ],
   "candidates": [
