@@ -7,9 +7,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "09:50発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "09:50発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -214,9 +214,9 @@
     "surface": "ダ",
     "distance": 1000,
     "variant": null,
-    "course_text": "10:20発走 / ダ1000m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "10:20発走 / ダ1000m (右)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -373,9 +373,9 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "10:50発走 / ダ1700m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "10:50発走 / ダ1700m (右)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -532,9 +532,9 @@
     "surface": "芝",
     "distance": 1800,
     "variant": null,
-    "course_text": "11:20発走 / 芝1800m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "11:20発走 / 芝1800m (右 A)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -739,9 +739,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "12:10発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "12:10発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -850,9 +850,9 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "12:40発走 / ダ1700m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "12:40発走 / ダ1700m (右)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -997,9 +997,9 @@
     "surface": "芝",
     "distance": 2000,
     "variant": null,
-    "course_text": "13:10発走 / 芝2000m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "13:10発走 / 芝2000m (右 A)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -1144,9 +1144,9 @@
     "surface": "ダ",
     "distance": 1000,
     "variant": null,
-    "course_text": "13:40発走 / ダ1000m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "13:40発走 / ダ1000m (右)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -1291,9 +1291,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "14:10発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "14:10発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -1414,9 +1414,9 @@
     "surface": "芝",
     "distance": 2000,
     "variant": null,
-    "course_text": "14:45発走 / 芝2000m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "14:45発走 / 芝2000m (右 A)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -1561,9 +1561,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "15:20発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "15:20発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -1744,9 +1744,9 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "16:05発走 / ダ1700m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "16:05発走 / ダ1700m (右)\n/ 天候:雨 / 馬場:稍",
+    "weather": "雨",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -1879,9 +1879,9 @@
     "surface": "障",
     "distance": 2750,
     "variant": null,
-    "course_text": "10:05発走 / 障2750m (芝)",
-    "weather": null,
-    "baba": null,
+    "course_text": "10:05発走 / 障2750m (芝)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -2062,9 +2062,9 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "10:40発走 / ダ1700m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "10:40発走 / ダ1700m (右)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -2257,9 +2257,9 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "11:10発走 / ダ1700m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "11:10発走 / ダ1700m (右)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -2452,9 +2452,9 @@
     "surface": "障",
     "distance": 2750,
     "variant": null,
-    "course_text": "11:40発走 / 障2750m (芝)",
-    "weather": null,
-    "baba": null,
+    "course_text": "11:40発走 / 障2750m (芝)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -2587,9 +2587,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "12:30発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "12:30発走 / 芝1200m (右 A)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -2734,9 +2734,9 @@
     "surface": "ダ",
     "distance": 1150,
     "variant": null,
-    "course_text": "13:00発走 / ダ1150m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "13:00発走 / ダ1150m (右)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -2869,9 +2869,9 @@
     "surface": "芝",
     "distance": 1800,
     "variant": null,
-    "course_text": "13:30発走 / 芝1800m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "13:30発走 / 芝1800m (右 A)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -3076,9 +3076,9 @@
     "surface": "芝",
     "distance": 2000,
     "variant": null,
-    "course_text": "14:00発走 / 芝2000m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "14:00発走 / 芝2000m (右 A)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -3283,9 +3283,9 @@
     "surface": "ダ",
     "distance": 1150,
     "variant": null,
-    "course_text": "14:35発走 / ダ1150m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "14:35発走 / ダ1150m (右)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -3490,9 +3490,9 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "15:10発走 / ダ1700m (右)",
-    "weather": null,
-    "baba": null,
+    "course_text": "15:10発走 / ダ1700m (右)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -3637,9 +3637,9 @@
     "surface": "芝",
     "distance": 2000,
     "variant": null,
-    "course_text": "15:45発走 / 芝2000m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "15:45発走 / 芝2000m (右 A)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -3760,9 +3760,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "16:30発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "16:30発走 / 芝1200m (右 A)\n/ 天候:曇 / 馬場:稍",
+    "weather": "曇",
+    "baba": "稍",
     "cushion": null,
     "horses": [
       {
@@ -3967,9 +3967,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "09:55発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "09:55発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
@@ -4054,8 +4054,8 @@
     "surface": "ダ",
     "distance": 1000,
     "variant": null,
-    "course_text": "10:30発走 / ダ1000m (右)",
-    "weather": null,
+    "course_text": "10:30発走 / ダ1000m (右)\n/ 天候:雨 / 馬場:不",
+    "weather": "雨",
     "baba": null,
     "cushion": null,
     "horses": [
@@ -4237,9 +4237,9 @@
     "surface": "芝",
     "distance": 1800,
     "variant": null,
-    "course_text": "11:00発走 / 芝1800m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "11:00発走 / 芝1800m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
@@ -4444,8 +4444,8 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "11:30発走 / ダ1700m (右)",
-    "weather": null,
+    "course_text": "11:30発走 / ダ1700m (右)\n/ 天候:雨 / 馬場:不",
+    "weather": "雨",
     "baba": null,
     "cushion": null,
     "horses": [
@@ -4651,9 +4651,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "12:20発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "12:20発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
@@ -4786,9 +4786,9 @@
     "surface": "芝",
     "distance": 2000,
     "variant": null,
-    "course_text": "12:50発走 / 芝2000m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "12:50発走 / 芝2000m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
@@ -5005,8 +5005,8 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "13:20発走 / ダ1700m (右)",
-    "weather": null,
+    "course_text": "13:20発走 / ダ1700m (右)\n/ 天候:雨 / 馬場:不",
+    "weather": "雨",
     "baba": null,
     "cushion": null,
     "horses": [
@@ -5212,9 +5212,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "13:50発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "13:50発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
@@ -5335,9 +5335,9 @@
     "surface": "芝",
     "distance": 2000,
     "variant": null,
-    "course_text": "14:20発走 / 芝2000m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "14:20発走 / 芝2000m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
@@ -5446,9 +5446,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "14:55発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "14:55発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
@@ -5617,8 +5617,8 @@
     "surface": "ダ",
     "distance": 1700,
     "variant": null,
-    "course_text": "15:30発走 / ダ1700m (右)",
-    "weather": null,
+    "course_text": "15:30発走 / ダ1700m (右)\n/ 天候:雨 / 馬場:不",
+    "weather": "雨",
     "baba": null,
     "cushion": null,
     "horses": [
@@ -5812,9 +5812,9 @@
     "surface": "芝",
     "distance": 1200,
     "variant": null,
-    "course_text": "16:15発走 / 芝1200m (右 A)",
-    "weather": null,
-    "baba": null,
+    "course_text": "16:15発走 / 芝1200m (右 A)\n/ 天候:雨 / 馬場:重",
+    "weather": "雨",
+    "baba": "重",
     "cushion": null,
     "horses": [
       {
