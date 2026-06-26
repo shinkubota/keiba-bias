@@ -1,0 +1,14 @@
+/Users/kubota/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+騎手数: 111
+  20/111: id=01085 累計騎乗=13425 複勝率=0.214
+  40/111: id=01127 累計騎乗=10268 複勝率=0.21899999999999997
+  60/111: id=01158 累計騎乗=4704 複勝率=0.102
+  80/111: id=01186 累計騎乗=2549 複勝率=0.187
+  100/111: id=01214 累計騎乗=1227 複勝率=0.14300000000000002
+  111/111: id=05675 累計騎乗=66 複勝率=0.39399999999999996
+saved: /Users/kubota/Desktop/bias/app/data/memory/jockey_stats.json
+fallback補完: 583種牡馬
+refreshing jockey_stats (using shutuba_20260627)
+rebuilding lineage_fallback...
+cache cleanup: removed 0 files >30d
