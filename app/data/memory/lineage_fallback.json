@@ -57,6 +57,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "Arch": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
  "Archarcharch": {
   "daikei": "ターントゥ系",
   "shokei": "ロベルト系",
@@ -471,6 +477,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "Duke of Marmalade": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
  "Dundeel": {
   "daikei": "ノーザンダンサー系",
   "shokei": "サドラーズウェルズ系",
@@ -624,6 +636,12 @@
  "Fortify": {
   "daikei": "ミスタープロスペクター系",
   "shokei": "フォーティナイナー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Foxwedge": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
   "type": null,
   "src": "ped_fallback"
  },
@@ -801,6 +819,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "I Am Invincible": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
  "Iffraaj": {
   "daikei": "ミスタープロスペクター系",
   "shokei": null,
@@ -912,6 +936,12 @@
  "Kodiac": {
   "daikei": "ノーザンダンサー系",
   "shokei": "ダンチヒ系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Kris": {
+  "daikei": "ネイティヴダンサー系",
+  "shokei": null,
   "type": null,
   "src": "ped_fallback"
  },
@@ -1047,6 +1077,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "Milt's Overture": {
+  "daikei": "ターントゥ系",
+  "shokei": "ロベルト系",
+  "type": null,
+  "src": "ped_fallback"
+ },
  "Mineshaft": {
   "daikei": "ナスルラ系",
   "shokei": "エーピーインディ系",
@@ -1080,6 +1116,12 @@
  "Munnings": {
   "daikei": "ミスタープロスペクター系",
   "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Murtajill": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ダンチヒ系",
   "type": null,
   "src": "ped_fallback"
  },
@@ -1176,6 +1218,12 @@
  "Paynter": {
   "daikei": "ノーザンダンサー系",
   "shokei": "ヴァイスリージェント系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Peltzer": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "サドラーズウェルズ系",
   "type": null,
   "src": "ped_fallback"
  },
@@ -1524,6 +1572,12 @@
  "Storm Cat": {
   "daikei": "ノーザンダンサー系",
   "shokei": "ストームバード系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "Storm Embrujado": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
   "type": null,
   "src": "ped_fallback"
  },
@@ -1959,6 +2013,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "アールスター": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "ロードカナロア系",
+  "type": null,
+  "src": "ped_fallback"
+ },
  "インカンテーション": {
   "daikei": "ナスルラ系",
   "shokei": "エーピーインディ系",
@@ -2004,6 +2064,12 @@
  "エイシンアポロン": {
   "daikei": "ノーザンダンサー系",
   "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "エイシンサンディ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
   "type": null,
   "src": "ped_fallback"
  },
@@ -2289,6 +2355,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "コパノチャーリー": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
  "コパノリッキー": {
   "daikei": "サンデーサイレンス系",
   "shokei": null,
@@ -2433,6 +2505,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "シビルウォー": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
  "シャンハイボビー": {
   "daikei": "ノーザンダンサー系",
   "shokei": "ストームキャット系",
@@ -2463,8 +2541,20 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "シーキングザダイヤ": {
+  "daikei": "ノーザンダンサー系",
+  "shokei": "ストームキャット系",
+  "type": null,
+  "src": "ped_fallback"
+ },
  "ジェイドロバリー": {
   "daikei": "ミスタープロスペクター系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "ジェネラス": {
+  "daikei": "ノーザンダンサー系",
   "shokei": null,
   "type": null,
   "src": "ped_fallback"
@@ -2631,6 +2721,12 @@
   "type": null,
   "src": "ped_fallback"
  },
+ "スマートロビン": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
+  "type": null,
+  "src": "ped_fallback"
+ },
  "セイウンコウセイ": {
   "daikei": "ミスタープロスペクター系",
   "shokei": "フォーティナイナー系",
@@ -2646,6 +2742,12 @@
  "ソングオブウインド": {
   "daikei": "ミスタープロスペクター系",
   "shokei": "エルコンドルパサー系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "タイセイレジェンド": {
+  "daikei": "ミスタープロスペクター系",
+  "shokei": "キングカメハメハ系",
   "type": null,
   "src": "ped_fallback"
  },
@@ -2676,6 +2778,12 @@
  "タマモクロス": {
   "daikei": "ナスルラ系",
   "shokei": "グレイソヴリン系",
+  "type": null,
+  "src": "ped_fallback"
+ },
+ "タヤスツヨシ": {
+  "daikei": "サンデーサイレンス系",
+  "shokei": null,
   "type": null,
   "src": "ped_fallback"
  },
