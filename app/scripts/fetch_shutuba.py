@@ -58,10 +58,15 @@ def parse_shutuba(race_id):
     # 天候・馬場・クッション値（当日のみ表示。発走前はNoneのことが多い）
     page_text = soup.get_text(" ", strip=True)
     mw = re.search(r"天候\s*[:：]?\s*(晴|曇|小雨|雨|雪)", page_text)
-    mb = re.search(r"馬場\s*[:：]?\s*(良|稍重|稍|重|不良)", page_text)
+    # netkeibaは出馬表で「不良」を「不」、「稍重」を「稍」と1文字略記する。
+    # 長い表記→短い表記の順で並べ、後段で正規化する(「不」単体の取りこぼし防止)。
+    mb = re.search(r"馬場\s*[:：]?\s*(稍重|不良|良|稍|重|不)", page_text)
     mc = re.search(r"クッション値\s*[:：]?\s*(\d+\.?\d*)", page_text)
     weather = mw.group(1) if mw else None
     baba = mb.group(1) if mb else None
+    # 略記の正規化: 「不」→「不良」(稍は内部表現も「稍」のまま統一)
+    if baba == "不":
+        baba = "不良"
     cushion = mc.group(1) if mc else None
 
     jo = JO_CODE.get(race_id[4:6], "")
